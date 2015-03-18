@@ -1,4 +1,7 @@
-#wrapper { background-image: url(../../images/backgrounds/background_01.jpg); }
+#wrapper {
+	background-image: url(../../images/backgrounds/background_01.jpg);
+	background-size:cover;
+}
 
 a.btn, a.btn:visited { 
 	border: solid 1px #06507b; 
