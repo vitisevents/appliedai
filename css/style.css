@@ -940,6 +940,10 @@
 	.features {
 		padding-top:3em	
 	}
+
+	.gopher{
+		max-height:12em;
+	}	
 	
 }
 
