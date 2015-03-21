@@ -18,7 +18,7 @@ jQuery(window).resize(function () {
 
 function resize_intro(){
 	if(jQuery(window).width() > 720) {  
-		page_height =  (((jQuery(window).height()) - jQuery('#header').height())) - 50; 
+		page_height =  (((jQuery(window).height()) - jQuery('#header').height())) - 220; 
  		if(jQuery('.form-box').height() < (page_height)) {
 	 		if(jQuery('.wrapper-flexi').length < 1) {
 				form_margin = (page_height - jQuery('.form-box').height()) / 2; 
