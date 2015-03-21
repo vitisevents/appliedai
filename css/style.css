@@ -12,12 +12,13 @@ body {
 	font-size:14px;
 	line-height:1.6em
 
-	background:#333 fixed top center;
+	background:#333 fixed bottom center;
 	background-size:100% 100%;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+	background-attachment:fixed;
 	background-image:url(../../images/backgrounds/background_01.jpg);
 }
 	
@@ -27,7 +28,7 @@ body {
 		margin:0 0 1em;
 		padding:0; 
 		font-weight: 300;
-		color:#111;
+		color:#ffffff;
 		font-family: 'Open Sans', sans-serif;
 	}
 	
@@ -45,10 +46,11 @@ body {
 	p { 
 		padding:0 0 1em;
 		margin:0;
+		color:#efefef;
 	}
 	
 	a {
-		color: #333;
+		color:#ac77f8;
 	} 
 	
 	a.btn, a.btn:visited {
@@ -88,6 +90,7 @@ body {
 	
 	img {
 		border:0;	
+		max-width:100%;
 	}
 
 
@@ -104,10 +107,22 @@ body {
 	width:auto;
 }
 
+.home .header .gopher{
+	top:10px;
+	left:50%;
+	margin-left:-100px;
+	max-width:200px;
+	height:auto;
+}
+
 .header .logo{
 	margin:0 0 0 84px;
 	width:120px;
 	height:auto;
+}
+
+.home .header .logo{
+	margin-left:0;
 }
 
 .header .gopher{
@@ -165,6 +180,13 @@ h2.menulink {
 	display: none	
 }
 
+.content{
+	padding-top:60px;
+}
+
+.home .content{
+	padding-top:200px;
+}
 
 
 
