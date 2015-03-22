@@ -262,17 +262,21 @@ h2.menulink {
 
 /* icons */
 
-	.glyph-item {
-		display: inline-block;
-		width: 1.5em;
-		height: 1.5em;
-		line-height: 1;
-		color:#222;
-	}
+.glyph-item {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	line-height: 1;
+	color:#222;
+}
 
-	.mega {
-		font-size: 3.2em;
-	}
+.mega {
+	font-size: 3.2em;
+}
+
+.icons span + span{
+	display:none;
+}
 
 /* Structure and containers */
 
