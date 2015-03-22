@@ -55,22 +55,20 @@ p{
 	color:#eae2f7;
 }
 
-<<<<<<< HEAD
 p > a {
   color: #eae2f7;
-=======
+}
+
 ul, ol{
 	margin:0 0 1em 0;
 }
 
 li{
 	color:#eae2f7;
->>>>>>> cf844c7... Button style
 }
 
 a {
 	color:#ac77f8;
-<<<<<<< HEAD
 }
 
 	a.btn, a.btn:visited {
