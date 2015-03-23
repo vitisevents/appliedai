@@ -986,6 +986,11 @@ h2.menulink {
 		font-size:1.2em;
 	}
 
+	.row{
+		padding-left:15px !important;
+		padding-right:15px !important;
+	}
+
 	#wrapper {
 		height: auto !important;
 	}
