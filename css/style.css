@@ -282,6 +282,15 @@ h2.menulink {
 	display:none;
 }
 
+.footer{
+	padding:20px 0;
+	background:#15273c;
+}
+
+.footer .col{
+	padding-right:20px;
+}
+
 /* Structure and containers */
 
 .container {
@@ -344,84 +353,36 @@ h2.menulink {
 	width:16.6666666667%;
 }
 .span1 {
-	width:8.33333333333%';
+	width:8.33333333333%;
 }
 
-	.clearfix {
-		clear: both;
-	}
+.clearfix {
+	clear: both;
+}
 
-	.align-center {
-		text-align: center';
-	}
+.align-center {
+	text-align:center;
+}
 
-	.align-left {
-		text-align: left;
-	}
+.align-left {
+	text-align: left;
+}
 
-	.align-right {
-		text-align: right;
-	}
+.align-right {
+	text-align: right;
+}
 
- /* content ==================================== */
 
- 	#content .inner {
- 		padding:2em 2em 1em 0;
- 	}
+#content .inner {
+	padding:2em 2em 1em 0;
+}
 
- 	.item-box {
- 		float: left;
- 		width:45%;
- 	}
+.item-box {
+	float: left;
+	width:45%;
+}
 
- /* Strip ==================================== */
 
-	.strip {
-		padding-left:1em;
-		border-bottom: solid 1px #dce2e5;
-	}
-
-	.strip-alt {
-		background:#f6f8f9;
-	}
-
-	.strip .inner {
-		padding:4em 2em 1em 0;
-	}
-
-	.highlight h2 {
-		font-size:2.2em;
-	}
-
-	.highlight h4 {
-		line-height:1.6em;
-		color:#777;
-		font-size:1.4em;
-	}
-
-	.highlight .inner-text {
-		padding:8em 0 4em;
-	}
-
-	img.promoimg {
-    display: block;
-    max-width:100%;
-    width: auto;
-    height: auto;
-    margin:0 auto;
-	}
-
- /* features ==================================== */
-
-	.features .inner {
-		text-align: center;
-	}
-
-	.features .inner .glyph-item {
-		font-size: 3em;
-	}
-
- /* Forms ==================================== */
 
 	form {
 
@@ -542,7 +503,6 @@ h2.menulink {
 		padding:1em 3em 0 3em;
 		text-align: center;
 		text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.3);
-		display: none;
 	}
 
 	.hero-narrrow {
