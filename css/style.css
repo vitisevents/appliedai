@@ -63,6 +63,11 @@ p > a {
   color: #eae2f7;
 }
 
+h3 a{
+	color: #eae2f7;
+	border-bottom:1px dotted;
+}
+
 ul, ol{
 	margin:0 0 1em 0;
 }
@@ -860,7 +865,7 @@ h2.menulink {
 	}
 
 	#header {
-		padding:1em';
+		padding:1em;
 	}
 
 	#header h1 {
