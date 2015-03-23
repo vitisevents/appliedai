@@ -22,6 +22,10 @@ body {
 	background-image:url(../../images/backgrounds/background_01.jpg);
 }
 
+*{
+	box-sizing:border-box;
+}
+
 /* Typography ==================================== */
 
 h1, h2, h3, h4, h5, h6 {
@@ -264,6 +268,10 @@ h2.menulink {
 	opacity:0.6;
 }
 
+.border{
+	border-top:1px dotted rgba(255,255,255,0.15)
+}
+
 /* icons */
 
 .glyph-item {
@@ -283,14 +291,23 @@ h2.menulink {
 }
 
 .footer{
-	padding:20px 0;
-	background:#15273c;
+	padding:20px 0 10px 0;
+	background:rgba(20,39,59,0.6);
+}
+
+.footer .row{
+	padding:10px 0;
 }
 
 .footer .col{
 	padding-right:20px;
 }
 
+.footer .footnote{
+	margin:0;
+	padding:0;
+	line-height:1.2em;
+}
 /* Structure and containers */
 
 .container {
@@ -310,7 +327,8 @@ h2.menulink {
 	padding-bottom:10px;
 }
 
-.content .row:after{
+.content .row:after,
+.footer .row:after{
 	content:' ';
 	display:block;
 	clear:both;
