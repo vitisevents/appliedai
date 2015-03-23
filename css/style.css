@@ -203,6 +203,7 @@ img {
 	margin-right:.5em;
 	float: right;
 	display: inline;
+	z-index:50;
 }
 
 #menu ul {
