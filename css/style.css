@@ -1010,6 +1010,15 @@ h2.menulink {
 	iframe{
 		height:auto !important;
 	}
+
+	.home .header .gopher{
+		top:20px;
+		margin-left:-50px;
+	}
+
+	.home .content{
+		padding-top:140px;
+	}
 }
 
 /*styles for 800px and down @ 16px!*/
