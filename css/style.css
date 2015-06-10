@@ -1109,3 +1109,63 @@ a.button:hover {
 .highlight h2 span {
 	color:#4bb2ec;
 }
+
+.speakers{
+    padding:0;
+}
+
+.speaker{
+    clear:both;
+    margin:0 0 30px 0;
+    overflow:auto;
+}
+.speaker .speaker-meta{
+    width:190px;
+    float:left;
+}
+.speaker .speaker-photo{
+    float:left;
+}
+.speaker .speaker-name{
+    font-size:1.4rem;
+    font-weight:300;
+    color:#ffffff;
+}
+.speaker .speaker-company{
+    display:block;
+    clear:both;
+    color:#eee;
+}
+.speaker .speaker-handle{
+    display:inline-block;
+    clear:both;
+    color:#87c2ed;
+    font-weight:600;
+    text-decoration:none;
+}
+.speaker .speaker-photo{
+    width:150px;
+    height:auto;
+}
+.speaker .speaker-bio{
+    margin:0 0 0 380px;
+}
+
+@media (min-width:1024px){
+    .speakers{
+        margin:40px 0;
+    }
+}
+
+@media (max-width:799px){
+    .speaker .speaker-photo{
+        float:none;
+        width:30%;
+        height:auto;
+        margin:0 0 20px 0;
+    }
+
+    .speaker .speaker-bio{
+        margin: 10px 0 0;
+    }
+}
