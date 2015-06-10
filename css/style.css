@@ -226,7 +226,7 @@ img {
 
 #menu ul li a {
 	color: rgba(255, 255, 255, 0.9);
-	padding:.5em 1em;
+	padding:.5em .85em;
 }
 
 #menu ul li a:hover {
