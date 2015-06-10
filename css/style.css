@@ -200,7 +200,7 @@ img {
 /* Menu */
 
 #menu {
-	margin-right:.5em;
+	margin-right:.15em;
 	float: right;
 	display: inline;
 	z-index:50;
@@ -215,7 +215,7 @@ img {
 #menu ul li {
 	list-style: none;
 	padding:0;
-	margin:0 .5em 0 0;
+	margin:0 .15em 0 0;
 	float: left;
 }
 
@@ -226,7 +226,7 @@ img {
 
 #menu ul li a {
 	color: rgba(255, 255, 255, 0.9);
-	padding:.5em .85em;
+	padding:.15em .85em;
 }
 
 #menu ul li a:hover {
