@@ -2,7 +2,15 @@
 layout: default
 title: Schedule | Golang UK Conference
 weight: 2
-schedule:
+schedule-thursday:
+  - time: "18.00"
+    slottype: break
+    tracks:
+      - track:
+            name: Pre-Conference Social
+            description: |
+              The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
+schedule-friday:
   - time: "08.00"
     slottype: break
     tracks:
@@ -26,8 +34,6 @@ schedule:
       - track:
             name: Keynote
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
   - time: "09.50"
     slottype: break
@@ -41,17 +47,13 @@ schedule:
     slottype: talks
     tracks:
       - track:
-            name: Track 1
+            name: Main Track
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
               
       - track:
-            name: Track 2
+            name: Side Track
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
               
   - time: "11.20"
@@ -63,17 +65,13 @@ schedule:
     slottype: talks
     tracks:
       - track:
-            name: Track 1
+            name: Main Track
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
               
       - track:
-            name: Track 2
+            name: Side Track
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
               
   - time: "12.30"
@@ -88,17 +86,13 @@ schedule:
     slottype: talks
     tracks:
       - track:
-            name: Track 1
+            name: Main Track
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
               
       - track:
-            name: Track 2
+            name: Side Track
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
               
   - time: "14.30"
@@ -110,17 +104,13 @@ schedule:
     slottype: talks
     tracks:
       - track:
-            name: Track 1
+            name: Main Track
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
               
       - track:
-            name: Track 2
+            name: Side Track
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
               
   - time: "15.40"
@@ -135,17 +125,13 @@ schedule:
     slottype: talks
     tracks:
       - track:
-            name: Track 1
+            name: Main Track
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
               
       - track:
-            name: Track 2
+            name: Side Track
             title: TBC
-            speaker: TBC
-            slug: tbc
             description: |
               
   - time: "17.00"
@@ -161,6 +147,7 @@ schedule:
             title: The Go Community
             speaker: Damian Gryski
             slug: damian-gryski
+            id: keynote-damian-gryski
             description:
               "We often think of “The Go Community” as a single entity. But different species of Gopher interact in different ways: Email, IRC, Twitter, in person, or perhaps not at all. How do we maintain the underlying “gopherness” (if any) as these communities grow?  How do we keep these groups communities that we (and others) want to be a part of going forward?  And why bother worrying about community anyway?
               <br><br>
@@ -171,7 +158,6 @@ schedule:
       - track:
             name: Closing address
             title: Prize Raffle and Closing Address
-            speaker: The conference team
             description: |
               
   - time: "18.00"
@@ -179,16 +165,35 @@ schedule:
     tracks:
       - track:
             name: Post-Conference Social
-            menulink: social
             description: |
-              The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. There will be lots of fun activities planned for the evening. <a href="/social">More details &raquo;</a>
+              The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. There will be lots of fun activities planned for the evening.<br><a href="/socials">More details &raquo;</a>
 ---
 <h1>Schedule</h1>
 <div class="row">
     <div class="col span12">
+	    <h3 class="centre">Thursday 20th August 2015</h3>
+	    <ul class="schedule">
+	      {% for slot in page.schedule-thursday %}
+	      <li class="slot {{slot.slottype}}">
+	        <span class="time">{{slot.time}}</span>
+	        <div class="tracks-wrapper">
+	          <ul class="tracks tracks-friday">
+	            {% for track in slot.tracks %}
+	            <li class="track" id="{{track.track.id}}">
+	              <span class="name">{{track.track.name}}</span>
+	              <span class="title">{{track.track.title}}</span>
+	              <p class="description">{{track.track.description}}</p>
+	            </li>
+	            {% endfor %}
+	          </ul>
+	        </div>
+	      </li>
+	      {% endfor %}
+	    </ul>
+        
 	    <h3 class="centre">Friday 21st August 2015</h3>
 	    <ul class="schedule">
-	      {% for slot in page.schedule %}
+	      {% for slot in page.schedule-friday %}
 	      <li class="slot {{slot.slottype}}">
 	        <span class="time">{{slot.time}}</span>
 	        <div class="tracks-wrapper">
@@ -197,11 +202,13 @@ schedule:
 	            <li class="track" id="{{track.track.id}}">
 	              <span class="name">{{track.track.name}}</span>
 	              <span class="title">{{track.track.title}}</span>
-	              <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
+                  {% if track.track.speaker %}
+                  <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
+                  {% endif %}
 	              <p class="description">{{track.track.description}}</p>
-	              {% if track.track.menulink %}
-	                  <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
-	              {% endif %}
+                  <!-- {% if track.track.menulink %}
+                      <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+                  {% endif %} -->
 	              {% if track.track.video %}
 	                  <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list=PL_aPVo2HeGF_VdlTpUF6ViNgLC7Raph0i">Video &raquo;</a></span>
 	              {% endif %}
