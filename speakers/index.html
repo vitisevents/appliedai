@@ -9,6 +9,56 @@ speakers:
     company: "Booking.com"
     bio: |
       <a href="https://twitter.com/dgryski">Damian Gryski</a> is a software developer working on infrastructure at <a href="http://booking.com">Booking.com</a>. In his free time he fills his <a href="https://github.com/dgryski">GitHub account</a> with implementations of interesting computer science papers and has been using Go long enough to remember Makefiles and os.Error. Damian lives in Amsterdam with his family.
+  - name: Mat Ryer
+    slug: mat-ryer
+    handle: matryer
+    company: Self employed
+    bio: |
+      Mat started playing with Go while it was still in BETA, and has used it ever since. In January 2015, he published <a href="http://bit.ly/goblueprints">Go Programming Blueprints</a> in which readers build several real-world Go programs while exploring simple but powerful patterns and techniques. An active open-sourcer Mat has founded and contributed to many popular packages, and is today using Go to build a range of high-performance data services and web apps.
+  - name: Matt Heath
+    slug: matt-heath
+    company: Mondo
+    handle: mattheath
+    bio: |
+      Matt Heath is an engineer at <a href="https://getmondo.co.uk/">Mondo</a>, a new kind of digital bank. Having previously worked as the Technical Lead of Hailo's global platform, Matt has an unhealthy obsession for scaling fault tolerant, high volume, distributed systems, and spends his spare time working on open source projects such as <a href="https://github.com/mattheath/phosphor">Phosphor</a>, a distributed tracing system.
+  - name: Evan Huus
+    slug: evan-huus
+    company: Shopify
+    handle: eapache
+    bio: |
+      <a href="https://eapache.github.io/">Evan Huus</a> is a developer by
+      day and a musician by night. He works on a variety of different
+      projects at <a href="https://www.shopify.com/">Shopify</a>, and has
+      been fortunate to spend a substantial amount of his time writing Go.
+      On the side, he is a core developer for <a
+      href="https://wireshark.org/">Wireshark</a> and spends far too much
+      time tweaking his vimrc. His instrument of choice is the euphonium.
+  - name: Peter Bourgon
+    slug: peter-bourgon
+    company: Weave
+    handle: peterbourgon
+    bio: |
+      Peter Bourgon is a distributed systems engineer who has seen things.
+      He's been a Go programmer and advocate since day 1, and has written Go
+      in production for the better part of 4 years. Peter has worked on
+      infrastructure at Bloomberg, SoundCloud, and now works on
+      software-defined networking and monitoring at Weaveworks.
+  - name: William Kennedy
+    slug: william-kennedy
+    company: Ardan Studio
+    handle: goinggodotnet
+    bio: |
+      William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog <a href="http://goingo.net">GoingGo.Net</a>, and the organizer of the Go meetup in Miami. Bill is focused on Go education through his training company Ardan Labs. He can often be found talking at conferences and giving workshops both locally and over hangouts. He always finds time to work with individuals and groups who want to take their Go knowledge, blogging, and coding skills to the next level.
+  - name: Dean Elbaz
+    slug: dean-elbaz
+    handle: DeanElbaz
+    bio: |
+      <a href="http://twitter.com/deanelbaz">Dean</a> has been programming in Go since since version 1.0. Impressed at first with its clean, readable style and great open source source community, he took a particular interest in Go's internals. He is currently a Software Engineer at <a href="http://www.songkick.com">Songkick</a> working on their micro-service architecture for selling concert tickets worldwide. In his free time, you'll find Dean attending or speaking at the London Go user group, playing video games, or drinking French Rosé with his wife.
+  - name: Andrew Gerrand
+    slug: andrew-gerrand
+    handle: enneff
+    bio: |
+      Andrew Gerrand works on the Go Programming Language at Google Sydney. He has written dozens of articles about Go, and given many talks and workshops at conferences around the world. He is the co-author of A Tour of Go, and is the fourth most prolific contributor to the Go project. He is passionate about software quality, and believes Go is a unique tool for building reliable software at scale. Before Go and Google, Andrew wrote software for Internet companies.
 ---
 <h1>Speakers</h1>
 <div class="row">
@@ -21,7 +71,7 @@ speakers:
 		        	<span class="speaker-company">{{speaker.company}}</span>
 		       		<a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}" target="_blank">@{{speaker.handle}}</a>
 		        </div>
-		        <img class="speaker-photo" src="/images/speakers/{{speaker.slug}}.png">
+		        <img class="speaker-photo" src="/images/speakers/{{speaker.slug}}.jpg">
 		        <div class="speaker-bio">
 		          {{speaker.bio}}
 		        </div>

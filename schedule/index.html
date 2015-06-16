@@ -48,14 +48,23 @@ schedule-friday:
     tracks:
       - track:
             name: Main Track
-            title: TBC
+            slug: andrew-gerrand
+            speaker: Andrew Gerrand
+            id: stupid-gopher-tricks
+            title: Stupid Gopher Tricks
             description: |
-              
+              They say you can't teach an old dog new tricks, but what about a gopher?
+              <br><br>
+              In this talk we'll investigate a bunch of odd corners of the language, libraries, and tools that even seasoned Go programmers might not know.
       - track:
             name: Side Track
-            title: TBC
+            title: Building APIs
+            slug: mat-ryer
+            id: building-apis
+            speaker: Mat Ryer
             description: |
-              
+              Go is great for quickly putting together APIs addressing all kinds of problems, from simple data persistence or composing external services, to exposing complicated business logic that makes up you the heart of your product or service. What's different about Go is that these "knocked-up" services are, if built correctly, ready to deploy, scale, and live out in the wild. This talk would deep dive on the simple `http.Handler` and `http.HandlerFunc` types and how they can be used along with some cool techniques to solve a myriad of real world problems.
+
   - time: "11.20"
     slottype: special change
     tracks:
@@ -66,14 +75,24 @@ schedule-friday:
     tracks:
       - track:
             name: Main Track
-            title: TBC
+            slug: evan-huus
+            id: complex-concurrency
+            speaker: Evan Huus
+            title: Complex Concurrency Patterns in Go
             description: |
-              
+              There is a lot of power available through Go's concurrency primitives, but they are still just that: primitives. Typical examples of channel and goroutine usage show pipelines and worker pools, but real applications are rarely that simple. Production systems can easily end up with hundreds of goroutines running dozens of interdependent functions; reasoning about the resulting interactions is not easy.
+              <br><br>
+              Shopify's Sarama library is an open-source fat client for LinkedIn's Kafka project. It is heavily concurrent, making use of Go’s concurrency primitives to build several complex patterns, including fanout-and-shuffle among others. This talk will cover some of the patterns used in Sarama, including the challenges faced, problems overcome, and trade-offs made. Sarama has been running in production for nearly a year and a half across Shopify's infrastructure, processing hundreds of millions of messages per day.
+
       - track:
             name: Side Track
-            title: TBC
+            slug: matt-heath
+            speaker: Matt Heath
+            id: building-a-bank
+            title: Building a Bank with Go
             description: |
-              
+              Large banking systems are incredibly dated, often as a result of a series of mergers between banks, leading to a patchwork of different systems & technologies. As a result, the pace of innovation in the banking industry has slowed to a crawl. At Mondo we are building a new kind of bank, a smart bank that belongs in the 21st century, and we’re building it almost entirely in Go. This talk will cover how we are developing new core banking systems from scratch backed by a microservice based platform written in Go, running across multiple data centres using tools including Docker and Mesos. We also look at why Go is perfectly suited to this, our architectural decisions, common pitfalls to avoid, and lessons learnt when developing high volume, low latency, distributed Go applications.
+
   - time: "12.30"
     slottype: break
     tracks:
@@ -89,12 +108,12 @@ schedule-friday:
             name: Main Track
             title: TBC
             description: |
-              
+
       - track:
             name: Side Track
             title: TBC
             description: |
-              
+
   - time: "14.30"
     slottype: special change
     tracks:
@@ -105,14 +124,24 @@ schedule-friday:
     tracks:
       - track:
             name: Main Track
-            title: TBC
+            title: "Go kit: a toolkit for microservices"
+            id: go-kit
+            slug: peter-bourgon
+            speaker: Peter Bourgon
             description: |
-              
+              Go is the language of the server, but it's not yet reached a critical mass in the modern enterprise. This talk describes Go kit, a toolkit for microservices in larger tech organizations. Learn about the motivation for its existence, how it's progressed so far, its architectural philosophy of declarative composition, and the ways in which it's opinionated. In the end, we'll build an example service, utilizing each of the Go kit components.
+
       - track:
             name: Side Track
-            title: TBC
+            id: understanding-memory
+            slug: dean-elbaz
+            speaker: Dean Elbaz
+            title: Understanding memory allocation in Go
             description: |
-              
+              Go's clean syntax and built in garbage collection make it a breeze to write programs quickly. But as you go further down the rabbit hole, understanding your program's memory consumption and behaviours becomes important.
+              <br><br>
+              In this talk I will explain the difference between using values and references (pointers) and explain the usage of `make` and built-in datatypes (like slices and maps). Along the way, I will present a few common mistakes, and give a few tips on how to avoid them.
+
   - time: "15.40"
     slottype: break
     tracks:
@@ -121,19 +150,28 @@ schedule-friday:
             menulink: thursday-afternoon-break
             description: |
               Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+
   - time: "16.00"
     slottype: talks
     tracks:
       - track:
             name: Main Track
-            title: TBC
+            title: Dependency Management Conundrum
+            id: dependency-management
+            slug: william-kennedy
+            speaker: William Kennedy
             description: |
-              
+              Up until now, I have been under the belief that any solution to the dependency management problem required full compatibility with all the go tooling, including "go get". Over the past year or more, I have tried different solutions based on this belief. Even though I have been successful in creating reproducible builds with several projects, every solution has come at some price of complexity or tedious management.
+              <br><br>
+              I have always thought the ""go get"" tool was brilliant and I still believe the idea of ""go get"" is. But the tool is its own worse enemy. It is a major reason for the problems we have. There is no clean way to fix the dependency problem and keep ""go get"". I believe solutions that wish to add or track a commit id or tag for the import url would actually create an even worse situation than we already have today. It is error prone and does not fix the inherent problem, a project needs to own and control its own consistent version of each dependency.
+              <br><br>
+              Many agree that vendoring is the right solution, but how to vendor is the question. In this talk, I will show how vendoring is simplified and a consistent reproducible build is possible once you abandon "go get".
+
       - track:
             name: Side Track
             title: TBC
             description: |
-              
+
   - time: "17.00"
     slottype: special change
     tracks:
@@ -159,7 +197,7 @@ schedule-friday:
             name: Closing address
             title: Prize Raffle and Closing Address
             description: |
-              
+
   - time: "18.00"
     slottype: break
     tracks:
@@ -190,7 +228,7 @@ schedule-friday:
 	      </li>
 	      {% endfor %}
 	    </ul>
-        
+
 	    <h3 class="centre">Friday 21st August 2015</h3>
 	    <ul class="schedule">
 	      {% for slot in page.schedule-friday %}
