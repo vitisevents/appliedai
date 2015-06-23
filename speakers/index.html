@@ -51,14 +51,30 @@ speakers:
       William Kennedy is a managing partner at Ardan Studio in Miami, Florida, a mobile, web, and systems development company. He is also a co-author of the book Go in Action, the author of the blog <a href="http://goingo.net">GoingGo.Net</a>, and the organizer of the Go meetup in Miami. Bill is focused on Go education through his training company Ardan Labs. He can often be found talking at conferences and giving workshops both locally and over hangouts. He always finds time to work with individuals and groups who want to take their Go knowledge, blogging, and coding skills to the next level.
   - name: Dean Elbaz
     slug: dean-elbaz
+    company: Songkick
     handle: DeanElbaz
     bio: |
       <a href="http://twitter.com/deanelbaz">Dean</a> has been programming in Go since since version 1.0. Impressed at first with its clean, readable style and great open source source community, he took a particular interest in Go's internals. He is currently a Software Engineer at <a href="http://www.songkick.com">Songkick</a> working on their micro-service architecture for selling concert tickets worldwide. In his free time, you'll find Dean attending or speaking at the London Go user group, playing video games, or drinking French Rosé with his wife.
   - name: Andrew Gerrand
     slug: andrew-gerrand
+    company: Google
     handle: enneff
     bio: |
       Andrew Gerrand works on the Go Programming Language at Google Sydney. He has written dozens of articles about Go, and given many talks and workshops at conferences around the world. He is the co-author of A Tour of Go, and is the fourth most prolific contributor to the Go project. He is passionate about software quality, and believes Go is a unique tool for building reliable software at scale. Before Go and Google, Andrew wrote software for Internet companies.
+  - name: Ben Darnell
+    slug: ben-darnell
+    company: Cockroach Labs
+    handle: bendarnell
+    bio: |
+      Ben Darnell is the CTO and co-founder of Cockroach Labs where he works on the distributed consensus protocols that underpin its transactional model. He started his career at Google and then went on to a series of startups where he saw firsthand the need for better scalable storage systems. 
+  - name: Eleanor McHugh
+    company: Games With Brains
+    handle: feyeleanor
+    bio: |
+  - name: Francesc Campoy
+    company: Google
+    handle: francesc
+    bio: |
 ---
 <h1>Speakers</h1>
 <div class="row">
@@ -71,7 +87,9 @@ speakers:
 		        	<span class="speaker-company">{{speaker.company}}</span>
 		       		<a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}" target="_blank">@{{speaker.handle}}</a>
 		        </div>
-		        <img class="speaker-photo" src="/images/speakers/{{speaker.slug}}.jpg">
+		        {% if speaker.slug %}
+                <img class="speaker-photo" src="/images/speakers/{{speaker.slug}}.jpg">
+                {% endif %}
 		        <div class="speaker-bio">
 		          {{speaker.bio}}
 		        </div>
