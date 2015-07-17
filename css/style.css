@@ -388,6 +388,11 @@ h2.menulink {
 	text-align:center;
 }
 
+.img-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .align-left {
 	text-align: left;
 }
@@ -1168,4 +1173,8 @@ a.button:hover {
     .speaker .speaker-bio{
         margin: 10px 0 0;
     }
+}
+
+.sponsors .logo{
+	max-width:400px;
 }
