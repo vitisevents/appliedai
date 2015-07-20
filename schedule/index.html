@@ -33,8 +33,14 @@ schedule-friday:
     tracks:
       - track:
             name: Keynote
-            title: TBC
+            slug: david-calavera
+            speaker: David Calavera
+            id: david-calavera
+            title: Crossing the Language Chasm
             description: |
+              What makes millions of developers choose a particular programming language? Is it the community? Is it the features? Is it the                     platform compatibilities? Maybe it's just all the hype, or it might be because we really believe it's the best language that ever                  existed? Every technology follows a well defined adoption life cycle. Where is Go in that adoption curve?
+              <br><br>
+              Let's talk about what we can do as a community to help Go cross the language chasm, how the community can help define and adopt Go's               future tools to attract and inspire the next generation of Gophers.
   - time: "09.50"
     slottype: break
     tracks:
@@ -222,54 +228,54 @@ schedule-friday:
 <h1>Schedule</h1>
 <div class="row">
     <div class="col span12">
-	    <h3 class="centre">Thursday 20th August 2015</h3>
-	    <ul class="schedule">
-	      {% for slot in page.schedule-thursday %}
-	      <li class="slot {{slot.slottype}}">
-	        <span class="time">{{slot.time}}</span>
-	        <div class="tracks-wrapper">
-	          <ul class="tracks tracks-friday">
-	            {% for track in slot.tracks %}
-	            <li class="track" id="{{track.track.id}}">
-	              <span class="name">{{track.track.name}}</span>
-	              <span class="title">{{track.track.title}}</span>
-	              <p class="description">{{track.track.description}}</p>
-	            </li>
-	            {% endfor %}
-	          </ul>
-	        </div>
-	      </li>
-	      {% endfor %}
-	    </ul>
+        <h3 class="centre">Thursday 20th August 2015</h3>
+        <ul class="schedule">
+          {% for slot in page.schedule-thursday %}
+          <li class="slot {{slot.slottype}}">
+            <span class="time">{{slot.time}}</span>
+            <div class="tracks-wrapper">
+              <ul class="tracks tracks-friday">
+                {% for track in slot.tracks %}
+                <li class="track" id="{{track.track.id}}">
+                  <span class="name">{{track.track.name}}</span>
+                  <span class="title">{{track.track.title}}</span>
+                  <p class="description">{{track.track.description}}</p>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
 
-	    <h3 class="centre">Friday 21st August 2015</h3>
-	    <ul class="schedule">
-	      {% for slot in page.schedule-friday %}
-	      <li class="slot {{slot.slottype}}">
-	        <span class="time">{{slot.time}}</span>
-	        <div class="tracks-wrapper">
-	          <ul class="tracks tracks-thursday">
-	            {% for track in slot.tracks %}
-	            <li class="track" id="{{track.track.id}}">
-	              <span class="name">{{track.track.name}}</span>
-	              <span class="title">{{track.track.title}}</span>
+        <h3 class="centre">Friday 21st August 2015</h3>
+        <ul class="schedule">
+          {% for slot in page.schedule-friday %}
+          <li class="slot {{slot.slottype}}">
+            <span class="time">{{slot.time}}</span>
+            <div class="tracks-wrapper">
+              <ul class="tracks tracks-thursday">
+                {% for track in slot.tracks %}
+                <li class="track" id="{{track.track.id}}">
+                  <span class="name">{{track.track.name}}</span>
+                  <span class="title">{{track.track.title}}</span>
                   {% if track.track.speaker %}
                   <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
                   {% endif %}
-	              <p class="description">{{track.track.description}}</p>
+                  <p class="description">{{track.track.description}}</p>
                   <!-- {% if track.track.menulink %}
                       <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
                   {% endif %} -->
-	              {% if track.track.video %}
-	                  <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list=PL_aPVo2HeGF_VdlTpUF6ViNgLC7Raph0i">Video &raquo;</a></span>
-	              {% endif %}
-	            </li>
-	            {% endfor %}
-	          </ul>
-	        </div>
-	      </li>
-	      {% endfor %}
-	    </ul>
+                  {% if track.track.video %}
+                      <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list=PL_aPVo2HeGF_VdlTpUF6ViNgLC7Raph0i">Video &raquo;</a></span>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
     </div>
 </div>
 <script>
