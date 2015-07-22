@@ -296,6 +296,32 @@ h2.menulink {
 	display:none;
 }
 
+.footer-sponsors{
+	padding:10px 0;
+	background:rgba(20,39,59,0.4);
+	overflow:auto;
+	text-align:center;
+}
+
+.footer-sponsors .sponsor-list{
+	margin:0 auto;
+	padding:0;
+	display:inline-block;
+	list-style:none;
+}
+
+.footer-sponsors .sponsor{
+	display:inline-block;
+	height:70px;
+	width:auto;
+}
+
+.footer-sponsors .sponsor img{
+	display:block;
+	height:70px;
+	width:auto;
+}
+
 .footer{
 	padding:20px 0 10px 0;
 	background:rgba(20,39,59,0.6);
@@ -547,7 +573,7 @@ h2.menulink {
 
 	.hero h2 {
 		font-size:1.5em;
-		line-height:1em;
+		line-height:1.2em;
 		margin-bottom:1.6em;
 		color:#dfd3f4 !important;
 	}
