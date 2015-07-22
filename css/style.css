@@ -535,8 +535,8 @@ h2.menulink {
 	}
 
 	.hero-narrrow {
-		padding-left:20%;
-		padding-right:20%;
+		padding-left:10%;
+		padding-right:10%;
 	}
 
 	.hero h1 {
@@ -948,6 +948,11 @@ h2.menulink {
 		margin:0 0 2em;
 	}
 
+	.hero-narrow{
+		padding-left:1em;
+		padding-right:1em;
+	}
+
 	.form-box {
 		margin:0 1em;
 	}
@@ -1117,6 +1122,7 @@ a.button:hover {
 
 .speakers{
     padding:0;
+    list-style:none;
 }
 
 .speaker{
