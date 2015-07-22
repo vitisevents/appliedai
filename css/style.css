@@ -1156,6 +1156,13 @@ a.button:hover {
     margin:0 0 0 380px;
 }
 
+.ardan-logo{
+	float:right;
+	margin:-20px 20px 0 40px;
+	width:200px;
+	max-width:30%;
+}
+
 @media (min-width:1024px){
     .speakers{
         margin:40px 0;
