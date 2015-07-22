@@ -104,20 +104,20 @@
 	padding-bottom:0.5em;
 }
 
-.schedule .break .slot.active{
+.schedule .slot.active{
 	height:auto;
 }
 
-.schedule .break .slot.active .name{
+.schedule .slot.active .name{
 	display:block;
 }
 
-.schedule .break .slot.active .track{
+.schedule .slot.active .track{
 	padding:8px 0 8px 0;
 	white-space:normal;
 }
 
-.schedule .break .slot.active .description{
+.schedule .slot.active .description{
 	display:block;
 	font-size:1em;
 }
