@@ -3,6 +3,25 @@ layout: default
 title: Schedule | Golang UK Conference
 weight: 2
 schedule-thursday:
+  - time: "09.00"
+    slottype: special
+    tracks:
+      - track:
+            name: Hands-on Training Session
+            slug: william-kennedy
+            speaker: William Kennedy
+            id: goinggodotnet
+            title: Hardcore Go
+            description: |
+              This class is perfect for anyone who wants a jump start in learning Go or who wants a more thorough understanding of the language and its internals.  This class goes from 9.00 to 17.00 with a break for lunch. <br><a href="/tutorial-day">More details &raquo;</a>
+  - time: "12.30"
+    slottype: break
+    tracks:
+      - track:
+            name: Lunch
+            menulink: lunch
+            description: |
+              Lunch will be served in the venue and is included in the ticket price.
   - time: "18.00"
     slottype: break
     tracks:
@@ -234,12 +253,21 @@ schedule-friday:
           <li class="slot {{slot.slottype}}">
             <span class="time">{{slot.time}}</span>
             <div class="tracks-wrapper">
-              <ul class="tracks tracks-friday">
+              <ul class="tracks tracks-thursday">
                 {% for track in slot.tracks %}
                 <li class="track" id="{{track.track.id}}">
                   <span class="name">{{track.track.name}}</span>
                   <span class="title">{{track.track.title}}</span>
+                  {% if track.track.speaker %}
+                  <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
+                  {% endif %}
                   <p class="description">{{track.track.description}}</p>
+                  <!-- {% if track.track.menulink %}
+                      <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+                  {% endif %} -->
+                  {% if track.track.video %}
+                      <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list=PL_aPVo2HeGF_VdlTpUF6ViNgLC7Raph0i">Video &raquo;</a></span>
+                  {% endif %}
                 </li>
                 {% endfor %}
               </ul>
@@ -247,14 +275,13 @@ schedule-friday:
           </li>
           {% endfor %}
         </ul>
-
         <h3 class="centre">Friday 21st August 2015</h3>
         <ul class="schedule">
           {% for slot in page.schedule-friday %}
           <li class="slot {{slot.slottype}}">
             <span class="time">{{slot.time}}</span>
             <div class="tracks-wrapper">
-              <ul class="tracks tracks-thursday">
+              <ul class="tracks tracks-friday">
                 {% for track in slot.tracks %}
                 <li class="track" id="{{track.track.id}}">
                   <span class="name">{{track.track.name}}</span>
