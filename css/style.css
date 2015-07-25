@@ -296,6 +296,25 @@ h2.menulink {
 	display:none;
 }
 
+.sponsors .sponsor{
+	clear:both;
+	margin:20px 0 40px 0;
+}
+
+.sponsors .sponsor .logo{
+	float:left;
+	margin:0 20px 10px 0;
+	max-width:260px;
+}
+
+.sponsors .sponsor .link{
+	display:block;
+	clear:both;
+	color:#87c2ed;
+	font-weight:600;
+	text-decoration:none;
+}
+
 .footer-sponsors{
 	padding:10px 0;
 	background:rgba(20,39,59,0.4);
@@ -308,17 +327,23 @@ h2.menulink {
 	padding:0;
 	display:inline-block;
 	list-style:none;
+	text-align:center;
+}
+
+.footer-sponsors .sponsor-list li{
+	padding:6px 10px;
+	display:inline-block;
 }
 
 .footer-sponsors .sponsor{
 	display:inline-block;
-	height:70px;
+	height:50px;
 	width:auto;
 }
 
 .footer-sponsors .sponsor img{
 	display:block;
-	height:70px;
+	height:50px;
 	width:auto;
 }
 

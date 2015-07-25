@@ -5,11 +5,20 @@ weight: 5
 sponsors:
   -
     name: Docker, Inc.
-    slug: docker-inc
+    slug: docker
     type: Gold Sponsor
     url: https://www.docker.com/
+    imageType: png
     description: |
       Docker, Inc. is the company behind the Docker open source platform and the chief sponsor of the Docker ecosystem. Docker is an open platform for developers and system administrators to build, ship, and run distributed applications. With Docker, IT organizations shrink application delivery from months to minutes, frictionlessly move workloads between data centers and the cloud, and can achieve up to 20X greater efficiency in their use of computing resources. Inspired by an active community and transparent open source innovation, Docker containers have been downloaded 500 million times and are used by millions of developers across thousands of innovative organizations.
+  -
+    name: Mailjet
+    slug: mailjet
+    type: Gold Sponsor
+    url: https://www.mailjet.com/
+    imageType: png
+    description: |
+      All-in-one email delivery engine.
 ---
 <h1>Sponsors</h1>
 <div class="row">
@@ -19,15 +28,17 @@ sponsors:
 </div>
 <div class="row sponsors">
 	<div class="col span12">
-		<h2 class="align-center">Gold Sponsor</h2>
+		<h2 class="align-center">Gold Sponsors</h2>
 		{% for sponsor in page.sponsors %}
-		<a href="{{sponsor.url}}" target="_blank">
-			<img class="logo img-center" src="/images/sponsors/{{sponsor.slug}}.svg" alt="{{sponsor.name}}" />
-		</a>
-		<p class="description">{{sponsor.description}}</p>
-		<a href="{{sponsor.url}}" target="_blank">
-		  > Visit the {{sponsor.name}} website
-		</a>
+		<div class="sponsor">
+			<a href="{{sponsor.url}}" target="_blank" class="logo">
+				<img class="logo img-center" src="/images/sponsors/{{sponsor.slug}}.{{sponsor.imageType}}" alt="{{sponsor.name}}" />
+			</a>
+			<p class="description">{{sponsor.description}}</p>
+			<a href="{{sponsor.url}}" target="_blank" class="link">
+			  > Visit the {{sponsor.name}} website
+			</a>
+		</div>
 		{% endfor %}
 	</div>
 </div>
