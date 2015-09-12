@@ -1250,3 +1250,9 @@ a.button:hover {
 .sponsors .logo{
 	max-width:400px;
 }
+
+.videos .video{
+	float: left;
+	width: 20%;
+	margin: 1%;
+}
