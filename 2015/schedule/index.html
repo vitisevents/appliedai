@@ -1,0 +1,323 @@
+---
+layout: "2015"
+title: Schedule | Golang UK Conference
+weight: 2
+schedule-thursday:
+  - time: "09.00"
+    slottype: special
+    tracks:
+      - track:
+            name: Tutorial Day
+            slug: william-kennedy
+            speaker: William Kennedy
+            id: goinggodotnet
+            title: Hardcore Go
+            description: |
+              This class is perfect for anyone who wants a jump start in learning Go or who wants a more thorough understanding of the language and its internals.  This class goes from 9.00 to 17.00 with a break for lunch. **Please Note: An extra ticket is required to attend this class. <br><a href="/tutorial-day">More details &raquo;</a>
+  - time: "18.00"
+    slottype: break
+    tracks:
+      - track:
+            name: Pre-Conference Social
+            description: |
+              The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
+schedule-friday:
+  - time: "08.00"
+    slottype: break
+    tracks:
+      - track:
+            name: Registration &amp; Breakfast
+            menulink: breakfast
+            description: |
+              Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
+  - time: "09.00"
+    slottype: special
+    tracks:
+      - track:
+            name: Opening address
+            title: Welcome to The Golang UK Conference
+            slug: about
+            description:
+              "The conference team welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the day's events to come."
+  - time: "09.20"
+    slottype: special
+    tracks:
+      - track:
+            name: Keynote
+            slug: david-calavera
+            speaker: David Calavera
+            id: david-calavera
+            video: JPVRnEZ4v_w
+            title: Crossing the Language Chasm
+            description: |
+              What makes millions of developers choose a particular programming language? Is it the community? Is it the features? Is it the                     platform compatibilities? Maybe it's just all the hype, or it might be because we really believe it's the best language that ever                  existed? Every technology follows a well defined adoption life cycle. Where is Go in that adoption curve?
+              <br><br>
+              Let's talk about what we can do as a community to help Go cross the language chasm, how the community can help define and adopt Go's               future tools to attract and inspire the next generation of Gophers.
+  - time: "09.50"
+    slottype: break
+    tracks:
+      - track:
+            name: Morning Refreshment Break
+            menulink: morning-break
+            description: |
+              Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+  - time: "10.20"
+    slottype: talks
+    tracks:
+      - track:
+            name: Main Track
+            slug: andrew-gerrand
+            speaker: Andrew Gerrand
+            id: stupid-gopher-tricks
+            video: UECh7X07m6E
+            title: Stupid Gopher Tricks
+            description: |
+              They say you can't teach an old dog new tricks, but what about a gopher?
+              <br><br>
+              In this talk we'll investigate a bunch of odd corners of the language, libraries, and tools that even seasoned Go programmers might not know.
+      - track:
+            name: Side Track
+            title: Building APIs
+            slug: mat-ryer
+            id: building-apis
+            video: tIm8UkSf6RA
+            speaker: Mat Ryer
+            description: |
+              Go is great for quickly putting together APIs addressing all kinds of problems, from simple data persistence or composing external services, to exposing complicated business logic that makes up you the heart of your product or service. What's different about Go is that these "knocked-up" services are, if built correctly, ready to deploy, scale, and live out in the wild. This talk would deep dive on the simple `http.Handler` and `http.HandlerFunc` types and how they can be used along with some cool techniques to solve a myriad of real world problems.
+
+  - time: "11.20"
+    slottype: special change
+    tracks:
+      - track:
+            name: Room change
+  - time: "11.30"
+    slottype: talks
+    tracks:
+      - track:
+            name: Main Track
+            slug: evan-huus
+            id: complex-concurrency
+            video: 2HOO5gIgyMg
+            speaker: Evan Huus
+            title: Complex Concurrency Patterns in Go
+            description: |
+              There is a lot of power available through Go's concurrency primitives, but they are still just that: primitives. Typical examples of channel and goroutine usage show pipelines and worker pools, but real applications are rarely that simple. Production systems can easily end up with hundreds of goroutines running dozens of interdependent functions; reasoning about the resulting interactions is not easy.
+              <br><br>
+              Shopify's Sarama library is an open-source fat client for LinkedIn's Kafka project. It is heavily concurrent, making use of Go’s concurrency primitives to build several complex patterns, including fanout-and-shuffle among others. This talk will cover some of the patterns used in Sarama, including the challenges faced, problems overcome, and trade-offs made. Sarama has been running in production for nearly a year and a half across Shopify's infrastructure, processing hundreds of millions of messages per day.
+
+      - track:
+            name: Side Track
+            slug: matt-heath
+            speaker: Matt Heath
+            id: building-a-bank
+            video: cFJkLfujOts
+            title: Building a Bank with Go
+            description: |
+              Large banking systems are incredibly dated, often as a result of a series of mergers between banks, leading to a patchwork of different systems & technologies. As a result, the pace of innovation in the banking industry has slowed to a crawl. At Mondo we are building a new kind of bank, a smart bank that belongs in the 21st century, and we’re building it almost entirely in Go. This talk will cover how we are developing new core banking systems from scratch backed by a microservice based platform written in Go, running across multiple data centres using tools including Docker and Mesos. We also look at why Go is perfectly suited to this, our architectural decisions, common pitfalls to avoid, and lessons learnt when developing high volume, low latency, distributed Go applications.
+
+  - time: "12.30"
+    slottype: break
+    tracks:
+      - track:
+            name: Lunch
+            menulink: lunch
+            description: |
+              A fork buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+  - time: "13.30"
+    slottype: talks
+    tracks:
+      - track:
+            name: Main Track
+            title: Code Analysis [no reading required]
+            id: code-analysis
+            video: oorX84tBMqo
+            slug: francesc-campoy
+            speaker: Francesc Campoy
+            description: |
+              Go is a simple language with a very small grammar, which makes building tools for the language quite enjoyable.
+              <br><br>
+              This talk covers different techniques that you can use to analyze a given program without having to read a single line of code.
+              From tools to measure the quality and complexity of  a program to ones that pinpoint bugs and performance issues.
+              <br><br>
+              We will discuss the limits of what static analysis can understand and how dynamic analysis techniques can help us breach the gap between theory and usability.
+      - track:
+            name: Side Track
+            title: "CockroachDB: Make Data Easy"
+            id: cockroachdb
+            video: 33oqpLmQ3LE
+            slug: ben-darnell
+            speaker: Ben Darnell
+            description: |
+              CockroachDB aims to bring the best aspects of Google's next generation database, Spanner, to the rest of the world via open source. Databases should scale horizontally with minimum fuss, survive disasters of all sorts including datacenter outages, and provide the right primitives so that developers can build applications, not workarounds.
+              <br><br>
+              Learn about the design of CockroachDB and how you can use it to easily build scalable, resilient applications in Go that can be deployed to any cloud infrastructure seamlessly.
+  - time: "14.30"
+    slottype: special change
+    tracks:
+      - track:
+            name: Room change
+  - time: "14.40"
+    slottype: talks
+    tracks:
+      - track:
+            name: Main Track
+            title: "Go kit: a toolkit for microservices"
+            id: go-kit
+            video: aL6sd4d4hxk
+            slug: peter-bourgon
+            speaker: Peter Bourgon
+            description: |
+              Go is the language of the server, but it's not yet reached a critical mass in the modern enterprise. This talk describes Go kit, a toolkit for microservices in larger tech organizations. Learn about the motivation for its existence, how it's progressed so far, its architectural philosophy of declarative composition, and the ways in which it's opinionated. In the end, we'll build an example service, utilizing each of the Go kit components.
+
+      - track:
+            name: Side Track
+            id: understanding-memory
+            video: zjoieOpy5hE
+            slug: dean-elbaz
+            speaker: Dean Elbaz
+            title: Understanding memory allocation in Go
+            description: |
+              Go's clean syntax and built in garbage collection make it a breeze to write programs quickly. But as you go further down the rabbit hole, understanding your program's memory consumption and behaviours becomes important.
+              <br><br>
+              In this talk I will explain the difference between using values and references (pointers) and explain the usage of `make` and built-in datatypes (like slices and maps). Along the way, I will present a few common mistakes, and give a few tips on how to avoid them.
+
+  - time: "15.40"
+    slottype: break
+    tracks:
+      - track:
+            name: Afternoon Refreshment Break
+            menulink: afternoon-break
+            description: |
+              Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+
+  - time: "16.00"
+    slottype: talks
+    tracks:
+      - track:
+            name: Main Track
+            title: Dependency Management Conundrum
+            id: dependency-management
+            video: CdhucJShJU8
+            slug: william-kennedy
+            speaker: William Kennedy
+            description: |
+                The "go get" tool is brilliant but the tool is also its own worse enemy. It is a major reason for the problems we have with dependency management. There is no clean way to fix the dependency problem and keep "go get". I believe solutions that wish to add or track a commit id or tag for the import url would actually create an even worse situation than we already have today. It is error prone and does not fix the inherent problem, a project needs to own and control its own consistent version of each dependency. Many agree that vendoring is the right solution, but how to vendor is the question. In this talk, I will show how vendoring is simplified and a consistent reproducible build is possible once you abandon “go get”.
+      - track:
+            name: Side Track
+            title: Whispered Secrets
+            speaker: Eleanor McHugh
+            id: whispered-secrets
+            video: ViBRx-F4Z2U
+            slug: eleanor-mchugh
+            description: |
+              A fun mashup of networking, file IO and cryptography using Go's standard package library. There'll be cipher streams for files and TCP connections, hybrid encryption between web services using AES and RSA, and HMAC signatures for tamper-proofing. All backed up with working code.
+              <br><br>
+              Aside from the technical content we'll explore the benefits of putting security at the heart of application design, knowing as little as necessary about our users to service their needs without compromising their privacy.
+  - time: "17.00"
+    slottype: special change
+    tracks:
+      - track:
+            name: Room change
+  - time: "17.10"
+    slottype: special
+    tracks:
+      - track:
+            name: Keynote
+            title: The Go Community
+            speaker: Damian Gryski
+            slug: damian-gryski
+            id: keynote-damian-gryski
+            video: IiSyFc10Jj0
+            description:
+              "We often think of “The Go Community” as a single entity. But different species of Gopher interact in different ways: Email, IRC, Twitter, in person, or perhaps not at all. How do we maintain the underlying “gopherness” (if any) as these communities grow?  How do we keep these groups communities that we (and others) want to be a part of going forward?  And why bother worrying about community anyway?
+              <br><br>
+              This talk will present my view of these communities, how my own involvement has changed and grown over time, reflect on some of the growing pains I’ve seen, and present ideas for encouraging a positive Gopher environment."
+  - time: "17.40"
+    slottype: special
+    tracks:
+      - track:
+            name: Closing address
+            title: Prize Raffle and Closing Address
+            description: |
+
+  - time: "18.00"
+    slottype: break
+    tracks:
+      - track:
+            name: Post-Conference Social
+            description: |
+              The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. There will be lots of fun activities planned for the evening.<br><a href="/socials">More details &raquo;</a>
+---
+<h1>Schedule</h1>
+<div class="row">
+    <div class="col span12">
+        <h3 class="centre">Thursday 20th August 2015</h3>
+        <ul class="schedule">
+          {% for slot in page.schedule-thursday %}
+          <li class="slot {{slot.slottype}}">
+            <span class="time">{{slot.time}}</span>
+            <div class="tracks-wrapper">
+              <ul class="tracks tracks-thursday">
+                {% for track in slot.tracks %}
+                <li class="track" id="{{track.track.id}}">
+                  <span class="name">{{track.track.name}}</span>
+                  <span class="title">{{track.track.title}}</span>
+                  {% if track.track.speaker %}
+                  <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
+                  {% endif %}
+                  <p class="description">{{track.track.description}}</p>
+                  {% if track.track.menulink %}
+                      <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+                  {% endif %}
+                  {% if track.track.video %}
+                      <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list=PLDWZ5uzn69ezRJYeWxYNRMYebvf8DerHd">Video &raquo;</a></span>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        <h3 class="centre">Friday 21st August 2015</h3>
+        <ul class="schedule">
+          {% for slot in page.schedule-friday %}
+          <li class="slot {{slot.slottype}}">
+            <span class="time">{{slot.time}}</span>
+            <div class="tracks-wrapper">
+              <ul class="tracks tracks-friday">
+                {% for track in slot.tracks %}
+                <li class="track" id="{{track.track.id}}">
+                  <span class="name">{{track.track.name}}</span>
+                  <span class="title">{{track.track.title}}</span>
+                  {% if track.track.speaker %}
+                  <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
+                  {% endif %}
+                  <p class="description">{{track.track.description}}</p>
+                  {% if track.track.menulink %}
+                      <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+                  {% endif %}
+                  {% if track.track.video %}
+                      <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list=PLDWZ5uzn69ezRJYeWxYNRMYebvf8DerHd">Video &raquo;</a></span>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+    </div>
+</div>
+<script>
+$(function(){
+    $(".schedule .slot").show();
+    $(".schedule .slot").click(function(){
+        $(this).toggleClass("active");
+//        $(this).siblings(".slot").removeClass("active");
+        $('html, body').animate({
+          scrollTop: $(this).offset().top-80
+        }, 900);
+    });
+});
+</script>

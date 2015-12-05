@@ -1,0 +1,68 @@
+---
+layout: "2015"
+title: Sponsors | Golang UK Conference
+weight: 5
+sponsors:
+  -
+    name: Docker, Inc.
+    slug: docker
+    type: Gold Sponsor
+    url: https://www.docker.com/
+    imageType: png
+    description: |
+      Docker, Inc. is the company behind the Docker open source platform and the chief sponsor of the Docker ecosystem. Docker is an open platform for developers and system administrators to build, ship, and run distributed applications. With Docker, IT organizations shrink application delivery from months to minutes, frictionlessly move workloads between data centers and the cloud, and can achieve up to 20X greater efficiency in their use of computing resources. Inspired by an active community and transparent open source innovation, Docker containers have been downloaded 500 million times and are used by millions of developers across thousands of innovative organizations.
+  -
+    name: Mailjet
+    slug: mailjet
+    type: Gold Sponsor
+    url: https://www.mailjet.com/
+    imageType: png
+    description: |
+      Mailjet is a powerful email service provider that ensures maximum insight and deliverability results for marketing and transactional emails. Founded in France in 2010, we serve more than 26,000 clients worldwide in 156 countries, sending close to 1 billion emails every month. Our analytics tools and intelligent APIs offer the flexibility to create, send and optimize email for all. Mailjet’s propriatary technology and consulting services ensure optimal deliverability for its customers. Our Amazing API let Developers use our product in any language. Our support team works around the clock to answer questions and resolve customer issues in English, French, German and Spanish.
+  -
+    name: Pivotal
+    slug: pivotal
+    type: Gold Sponsor
+    url: http://www.pivotal.io
+    imageType: png
+    description: |
+      Pivotal offers a modern approach to technology that organizations need to thrive in a new era of business innovation. Our solutions intersect cloud, big data and agile development, creating a framework that increases data leverage, accelerates application delivery, and decreases costs, while providing enterprises the speed and scale they need to compete.
+  -
+    name: Songkick
+    slug: songkick
+    type: Gold Sponsor
+    url: http://www.songkick.com/
+    imageType: png
+    description: |
+      Songkick is the great live music startup. We help fans track their favorite artists so they never miss them live. We help artists sell more tickets: on their own site, on Songkick and across a wide range of partners, including Spotify, YouTube and BBC Music. More than 10 million fans use us each month across web and mobile. We are the biggest independent concert site in the world. We have sold millions of tickets direct to fans and sell more than 10,000 events each year. Artists who use our ticketing service include Paul McCartney, Alicia Keys, John Legend, Jack White, Enrique Iglesias, and The xx. Our recent merger with CrowdSurge creates a supercharged joint company working to bring together more than 500 of the world’s biggest artists with 10 million fans. We also announced a $16.6M Series C investment led by three of the most highly regarded venture capital firms in the world: Access Industries, Index Ventures and Sequoia.
+  -
+    name: HomeMade
+    slug: homemade
+    type: Gold Sponsor
+    url: http://www.homemadedigital.com/
+    imageType: png
+    description: |
+      HomeMade Digital helps large and innovative organisations around the world create brilliant supporter journeys to raise more money and reach more people. We lean on technology and our experience to help optimise both acquisition and retention. We specialise in supporter engagement, digital and TV fundraising, fresh creative campaigns, storytelling and complex consulting challenges!
+---
+<h1>Sponsors</h1>
+<div class="row">
+    <div class="col span12">
+		<p>The Golang UK Conference is run by the Go community and relies heavily on sponsorship to run the event at rates affordable to everyone. If you're interested in sponsoring our event, please <a href="mailto:info@golanguk.com">contact us</a>.
+    </div>
+</div>
+<div class="row sponsors">
+	<div class="col span12">
+		<h2 class="align-center">Gold Sponsors</h2>
+		{% for sponsor in page.sponsors %}
+		<div class="sponsor">
+			<a href="{{sponsor.url}}" target="_blank" class="logo">
+				<img class="logo img-center" src="/images/sponsors/{{sponsor.slug}}.{{sponsor.imageType}}" alt="{{sponsor.name}}" />
+			</a>
+			<p class="description">{{sponsor.description}}</p>
+			<a href="{{sponsor.url}}" target="_blank" class="link">
+			  > Visit the {{sponsor.name}} website
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</div>
