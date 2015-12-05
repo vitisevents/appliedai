@@ -159,6 +159,10 @@ img {
 	max-width:100%;
 }
 
+.center{
+	text-align:center;
+}
+
 .content li {
   color: #eae2f7;
 }
@@ -401,8 +405,9 @@ h2.menulink {
 
 .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
 	float: left;
+	padding:0 1em;
 }
-	.span12 {
+.span12 {
 	width:100%;
 }
 .span11 {
@@ -1245,8 +1250,47 @@ a.button:hover {
     .speaker .speaker-bio{
         margin: 10px 0 0;
     }
+
+	.video .video-embed{
+		margin:0 0 1em 0;
+		max-width:90vw;
+		height:50vw !important;
+	}
 }
 
 .sponsors .logo{
 	max-width:400px;
+}
+
+.row--pad{
+	padding:2em 0 !important;
+}
+
+.row--dark{
+	padding:20px 0;
+	background:rgba(0,0,0,0.1);
+	border-top:1px solid rgba(255,255,255,0.1);
+}
+
+.videos{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.video{
+	clear:both;
+	margin:0 0 3em 0;
+	overflow:auto;
+}
+
+.video .speaker{
+	clear:none;
+}
+
+.video .video-embed{
+	float:right;
+	margin:0 0 0 3em;
+	width:600px;
+	height:340px;
 }
