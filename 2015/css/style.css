@@ -164,7 +164,9 @@ img {
 }
 
 .header{
+	position:relative;
 	background:#15273c;
+	z-index:2;
 }
 
 .header .row{
@@ -917,6 +919,36 @@ h2.menulink {
 
  	}
 
+.sitebar{
+	position:relative;
+	margin:0;
+	padding:15px 0;
+	background:rgba(97,188,226,0.9);
+	z-index:1;
+}
+
+.sitebar .row{
+	margin:0;
+	padding:0;
+	overflow:auto;
+}
+
+.sitebar a{
+	display:block;
+	margin:0;
+	text-decoration:none;
+}
+
+.sitebar p{
+	display:block;
+	margin:0;
+	padding:0;
+	max-width:100%;
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+}
+
 /* Responsive options */
 
 @media screen and (max-width: 50em) {
@@ -1121,8 +1153,11 @@ h2.menulink {
 	}
 
 	#header {
-		margin-bottom:10px;
 		padding-left:10px;
+	}
+
+	.sitebar p{
+		padding:0 5em;
 	}
 }
 
