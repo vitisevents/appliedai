@@ -1245,8 +1245,37 @@ a.button:hover {
     .speaker .speaker-bio{
         margin: 10px 0 0;
     }
+
+	.video .video-embed{
+		margin:0 0 1em 0;
+		max-width:90vw;
+		height:50vw !important;
+	}
 }
 
 .sponsors .logo{
 	max-width:400px;
+}
+
+.videos{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.video{
+	clear:both;
+	margin:0 0 3em 0;
+	overflow:auto;
+}
+
+.video .speaker{
+	clear:none;
+}
+
+.video .video-embed{
+	float:right;
+	margin:0 0 0 3em;
+	width:600px;
+	height:340px;
 }
