@@ -4,7 +4,6 @@
 	font-size:0;
 	line-height: 0;
 	min-height: 40px;
-	border-radius: 6px;
 }
 /* Outer Container Background (visible while loading) */
 .smoothslides {
@@ -64,7 +63,6 @@
 .ss-slide-stage {
 	position: relative;
 	overflow: hidden;
-	border-radius:6px;
 	/* This fixes the bug in chrome where border-radius doesn't work with overflow hidden */
 	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 }
