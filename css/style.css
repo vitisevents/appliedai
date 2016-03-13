@@ -266,6 +266,7 @@ img {
 		border-radius: 4px;
 	letter-spacing:0.3em;
 	background:rgb(97,188,226);
+	color:rgb(46,49,146)
 	text-shadow:-1px -1px 0px rgba(0,0,0,0.2),0 0 1px rgba(0,0,0,0.1);
 }
 
