@@ -175,7 +175,7 @@ img {
 	position:relative;
 	background:#15273c;
 	height:90px;
-	z-index:2;
+	z-index:3;
 }
 
 .header .row{
@@ -264,13 +264,15 @@ img {
 		-webkit-border-radius: 4px;
 		-moz-border-radius: 4px;
 		border-radius: 4px;
-	letter-spacing:0.39em;
+	letter-spacing:0.3em;
+	background:rgb(97,188,226);
+	text-shadow:-1px -1px 0px rgba(0,0,0,0.2),0 0 1px rgba(0,0,0,0.1);
 }
 
 #menu ul li.current a:hover {
 	border-color:transparent;
 	color:#fff;
-	background:rgb(97,188,226);
+	background:#2F9DCC;
 }
 
 h2.menulink {
@@ -951,7 +953,7 @@ h2.menulink {
 	}
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 50em) {
 
 	body {
 	}
@@ -1013,6 +1015,9 @@ h2.menulink {
 	    background: #fff !important;
 	    color:#333 !important;
 		padding:1em !important;
+		letter-spacing:0;
+		text-shadow:none;
+		margin-left:0;
 	}
 
 	h2.menulink {
@@ -1021,7 +1026,7 @@ h2.menulink {
 	    width: 30px;
 	    height: 30px;
 	    border: 0;
-	    margin: 0;
+	    margin: 10px 0 0 0;
 	}
 
 	h2.menulink a {
@@ -1109,7 +1114,7 @@ h2.menulink {
 	}
 
 	iframe{
-		height:auto !important;
+		/*height:auto !important;*/
 	}
 
 	.home .header .gopher{
@@ -1154,8 +1159,8 @@ h2.menulink {
 	}
 
 	#header {
-		margin-bottom:10px;
-		padding-left:10px;
+/*		margin-bottom:10px;
+*/		padding-left:10px;
 	}
 }
 
@@ -1349,6 +1354,11 @@ a.button:hover {
 .timeline-TweetList,
 .timeline-TweetList-tweet{
 	border:none !important;
+}
+
+.twitter-tweet{
+	margin-left:auto;
+	margin-right:auto;
 }
 
 @media (min-width:1024px){
