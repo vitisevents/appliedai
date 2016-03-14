@@ -71,7 +71,8 @@
 }
 
 .schedule .description{
-	display:none;
+    color:#fff;
+    display:none;
 }
 
 .schedule .special .name{
