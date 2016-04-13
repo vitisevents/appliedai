@@ -11,14 +11,27 @@ sponsors:
     imageType: png
     description: |
       Ardan Labs helps individuals and corporations develop a passion for programming through innovative training courses. Currently focusing on the Go programming language, Ardan Labs is active in the local and international Go Communities.
+  -
+    name: Golang Show
+    slug: golangshow
+    type: Community Partners
+    url: http://golangshow.com/
+    imageType: png
+    description: |
 ---
 <div class="row">
 	<div class="container">
     		<div class="col span12">
 			<h1>Sponsors</h1>
 			<p>The Golang UK Conference is run by the Go community and relies heavily on sponsorship to run the event at rates affordable to everyone. If you're interested in sponsoring our event, please <a href="mailto:info@golanguk.com">contact us</a>.
-			<h2 class="align-center">Workshop Day Sponsors</h2>
+
+                
+                
+                
 			{% for sponsor in page.sponsors %}
+                
+    		<h2 class="align-center">{{sponsor.type}}</h2>
+                
 			<div class="sponsor">
 				<a href="{{sponsor.url}}" target="_blank" class="logo">
 					<img class="logo img-center" src="/images/sponsors/{{sponsor.slug}}.{{sponsor.imageType}}" alt="{{sponsor.name}}" />
@@ -29,6 +42,7 @@ sponsors:
 				</a>
 			</div>
 			{% endfor %}
-		</div>
+
+        </div>
 	</div>
 </div>
