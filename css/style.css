@@ -347,18 +347,38 @@ h2.menulink {
 	text-decoration:none;
 }
 
-.footer-sponsors{
-	padding:10px 0;
-	background:rgba(20,39,59,0.4);
-	overflow:auto;
-	text-align:center;
-}
-
-.footer-sponsors .sponsor-list{
+.sponsor-list{
 	margin:0 auto;
 	padding:0;
 	display:inline-block;
 	list-style:none;
+}
+
+.sponsor-list--large{
+	margin-bottom:30px;
+}
+
+.sponsor-list--large .sponsor__url{
+	display:block;
+	float:left;
+	margin:0 20px 0 0;
+	padding:15px;
+	width:240px;
+	height:auto;
+	border:1px solid #ccc;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.sponsor-list--large .sponsor__url img{
+	display:block;
+	margin:0 auto;
+}
+
+.footer-sponsors{
+	padding:10px 0;
+	background:rgba(20,39,59,0.4);
+	overflow:auto;
 	text-align:center;
 }
 
@@ -373,9 +393,8 @@ h2.menulink {
 	width:auto;
 }
 
-.footer-sponsors .sponsor img{
-	display:block;
-	height:50px;
+.footer-sponsors .sponsor__logo{
+	height:40px;
 	width:auto;
 }
 
@@ -1274,6 +1293,10 @@ a.button:hover {
 
 .row--pad{
 	padding:3em 0 !important;
+}
+
+.row--no-pad{
+	padding:0;
 }
 
 .row--dark{

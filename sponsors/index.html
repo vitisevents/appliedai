@@ -1,22 +1,47 @@
 ---
-layout: default
-title: Sponsors | Golang UK Conference
+layout: "2016"
+title: "Sponsors | Golang UK Conference"
 weight: 5
-sponsors:
-  -
-    name: Ardan Labs
-    slug: ardanlabs
-    type: Workshop Day Sponsor
-    url: https://www.ardanlabs.com/
-    imageType: png
-    description: |
-      Ardan Labs helps individuals and corporations develop a passion for programming through innovative training courses. Currently focusing on the Go programming language, Ardan Labs is active in the local and international Go Communities.
 ---
 <div class="row">
 	<div class="container">
-    		<div class="col span12">
+   		<div class="col span12">
 			<h1>Sponsors</h1>
 			<p>The Golang UK Conference is run by the Go community and relies heavily on sponsorship to run the event at rates affordable to everyone. If you're interested in sponsoring our event, please <a href="mailto:info@golanguk.com">contact us</a>.
+
+			<!-- Platinum sponsor -->
+			{% for sponsor in site.data.sponsors_2016 %}
+		    {% if sponsor.type == 'Platinum' %}
+		    <h2 class="centre">{{sponsor.type | capitalize}} Sponsor</h2>
+		    <ul class="sponsor-list sponsor-list--large sponsors-{{sponsor.type}}">
+                <li class="sponsor-list__sponsor sponsor-{{sponsor.name}} {{sponsor.slug}}" id="{{sponsor.slug}}">
+	                <a target="_blank" href="{{sponsor.url}}" class="sponsor__url">
+			            <img src="/images/2016/sponsors/{{sponsor.slug}}.{% if sponsor.imageType %}{{sponsor.imageType}}{% else %}svg{% endif %}" alt="{{sponsor.name}}" class="sponsor__logo" />
+			        </a>
+                <p class="description">{{sponsor.about}}</p>
+                <a href="{{sponsor.url}}" target="_blank">Visit website &raquo;</a>
+                </li>
+		    </ul>
+		    {% endif %}
+		    {% endfor %}
+
+			<!-- Platinum sponsor -->
+			{% for sponsor in site.data.sponsors_2016 %}
+		    {% if sponsor.type == 'Workshop Day' %}
+		    <h2 class="centre">{{sponsor.type}} Sponsor</h2>
+		    <ul class="sponsor-list sponsor-list--large sponsors-{{sponsor.type}}">
+                <li class="sponsor-list__sponsor sponsor-{{sponsor.name}} {{sponsor.slug}}" id="{{sponsor.slug}}">
+	                <a target="_blank" href="{{sponsor.url}}" class="sponsor__url">
+			            <img src="/images/2016/sponsors/{{sponsor.slug}}.{% if sponsor.imageType %}{{sponsor.imageType}}{% else %}svg{% endif %}" alt="{{sponsor.name}}" class="sponsor__logo" />
+			        </a>
+                <p class="description">{{sponsor.about}}</p>
+                <a href="{{sponsor.url}}" target="_blank">Visit website &raquo;</a>
+                </li>
+		    </ul>
+		    {% endif %}
+		    {% endfor %}
+
+<!-- 
 			<h2 class="align-center">Workshop Day Sponsors</h2>
 			{% for sponsor in page.sponsors %}
 			<div class="sponsor">
@@ -29,6 +54,7 @@ sponsors:
 				</a>
 			</div>
 			{% endfor %}
-		</div>
+ -->
+ 		</div>
 	</div>
 </div>
