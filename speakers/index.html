@@ -1,15 +1,46 @@
 ---
 layout: "2016"
-title: Call For Papers | Golang UK Conference
+title: Speakers | Golang UK Conference
 weight: 4
+speakers:
+  - name: Victor Ruiz
+    slug: victor-ruiz
+    handle: victorruiz
+    company: "simplesurance GmbH"
+    bio: |
+      Víctor works as platform architect at simplesurance and not long ago at classmarkets, where he has been designing and building Go based microservice systems for more than 3 years. Clinically allergic to complexity, felt in love with Go at first sight. Previously he worked at one of the first social media monitoring companies in Europe, where he had to deal with big data before it was cool.
+  - name: Björn Rabenstein
+    slug: bjoern-rabenstein
+    handle: bjoernrabenstein
+    company: SoundCloud
+    bio: |
+      Björn is a Production Engineer at <a href="https://soundcloud.com/">SoundCloud</a>, one of the main <a href="https://prometheus.io">Prometheus</a> developers, and the maintainer of the Go client library for Prometheus. Previously, he was a <a href="https://landing.google.com/sre/">Site Reliability Engineer</a> at <a href="https://www.google.com">Google</a> and a number cruncher for <a href="https://scholar.google.de/citations?user=NPn0JJEAAAAJ&amp;hl=en">science</a>.
+  - name: Piyush Verma
+    slug: piyush-verma
+    handle: piyushverma
+    company: Datascale.Io
+    bio: |
+      Piyush Verma is a Platform and Infrastructure consultant with http://datascale.io. He is an ex-KDE developer and previously created http://siminars.com. He likes Multiprocessing, Distributed systems, APIs and automating everything. <br>He has been churning Go code in production since late 2011. When not coding he can be found cycling around the town.
 ---
-<div class="container">
-	<div class="row">
-    	<div class="col span12">
-	    	<h1>Speakers to be Announced</h1>
-            
-            <p>Our call for papers is now closed. Stay tuned for announcement of our 2016 schedule.</p>
-            
-    	</div>
-	</div>
+<h1>Speakers</h1>
+<div class="row">
+    <div class="col span12">
+		<ul class="speakers">
+		    {% for speaker in page.speakers %}
+		    <li id="{{speaker.slug}}" class="speaker">
+		        <div class="speaker-meta">
+		        	<h3 class="speaker-name">{{speaker.name}}</h3>
+		        	<span class="speaker-company">{{speaker.company}}</span>
+		       		<a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}" target="_blank">@{{speaker.handle}}</a>
+		        </div>
+		        {% if speaker.slug %}
+                <img class="speaker-photo" src="images/speakers/{{speaker.slug}}.jpg">
+                {% endif %}
+		        <div class="speaker-bio">
+		          {{speaker.bio}}
+		        </div>
+		    </li>
+		    {% endfor %}
+		</ul>
+    </div>
 </div>
