@@ -34,6 +34,5 @@
   slug: vistas
   url: http://www.vistasrecruitment.com
   imageType: png
-  smallVersion: true
   about:
     Founded in 2015, Vistas Recruitment is a specialist recruitment boutique focusing almost entirely on Golang-related roles across the UK and Europe. We pride ourselves on providing a highly personal and friendly service. Working with start-ups and established companies, we are building a client portfolio of some of the most exciting names in technology, and are committed to helping Gophers find their perfect fit.
