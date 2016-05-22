@@ -28,3 +28,12 @@
     "GlobalSign, founded in 1996, is a provider of identity services for the Internet of Everything (IoE), mediating trust to enable safe commerce, communications, content delivery and community interactions for billions of online transactions occurring around the world at every moment.
     Recently we built a new platform, with a new team, using new technology. The result is a massive scale certificate issuance platform for the IoT capable of delivering thousands of digital identities per second and storing billions of them. 
     We are looking for talented backend software engineers to join our team based in central London."
+
+- name: "Vistas"
+  type: Silver
+  slug: vistas
+  url: http://www.vistasrecruitment.com
+  imageType: png
+  smallVersion: true
+  about:
+    Founded in 2015, Vistas Recruitment is a specialist recruitment boutique focusing almost entirely on Golang-related roles across the UK and Europe. We pride ourselves on providing a highly personal and friendly service. Working with start-ups and established companies, we are building a client portfolio of some of the most exciting names in technology, and are committed to helping Gophers find their perfect fit.
