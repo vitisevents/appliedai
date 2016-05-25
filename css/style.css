@@ -1257,12 +1257,12 @@ a.button:hover {
 .speaker .speaker-name{
     font-size:1.4rem;
     font-weight:300;
-    color:#ffffff;
+    color:#2F9DCC;
 }
 .speaker .speaker-company{
     display:block;
     clear:both;
-    color:#eee;
+    color:#000;
 }
 .speaker .speaker-handle{
     display:inline-block;
