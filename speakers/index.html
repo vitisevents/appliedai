@@ -152,7 +152,9 @@ speakers:
 		        <div class="speaker-meta">
 		        	<h3 class="speaker-name">{{speaker.name}}</h3>
 		        	<span class="speaker-company">{{speaker.company}}</span>
-		       		<a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}" target="_blank">@{{speaker.handle}}</a>
+		       		{% if speaker.handle %}
+                        <a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}" target="_blank">@{{speaker.handle}}</a>
+                    {% endif %}
 		        </div>
 		        {% if speaker.slug %}
                 <img class="speaker-photo" src="images/speakers/{{speaker.slug}}.jpg">
