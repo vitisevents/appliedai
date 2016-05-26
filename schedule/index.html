@@ -73,6 +73,7 @@ schedule-thursday:
             slug: mat-ryer
             speaker: Mat Ryer
             id: idiomatic-go-tricks
+            level: Advanced/Niche/Technical
             description: |
               Using only the Go language, you can do some pretty powerful things. In my five years experience, I have picked up a selection of powerful, elegant, simple, and cool tips and tricks that make coding in Go even more fun. Go deliberately has no magic built into the language, but magic things happen when it is used correctly. This talk will cover some of my favourites.
       - track:
@@ -82,6 +83,7 @@ schedule-thursday:
             slug: aileen-nielsen
             speaker: Aileen Nielsen
             id: 2016-go-garbage-collection
+            level: Intermediate
             description: |
               The state of garbage collection in Go has been upgraded in the past year to points where A Careful Programmer can write Go that is competitive with C++ performance.<br><br>
               This talk will 
@@ -664,6 +666,9 @@ LUNCH
                   <span class="name">{{track.track.name}}</span>
                   <span class="title">{{track.track.title}}</span>
                   <span class="subtitle">{{track.track.subtitle}}</span>
+                  {% if track.track.level %}
+                  <span class="level">Level: {{track.track.level}}</span>
+                  {% endif %}
                   {% if track.track.speaker %}
                   <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
                   {% endif %}
@@ -693,6 +698,9 @@ LUNCH
                   <span class="name">{{track.track.name}}</span>
                   <span class="title">{{track.track.title}}</span>
                   <span class="subtitle">{{track.track.subtitle}}</span>
+                  {% if track.track.level %}
+                  <span class="level">Level: {{track.track.level}}</span>
+                  {% endif %}
                   {% if track.track.speaker %}
                   <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
                   {% endif %}
