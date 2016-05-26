@@ -143,27 +143,30 @@ speakers:
 
 -->
 
-<h1>Speakers</h1>
+
 <div class="row">
-    <div class="col span12">
-		<ul class="speakers">
-		    {% for speaker in page.speakers %}
-		    <li id="{{speaker.slug}}" class="speaker">
-		        <div class="speaker-meta">
-		        	<h3 class="speaker-name">{{speaker.name}}</h3>
-		        	<span class="speaker-company">{{speaker.company}}</span>
-		       		{% if speaker.handle %}
-                        <a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}" target="_blank">@{{speaker.handle}}</a>
+    <div class="container">
+        <div class="col span12">
+            <h1>Speakers</h1>
+    		<ul class="speakers">
+    		    {% for speaker in page.speakers %}
+    		    <li id="{{speaker.slug}}" class="speaker">
+    		        <div class="speaker-meta">
+    		        	<h3 class="speaker-name">{{speaker.name}}</h3>
+    		        	<span class="speaker-company">{{speaker.company}}</span>
+    		       		{% if speaker.handle %}
+                            <a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}" target="_blank">@{{speaker.handle}}</a>
+                        {% endif %}
+    		        </div>
+    		        {% if speaker.slug %}
+                    <img class="speaker-photo" src="images/speakers/{{speaker.slug}}.jpg">
                     {% endif %}
-		        </div>
-		        {% if speaker.slug %}
-                <img class="speaker-photo" src="images/speakers/{{speaker.slug}}.jpg">
-                {% endif %}
-		        <div class="speaker-bio">
-		          {{speaker.bio}}
-		        </div>
-		    </li>
-		    {% endfor %}
-		</ul>
+    		        <div class="speaker-bio">
+    		          {{speaker.bio}}
+    		        </div>
+    		    </li>
+    		    {% endfor %}
+    		</ul>
+        </div>
     </div>
 </div>
