@@ -74,15 +74,22 @@ schedule-thursday:
             speaker: Mat Ryer
             id: idiomatic-go-tricks
             description: |
-              Using only the Go language, you can do some pretty powerful things. In my five years experience, I have picked up a selection of powerful, elegant, simple, and cool tips and tricks that make coding in Go even more fun. Go deliberately has no magic built into the language, but magic things happen when it is used correctly. This talk will cover some of my favourites.              
+              Using only the Go language, you can do some pretty powerful things. In my five years experience, I have picked up a selection of powerful, elegant, simple, and cool tips and tricks that make coding in Go even more fun. Go deliberately has no magic built into the language, but magic things happen when it is used correctly. This talk will cover some of my favourites.
       - track:
             name: Side Track
-            title: "2016 Go Garbage Collection: What's New and What That's got to do with Concurrency"
+            title: 2016 Go Garbage Collection
+            subtitle: "What's New and What That's got to do with Concurrency"
             slug: aileen-nielsen
             speaker: Aileen Nielsen
             id: 2016-go-garbage-collection
             description: |
-              The state of garbage collection in Go has been upgraded in the past year to points where A Careful Programmer can write Go that is competitive with C++ performance.<BR><BR>This talk will <ol><li>Explain why Go Garbage Collection is neither a niche nor an advanced Go topic.  Intermediate Go knowledge should include a working knowledge of garbage collection  (GC) to understand key, accessible, and necessary strengths of the language.</li><li>Give a Go GC state of the union, bringing the audience up to date on what's been happening in the past year and why it's so important to the goals and strengths of Go.</li><li>Demonstrate best programming and profiling practices for maximizing performance with the new GC regime, an important skill both for Go proficiency and evangelism.</li></ol>
+              The state of garbage collection in Go has been upgraded in the past year to points where A Careful Programmer can write Go that is competitive with C++ performance.<br><br>
+              This talk will 
+              <ol>
+                  <li>Explain why Go Garbage Collection is neither a niche nor an advanced Go topic.  Intermediate Go knowledge should include a working knowledge of garbage collection  (GC) to understand key, accessible, and necessary strengths of the language.</li>
+                  <li>Give a Go GC state of the union, bringing the audience up to date on what's been happening in the past year and why it's so important to the goals and strengths of Go.</li>
+                  <li>Demonstrate best programming and profiling practices for maximizing performance with the new GC regime, an important skill both for Go proficiency and evangelism.</li>
+              </ol>
   - time: "11.20"
     slottype: break
     tracks:
@@ -98,7 +105,7 @@ schedule-thursday:
             speaker: Dave Cheney
             id: writing-high-performance-go
             description: |
-              "Microbenchmarks are all fine and good, but the first step from benchmarking one function and understanding the performance of a complex application in production is a doozie. This talk will explore ways to profile a running Go application and interpret those results."
+              Microbenchmarks are all fine and good, but the first step from benchmarking one function and understanding the performance of a complex application in production is a doozie. This talk will explore ways to profile a running Go application and interpret those results.
       - track:
             name: Side Track
             title: "Cloud in your Cloud"
@@ -106,7 +113,17 @@ schedule-thursday:
             speaker: Matthew Campbell
             id: cloud-in-your-cloud
             description: |
-              "How is the cloud built? We will go into detail how we write microservices that run the cloud at scale. With tens of the thousands of customers, and 10+ datacenters. We will talk about how we write, monitor and deploy the microservices that run the cloud you use. <BR>-----<BR>Digital ocean is one of the largest cloud providers on the planet with 10 different datacenters and tens of the thousands of customers. We will talk about how we use microservices to power our cloud. <BR><BR>First we will talk about how we using GO to build microservices. The trade offs of different rpcs protocols such as GRPC and http/JSON. <BR><BR>Second we will dive into how we manage service discovery with Consul on thousands of nodes. <BR><BR>Third we will talk about how we monitor health and performance of the cloud. We will go into how you should build metrics into your microservices. How we use structured logging into kibana. <BR><BR>Last we will talk about different deployment strategies we have used, including some on bare metal for hypervisors. Some at virtual machines. Lastly our more modern pieces that run on Docker and Mesos. We will go through how we tried all this different techniques to find the right one for each service."
+              How is the cloud built? We will go into detail how we write microservices that run the cloud at scale. With tens of the thousands of customers, and 10+ datacenters. We will talk about how we write, monitor and deploy the microservices that run the cloud you use. 
+              Digital ocean is one of the largest cloud providers on the planet with 10 different datacenters and tens of the thousands of customers. We will talk about how we use microservices to power our cloud. <br><br>
+              <ul>
+                  <li>how we using Go to build microservices</li>
+                  <li>trade offs of different rpcs protocols such as GRPC and http/JSON</li>
+                  <li>how we manage service discovery with Consul on thousands of nodes</li>
+                  <li>how we monitor health and performance of the cloud</li>
+                  <li>how you should build metrics into your microservices</li>
+                  <li>how we use structured logging into kibana</li>
+                  <li>different deployment strategies we have used - bare metal, virtual machines, Docker and Mesos</li>
+              </ul>
   - time: "12.10"
     slottype: special change
     tracks:
@@ -130,7 +147,7 @@ schedule-thursday:
             speaker: Natalie Pistunovich
             id: apps-for-developing-countries
             description: |
-              "What is the connection between go-mobile, GOMAXPROCS and app development for developing countries? App development for developing countries introduces a a different mindset and a slew of new challenges: smartphones function as a user's main point of connection, local demand for use of mobile apps and web is different and infrastructure places strict limits on users' internet data volume. Combining the processing power of the average multi-core smartphone with go-mobile can reduce the data consumption of apps. <BR><BR>In this talk we'll discuss how the mobile world looks like in developing countries: what apps are like, what are the common devices and and what are the current initiatives to increase internet connectivity. We'll then see how efficiently can data be compress in the device and how this may make apps more practical and accessible for the developing world."
+              What is the connection between go-mobile, GOMAXPROCS and app development for developing countries? App development for developing countries introduces a a different mindset and a slew of new challenges: smartphones function as a user's main point of connection, local demand for use of mobile apps and web is different and infrastructure places strict limits on users' internet data volume. Combining the processing power of the average multi-core smartphone with go-mobile can reduce the data consumption of apps. <br><br>In this talk we'll discuss how the mobile world looks like in developing countries: what apps are like, what are the common devices and and what are the current initiatives to increase internet connectivity. We'll then see how efficiently can data be compress in the device and how this may make apps more practical and accessible for the developing world.
   - time: "12.50"
     slottype: break
     tracks:
@@ -148,7 +165,7 @@ schedule-thursday:
             speaker: Paul Crawford
             id: a-beginners-guide-to-context
             description: |
-              "The context package offers some great features that any go programmer can take advantage of to build great apps. However, it can be a little tricky when you first pick it up to understand the ins and outs of how to use it and when to use it. <BR><BR>This talk was one simple goal, to show how the to use the context package in your programs. We'll walk through the context package and how we can use it to make our go programs simpler and easier to manage. <BR><BR>We'll look at examples and real code using context to demonstrate the everyday use cases that we may encounter and how to support them."
+              The context package offers some great features that any go programmer can take advantage of to build great apps. However, it can be a little tricky when you first pick it up to understand the ins and outs of how to use it and when to use it. <br><br>This talk was one simple goal, to show how the to use the context package in your programs. We'll walk through the context package and how we can use it to make our go programs simpler and easier to manage. <br><br>We'll look at examples and real code using context to demonstrate the everyday use cases that we may encounter and how to support them.
       - track:
             name: Side Track
             title: "Go for Devops"
@@ -156,7 +173,15 @@ schedule-thursday:
             speaker: Florin Pățan
             id: go-for-devops
             description: |
-              You finished working on your new Go project and now you'd like to share it with the world. Now what?<BR><BR>This talk aims to highlight what are the choices and points to look after when you plan to run your app in production:<ul><li>logging</li><li>monitoring</li><li>deployment</li><li>versions</li><li>and many more</li>
+              You finished working on your new Go project and now you'd like to share it with the world. Now what?<br><br>
+              This talk aims to highlight what are the choices and points to look after when you plan to run your app in production.
+              <ul>
+                  <li>logging</li>
+                  <li>monitoring</li>
+                  <li>deployment</li>
+                  <li>versions</li>
+                  <li>and many more</li>
+              </ul>
   - time: "14.20"
     slottype: special change
     tracks:
@@ -196,7 +221,7 @@ schedule-thursday:
             speaker: Slawosz Slawinski
             id: what-every-developer-should-know-about-logging
             description: |
-              "Go is one of the most popular languages to write applications structured into (micro)services, which gives developers lot of freedom, fun and possibilities to explore new solutions. Such applications are harder to debug on production than normal, monolithic applications, due to many services involved during single operation (eg. http request). Proper logging is a good way to overcome this problem. <BR><BR>First, I will answer why we need logs - to understand what application is doing on production and how is used. This information are crucial for debugging and continuous improvements.<BR><BR>Then, I will cover popular golang logs libraries: standard library log package and glog (https://github.com/golang/glog). After such introduction I will cover implementations of more advanced logging implemented in open source microservices library go-kit (https://github.com/go-kit/kit).<BR><BR>I want to cover also more topics: log sampling in high traffic deployments, log tricks like switching log level in production systems, log infrastructure elements such as log forwarders, log readers and log storage. I also will cover security risks when logs are not properly anonymized.<BR><BR>I am convinced that this presentation will help developers to write logs that makes theirs job more enjoyable and less stressful."
+              Go is one of the most popular languages to write applications structured into (micro)services, which gives developers lot of freedom, fun and possibilities to explore new solutions. Such applications are harder to debug on production than normal, monolithic applications, due to many services involved during single operation (eg. http request). Proper logging is a good way to overcome this problem. <br><br>First, I will answer why we need logs - to understand what application is doing on production and how is used. This information are crucial for debugging and continuous improvements.<br><br>Then, I will cover popular golang logs libraries: standard library log package and <a href="https://github.com/golang/glog">glog</a>. After such introduction I will cover implementations of more advanced logging implemented in open source microservices library <a href="https://github.com/go-kit/kit">go-kit</a>.<br><br>I want to cover also more topics: log sampling in high traffic deployments, log tricks like switching log level in production systems, log infrastructure elements such as log forwarders, log readers and log storage. I also will cover security risks when logs are not properly anonymized.<br><br>I am convinced that this presentation will help developers to write logs that makes theirs job more enjoyable and less stressful.
       - track:
             name: Side Track
             title: "Static Deadlock Detection for Go"
@@ -204,7 +229,7 @@ schedule-thursday:
             speaker: Nicholas Ng
             id: static-deadlock-detection-for-go
             description: |
-              "Go’s concurrency features differ from mainstream programming languages in that they are based on the high-level and formal model of CSP (or process calculi) by Tony Hoare in 1987. Over the years, a large body of research work was developed for understanding concurrency based on process calculi, but rarely applied directly in programming langauges. I will talk about a static analyser we developed for detecting deadlocks in Go, inspired by a research area which gives “types” to process calculi. In a nutshell, the tool infers “types” for communication between goroutines from Go source code, then construct a bird’s eye view of all communication (also called choreography or global graph) possible at runtime, through which deadlocks and communication problems are discovered.<BR><BR>This talk will focus on the work-in-progress aspects of the tool. No knowledge of CSP/process calculi are needed but some understanding of concurrency in Go and static analysis concepts are expected."
+              Go’s concurrency features differ from mainstream programming languages in that they are based on the high-level and formal model of CSP (or process calculi) by Tony Hoare in 1987. Over the years, a large body of research work was developed for understanding concurrency based on process calculi, but rarely applied directly in programming langauges. I will talk about a static analyser we developed for detecting deadlocks in Go, inspired by a research area which gives “types” to process calculi. In a nutshell, the tool infers “types” for communication between goroutines from Go source code, then construct a bird’s eye view of all communication (also called choreography or global graph) possible at runtime, through which deadlocks and communication problems are discovered.<br><br>This talk will focus on the work-in-progress aspects of the tool. No knowledge of CSP/process calculi are needed but some understanding of concurrency in Go and static analysis concepts are expected.
   - time: "15.40"
     slottype: break
     tracks:
@@ -246,7 +271,7 @@ schedule-thursday:
             speaker: Björn Rabenstein
             id: grand-treatise-of-modern-instrumentation
             description: |
-              "Go plays a major role in modern distributed systems. It is a great choice to implement microservices, as exemplified by the popular [Go kit](https://github.com/go-kit/kit). Even more convincing is the dominance of Go in the orchestration layer: [Kubernetes](http://kubernetes.io/), [etcd](https://coreos.com/etcd/), and Weave's [Flux](http://weaveworks.github.io/flux/) are just a few well-known examples.<BR><BR>Monitoring large-scale distributed systems including the underlying infrastructure poses an entirely new challenge. [Prometheus](https://prometheus.io) was designed to meet that challenge. Unsurprisingly, it is written in Go, and it is not by coincidence that all examples given above feature some kind of Prometheus integration.<BR><BR>How can you, as a Go developer, integrate your own software? This talk will show you how to use the Prometheus client library for instrumenting your own code to expose Prometheus metrics and for writing small adapter applications to export metrics from 3rd-party systems. You will learn to identify and implement the metrics that are needed to enable meaningful service monitoring and alerting."
+              Go plays a major role in modern distributed systems. It is a great choice to implement microservices, as exemplified by the popular <a href="https://github.com/go-kit/kit">Go kit</a>. Even more convincing is the dominance of Go in the orchestration layer: <a href="http://kubernetes.io/" title="Kubernetes - Accelerate Your Delivery">Kubernetes</a>, <a href="https://coreos.com/etcd/">etcd</a>, and Weave's <a href="http://weaveworks.github.io/flux/">Flux</a> are just a few well-known examples.<br><br>Monitoring large-scale distributed systems including the underlying infrastructure poses an entirely new challenge. <a href="https://prometheus.io">Prometheus</a> was designed to meet that challenge. Unsurprisingly, it is written in Go, and it is not by coincidence that all examples given above feature some kind of Prometheus integration.<br><br>How can you, as a Go developer, integrate your own software? This talk will show you how to use the Prometheus client library for instrumenting your own code to expose Prometheus metrics and for writing small adapter applications to export metrics from 3rd-party systems. You will learn to identify and implement the metrics that are needed to enable meaningful service monitoring and alerting.
       - track:
             name: Side Track
             title: "Implementing Software Machines in Go (and C)"
@@ -254,7 +279,7 @@ schedule-thursday:
             speaker: Eleanor McHugh
             id: implementing-software-machines-in-go
             description: |
-              "I’ve been interested in the design and implementation of virtual machines since encountering the source code for a simple Forth interpreter written in Basic when I was 15. It was a fascinating, inscrutable piece of magic which played a key role in my becoming a professional programmer.<BR><BR>Most of us who've played games or worked in any one of a number of popular programming languages will have used virtual machines but unless we've taken a course in programming language design we probably have only a loose idea of what these are and how they work.<BR><BR>In this workshop we'll look at the various parts necessary to model a computer-like machine in code, borrowing ideas as we go from real-world hardware design. We'll use a mixture of C and Go as our modelling languages: C is the lingua franca of the VM world whilst Go has excellent tooling and concurrency.<BR><BR>We'll also examine some of the benefits of phrasing software development problems in mechanistic terms. These include ease of composition, automation, security, testing, repeatability and reasoning about performance.<BR><BR>You'll need a laptop with Go and a recent version of Clang or GCC installed and a basic grasp of Go."
+              I’ve been interested in the design and implementation of virtual machines since encountering the source code for a simple Forth interpreter written in Basic when I was 15. It was a fascinating, inscrutable piece of magic which played a key role in my becoming a professional programmer.<br><br>Most of us who've played games or worked in any one of a number of popular programming languages will have used virtual machines but unless we've taken a course in programming language design we probably have only a loose idea of what these are and how they work.<br><br>In this workshop we'll look at the various parts necessary to model a computer-like machine in code, borrowing ideas as we go from real-world hardware design. We'll use a mixture of C and Go as our modelling languages: C is the lingua franca of the VM world whilst Go has excellent tooling and concurrency.<br><br>We'll also examine some of the benefits of phrasing software development problems in mechanistic terms. These include ease of composition, automation, security, testing, repeatability and reasoning about performance.<br><br>You'll need a laptop with Go and a recent version of Clang or GCC installed and a basic grasp of Go.
   - time: "17.10"
     slottype: special change
     tracks:
@@ -353,12 +378,13 @@ schedule-friday:
               Seems that everywhere you look now large scale, bleeding edge cloud technology projects are being written in the Go Programming Language including many of the the current wave of 'Cloud Native' applications and services such as Kubernetes (Container management and orchestration) and Prometheus (systems and service monitoring). In this talk we'll look into why Go is fast becoming the "Cloud Programming Language" and show you how you can apply the lessons learned on these Open Source projects to building your own Cloud Native apps including deep dives and demos around containerization, deployment and scalability.
       - track:
             name: Side Track
-            title: "Building Mobile SDKs for iOS and Android-Ain’t nobody got time for that!"
+            title: Building Mobile SDKs for iOS and Android
+            subtitle: Ain’t nobody got time for that!
             id: building-mobile-sdks
             speaker: Nic Jackson
             slug: nic-jackson
             description: |
-              "You have built your shiny backend API for your Kitten as a Service platform and whilst you've tried to keep the API contract small and succinct the the uptake has been no where near as fast as you wanted, mobile developers are not integrating your API into their apps.<BR><BR>The key problem is that pretty much everyone is lazy, I am and so are you, admit it.  We want to concentrate our time writing application features not writing scaffold and integration code, as an API provider this is why you need an easy to use SDK for others to consume.<BR><BR>In this talk I will run through such an example and will show you step by step just how easy it is to leverage the power of Go to create native performing SDKs for both iOS and Android.  Of course this is but a small part of what you can achieve with GoMobile but the techniques you will learn in this session will equip you to take things to the next level.<BR><BR>Takeaways<BR>Introduction to GoMobile<BR>Building cross platform code with GoMobile<BR>How to integrate and build your code for iOS and Android<BR>Quick look at some Advanced use cases"
+              You have built your shiny backend API for your Kitten as a Service platform and whilst you've tried to keep the API contract small and succinct the the uptake has been no where near as fast as you wanted, mobile developers are not integrating your API into their apps.<br><br>The key problem is that pretty much everyone is lazy, I am and so are you, admit it.  We want to concentrate our time writing application features not writing scaffold and integration code, as an API provider this is why you need an easy to use SDK for others to consume.<br><br>In this talk I will run through such an example and will show you step by step just how easy it is to leverage the power of Go to create native performing SDKs for both iOS and Android.  Of course this is but a small part of what you can achieve with GoMobile but the techniques you will learn in this session will equip you to take things to the next level.<br><br>Takeaways<br>Introduction to GoMobile<br>Building cross platform code with GoMobile<br>How to integrate and build your code for iOS and Android<br>Quick look at some Advanced use cases
   - time: "12.10"
     slottype: special change
     tracks:
@@ -374,7 +400,7 @@ schedule-friday:
             speaker: Travis Bischel
             slug: travis-bischel
             description: |
-              "Idiomatic Go code is composable and easy to understand, greatly improving the experience of writing new code and contributing to unfamiliar code bases. This allows Go to compete as a language suitable for myriad tasks. When using Go as a low-level systems language, occasionally idioms come back to bite you.<BR><BR>Idioms are generally great: they provide portability guarantees as well as a common baseline for programmers. However, these idioms sometimes break down when applied to scalable systems code. For example, we’re told not to use the "unsafe" package, instead, avoid performing “unsafe” memory operations. Similarly, don't use "atomic, use "sync" instead. In essence, “Don't be clever.” In some cases, following these idioms to the letter becomes a real bottleneck.<BR><BR>In this talk, we'll explore how eschewing some of these idioms leads us to predictable latency and in some cases drastically improved throughput. We can use low level, “unsafe” primitives correctly through careful coding. We'll look at how to do this without sacrificing too much in terms of composability, comparing several concurrent communication patterns in Go to non-idiomatic counterparts in the context of a messaging platform.
+              Idiomatic Go code is composable and easy to understand, greatly improving the experience of writing new code and contributing to unfamiliar code bases. This allows Go to compete as a language suitable for myriad tasks. When using Go as a low-level systems language, occasionally idioms come back to bite you.<br><br>Idioms are generally great: they provide portability guarantees as well as a common baseline for programmers. However, these idioms sometimes break down when applied to scalable systems code. For example, we’re told not to use the "unsafe" package, instead, avoid performing “unsafe” memory operations. Similarly, don't use "atomic, use "sync" instead. In essence, “Don't be clever.” In some cases, following these idioms to the letter becomes a real bottleneck.<br><br>In this talk, we'll explore how eschewing some of these idioms leads us to predictable latency and in some cases drastically improved throughput. We can use low level, “unsafe” primitives correctly through careful coding. We'll look at how to do this without sacrificing too much in terms of composability, comparing several concurrent communication patterns in Go to non-idiomatic counterparts in the context of a messaging platform.
       - track:
             name: Side Track
             title: "Let’s build a CI/CD pipeline"
@@ -400,7 +426,7 @@ schedule-friday:
             speaker: Jelmer Snoeck
             slug: jelmer-snoeck
             description: |
-              "The term "microservices" has been around for a while now. We've seen a lot of information on why you should adopt this type of architecture, but no one tells you why you shouldn't. This talk won't do that either, but we'll go over some of the issues and traps that microservices bring with it.<BR><BR>We'll look at what kind of tools you need to get a system like this up and running. What kind of decisions do you have to take to roll out a system like this?<BR><BR>How do you communicate between services? REST or RPC? XML or JSON? What framework do we use? micro or go-kit? Where do we store our metrics? How do we create new services? How do we develop these newly created services and communicate with existing services?<BR><BR>These are all decisions a team can get hung up on and spend a lot of time on. This talk aims to help in the decision making and give some insights in our decisions.<BR><BR>Besides the tools and decisions, we'll also look at the extra complexity this system brings with it. How do you debug multiple services? How do you keep track of all these services?"
+              The term "microservices" has been around for a while now. We've seen a lot of information on why you should adopt this type of architecture, but no one tells you why you shouldn't. This talk won't do that either, but we'll go over some of the issues and traps that microservices bring with it.<br><br>We'll look at what kind of tools you need to get a system like this up and running. What kind of decisions do you have to take to roll out a system like this?<br><br>How do you communicate between services? REST or RPC? XML or JSON? What framework do we use? micro or go-kit? Where do we store our metrics? How do we create new services? How do we develop these newly created services and communicate with existing services?<br><br>These are all decisions a team can get hung up on and spend a lot of time on. This talk aims to help in the decision making and give some insights in our decisions.<br><br>Besides the tools and decisions, we'll also look at the extra complexity this system brings with it. How do you debug multiple services? How do you keep track of all these services?
       - track:
             name: Side Track
             title: "A Go IDE - Because Semantics Matter"
@@ -408,7 +434,7 @@ schedule-friday:
             speaker: Alexander Zolotov
             slug: alexander-zolotov
             description: |
-              "With Go, developers use many different setups, one of the most common being editors in combination with command line tools. So one might question how using this setup differs from an IDE. What benefits does the latter provide?<BR><BR>We’re going to share the journey of us having written a Go IDE based on IntelliJ Platform. We’ll see how IntelliJ provides the infrastructure for building static analysis engines. Inspections, with their quick fixes, “Find Usages” of symbols, refactorings and navigation are made possible when the code being analysed.<BR><BR>We’ll see some of these benefits and the challenges confronted in the process."
+              With Go, developers use many different setups, one of the most common being editors in combination with command line tools. So one might question how using this setup differs from an IDE. What benefits does the latter provide?<br><br>We’re going to share the journey of us having written a Go IDE based on IntelliJ Platform. We’ll see how IntelliJ provides the infrastructure for building static analysis engines. Inspections, with their quick fixes, “Find Usages” of symbols, refactorings and navigation are made possible when the code being analysed.<br><br>We’ll see some of these benefits and the challenges confronted in the process.
   - time: "14.20"
     slottype: special change
     tracks:
@@ -424,7 +450,7 @@ schedule-friday:
             speaker: Víctor Ruiz
             slug: víctor-ruiz
             description: |
-              "As applications become more data-intensive and with the rise of event based architectures, terms like stream processing, ETL and data integration, become normal vocabulary for many organizations. At the center of many of these systems we find Apache Kafka, the state of the art when it comes to storing and moving around large amounts of data.<BR><BR>Kafka, together with Zookeeper, forms a large and complex system. But some of its unique properties like strong ordering and constant time read/write derive from its simple core data structure, the log. We'll briefly define what’s really a “log”, and how logs are at the core of many data stores.<BR><BR>We’ll see how a fully functional log-based queue can be rather simple to implement, you can build it yourself, and in this talk I’ll show how I’ve been building my own.<BR><BR>We’ll walk through the basic building blocks required to implement a pub/sub queue around a log. Segments, data indexes, offset management, etc. While I demo NetLog (netlog.io), my attempt to create a lightweight and easy-to-use log-based message queue in Go. And BigLog, its building blocks library that you can use to create your own queue."
+              As applications become more data-intensive and with the rise of event based architectures, terms like stream processing, ETL and data integration, become normal vocabulary for many organizations. At the center of many of these systems we find Apache Kafka, the state of the art when it comes to storing and moving around large amounts of data.<br><br>Kafka, together with Zookeeper, forms a large and complex system. But some of its unique properties like strong ordering and constant time read/write derive from its simple core data structure, the log. We'll briefly define what’s really a “log”, and how logs are at the core of many data stores.<br><br>We’ll see how a fully functional log-based queue can be rather simple to implement, you can build it yourself, and in this talk I’ll show how I’ve been building my own.<br><br>We’ll walk through the basic building blocks required to implement a pub/sub queue around a log. Segments, data indexes, offset management, etc. While I demo NetLog (netlog.io), my attempt to create a lightweight and easy-to-use log-based message queue in Go. And BigLog, its building blocks library that you can use to create your own queue.
       - track:
             name: Side Track
             title: "What is a container, really? Let's write one in Go from scratch"
@@ -456,7 +482,7 @@ schedule-friday:
             speaker: Andreas Krennmair
             slug: andreas-krennmair
             description: |
-              "Garbage-collected languages like Go usually don't have the reputation of being particularly well-suited for real-time applications. As an online advertising company with a focus on the travel industry, we extensively use real-time bidding (RTB) to programmatically buy ad impression through automated auctions. In order to effectively take part in these auctions we have developed our own in-house bidder using Go.<BR><BR>Building a bidder to accommodate both the specific requirements of our business and the constraints of a soft real-time application while quickly iterating on new features was a big challenge. Over the course of more than two years, we have learned a number of lessons and techniques on designing, instrumenting and tuning Go applications and their underlying data stores for efficiency under real time conditions. We would like to share these in this talk."
+              Garbage-collected languages like Go usually don't have the reputation of being particularly well-suited for real-time applications. As an online advertising company with a focus on the travel industry, we extensively use real-time bidding (RTB) to programmatically buy ad impression through automated auctions. In order to effectively take part in these auctions we have developed our own in-house bidder using Go.<br><br>Building a bidder to accommodate both the specific requirements of our business and the constraints of a soft real-time application while quickly iterating on new features was a big challenge. Over the course of more than two years, we have learned a number of lessons and techniques on designing, instrumenting and tuning Go applications and their underlying data stores for efficiency under real time conditions. We would like to share these in this talk.
   - time: "15.40"
     slottype: break
     tracks:
@@ -474,7 +500,7 @@ schedule-friday:
             speaker: Ernesto Jimenez
             slug: ernesto-jimenez
             description: |
-              Go is amazing, but sometimes we need to code lots of boiler plate. Fortunately, there are different ways you can reduce boilerplate by having programs generate all the boring code you would traditionally write by hand.<BR><BR>In this talk we will look into different ways you can build programs that generate source code for other programs.
+              Go is amazing, but sometimes we need to code lots of boiler plate. Fortunately, there are different ways you can reduce boilerplate by having programs generate all the boring code you would traditionally write by hand.<br><br>In this talk we will look into different ways you can build programs that generate source code for other programs.
       - track:
             name: Side Track
             title: "An Actor Model in Go"
@@ -482,7 +508,13 @@ schedule-friday:
             speaker: Bryan Boreham
             slug: bryan-boreham
             description: |
-              "The actor model makes it easier to reason about the behaviour of concurrent systems. Languages such as Erlang and Scala provide actor support as standard, but it can be added to your Go programs with just a little care.<BR><BR>This talk will cover<BR> - A basic description of the actor model<BR> - Different styles of implementation of actors in Go<BR> - Limitations of Go compared to an ideal actor model<BR> - Experience from actors as used in Weave Net, the Open Source container network written in Go"<BR>
+              The actor model makes it easier to reason about the behaviour of concurrent systems. Languages such as Erlang and Scala provide actor support as standard, but it can be added to your Go programs with just a little care.<br><br>
+              This talk will cover<br> 
+              <ul>
+                  <li>A basic description of the actor model</li>
+                  <li>Different styles of implementation of actors in Go</li>
+                  <li>Limitations of Go compared to an ideal actor model</li>
+                  <li>Experience from actors as used in Weave Net, the Open Source container network written in Go</li>
   - time: "16.30"
     slottype: special change
     tracks:
@@ -498,7 +530,7 @@ schedule-friday:
             speaker: Michael Bironneau
             slug: michael-bironneau
             description: |
-              "The smart energy sector is poised to deliver huge savings through efficiency improvements and ancillary services such as Open Energi's Dynamic Demand. <BR><BR>This talk, aimed at Go programmers who do not have much experience with Machine Learning (ML), will start by introducing common idioms used by well known machine learning frameworks like scikit-learn and Matlab's ML Toolbox, and how they are mirrored in Go packages like Goml and Go Learn. I'll also briefly explain how one can use Storm multilang or os/exec to assemble a polyglot ML solution without requiring a data scientist to make (many) changes to their model code.<BR><BR>The second half of the talk will explain how we've leveraged Go primitives and cloud-based services to deliver scalable real-time machine learning services written entirely in Go with low cognitive overhead for both data scientists and developers."
+              The smart energy sector is poised to deliver huge savings through efficiency improvements and ancillary services such as Open Energi's Dynamic Demand. <br><br>This talk, aimed at Go programmers who do not have much experience with Machine Learning (ML), will start by introducing common idioms used by well known machine learning frameworks like scikit-learn and Matlab's ML Toolbox, and how they are mirrored in Go packages like Goml and Go Learn. I'll also briefly explain how one can use Storm multilang or os/exec to assemble a polyglot ML solution without requiring a data scientist to make (many) changes to their model code.<br><br>The second half of the talk will explain how we've leveraged Go primitives and cloud-based services to deliver scalable real-time machine learning services written entirely in Go with low cognitive overhead for both data scientists and developers.
       - track:
             name: Side Track
             title: TBA
@@ -631,10 +663,11 @@ LUNCH
                 <li class="track" id="{{track.track.id}}">
                   <span class="name">{{track.track.name}}</span>
                   <span class="title">{{track.track.title}}</span>
+                  <span class="subtitle">{{track.track.subtitle}}</span>
                   {% if track.track.speaker %}
                   <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
                   {% endif %}
-                  <p class="description">{{track.track.description}}</p>
+                  <span class="description">{{track.track.description}}</span>
                   {% if track.track.menulink %}
                       <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
                   {% endif %}
@@ -659,6 +692,7 @@ LUNCH
                 <li class="track" id="{{track.track.id}}">
                   <span class="name">{{track.track.name}}</span>
                   <span class="title">{{track.track.title}}</span>
+                  <span class="subtitle">{{track.track.subtitle}}</span>
                   {% if track.track.speaker %}
                   <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
                   {% endif %}

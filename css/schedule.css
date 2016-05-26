@@ -70,7 +70,7 @@
 	content:" - "
 }
 
-.schedule .description{
+.schedule .description, .schedule .description li{
     color:#fff;
     display:none;
 }
@@ -118,9 +118,15 @@
 	white-space:normal;
 }
 
-.schedule .slot.active .description{
+.schedule .slot.active .description {
 	display:block;
 	font-size:1em;
+}
+
+.schedule .slot.active .description li{
+	display:list-item;
+    list-style-type: square;
+    font-size:1em;
 }
 
 .schedule .change ul{
@@ -136,7 +142,7 @@
 	max-width:100%;
 }
 
-.schedule a{
+.schedule a, .schedule span, .schedule li{
 	color: #ffffff;
 }
 
@@ -175,8 +181,12 @@
 	.schedule .break .name{
 		line-height:3rem;
 	}
-	.schedule .description{
+	.schedule .description {
 		display:block;
+    }
+    .schedule .description li{
+    	display:list-item;
+        list-style-type: square;
 	}
 	.schedule .name{
 		display:block;
