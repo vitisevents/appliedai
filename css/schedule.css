@@ -194,9 +194,15 @@
 	.schedule .title{
 		display:block;
 		font-weight:400;
-		font-size:1.2rem;
+		font-size:1.6rem;
+        line-height: 1.7rem;
 		color:#fff;
+        margin-top: 10px;
 	}
+	.schedule .subtitle{
+        display: block;
+        margin-bottom: 10px;
+    }
 	.schedule .speaker{
 		display:block;
 		clear:both;
