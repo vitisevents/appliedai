@@ -75,20 +75,14 @@ speakers:
     company: Open Energi
     bio: |
       Michael is a data scientist at Open Energi, where he started working in 2014 after getting a maths PhD from Loughborough University. At Open Energi he works mainly on data engineering and architecture. He is interested in processing data at scale using any means necessary. (need photo).
-  - name: Andrew Gerrand
-    slug: andrew-gerrand
-    handle: blahblah
-    company: Google
-    bio: |
-      Andrew Gerrand joined the Go team at Google in early 2010. With a passion for elegance and simplicity, has contributed a ton of code, documentation, and articles to the project, and delivered talks on Go at conferences and user groups around the world.
   - name: Andreas Krennmair
-    slug: andreas-krenmair
+    slug: andreas-krennmair
     handle: blahblah
     company: travel audience
     bio: |
       Andreas Krennmair is a software developer at <a href="https://www.travelaudience.com/">travel audience GmbH</a> in Berlin, Germany, where he works on extending, maintaining, and scaling their real-time bidding and adserving infrastructure. He has used Go for private projects since late 2009, and professionally for about 3 years. Ten years ago, he initiated and drove forward the <a href="http://www.newsbeuter.org/">newsbeuter</a> open source project to develop a fast and usable RSS feed reader for text terminals. Outside of IT, he blogs about beer, with an interest in historic styles and homebrewing.
   - name: Florin Pățan
-    slug: florin-patan
+    slug: florin-pățan
     handle: blahblah
     bio: |
       I'm a gopher for a few years now and I've used to do various things from simple toy apps to writing a startup based on it. I'm one of the organizers of the Go meetup in London and former organizer of GDG Berlin Golang and AWS Berlin User Group. In my spare time I pretend to contribute to the Go plugin for IntelliJ and other open-source projects.
@@ -132,6 +126,31 @@ speakers:
     handle: twitter here
     bio: |
       Nic Jackson is a software engineering evangelist working for notonthehighstreet.com, with over 20 years experience in software development and leading software development teams.  A huge fan of mobile application and micro service architecture, constantly looking out for the most efficient way to re-use code and improve development flow. <BR> In his spare time Nic organizes Wild West Tech Talks a meet up group in West London, coaches and mentors at codebar.io and Coder Dojo, speaks and evangelises good coding practice, process and technique and works to raise money for a charity he runs with his wife.
+  - name: Matthew Campbell
+    slug: matthew-campbell
+    handle: twitter here
+    bio: |
+      Matthew Campbell is a microservices scalability expert at DigitalOcean, where he builds the future of cloud services. Matthew is a founder of Errplane and Langfight. In the past, he worked at Thomson Reuters, Bloomberg, Gucci, and Cartoon Network. Matthew recently presented at GothamGO, Velocity NYC, and GopherCon India and is the author of Microservices in Go, published by O’Reilly. He blogs at Kanwisher.com.
+  - name: Michael Munday
+    slug: michael-munday
+    handle: twitter here
+    bio: |
+      Michael is a software developer in the IBM Linux on z Systems Open Source Ecosystem team in Toronto. He is part of the group that recently ported the Go toolchain to IBM's z/Architecture (s390x). Before joining IBM Michael worked on code targeting FPGAs leading to his keen interest in low-level programming.
+  - name: Ernesto Jiménez
+    slug: ernesto-jiménez
+    handle: twitter here
+    bio: |
+      Ernesto is the co-founder of <a href="slackline.io">slackline.io</a> and has worked on different kinds of products, from webapps to APIs and games in both startups and big corporations. He is a Google Developer Expert and maintains testify, a popular Go testing package used in projects like Kubernetes, etcd, the AWS Go SDK and many others.
+  - name: Liz Rice
+    slug: liz-rice
+    handle: twitter here
+    bio: |
+      Liz Rice, co-founder of Microscaling Systems, has a wealth of software development, architecture &nbsp; management experience in technology sectors including VOD, music, VoIP and the charity sector. When not building startups and writing code, she loves riding bikes in places with better weather than her native London.
+  - name: Jean de Klerk
+    slug: Jean-de-klerk
+    handle: twitter here
+    bio: |
+      Jean is a consultant and open source evangelist at Pivotal helping companies achieve success through the agile process, moving to cloud-ready apps, and enabling developers on technologies. Jean also works on CloudFoundry, Pivotal's open source PaaS, building highly concurrent microservices in Go. Outside of work, Jean contributes to open source libraries, tinkers with Arduinos and Raspberry Pis, and enjoys the Colorado outdoors.
 ---
 
 <!-- SPEAKER TEMPLATE
@@ -156,7 +175,7 @@ speakers:
 		       		<a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}" target="_blank">@{{speaker.handle}}</a>
 		        </div>
 		        {% if speaker.slug %}
-                <img class="speaker-photo" src="images/speakers/{{speaker.slug}}.jpg">
+                <img class="speaker-photo" src="/images/2016/speakers/{{speaker.slug}}.jpg">
                 {% endif %}
 		        <div class="speaker-bio">
 		          {{speaker.bio}}
