@@ -23,8 +23,8 @@ function resize_intro(){
        if(jQuery('.wrapper-flexi').length < 1) {
         form_margin = (page_height - jQuery('.form-box').height()) / 2;
         jQuery(".form-box").css('margin-top',form_margin+'px');
-        hero_margin = ((page_height - jQuery('.hero').height())-50) / 2;
-        jQuery(".hero").css('margin-top',hero_margin+'px');
+        // hero_margin = ((page_height - jQuery('.hero').height())-50) / 2;
+        // jQuery(".hero").css('margin-top',hero_margin+'px');
       }
     }
   }
