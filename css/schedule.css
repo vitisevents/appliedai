@@ -108,6 +108,10 @@ h3{
 	display:none;
 }
 
+.schedule .talks .level{
+	display:none;
+}
+
 .schedule .break p{
 	padding-bottom:0.5em;
 }
@@ -209,6 +213,9 @@ h3{
 	.schedule .subtitle{
         display: block;
         margin-bottom: 15px;
+    }
+    .schedule .talks .level{
+        display:block;
     }
 	.schedule .speaker{
 		display:block;
