@@ -1,3 +1,6 @@
+h3{
+    font-size: 2.5em;
+}
 .centre{
 	text-align:center;
 }
@@ -6,7 +9,6 @@
 	list-style:none;
 	margin:0;
 	padding:0;
-	border-top:1px solid rgba(255,255,255,0.1);
 }
 
 .schedule .slot{
@@ -14,8 +16,7 @@
 	overflow:hidden;
 	vertical-align:middle;
 	font-size:1em;
-	background:rgba(92,83,108,0.6);
-	border-bottom:1px solid rgba(255,255,255,0.1);
+	border-top:1px solid rgba(0,0,0,0.3);
 }
 
 .schedule .time{
@@ -54,7 +55,7 @@
 
 .schedule .name{
 	display:none;
-	color:#fff;
+	color:#000;
 }
 
 .schedule .title{
@@ -71,7 +72,7 @@
 }
 
 .schedule .description, .schedule .description li{
-    color:#fff;
+    color:#000;
     display:none;
 }
 
@@ -80,8 +81,14 @@
 }
 
 .schedule .break{
-	background:rgba(72,63,87,.6);
+/*    background:rgba(92,83,108,0.4);*/
 	text-align:center;
+}
+
+.schedule .break .title{
+    font-weight:100;
+    line-height:0.7rem;
+    font-size:1em;
 }
 
 .schedule .break .time{
@@ -143,7 +150,7 @@
 }
 
 .schedule a, .schedule span, .schedule li{
-	color: #ffffff;
+	color: #000;
 }
 
 @media (min-width: 1024px){
@@ -196,7 +203,7 @@
 		font-weight:400;
 		font-size:1.6rem;
         line-height: 1.7rem;
-		color:#fff;
+		color:#000;
         margin-top: 10px;
 	}
 	.schedule .subtitle{
@@ -211,7 +218,7 @@
 	.schedule .speaker:before{
 			content:"";
 	}
-    .schedule .speaker-block{
+    .schedule .talks .speaker-block{
         display:block;
         height:100px;
     }
