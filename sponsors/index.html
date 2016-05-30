@@ -59,6 +59,22 @@ weight: 5
 
 			<!-- Community sponsors -->
 			{% for sponsor in site.data.sponsors_2016 %}
+		    {% if sponsor.type == 'Silver' %}
+		    <h2 class="centre">{{sponsor.type}} Sponsors</h2>
+		    <ul class="sponsor-list sponsor-list--large sponsors-{{sponsor.type}}">
+                <li class="sponsor-list__sponsor sponsor-{{sponsor.name}} {{sponsor.slug}}" id="{{sponsor.slug}}">
+	                <a target="_blank" href="{{sponsor.url}}" class="sponsor__url">
+			            <img src="/images/2016/sponsors/{{sponsor.slug}}.{% if sponsor.imageType %}{{sponsor.imageType}}{% else %}svg{% endif %}" alt="{{sponsor.name}}" class="sponsor__logo" />
+			        </a>
+                <p class="description">{{sponsor.about}}</p>
+                <a href="{{sponsor.url}}" target="_blank">Visit website &raquo;</a>
+                </li>
+		    </ul>
+		    {% endif %}
+		    {% endfor %}
+
+			<!-- Community sponsors -->
+			{% for sponsor in site.data.sponsors_2016 %}
 		    {% if sponsor.type == 'Community Partner' %}
 		    <h2 class="centre">{{sponsor.type}}s</h2>
 		    <ul class="sponsor-list sponsor-list--large sponsors-{{sponsor.type}}">
