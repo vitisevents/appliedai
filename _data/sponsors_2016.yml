@@ -36,3 +36,10 @@
   imageType: png
   about:
     Founded in 2015, Vistas Recruitment is a specialist recruitment boutique focusing almost entirely on Golang-related roles across the UK and Europe. We pride ourselves on providing a highly personal and friendly service. Working with start-ups and established companies, we are building a client portfolio of some of the most exciting names in technology, and are committed to helping Gophers find their perfect fit.
+
+- name: "Bytemark"
+  type: Silver
+  slug: bytemark
+  url: https://www.bytemark.co.uk?golang2016
+  imageType: png
+  about: "Bytemark have built Cloud Servers that grow since 2002. You can attach memory, processors and discs when you need them, so scaling is easy. Our secret to high uptime: we built our own data centre, developed all our own software (lots of Go) and answer the phone from our York HQ. So you can write more features, get more sleep, and spend less time on operations. Start with a free trial, then from £10/month."
