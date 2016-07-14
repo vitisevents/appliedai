@@ -417,6 +417,10 @@ h2.menulink {
 	line-height:1.2em;
 }
 
+.footer h3{
+	font-size:2em;
+}
+
 .footer p{
 	color:#ddd;
 }
