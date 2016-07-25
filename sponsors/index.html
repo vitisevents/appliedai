@@ -9,7 +9,7 @@ weight: 5
 			<h1>Sponsors</h1>
 			<p>The Golang UK Conference is run by the Go community and relies heavily on sponsorship to run the event at rates affordable to everyone. If you're interested in sponsoring our event, please <a href="mailto:info@golanguk.com">contact us</a>.</p>
 			{% for sponsorType in site.data.sponsors_2016 %}
-		    <h2 class="centre">{{sponsorType.type | capitalize}} Sponsor</h2>
+		    <h2 class="centre">{{sponsorType.type}}</h2>
 			{% for sponsor in sponsorType.sponsors %}
 		    <ul class="sponsor-list sponsor-list--large sponsors-{{sponsor.type}}">
                 <li class="sponsor-list__sponsor sponsor-{{sponsor.name}} {{sponsor.slug}}" id="{{sponsor.slug}}">
