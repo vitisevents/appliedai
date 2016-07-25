@@ -1,45 +1,50 @@
-- name: "Sainsbury's"
-  type: Platinum
-  slug: sainsburys
-  url: http://www.sainsburys.work/dandt
-  about: |
-    Change the world at Sainsbury’s. Write the next generation of beautiful code to solve the most complex of puzzles and problems. Create innovations that inspire and excite. Be influenced by the best, but set your sights even higher. At the core of our 140-year history is the drive to give our millions of customers the standard of service they deserve. And, as more and more of them turn to technology – for everyday shopping, information about our stores and products and for lifestyle ideas – we’ve been inspired to invest heavily in Digital and Technology. We’ve re-organised it, re-invigorated it, to meet evolving customer and colleague needs. We’re dedicated to delivering the very best digital experience across every format. Developing teams that will put us clicks ahead of the competition. Ours is one of the fastest-moving sectors around. So we’re looking for the most savvy development professionals out there. Who can spot opportunities and trends before they happen, identify areas for improvement and see every problem as an opportunity to do something amazing. So if you want to go further, faster, take a look at our current vacancies and don’t just imagine the impact you could make. Tell us.
-
-- name: Ardan Labs
-  type:  Workshop Day
-  slug: ardanlabs
-  url: https://www.ardanlabs.com
-  imageType: png
-  about: |
+- type: Platinum Sponsor
+  sponsors:
+    - name: "Sainsbury's"
+      slug: sainsburys 
+      url: http://www.sainsburys.work/dandt
+      about: |
+        Change the world at Sainsbury’s. Write the next generation of beautiful code to solve the most complex of puzzles and problems. Create innovations that inspire and excite. Be influenced by the best, but set your sights even higher. At the core of our 140-year history is the drive to give our millions of customers the standard of service they deserve. And, as more and more of them turn to technology – for everyday shopping, information about our stores and products and for lifestyle ideas – we’ve been inspired to invest heavily in Digital and Technology. We’ve re-organised it, re-invigorated it, to meet evolving customer and colleague needs. We’re dedicated to delivering the very best digital experience across every format. Developing teams that will put us clicks ahead of the competition. Ours is one of the fastest-moving sectors around. So we’re looking for the most savvy development professionals out there. Who can spot opportunities and trends before they happen, identify areas for improvement and see every problem as an opportunity to do something amazing. So if you want to go further, faster, take a look at our current vacancies and don’t just imagine the impact you could make. Tell us.
+- type: Gold Sponsor
+  sponsors:
+    - name: "GlobalSign"
+      slug: globalsign
+      url: http://www.globalsign.com
+      about:
+        "GlobalSign, founded in 1996, is a provider of identity services for the Internet of Everything (IoE), mediating trust to enable safe commerce, communications, content delivery and community interactions for billions of online transactions occurring around the world at every moment.
+        Recently we built a new platform, with a new team, using new technology. The result is a massive scale certificate issuance platform for the IoT capable of delivering thousands of digital identities per second and storing billions of them. 
+        We are looking for talented backend software engineers to join our team based in central London."
+- type: Silver Sponsors
+  sponsors:
+    - name: "Vistas"
+      slug: vistas
+      url: http://www.vistasrecruitment.com
+      imageType: png
+      about:
+        Founded in 2015, Vistas Recruitment is a specialist recruitment boutique focusing almost entirely on Golang-related roles across the UK and Europe. We pride ourselves on providing a highly personal and friendly service. Working with start-ups and established companies, we are building a client portfolio of some of the most exciting names in technology, and are committed to helping Gophers find their perfect fit.
+    - name: "Bytemark"
+      slug: bytemark
+      url: https://www.bytemark.co.uk?golang2016
+      imageType: png
+      about: "Bytemark have built Cloud Servers that grow since 2002. You can attach memory, processors and discs when you need them, so scaling is easy. Our secret to high uptime: we built our own data centre, developed all our own software (lots of Go) and answer the phone from our York HQ. So you can write more features, get more sleep, and spend less time on operations. Start with a free trial, then from £10/month."
+- type:  Workshop Day Partner
+  sponsors:
+    - name: "Ardan Labs"
+      slug: ardanlabs
+      url: https://www.ardanlabs.com
+      imageType: png
+      about: |
         Ardan Labs helps individuals and corporations develop a passion for programming through innovative training courses. Currently focusing on the Go programming language, Ardan Labs is active in the local and international Go Communities.
-
-- name: Golang Show
-  type: Community Partner
-  slug: golangshow
-  url: http://golangshow.com/
-  imageType: png
-  description: |
-
-- name: "GlobalSign"
-  type: Gold
-  slug: globalsign
-  url: http://www.globalsign.com
-  about:
-    "GlobalSign, founded in 1996, is a provider of identity services for the Internet of Everything (IoE), mediating trust to enable safe commerce, communications, content delivery and community interactions for billions of online transactions occurring around the world at every moment.
-    Recently we built a new platform, with a new team, using new technology. The result is a massive scale certificate issuance platform for the IoT capable of delivering thousands of digital identities per second and storing billions of them. 
-    We are looking for talented backend software engineers to join our team based in central London."
-
-- name: "Vistas"
-  type: Silver
-  slug: vistas
-  url: http://www.vistasrecruitment.com
-  imageType: png
-  about:
-    Founded in 2015, Vistas Recruitment is a specialist recruitment boutique focusing almost entirely on Golang-related roles across the UK and Europe. We pride ourselves on providing a highly personal and friendly service. Working with start-ups and established companies, we are building a client portfolio of some of the most exciting names in technology, and are committed to helping Gophers find their perfect fit.
-
-- name: "Bytemark"
-  type: Silver
-  slug: bytemark
-  url: https://www.bytemark.co.uk?golang2016
-  imageType: png
-  about: "Bytemark have built Cloud Servers that grow since 2002. You can attach memory, processors and discs when you need them, so scaling is easy. Our secret to high uptime: we built our own data centre, developed all our own software (lots of Go) and answer the phone from our York HQ. So you can write more features, get more sleep, and spend less time on operations. Start with a free trial, then from £10/month."
+- type: Diversity Sponsor
+  sponsors:
+    - name: "ARM"
+      slug: arm
+      url: http://www.arm.com
+      imageType: png	  
+- type: Community Partner
+  sponsors:
+    - name: "Golang Show"
+      slug: golangshow
+      url: http://golangshow.com/
+      imageType: png
+      description: |
