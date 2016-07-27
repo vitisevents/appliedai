@@ -41,6 +41,8 @@
       slug: arm
       url: http://www.arm.com
       imageType: png	  
+      about: |
+        ARM® is at the heart of the world's most advanced digital products. Our technology enables the creation of new markets and transformation of industries and society. We design scalable, energy efficient-processors and related technologies to deliver the intelligence in applications ranging from sensors to servers, including smartphones, tablets, enterprise infrastructure and the Internet of Things.
 - type: Community Partner
   sponsors:
     - name: "Golang Show"
