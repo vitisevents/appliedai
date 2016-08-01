@@ -43,10 +43,17 @@
       imageType: png	  
       about: |
         ARM® is at the heart of the world's most advanced digital products. Our technology enables the creation of new markets and transformation of industries and society. We design scalable, energy efficient-processors and related technologies to deliver the intelligence in applications ranging from sensors to servers, including smartphones, tablets, enterprise infrastructure and the Internet of Things.
-- type: Community Partner
+- type: Community Partners
   sponsors:
+    - name: "Manning Publications"
+      slug: manning
+      url: http://manning.com/
+      imageType: svg
+      about: |
+        Manning is a leading publisher of computer books for professionals since 1993. We publish standalone titles and several series: Hello!, In Action, In Practice, In Depth, and In a Month of Lunches. We publish both eBooks and print versions. Customers purchasing a print book also receive the eBook version. We also offer readers access our books before they are finished through the Manning Early Access Program (MEAP). Find out more at manning.com.
     - name: "Golang Show"
       slug: golangshow
       url: http://golangshow.com/
       imageType: png
-      description: |
+      about:  |
+        The Russian-language Go podcast.
