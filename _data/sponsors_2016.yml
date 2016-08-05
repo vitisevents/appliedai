@@ -5,7 +5,7 @@
       url: http://www.sainsburys.work/dandt
       about: |
         Change the world at Sainsbury’s. Write the next generation of beautiful code to solve the most complex of puzzles and problems. Create innovations that inspire and excite. Be influenced by the best, but set your sights even higher. At the core of our 140-year history is the drive to give our millions of customers the standard of service they deserve. And, as more and more of them turn to technology – for everyday shopping, information about our stores and products and for lifestyle ideas – we’ve been inspired to invest heavily in Digital and Technology. We’ve re-organised it, re-invigorated it, to meet evolving customer and colleague needs. We’re dedicated to delivering the very best digital experience across every format. Developing teams that will put us clicks ahead of the competition. Ours is one of the fastest-moving sectors around. So we’re looking for the most savvy development professionals out there. Who can spot opportunities and trends before they happen, identify areas for improvement and see every problem as an opportunity to do something amazing. So if you want to go further, faster, take a look at our current vacancies and don’t just imagine the impact you could make. Tell us.
-- type: Gold Sponsor
+- type: Gold Sponsors
   sponsors:
     - name: "GlobalSign"
       slug: globalsign
@@ -14,6 +14,15 @@
         "GlobalSign, founded in 1996, is a provider of identity services for the Internet of Everything (IoE), mediating trust to enable safe commerce, communications, content delivery and community interactions for billions of online transactions occurring around the world at every moment.
         Recently we built a new platform, with a new team, using new technology. The result is a massive scale certificate issuance platform for the IoT capable of delivering thousands of digital identities per second and storing billions of them. 
         We are looking for talented backend software engineers to join our team based in central London."
+    - name: "Brightcove"
+      slug: brightcove
+      url: https://www.brightcove.com/en/company/careers/open-positions/ocnt3fwP
+      about: |
+        Brightcove is the leading online video platform for publishing high quality video experiences across PCs, smartphones, and TVs. Founded in 2004, Brightcove is a pioneering force in the world of online video. We created and defined the online video platform category and have spent more than a decade helping the largest media companies and brands in the world to tell their story.
+
+        We’re looking for talented, passionate, and high-bandwidth individuals who want to revolutionize the way video is experienced on every screen. 
+
+        We're a global company with developers around the world. We've started expanding our London development team located in Covent Garden who are building our Next Generation Media Platform "Brightcove Bolt". If you want to write golang with a passionate devops oriented team, get in touch at <a href="mailto:golang-jobs@brightcove.com">golang-jobs@brightcove.com</a>.
 - type: Silver Sponsors
   sponsors:
     - name: "Vistas"

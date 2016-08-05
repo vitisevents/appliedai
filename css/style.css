@@ -388,6 +388,12 @@ h2.menulink {
 	display:inline-block;
 }
 
+.footer-sponsors .sponsor-list li a{
+	display:block;
+	max-width:200px;
+	height:40px;
+}
+
 .footer-sponsors .sponsor{
 	display:inline-block;
 	height:50px;
@@ -395,8 +401,14 @@ h2.menulink {
 }
 
 .footer-sponsors .sponsor__logo{
+	display:block;
 	height:40px;
+	max-width:200px;
 	width:auto;
+}
+
+.sponsor--bytemark .sponsor__logo{
+	height:32px;
 }
 
 .footer{

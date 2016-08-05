@@ -2,7 +2,7 @@
 
 	{% for sponsorType in site.data.sponsors_2016 %}
 	{% for sponsor in sponsorType.sponsors %}
-    <li class="sponsor-list__sponsor">
+    <li class="sponsor-list__sponsor sponsor--{{sponsor.slug}}">
         <a target="_blank" href="{{sponsor.url}}" class="sponsor__url">
             <img src="/images/2016/sponsors/{{sponsor.slug}}{% if sponsor.smallVersion %}-small{% endif %}.{% if sponsor.imageType %}{{sponsor.imageType}}{% else %}svg{% endif %}" alt="{{sponsor.name}}" class="sponsor__logo" />
         </a>
