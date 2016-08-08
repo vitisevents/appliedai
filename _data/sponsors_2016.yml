@@ -17,6 +17,8 @@
     - name: "Brightcove"
       slug: brightcove
       url: https://www.brightcove.com/en/company/careers/open-positions/ocnt3fwP
+      smallVersion: true
+      imageType: png
       about: |
         Brightcove is the leading online video platform for publishing high quality video experiences across PCs, smartphones, and TVs. Founded in 2004, Brightcove is a pioneering force in the world of online video. We created and defined the online video platform category and have spent more than a decade helping the largest media companies and brands in the world to tell their story.
 
