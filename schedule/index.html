@@ -105,13 +105,13 @@ schedule-thursday:
     tracks:
       - track:
             name: Track 1
-            title: "Seven ways to profile Go applications"
-            slug: dave-cheney
-            speaker: Dave Cheney
-            id: seven-ways-to-profile-go-applications
+            title: "When Idioms Become Bottlenecks"
+            id: when-idioms-become-bottlenecks
+            speaker: Travis Bischel
+            slug: travis-bischel
             level: Intermediate
             description: |
-              Microbenchmarks are all fine and good, but the first step from benchmarking one function and understanding the performance of a complex application in production is a doozie.<BR><BR>This talk will cover seven different ways to profile a running Go application. We'll discuss the strengths and weaknesses of various approaches, and highlight some new options available in Go 1.7.
+              Idiomatic Go code is composable and easy to understand, greatly improving the experience of writing new code and contributing to unfamiliar code bases. This allows Go to compete as a language suitable for myriad tasks. When using Go as a low-level systems language, occasionally idioms come back to bite you.<br><br>Idioms are generally great: they provide portability guarantees as well as a common baseline for programmers. However, these idioms sometimes break down when applied to scalable systems code. For example, we’re told not to use the "unsafe" package, instead, avoid performing “unsafe” memory operations. Similarly, don't use "atomic, use "sync" instead. In essence, “Don't be clever.” In some cases, following these idioms to the letter becomes a real bottleneck.<br><br>In this talk, we'll explore how eschewing some of these idioms leads us to predictable latency and in some cases drastically improved throughput. We can use low level, “unsafe” primitives correctly through careful coding. We'll look at how to do this without sacrificing too much in terms of composability, comparing several concurrent communication patterns in Go to non-idiomatic counterparts in the context of a messaging platform.
       - track:
             name: Track 2
             title: "Cloud in your Cloud"
@@ -298,9 +298,9 @@ schedule-thursday:
     slottype: break
     tracks:
       - track:
-            name: Mid-Conference Social
+            name: Main Conference Social
             description: |
-              The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. There will be lots of fun activities planned for the evening.<br><a href="/socials">More details &raquo;</a>
+              The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning.<a href="/socials">More details &raquo;</a>
 schedule-friday:
   - time: "09.00"
     slottype: special
@@ -393,13 +393,13 @@ schedule-friday:
     tracks:
       - track:
             name: Track 1
-            title: "When Idioms Become Bottlenecks"
-            id: when-idioms-become-bottlenecks
-            speaker: Travis Bischel
-            slug: travis-bischel
+            title: "Seven ways to profile Go applications"
+            slug: dave-cheney
+            speaker: Dave Cheney
+            id: seven-ways-to-profile-go-applications
             level: Intermediate
             description: |
-              Idiomatic Go code is composable and easy to understand, greatly improving the experience of writing new code and contributing to unfamiliar code bases. This allows Go to compete as a language suitable for myriad tasks. When using Go as a low-level systems language, occasionally idioms come back to bite you.<br><br>Idioms are generally great: they provide portability guarantees as well as a common baseline for programmers. However, these idioms sometimes break down when applied to scalable systems code. For example, we’re told not to use the "unsafe" package, instead, avoid performing “unsafe” memory operations. Similarly, don't use "atomic, use "sync" instead. In essence, “Don't be clever.” In some cases, following these idioms to the letter becomes a real bottleneck.<br><br>In this talk, we'll explore how eschewing some of these idioms leads us to predictable latency and in some cases drastically improved throughput. We can use low level, “unsafe” primitives correctly through careful coding. We'll look at how to do this without sacrificing too much in terms of composability, comparing several concurrent communication patterns in Go to non-idiomatic counterparts in the context of a messaging platform.
+              Microbenchmarks are all fine and good, but the first step from benchmarking one function and understanding the performance of a complex application in production is a doozie.<BR><BR>This talk will cover seven different ways to profile a running Go application. We'll discuss the strengths and weaknesses of various approaches, and highlight some new options available in Go 1.7.
       - track:
             name: Track 2
             title: "Let’s build a CI/CD pipeline"
