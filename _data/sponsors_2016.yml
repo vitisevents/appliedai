@@ -25,6 +25,12 @@
         We’re looking for talented, passionate, and high-bandwidth individuals who want to revolutionize the way video is experienced on every screen. 
 
         We're a global company with developers around the world. We've started expanding our London development team located in Covent Garden who are building our Next Generation Media Platform "Brightcove Bolt". If you want to write golang with a passionate devops oriented team, get in touch at <a href="mailto:golang-jobs@brightcove.com">golang-jobs@brightcove.com</a>.
+    - name: "HomeMade Digital"
+      slug: homemade
+      url: http://www.homemadedigital.com/
+      imageType: png
+      about:
+        "HomeMade helps large and innovative charities to really change the world! We create brilliant supporter journeys to raise more money and reach more people. We lean on technology and our experience to help optimise both acquisition and retention. We specialise in supporter engagement, digital and TV fundraising, fresh creative campaigns, storytelling and complex consulting challenges!"
 - type: Silver Sponsors
   sponsors:
     - name: "Vistas"
