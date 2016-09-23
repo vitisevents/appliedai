@@ -58,6 +58,11 @@
               title: SOLID Go design
               slug: dave-cheney
               speaker: Dave Cheney
+              handle: davecheney
+              company: AusDTO
+              photo: 1
+              bio:  |
+                David is a software engineer, author, blogger, and speaker from Sydney, Australia as well as a long time contributor to the Go project, focussing on performance and the application of Go to small computers. David also runs the Sydney Go Users' group.
               id: solid-go-design
               video: zzAdEt3xZ1M
     - time: "10.40"
@@ -73,6 +78,11 @@
              title: Idiomatic Go Tricks
              slug: mat-ryer
              speaker: Mat Ryer
+             handle: matryer
+             company: GrayMeta, Inc.
+             photo: 1
+             bio:  |
+               Programming since age 6 (Mat would type BASIC code out from computer magazines with his father to make little programs and games), Mat has always had a keen obsession with programming. When Go came along, he loved the philosophy and the elegance of the language, and has been using it since before v1. In 2015 his first book Go Programming Blueprints was published. Last year he spoke about Building APIs at Golang UK and now he’s back this year to bang on about Go.
              id: idiomatic-go-tricks
              level: Advanced/Niche/Technical
              description: |
@@ -83,6 +93,11 @@
               title: Applied Go kit
               slug: peter-bourgon
               speaker: Peter Bourgon
+              handle: peterbourgon
+              company: Weaveworks
+              photo: 1
+              bio:  |
+                Peter Bourgon is a distributed systems engineer who has seen things. He's been a Go programmer and advocate since day 1, and has written Go in production for the better part of 4 years. Peter has worked on infrastructure at Bloomberg, SoundCloud, and now works on software-defined networking and monitoring at Weaveworks.
               id: applied-go-kit
               level: Intermediate
               description: |
@@ -104,6 +119,10 @@
               id: when-idioms-become-bottlenecks
               speaker: Travis Bischel
               slug: travis-bischel
+              company: Fastly
+              photo: 1
+              bio: |
+                Travis works as a Software Engineer at Fastly, where he most recently replaced and scaled the entire stats pipeline and its consumers. In the outside world, you can find him cursing Haskell’s difficulty, thinking of Rust's merits, and planning weekend nature getaways to disconnect.
               level: Intermediate
               description: |
                 Idiomatic Go code is composable and easy to understand, greatly improving the experience of writing new code and contributing to unfamiliar code bases. This allows Go to compete as a language suitable for myriad tasks. When using Go as a low-level systems language, occasionally idioms come back to bite you.<br><br>Idioms are generally great: they provide portability guarantees as well as a common baseline for programmers. However, these idioms sometimes break down when applied to scalable systems code. For example, we’re told not to use the "unsafe" package, instead, avoid performing “unsafe” memory operations. Similarly, don't use "atomic, use "sync" instead. In essence, “Don't be clever.” In some cases, following these idioms to the letter becomes a real bottleneck.<br><br>In this talk, we'll explore how eschewing some of these idioms leads us to predictable latency and in some cases drastically improved throughput. We can use low level, “unsafe” primitives correctly through careful coding. We'll look at how to do this without sacrificing too much in terms of composability, comparing several concurrent communication patterns in Go to non-idiomatic counterparts in the context of a messaging platform.
@@ -113,6 +132,11 @@
               title: "Cloud in your Cloud"
               slug: matthew-campbell
               speaker: Matthew Campbell
+              handle: kanwisher
+              company: DigitalOcean
+              photo: 1
+              bio:  |
+                Matthew Campbell is a microservices scalability expert at DigitalOcean, where he builds the future of cloud services. Matthew is a founder of Errplane and Langfight. In the past, he worked at Thomson Reuters, Bloomberg, Gucci, and Cartoon Network. Matthew recently presented at GothamGO, Velocity NYC, and GopherCon India and is the author of Microservices in Go, published by O’Reilly. He blogs at <a href="http://Kanwisher.com">Kanwisher.com</a>.
               id: cloud-in-your-cloud
               level: Intermediate
               description: |
@@ -136,6 +160,10 @@
               title: "Advanced testing concepts for Go 1.7"
               slug: marcel-van-lohuizen
               speaker: Marcel van Lohuizen
+              company: Google
+              photo: 1
+              bio:  |
+                Marcel van Lohuizen works on the Go team at Google. Before working on the Go team, he worked on search and Borg (Google’s large-scale cluster manager), among other things.
               id: advanced-testing-concepts-for-go-1.7
               level: Advanced/Niche/Technical
               description: |
@@ -146,6 +174,11 @@
               title: Developing Apps for Developing Countries with go-mobile
               slug: natalie-pistunovich
               speaker: Natalie Pistunovich
+              handle: nataliepis
+              company: adjust.com
+              photo: 1
+              bio:  |
+                Natalie is a Backend Developer at adjust. Prior to that she was part of the Silicon Integration team at Intel, and graduated with a B.Sc. in Computer and Software Engineering from the Technion. In her free time she organizes the Golang Berlin meetups, leads the Women Techmakers in Berlin and appreciates good music.
               id: apps-for-developing-countries
               level: Beginner/Introductory
               description: |
@@ -166,6 +199,11 @@
               title: "A Beginners Guide to Context"
               slug: paul-crawford
               speaker: Paul Crawford
+              handle: paulcrawford
+              company: Daily Burn
+              photo: 1
+              bio:  |
+                Paul Crawford is the CTO of Daily Burn a fitness industry leader in streaming video, where he leads an amazing team of developers, designers and testers. Paul has a background in web and iOS development before finding Go as his language of choice. He has been working on consumer web products for the last 9 years with a focus on fitness and health.
               id: a-beginners-guide-to-context
               level: Beginner/Introductory
               description: |
@@ -174,8 +212,13 @@
         - track:
               name: Side Track
               title: Go from Dev to Prod
-              slug: florin-pățan
+              slug: florin-patan
               speaker: Florin Pățan
+              handle: dlsniper
+              company: YouView TV Limited
+              photo: 1
+              bio:  |
+                I'm a gopher for a few years now and I've used to do various things from simple toy apps to writing a startup based on it. I'm one of the organizers of the Go meetup in London and former organizer of GDG Berlin Golang and AWS Berlin User Group. In my spare time I pretend to contribute to the Go plugin for IntelliJ and other open-source projects.
               id: go-for-devops
               level: Beginner/Introductory
               description: |
@@ -201,6 +244,11 @@
               name: Sainsbury's Track
               title: "Design patterns in Microservices architectures and Gilmour"
               slug: piyush-verma
+              handle: meson10
+              company: Datascale.io
+              photo: 1
+              bio:  |
+                Piyush Verma is a Platform and Infrastructure consultant with <a href="http://datascale.io">datascale.io</a>. He is an ex-KDE developer and previously created http://siminars.com. He likes Multiprocessing, Distributed systems, APIs and automating everything. <br>He has been churning Go code in production since late 2011. When not coding he can be found cycling around the town.
               speaker: Piyush Verma
               id: design-patterns-in-microservices
               level: Intermediate
@@ -212,6 +260,11 @@
               title: "Dropping down: Go functions in assembly"
               slug: michael-munday
               speaker: Michael Munday
+              handle: mikemunday
+              company: IBM
+              photo: 1
+              bio:  |
+                Michael is a software developer in the IBM Linux on z Systems Open Source Ecosystem team in Toronto. He is part of the group that recently ported the Go toolchain to IBM's z/Architecture (s390x). Before joining IBM Michael worked on code targeting FPGAs leading to his keen interest in low-level programming.
               id: dropping-down
               level: Advanced/Niche/Technical
               description: |
@@ -229,6 +282,11 @@
               name: Sainsbury's Track
               title: "What every developer should know about logging"
               slug: slawosz-slawinski
+              handle: slawosz
+              company: Stratajet.com
+              photo: 1
+              bio:  |
+                <a href="https://github.com/slawosz">Slawosz Slawinski</a> is a software developer from London, UK working at <a href="http://stratajet.com">Stratajet.com</a>. He started using Go in 2013 for work and side projects, and believes it is most universal language in industry. Besides coding, he likes aviation, traveling and books.
               speaker: Slawosz Slawinski
               id: what-every-developer-should-know-about-logging
               level: Intermediate
@@ -240,6 +298,11 @@
               title: "Static Deadlock Detection for Go"
               slug: nicholas-ng
               speaker: Nicholas Ng
+              handle: nicholascwng
+              company: Imperial College London, UK
+              photo: 1
+              bio:  |
+                Nicholas Ng is a programming language and concurrency researcher at Imperial College London. His research applies session types - types for communication - as a programming abstraction and model, and as a means to understanding concurrency. He recently discovered Go and is now part of a team of concurrency researchers at Imperial to formalise and understand concurrency in Go.
               id: static-deadlock-detection-for-go
               level: Advanced/Niche/Technical
               description: |
@@ -260,6 +323,11 @@
               title: "Building an enterprise service in Go"
               slug: marcus-olsson
               speaker: Marcus Olsson
+              handle: marcusolsson
+              company: Klarna
+              photo: 1
+              bio:  |
+                Marcus Olsson is an infrastructure developer at <a href="http://www.klarna.com">Klarna</a>, previously <a href="http://www.citerus.se">Citerus</a>, who has been traveling between the lands of infrastructure and business systems, working on microservice architectures. He spends a fair share of his spare time in his .vimrc and i3 config, and you are very likely to see him attending or speaking at the Stockholm Go meetups.
               id: building-an-enterprise-service-in-go
               level: Intermediate
               description: |
@@ -270,6 +338,11 @@
               title: "Advanced Patterns with io.ReadWriter"
               slug: paul-bellamy
               speaker: Paul Bellamy
+              handle: pyrhho
+              company: Weaveworks
+              photo: 1
+              bio:  |
+                Paul is a London-based Software Engineer building the future of application deployment at Weaveworks. Having bounced between development and operations, his previous experience includes Internet of Things messaging protocols, time-series data analysis, and E-commerce operations.
               id: advanced-patterns-with-io.ReadWriter
               level: Advanced/Niche/Technical
               description: |
@@ -286,8 +359,12 @@
         - track:
               name: Sainsbury's Track
               title: "Grand Treatise of Modern Instrumentation and Orchestration"
-              slug: björn-rabenstein
+              slug: bjoern-rabenstein
               speaker: Björn Rabenstein
+              company: SoundCloud
+              photo: 1
+              bio:  |
+                Björn is a Production Engineer at <a href="https://soundcloud.com/">SoundCloud</a>, one of the main <a href="https://prometheus.io">Prometheus</a> developers, and the maintainer of the Go client library for Prometheus. Previously, he was a <a href="https://landing.google.com/sre/">Site Reliability Engineer</a> at <a href="https://www.google.com">Google</a> and a number cruncher for <a href="https://scholar.google.de/citations?user=NPn0JJEAAAAJ&amp;hl=en">science</a>.
               id: grand-treatise-of-modern-instrumentation
               level: Intermediate
               description: |
@@ -298,6 +375,11 @@
               title: "Implementing Software Machines in Go (and C)"
               slug: eleanor-mchugh
               speaker: Eleanor McHugh
+              handle: feyeleanor
+              company: Innovative Identity Solutions
+              photo: 1
+              bio:  |
+                London-based hacker Ellie is the sometime writer of A Go Developer's Notebook. During the course of her career she's worked on mission critical systems ranging from avionics to banking security and digital trust arbitration. Ellie is co-founder of Innovative Identity Solutions, a startup focused on driving innovation in the world of digital identity and personal privacy. As a responsible parent Ellie enjoys polyhedral dice, home brewing and gothic music.
               id: implementing-software-machines-in-go
               level: Intermediate
               description: |
@@ -337,6 +419,11 @@
               title: "GoBridge and the Go Community: Initiatives and Opportunities"
               slug: carlisia-campos
               speaker: Carlisia Campos
+              handle: carlisia
+              company: Fastly
+              photo: 1
+              bio:  |
+                Carlisia is a Distributed Systems Engineer at <a href="https://www.fastly.com/">Fastly</a>, the only real-time CDN that gives businesses complete control over how they serve content. She is an active member of the Go community: she co-hosts the weekly <a href="http://www.gotime.fm/">Go Time podcast</a> and is a co-founding member of <a href="http://www.golangbridge.org/">GoBridge</a>. Carlisia holds a Masters degree in Computer Science from Boston University and has also been an entrepreneur, having run her own SaaS company. When she is not focused on Go and networks, she can be found running.
               id: gobridge-and-the-go-community
               description: |
                 "The Go community is fairly homogeneous and missing out on what a more diverse community can accomplish. More diversity can have a greater impact on our community’s ability to be more innovative and creative, and to find solutions to problems we don’t even know we have yet. With this in mind, GoBridge was created to focus on initiatives that provide safe and accessible environments for a variety of people to learn from each other. In this talk I will share the different initiatives GoBridge volunteers are working on to increase adoption of Go and diversity in our community, and suggest super simple ways to contribute."
@@ -355,6 +442,11 @@
               id: managing-and-scaling-real-time-data-pipelines-using-go
               speaker: Jennie Lees
               slug: jennie-lees
+              handle: jennielees
+              company: Riot Games
+              photo: 1
+              bio:  |
+                Jennie is a software engineer at Riot Games in Los Angeles, where she works on real-time monitoring and service deployment systems as well as sharpening her top lane skills. A lifelong gamer, she previously launched a gaming platform at Google, then bounced around a few startups wearing engineering and CTO hats before landing in LA. She originally hails from the UK where she studied computer science at Cambridge.
               level: Intermediate
               description: |
                 Go's concurrency model lends itself nicely to building real-time data pipelines, but how does this work out at scale? At Riot, we handle millions of player events, metrics and logs daily through a series of Go-based microservices -- this tutorial will help attendees get comfortable with Go concurrency in practice, and walk through some of the best practices for architecting and operating real-time distributed systems with Go at their heart, including lessons learned along the way.
@@ -365,6 +457,10 @@
               id: how-to-raise-a-gopher-in-record-time
               speaker: Tiffany Jernigan
               slug: tiffany-jernigan
+              handle: tiffanyfayj
+              photo: 1
+              bio:  |
+                Tiffany currently is a software engineer consulting for Docker. She previously was at Intel Corporation as a cloud software engineer in the Software Defined Infrastructure (SDI) group and is a graduate from the Georgia Institute of Technology. After pursuing a career in electrical engineering, she decided to transition to software engineering. When Tiffany is not writing software, she is learning French, reading mystery novels, in the gym practicing gymnastics, or spending time with family and friends.
               level: Beginner/Introductory
               description: |
                 As an electrical engineer, both in college and at Intel, my exposure to software development was limited. I have been interested in software development, began learning on my own and then I got an opportunity to shift inside Intel. The team I joined was writing code in Go and I had a lot to learn quite quickly. For those who are new to Go and learning the language, having the right resources, especially early on, can make all the difference. Without knowing where to find them, a lot of time can be spent searching. I want to share what helped me accelerate my learning, which is not over, by the way, and never will be. 
@@ -384,6 +480,11 @@
               id: building-cloud-native-applications-with-go
               speaker: Mandy Waite
               slug: mandy-waite
+              handle: tekgrrl
+              company: Google
+              photo: 1
+              bio:  |
+                Based in London, UK, Mandy is a Developer Relations Engineer at Google specialising in Container and Cloud technologies and working to make the world a better place for developers building applications for the Cloud.
               level: Intermediate
               description: |
                 Seems that everywhere you look now large scale, bleeding edge cloud technology projects are being written in the Go Programming Language including many of the the current wave of 'Cloud Native' applications and services such as Kubernetes (Container management and orchestration) and Prometheus (systems and service monitoring). In this talk we'll look into why Go is fast becoming the "Cloud Programming Language" and show you how you can apply the lessons learned on these Open Source projects to building your own Cloud Native apps including deep dives and demos around containerization, deployment and scalability.
@@ -395,6 +496,11 @@
               id: building-mobile-sdks
               speaker: Nic Jackson
               slug: nic-jackson
+              handle: sheriffjackson
+              company: Notonthehighstreet.com
+              photo: 1
+              bio:  |
+                Nic Jackson is a software engineering evangelist working for <a href="http://notonthehighstreet.com">notonthehighstreet.com</a>, with over 20 years experience in software development and leading software development teams.  A huge fan of mobile application and micro service architecture, constantly looking out for the most efficient way to re-use code and improve development flow. <BR> In his spare time Nic organizes Wild West Tech Talks a meet up group in West London, coaches and mentors at <a href="codebar.io">codebar.io</a> and Coder Dojo, speaks and evangelises good coding practice, process and technique and works to raise money for a charity he runs with his wife.
               level: Intermediate
               description: |
                 You have built your shiny backend API for your Kitten as a Service platform and whilst you've tried to keep the API contract small and succinct the the uptake has been no where near as fast as you wanted, mobile developers are not integrating your API into their apps.<br><br>The key problem is that pretty much everyone is lazy, I am and so are you, admit it.  We want to concentrate our time writing application features not writing scaffold and integration code, as an API provider this is why you need an easy to use SDK for others to consume.<br><br>In this talk I will run through such an example and will show you step by step just how easy it is to leverage the power of Go to create native performing SDKs for both iOS and Android.  Of course this is but a small part of what you can achieve with GoMobile but the techniques you will learn in this session will equip you to take things to the next level.
@@ -412,6 +518,11 @@
               title: "Seven ways to profile Go applications"
               slug: dave-cheney
               speaker: Dave Cheney
+              handle: davecheney
+              company: AusDTO
+              photo: 1
+              bio:  |
+                David is a software engineer, author, blogger, and speaker from Sydney, Australia as well as a long time contributor to the Go project, focussing on performance and the application of Go to small computers. David also runs the Sydney Go Users' group.
               id: seven-ways-to-profile-go-applications
               level: Intermediate
               description: |
@@ -423,6 +534,11 @@
               id: build-a-ci-cd-pipeline
               speaker: Jean de Klerk
               slug: jean-de-klerk
+              handle: jadekler
+              company: Pivotal
+              photo: 1
+              bio:  |
+                Jean is a consultant and open source evangelist at Pivotal helping companies achieve success through the agile process, moving to cloud-ready apps, and enabling developers on technologies. Jean also works on CloudFoundry, Pivotal's open source PaaS, building highly concurrent microservices in Go. Outside of work, Jean contributes to open source libraries, tinkers with Arduinos and Raspberry Pis, and enjoys the Colorado outdoors.
               level: Beginner/Introductory
               description: |
                 Continuous integration/deployment is a methodology for making small, iterative changes that get deployed frequently. Many companies have reservations about adopting this strategy, from small startups with important deadlines to large enterprises with lengthy release cycles. We’ll explore the cost and value of the CI/CD methodology and how it fits into your organization, then set up a CI/CD pipeline using a simple Go app, Cloudfoundry, and a CI/CD server to see it in action.
@@ -443,6 +559,10 @@
               id: The-dark-side-of-microservices
               speaker: Jelmer Snoeck
               slug: jelmer-snoeck
+              company: LostMy.Name
+              photo: 1
+              bio:  |
+                Jelmer is a software engineer at Lostmy.name looking after platform reliability and performance.
               level: Beginner/Introductory
               description: |
                 The term "microservices" has been around for a while now. We've seen a lot of information on why you should adopt this type of architecture, but no one tells you why you shouldn't. This talk won't do that either, but we'll go over some of the issues and traps that microservices bring with it.<br><br>We'll look at what kind of tools you need to get a system like this up and running. What kind of decisions do you have to take to roll out a system like this?<br><br>How do you communicate between services? REST or RPC? XML or JSON? What framework do we use? micro or go-kit? Where do we store our metrics? How do we create new services? How do we develop these newly created services and communicate with existing services?<br><br>These are all decisions a team can get hung up on and spend a lot of time on. This talk aims to help in the decision making and give some insights in our decisions.<br><br>Besides the tools and decisions, we'll also look at the extra complexity this system brings with it. How do you debug multiple services? How do you keep track of all these services?
@@ -453,6 +573,11 @@
               id: a-go-ide
               speaker: Alexander Zolotov
               slug: alexander-zolotov
+              handle: alex_zolotov
+              company: JetBrains
+              photo: 1
+              bio:  |
+                Alexander Zolotov works at JetBrains on the WebStorm Team. He is the creator of the <a href="https://github.com/go-lang-plugin-org/go-lang-idea-plugin/">Go plugin for IntelliJ IDEA</a>.
               level: Beginner/Introductory
               description: |
                 With Go, developers use many different setups, one of the most common being editors in combination with command line tools. So one might question how using this setup differs from an IDE. What benefits does the latter provide?<br><br>We’re going to share the journey of us having written a Go IDE based on IntelliJ Platform. We’ll see how IntelliJ provides the infrastructure for building static analysis engines. Inspections, with their quick fixes, “Find Usages” of symbols, refactorings and navigation are made possible when the code being analysed.<br><br>We’ll see some of these benefits and the challenges confronted in the process.
@@ -470,7 +595,11 @@
               title: "Building your own log-based message queue in Go"
               id: building-your-own-log-based-message-que-in-go
               speaker: Víctor Ruiz
-              slug: víctor-ruiz
+              slug: victor-ruiz
+              company: "simplesurance GmbH"
+              photo: 1
+              bio:  |
+                Víctor works as platform architect at simplesurance and not long ago at classmarkets, where he has been designing and building Go based microservice systems for more than 3 years. Clinically allergic to complexity, Victor fell in love with Go at first sight. Previously he worked at one of the first social media monitoring companies in Europe, where he had to deal with big data before it was cool.
               level: Intermediate
               description: |
                 As applications become more data-intensive and with the rise of event based architectures, terms like stream processing, ETL and data integration, become normal vocabulary for many organizations. At the center of many of these systems we find Apache Kafka, the state of the art when it comes to storing and moving around large amounts of data.<br><br>Kafka, together with Zookeeper, forms a large and complex system. But some of its unique properties like strong ordering and constant time read/write derive from its simple core data structure, the log. We'll briefly define what’s really a “log”, and how logs are at the core of many data stores.<br><br>We’ll see how a fully functional log-based queue can be rather simple to implement, you can build it yourself, and in this talk I’ll show how I’ve been building my own.<br><br>We’ll walk through the basic building blocks required to implement a pub/sub queue around a log. Segments, data indexes, offset management, etc. While I demo NetLog (netlog.io), my attempt to create a lightweight and easy-to-use log-based message queue in Go. And BigLog, its building blocks library that you can use to create your own queue.
@@ -481,6 +610,11 @@
               id:  what-is-a-container
               speaker: Liz Rice
               slug: liz-rice
+              handle: lizrice
+              company: Microscaling Systems
+              photo: 1
+              bio:  |
+                Liz Rice, co-founder of Microscaling Systems, has a wealth of software development, architecture &nbsp; management experience in technology sectors including VOD, music, VoIP and the charity sector. When not building startups and writing code, she loves riding bikes in places with better weather than her native London.
               level: Advanced/Niche/Technical
               description: |
                 Everyone has heard of Docker, but what is a container? Is it really "a lightweight VM"? In this talk we'll dispel the magic by writing a container in about 100 lines of Go.
@@ -499,6 +633,11 @@
               id: simplifying-building-and-managing-microservices-with-micro
               speaker: Asim Aslam
               slug: asim-aslam
+              handle: chuhnk
+              company: Micro
+              photo: 1
+              bio:  |
+                Asim Aslam is an engineer with a background in distributed systems and systems engineering. He's currently working on Micro, an open source ecosystem that simplifies building and managing microservices. He was previously at Hailo, where he helped build their global microservice platform with over 200 services in production. Before that, he was an SRE at Google.
               level: Intermediate
               description: |
                 We're moving towards a world of infinite compute with the public cloud but leveraging it still proves to be difficult. Containers are naturally guiding us towards developing distributed systems but the tools to help build them are still formulating. Micro looks to solve these problems by providing the fundamental building blocks for building and managing microservices.
@@ -509,6 +648,11 @@
               id: real-time-go
               speaker: Andreas Krennmair
               slug: andreas-krennmair
+              handle: der_ak
+              company: travel audience GmbH
+              photo: 1
+              bio:  |
+                Andreas Krennmair is a software developer at <a href="https://www.travelaudience.com/">travel audience GmbH</a> in Berlin, Germany, where he works on extending, maintaining, and scaling their real-time bidding and adserving infrastructure. He has used Go for private projects since late 2009, and professionally for about 3 years. Ten years ago, he initiated and drove forward the <a href="http://www.newsbeuter.org/">newsbeuter</a> open source project to develop a fast and usable RSS feed reader for text terminals. Outside of IT, he blogs about beer, with an interest in historic styles and homebrewing.
               level: Advanced/Niche/Technical
               description: |
                 Garbage-collected languages like Go usually don't have the reputation of being particularly well-suited for real-time applications. As an online advertising company with a focus on the travel industry, we extensively use real-time bidding (RTB) to programmatically buy ad impression through automated auctions. In order to effectively take part in these auctions we have developed our own in-house bidder using Go.<br><br>Building a bidder to accommodate both the specific requirements of our business and the constraints of a soft real-time application while quickly iterating on new features was a big challenge. Over the course of more than two years, we have learned a number of lessons and techniques on designing, instrumenting and tuning Go applications and their underlying data stores for efficiency under real time conditions. We would like to share these in this talk.
@@ -529,6 +673,11 @@
               id: inception
               speaker: Ernesto Jimenez
               slug: ernesto-jimenez
+              handle: ernesto_jimenez
+              company: Slackline.io
+              photo: 1
+              bio:  |
+                Ernesto is the co-founder of <a href="slackline.io">slackline.io</a> and has worked on different kinds of products, from webapps to APIs and games in both startups and big corporations. He is a Google Developer Expert and maintains testify, a popular Go testing package used in projects like Kubernetes, etcd, the AWS Go SDK and many others.
               level: Intermediate
               description: |
                 Go is amazing, but sometimes we need to code lots of boiler plate. Fortunately, there are different ways you can reduce boilerplate by having programs generate all the boring code you would traditionally write by hand.<br><br>In this talk we will look into different ways you can build programs that generate source code for other programs.
@@ -539,6 +688,11 @@
               id: an-actor-model-in-go
               speaker: Bryan Boreham
               slug: bryan-boreham
+              handle: bboreham
+              company: Weaveworks
+              photo: 1
+              bio:  |
+                Bryan is Lead Engineer on the Networks team at Weaveworks, a technology company whose mission is to make developers successful with Docker. Prior to Weaveworks, Bryan built distributed systems, including a global bond-trading system crossing three continents. In his spare time, Bryan is an unlicenced taxi driver to two children, and a licensed helicopter pilot.
               level: Intermediate
               description: |
                 The actor model makes it easier to reason about the behaviour of concurrent systems. Languages such as Erlang and Scala provide actor support as standard, but it can be added to your Go programs with just a little care.<br><br>
@@ -564,6 +718,11 @@
               id: real-time-machine-learning-in-go
               speaker: Michael Bironneau
               slug: michael-bironneau
+              handle: mikebrno
+              company: Open Energi
+              photo: 1
+              bio:  |
+                Michael is a data scientist at Open Energi, where he started working in 2014 after getting a maths PhD from Loughborough University. At Open Energi he works mainly on data engineering and architecture. He is interested in processing data at scale using any means necessary.
               level: Intermediate
               description: |
                 The smart energy sector is poised to deliver huge savings through efficiency improvements and ancillary services such as Open Energi's Dynamic Demand. <br><br>This talk, aimed at Go programmers who do not have much experience with Machine Learning (ML), will start by introducing common idioms used by well known machine learning frameworks like scikit-learn and Matlab's ML Toolbox, and how they are mirrored in Go packages like Goml and Go Learn. I'll also briefly explain how one can use Storm multilang or os/exec to assemble a polyglot ML solution without requiring a data scientist to make (many) changes to their model code.<br><br>The second half of the talk will explain how we've leveraged Go primitives and cloud-based services to deliver scalable real-time machine learning services written entirely in Go with low cognitive overhead for both data scientists and developers.
@@ -574,6 +733,11 @@
               id: revolutionising-retail-with-go
               speaker: Charlie Smith
               slug: charlie-smith
+              handle: chazsmi
+              company: "Sainsbury's"
+              photo: 1
+              bio:  |
+                Charlie is a distributed systems engineer for Sainsbury’s. He’s been working with Go for the last couple of years and loves the simplicity of the language. He believes Go is an ideal language for distributed systems.
               description: |
                 In a competitive market, Sainsbury’s is on a technology transformation process which involves the adoption of Go and a journey to cloud based distributed systems at scale.<br><br>
                 The talk covers why we are increasingly choosing Go to solve these problems, architectural decisions, common mistakes, technology stack and how this delivers highly available, distributed systems that need to interact with legacy systems.
