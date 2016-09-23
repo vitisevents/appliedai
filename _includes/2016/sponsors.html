@@ -1,6 +1,6 @@
 <ul class="sponsor-list">
 
-	{% for sponsorType in site.data.sponsors_2016 %}
+	{% for sponsorType in site.data.2016.sponsors %}
 	{% for sponsor in sponsorType.sponsors %}
     <li class="sponsor-list__sponsor sponsor--{{sponsor.slug}}">
         <a target="_blank" href="{{sponsor.url}}" class="sponsor__url">
