@@ -7,75 +7,14 @@ weight: 3
   <div class="container">
     <div class="col span12">
         <h1>Schedule</h1>
-        <h3 class="centre">Wednesday 17th August 2016</h3>
+        {% for day in site.data.2016.speakers %}
+        <h3 class="centre">{{day.name}}</h3>
         <ul class="schedule">
-          {% for slot in site.data.2016.speakers.schedule-wednesday %}
+          {% for slot in day.slots %}
           <li class="slot {{slot.slottype}}">
             <span class="time">{{slot.time}}</span>
             <div class="tracks-wrapper">
               <ul class="tracks tracks-wednesday">
-                {% for track in slot.tracks %}
-                <li class="track" id="{{track.track.id}}">
-                  <span class="name">{{track.track.name}}</span>
-                  <span class="title">{{track.track.title}}</span>
-                  {% if track.track.speaker %}
-                  <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
-                  {% endif %}
-                  <p class="description">{{track.track.description}}</p>
-                  {% if track.track.menulink %}
-                      <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
-                  {% endif %}
-                  {% if track.track.video %}
-                      <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list=PLDWZ5uzn69eyh791ZTkEA9OaTxVpGY8_g">Video &raquo;</a></span>
-                  {% endif %}
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </li>
-          {% endfor %}
-        </ul>
-        <h3 class="centre">Thursday 18th August 2016</h3>
-        <ul class="schedule">
-          {% for slot in site.data.2016.speakers.schedule-thursday %}
-          <li class="slot {{slot.slottype}}">
-            <span class="time">{{slot.time}}</span>
-            <div class="tracks-wrapper">
-              <ul class="tracks tracks-thursday">
-                {% for track in slot.tracks %}
-                <li class="track" id="{{track.track.id}}">
-                    <span class="speaker-block">
-                        <span class="name">{{track.track.name}}</span>
-                        <span class="title">{{track.track.title}}</span>
-                        <span class="subtitle">{{track.track.subtitle}}</span>
-                    </span>
-                    {% if track.track.level %}
-                    <span class="level">Level: {{track.track.level}}</span>
-                    {% endif %}
-                    {% if track.track.speaker %}
-                    <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
-                  {% endif %}
-                  <span class="description">{{track.track.description}}</span>
-                  {% if track.track.menulink %}
-                      <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
-                  {% endif %}
-                  {% if track.track.video %}
-                      <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list=PLDWZ5uzn69eyh791ZTkEA9OaTxVpGY8_g">Video &raquo;</a></span>
-                  {% endif %}
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </li>
-          {% endfor %}
-        </ul>
-        <h3 class="centre">Friday 19th August 2016</h3>
-        <ul class="schedule">
-          {% for slot in site.data.2016.speakers.schedule-friday %}
-          <li class="slot {{slot.slottype}}">
-            <span class="time">{{slot.time}}</span>
-            <div class="tracks-wrapper">
-              <ul class="tracks tracks-friday">
                 {% for track in slot.tracks %}
                 <li class="track" id="{{track.track.id}}">
                   <span class="speaker-block">
@@ -89,12 +28,12 @@ weight: 3
                   {% if track.track.speaker %}
                   <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
                   {% endif %}
-                  <span class="description">{{track.track.description}}</span>
+                  <p class="description">{{track.track.description}}</p>
                   {% if track.track.menulink %}
                       <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
                   {% endif %}
                   {% if track.track.video %}
-                      <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list=PLDWZ5uzn69eyh791ZTkEA9OaTxVpGY8_g">Video &raquo;</a></span>
+                      <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list={{site.data.2016.playlist}}">Video &raquo;</a></span>
                   {% endif %}
                 </li>
                 {% endfor %}
@@ -103,6 +42,7 @@ weight: 3
           </li>
           {% endfor %}
         </ul>
+        {% endfor %}
     </div>
   </div>
 </div>
