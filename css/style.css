@@ -158,6 +158,13 @@ a.button:hover {
 	font-weight:400;
 }
 
+.button--center{
+	display:inline-block;
+	width:180px;
+	font-size:1.2em;
+	padding:0.8em 1.5em;
+}
+
 img {
 	border:0;
 	max-width:100%;
@@ -1350,7 +1357,7 @@ a.button:hover {
 	left:0;
 	top:90px;
 	width:100%;
-	height:510px;
+	height:430px;
 	z-index:1;
 	overflow:hidden;
 	background-image:url('/images/banner/slide1.png');
