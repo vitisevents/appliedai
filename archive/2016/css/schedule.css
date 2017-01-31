@@ -1,0 +1,233 @@
+h3{
+    font-size: 2em;
+}
+.centre{
+	text-align:center;
+}
+
+.schedule{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.schedule .slot{
+	height:80px;
+	overflow:hidden;
+	vertical-align:middle;
+	font-size:1em;
+	border-top:1px solid rgba(0,0,0,0.3);
+}
+
+.schedule .time{
+	float:left;
+	display:block;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	background:rgba(72,63,87,.5);
+	color:#fff;
+	font-size:1.8em;
+}
+
+.schedule .tracks-wrapper{
+	margin:0 0 0 80px;
+}
+
+.schedule .tracks{
+	display:block;
+	padding:0 0 0 10px;
+	min-height:80px;
+	vertical-align:middle;
+	font-size:1em;
+	list-style:none;
+}
+
+.schedule .break .tracks{
+	display:block;
+	max-width:90%;
+}
+
+.schedule .track{
+	white-space:nowrap;
+}
+
+.schedule .name{
+	display:none;
+	color:#000;
+}
+
+.schedule .title{
+	font-weight:400;
+}
+
+.schedule .speaker{
+	font-weight:300;
+	color:$conference-yellow;
+}
+
+.schedule .speaker:before{
+	content:" - "
+}
+
+.schedule .description, .schedule .description li{
+    color:#000;
+    display:none;
+}
+
+.schedule .special .name{
+	display:block;
+}
+
+.schedule .break{
+/*    background:rgba(92,83,108,0.4);*/
+	text-align:center;
+}
+
+.schedule .break .title{
+    font-weight:100;
+    line-height:0.7rem;
+    font-size:1em;
+}
+
+.schedule .break .time{
+	background:rgba(20,39,60,0.8);
+}
+
+.schedule .break .name{
+	white-space:none;
+	display:block;
+	font-weight:bold;
+	font-size:1.2em;
+	line-height:80px;
+	text-align:center;
+}
+
+.schedule .break .speaker{
+	display:none;
+}
+
+.schedule .talks .level{
+	display:none;
+}
+
+.schedule .break p{
+	padding-bottom:0.5em;
+}
+
+.schedule .slot.active{
+	height:auto;
+}
+
+.schedule .slot.active .name{
+	display:block;
+}
+
+.schedule .slot.active .track{
+	padding:8px 0 8px 0;
+	white-space:normal;
+}
+
+.schedule .slot.active .description {
+	display:block;
+	font-size:1em;
+}
+
+.schedule .slot.active .description li{
+	display:list-item;
+    list-style-type: square;
+    font-size:1em;
+}
+
+.schedule .change ul{
+	display:block;
+	padding-top:20px;
+	width:90%;
+	height:30px;
+	min-height:0;
+	text-align:center;
+}
+
+.schedule .break p{
+	max-width:100%;
+}
+
+.schedule a, .schedule span, .schedule li{
+	color: #000;
+}
+
+@media (min-width: 1024px){
+	.schedule{
+		margin:0 0 40px 0;
+	}
+
+	.schedule .slot{
+		height:auto;
+	}
+	.schedule .tracks-wrapper{
+		padding:10px 0;
+	}
+	.schedule .tracks{
+			min-width:10%;
+	}
+	.schedule .track{
+		display:inline-block;
+		width:47%;
+		margin-right:2%;
+		white-space:normal;
+		vertical-align:top;
+	}
+	.schedule .special .track{
+		width:100%;
+		margin:0;
+	}
+	.schedule .special:first-child .speaker{
+		margin-bottom:7px;
+	}
+	.schedule .break .track{
+		width:60%;
+		margin:0;
+	}
+	.schedule .break .name{
+		line-height:3rem;
+	}
+	.schedule .description {
+		display:block;
+    }
+    .schedule .description li{
+    	display:list-item;
+        list-style-type: square;
+	}
+	.schedule .name{
+		display:block;
+	}
+	.schedule .title{
+		display:block;
+		font-weight:400;
+		font-size:1.6rem;
+        line-height: 1.7rem;
+		color:#000;
+        margin-top: 10px;
+	}
+	.schedule .subtitle{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .schedule .talks .level{
+        display:block;
+    }
+	.schedule .speaker{
+		display:block;
+		clear:both;
+		margin-bottom:15px;
+	}
+	.schedule .speaker:before{
+			content:"";
+	}
+    .schedule .talks .speaker-block{
+        display:block;
+        height:100px;
+    }
+}
+

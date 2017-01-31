@@ -1,0 +1,197 @@
+.centre{
+	text-align:center;
+}
+
+.schedule{
+	list-style:none;
+	margin:0;
+	padding:0;
+	border-top:1px solid rgba(255,255,255,0.1);
+}
+
+.schedule .slot{
+	height:80px;
+	overflow:hidden;
+	vertical-align:middle;
+	font-size:1em;
+	background:rgba(92,83,108,0.6);
+	border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.schedule .time{
+	float:left;
+	display:block;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	background:rgba(72,63,87,.5);
+	color:#fff;
+	font-size:1.8em;
+}
+
+.schedule .tracks-wrapper{
+	margin:0 0 0 80px;
+}
+
+.schedule .tracks{
+	display:block;
+	padding:0 0 0 10px;
+	min-height:80px;
+	vertical-align:middle;
+	font-size:1em;
+	list-style:none;
+}
+
+.schedule .break .tracks{
+	display:block;
+	max-width:90%;
+}
+
+.schedule .track{
+	white-space:nowrap;
+}
+
+.schedule .name{
+	display:none;
+	color:#fff;
+}
+
+.schedule .title{
+	font-weight:400;
+}
+
+.schedule .speaker{
+	font-weight:300;
+	color:$conference-yellow;
+}
+
+.schedule .speaker:before{
+	content:" - "
+}
+
+.schedule .description{
+	display:none;
+}
+
+.schedule .special .name{
+	display:block;
+}
+
+.schedule .break{
+	background:rgba(72,63,87,.6);
+	text-align:center;
+}
+
+.schedule .break .time{
+	background:rgba(20,39,60,0.8);
+}
+
+.schedule .break .name{
+	white-space:none;
+	display:block;
+	font-weight:bold;
+	font-size:1.2em;
+	line-height:80px;
+	text-align:center;
+}
+
+.schedule .break .speaker{
+	display:none;
+}
+
+.schedule .break p{
+	padding-bottom:0.5em;
+}
+
+.schedule .slot.active{
+	height:auto;
+}
+
+.schedule .slot.active .name{
+	display:block;
+}
+
+.schedule .slot.active .track{
+	padding:8px 0 8px 0;
+	white-space:normal;
+}
+
+.schedule .slot.active .description{
+	display:block;
+	font-size:1em;
+}
+
+.schedule .change ul{
+	display:block;
+	padding-top:20px;
+	width:90%;
+	height:30px;
+	min-height:0;
+	text-align:center;
+}
+
+.schedule .break p{
+	max-width:100%;
+}
+
+.schedule a{
+	color:#87c2ed;
+}
+
+@media (min-width: 1024px){
+	.schedule{
+		margin:0 0 40px 0;
+	}
+
+	.schedule .slot{
+		height:auto;
+	}
+	.schedule .tracks-wrapper{
+		padding:10px 0;
+	}
+	.schedule .tracks{
+			min-width:10%;
+	}
+	.schedule .track{
+		display:inline-block;
+		width:47%;
+		margin-right:2%;
+		white-space:normal;
+		vertical-align:top;
+	}
+	.schedule .special .track{
+		width:100%;
+		margin:0;
+	}
+	.schedule .special:first-child .speaker{
+		margin-bottom:7px;
+	}
+	.schedule .break .track{
+		width:60%;
+		margin:0;
+	}
+	.schedule .break .name{
+		line-height:3rem;
+	}
+	.schedule .description{
+		display:block;
+	}
+	.schedule .name{
+		display:block;
+	}
+	.schedule .title{
+		display:block;
+		font-weight:400;
+		font-size:1.2rem;
+		color:#fff;
+	}
+	.schedule .speaker{
+		display:block;
+		clear:both;
+		margin-bottom:15px;
+	}
+	.schedule .speaker:before{
+			content:"";
+	}
+}
