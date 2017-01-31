@@ -1,0 +1,58 @@
+//Row basics
+.row{
+	&.-collapse{
+		padding:0;
+	}
+
+	&.-no-top-padding{
+		padding-top:0;
+	}
+
+	&.-medium{
+		background:$color-grey-light;
+	}
+}
+
+//Newsletter
+.newsletter{
+	
+	h4{
+		font-size:2rem;
+		line-height:1.2em;
+		margin:0 0 0.6em 0 !important;
+	}
+
+	form{
+		padding-top:2rem;
+
+		.button{
+			width:100%;
+
+			@include respond(medium){
+				width:auto;
+			}
+		}
+	}
+}
+
+//Sponsors
+.sponsor-bar{
+	border-top:1px solid $color-grey;
+	padding:50px 0;
+
+	.sponsor-list{
+		margin:0 0 20px 0;
+		
+		li{
+			display:inline-block;
+			margin:0 10px;
+			vertical-align:middle;
+		}
+
+		img{
+			display:block;
+			max-width:150px;
+			max-height:70px;
+		}
+	}
+}
