@@ -1,2 +1,6 @@
 gems:
   - jekyll-redirect-from
+exclude:
+  []
+keep_files:
+  [archive]
