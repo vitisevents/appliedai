@@ -1,28 +1,37 @@
-<div id="header" class="header">
-
-	<div class="container">
-		<div class="row">
-			<div class="span12">
-	        	<img src="/images/golang_gopher.svg" alt="Golang Gopher" class="gopher">
-				<h1><a href="/"><img src="/images/golang-uk-conference.png" alt="Golang UK Conference" class="logo" /></a></h1>
-				<h2 class="menulink"><a href="#">Menu</a></h2>
-
-				<!-- Start Menu -->
-				<div id="menu">
-					<ul>
-						<li><a href="/about">About</a></li>
-                        <li><a href="/diversity">Diversity</a></li>
-						<li><a href="/speakers">Speakers</a></li>
-						<li><a href="/sponsors">Sponsors</a></li>
-						<li><a href="/socials">Socials</a></li>
-						<li><a href="/venue">Venue</a></li>
-						<li class="current"><a href="/tickets" target="_blank">Buy tickets</a></li>
-					</ul>
-				</div>
-				<!-- End Menu -->
-
-			</div>
-			<div class="clearfix"></div>
-		</div>
+<div class="header-bar {% if page.slug == 'home' %}-inset{% endif %}">
+	<div class="wrapper">
+		<span class="pull-right">
+			17th &amp; 18th August 2017
+		</span>
+		<a href="mailto:info@golanguk.com">
+			<i class="icon -small">
+				{% include {{ icon.class | prepend: 'icons/mail' | append: '.svg' }} %}
+			</i>
+			info@golanguk.com
+		</a>
+		<a href="https://twitter.com/golangukconf" target="_blank">
+			<i class="icon -small">
+				{% include {{ icon.class | prepend: 'icons/twitter' | append: '.svg' }} %}
+			</i>@golangukconf
+		</a>
 	</div>
 </div>
+<header class="page-head {% if page.slug == 'home' %}-inset{% endif %}">
+	<div class="wrapper">
+		<div class="page-head__inner">
+			<a href="/" class="page-head__logo">
+				<img src="/assets/images/golang-uk.svg" alt="Golang UK">
+			</a>
+			<ul class="main-menu">
+				{% assign pages_list = site.pages %}
+				{% assign group = 'navigation' %}
+				{% include pages_list %}
+			</ul>
+			<button type="button" class="main-menu__toggle">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+		</div>
+	</div>
+</header>

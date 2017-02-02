@@ -1,0 +1,15 @@
+{% for weight in (1..10) %}
+	{% for node in pages_list %}
+    {% if node.weight == weight %}
+	  {% if group == null or group == node.group %}
+	    {% if page.url == node.url %}
+	      <li class="main-menu__item -is-active"><a href="{{node.url}}" class="main-menu__link -is-active">{{node.title}}</a></li>
+	    {% else %}
+	      <li class="main-menu__item"><a href="{{node.url}}" class="main-menu__link">{{node.title}}</a></li>
+	    {% endif %}
+	  {% endif %}
+	  {% endif %}
+	{% endfor %}
+{% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}

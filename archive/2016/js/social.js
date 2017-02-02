@@ -1,6 +1,6 @@
 var countUp, setCount, url;
 
-url = "http://www.phpconference.co.uk/";
+url = "http://www.golanguk.com/";
 
 $.getJSON("http://urls.api.twitter.com/1/urls/count.json?url=" + url + "&callback=?", function(json) {
   return setCount($(".twCount"), json.count);

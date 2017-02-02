@@ -1,89 +1,146 @@
 ---
-layout: "2016"
+layout: "default"
 title: Golang UK Conference
 class: home
 weight: 1
 ---
-<div class="banner-container">
-	<div class="banner smoothslides" id="banner">
-		<img src="images/banner/slide1.png" alt="" />
-		<img src="images/banner/slide2.png" alt="" />
-		<img src="images/banner/slide3.png" alt="" />
-	</div>
-</div>
-<div class="container banner-content">
-    <div class="row">
-    	<div class="span12">
-    		<div class="inner">
-    			<div class="hero hero-narrrow">
-	    			<h1>The Golang UK Conference</h1>
-					<h2>August 16<sup>th</sup>, 17<sup>th</sup> &amp; 18<sup>th</sup> 2017<br>
-                         The Brewery, Chiswell Street, London</h2>
-                    <a class="button button--center" href="/tickets">Buy Tickets Now</a>
- 				</div>
-    		</div>
-    	</div>
+
+{% include banner_home.html %}
+
+<div class="row -dark">
+    <div class="wrapper">
+        <div class="fact-wrapper">
+            <ul class="fact grid">
+                <li class="fact__item grid__item u-1/2 u-1/4@md">
+                    <span class="fact__figure">2</span>
+                    <span class="fact__label">days of learning</span>
+                </li>
+                <li class="fact__item grid__item u-1/2 u-1/4@md">
+                    <span class="fact__figure">3</span>
+                    <span class="fact__label">simultaneous tracks</span>
+                </li>
+                <li class="fact__item grid__item u-1/2 u-1/4@md">
+                    <span class="fact__figure">3<sup>rd</sup></span>
+                    <span class="fact__label">annual conference</span>
+                </li>
+                <li class="fact__item grid__item u-1/2 u-1/4@md">
+                    <span class="fact__figure">20</span>
+                    <span class="fact__label">hand-picked speakers</span>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
-<div class="row row--pad">
-	<div class="container">
-		<div class="col span4">
-			<div class="inner">
-				<h2>About the Conference</h2>
-				<p>We are pleased to announce the third annual Golang UK Conference.</p>
-				<p>Two days of amazing talks, plentiful networking opportunities and great socials. Golang UK offers the most up-to-date Go information and training.</p>
-				<p><a href="/about" class="more">» Read more</a>
-			</div>
-		</div>
-		<div class="col span4">
-			<div class="inner">
-				<h2>Workshop Day</h2>
-				<p>Join us for a full day of training on Wednesday 16th August 2017, the day before the main conference starts.</p>
-				<p>There will be two choices of workshop, with full details to be released later in the year.</p>
-				<p><a href="/workshop-day" class="more">» Find out more here</a>
-			</div>
-		</div>
-		<div class="col span4">
-			<div class="inner">
-				<h2>Get Your Tickets</h2>
-				<p>Join us in August for another sell-out conference.</p>
-				<p>A limited number of early bird tickets are on sale now - get yours while they last.<br>&nbsp;</p>
-				<a href="/tickets" class="button">Get tickets now</a>
-			</div>
-		</div>
-	</div>
+
+<div class="row -about">
+    <div class="wrapper">
+        <h3>About the conference</h3>
+        <p>We are pleased to announce the 3rd Annual Golang UK Conference. Two days of amazing talks, plentiful networking opportunities and great socials. Golang UK offers the most up-to-date Go programming information and training.</p>
+    </div>
+    <div class="wrapper">
+        <div class="grid">
+            <div class="grid__item u-1/3@md u-1/2@sm">
+                <div class="panel speakers">
+                    <div class="gradient -green"></div>
+                    <a href="/speakers">
+                        <span class="panel__title">Our Speakers</span>
+                    </a>
+                </div>
+            </div>
+            <div class="grid__item u-1/3@md u-1/2@sm">
+                <div class="panel schedule">
+                    <div class="gradient -red"></div>
+                    <a href="/schedule">
+                        <span class="panel__title">Conference Schedule</span>
+                    </a>
+                </div>
+            </div>
+            <div class="grid__item u-1/3@md u-1/2@sm">
+                <div class="panel venue">
+                    <div class="gradient -purple"></div>
+                    <a href="/venue">
+                        <span class="panel__title">The Venue</span>
+                    </a>
+                </div>
+            </div>
+            <div class="grid__item u-1/3@md u-1/2@sm">
+                <div class="panel tickets">
+                    <div class="gradient -orange"></div>
+                    <a href="/tickets">
+                        <span class="panel__title">Tickets</span>
+                    </a>
+                </div>
+            </div>
+            <div class="grid__item u-1/3@md u-1/2@sm">
+                <div class="panel sponsors">
+                    <div class="gradient -blue"></div>
+                    <a href="/sponsors">
+                        <span class="panel__title">Sponsors</span>
+                    </a>
+                </div>
+            </div>
+            <div class="grid__item u-1/3@md u-1/2@sm">
+                <div class="panel socials">
+                    <div class="gradient -pink"></div>
+                    <a href="/socials">
+                        <span class="panel__title">Socials</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="row row--dark row--pad quotes">
-	<div class="span12">
-		<div class="inner container">
-			<h2 class="center">Join hundreds of leading Golang developers</h2>
-			<h3 class="center">
-				Read about the 2016 conference on Twitter by searching <a href="https://twitter.com/search?q=%23gouk16" target="_blank">#gouk16 tweets</a>.
-			</h3>
 
-			<div class="span4">
-				<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Big thanks to <a href="https://twitter.com/hashtag/gouk16?src=hash">#gouk16</a> of team for putting on a lovely event &amp; <a href="https://twitter.com/hashtag/golang?src=hash">#golang</a> community for being lovely people to hang out with. Till next time 😘👋</p>&mdash; Jenny Wong (@miss_jwo) <a href="https://twitter.com/miss_jwo/status/766772855090577409">August 19, 2016</a></blockquote>
-			</div>
-
-			<div class="span4">
-				<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">glad to have been part of <a href="https://twitter.com/hashtag/gouk16?src=hash">#gouk16</a>: so many brilliant talented people in one place. Kudos to all the speakers, organisers and sponsors</p>&mdash; Edoardo Scalafiotti (@edoardo849) <a href="https://twitter.com/edoardo849/status/766740950404239360">August 19, 2016</a></blockquote>
-			</div>
-
-			<div class="span4">
-				<blockquote data-cards="hidden" class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Great talks. Great people. Learned a lot and ate a lot. Can&#39;t wait for the next one! <a href="https://twitter.com/GolangUKconf">@GolangUKconf</a>  <a href="https://twitter.com/hashtag/golang?src=hash">#golang</a> <a href="https://twitter.com/hashtag/gouk16?src=hash">#gouk16</a> </p>&mdash; Leon Guianu (@leon_guianu) <a href="https://twitter.com/leon_guianu/status/766700091772170244">August 19, 2016</a></blockquote>
-			</div>
-
-			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</div>
-	</div>
+<div class="row -collapse">
+    <div class="wrapper">
+        {% include callout_tickets.html %}
+    </div>
 </div>
-<script type="text/javascript">
-	$(window).load( function() {
-		$('#banner').smoothSlides({
-			effect: 'zoomIn,zoomOut,panLeft,panRight',
-			effectDuration: 8000,
-			navigation: false,
-			pagination: false
-		});
-	});
-</script>
+
+<div class="row -about">
+    <div class="wrapper">
+        <div class="grid">
+            <div class="grid__item u-1/2@md u-1/2@sm">
+                <h3>Schedule Announced</h3>
+                <p>The Golang UK Conference is pleased to present the full schedule for the 2017 conference including workshops, keynotes, and main conference sessions.</p>
+                <p><a class="link" href="/schedule">See the full schedule</a></p>
+            </div>
+            <div class="grid__item u-1/2@md u-1/2@sm">
+                <h3>Scholarships</h3>
+                <p>Golang UK's Diversity scholarship programme provides support to members of underrepresented groups who may not otherwise be able to attend our conference for financial reasons.</p>
+                <p><a href="/diversity" class="link">Learn more about our diversity programme</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row -testimonials -medium">
+    <div class="wrapper">
+        <h2 class="text-center">Read the feedback from Golang UK 2016</h2>
+        <div class="grid">
+            <div class="grid__item u-1/3@md u-1/1@sm">
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Big thanks to <a href="https://twitter.com/hashtag/gouk16?src=hash">#gouk16</a> of team for putting on a lovely event &amp; <a href="https://twitter.com/hashtag/golang?src=hash">#golang</a> community for being lovely people to hang out with. Till next time 😘👋</p>&mdash; Jenny Wong (@miss_jwo) <a href="https://twitter.com/miss_jwo/status/766772855090577409">August 19, 2016</a></blockquote>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="grid__item u-1/3@md u-1/1@sm">
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">glad to have been part of <a href="https://twitter.com/hashtag/gouk16?src=hash">#gouk16</a>: so many brilliant talented people in one place. Kudos to all the speakers, organisers and sponsors</p>&mdash; Edoardo Scalafiotti (@edoardo849) <a href="https://twitter.com/edoardo849/status/766740950404239360">August 19, 2016</a></blockquote>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="grid__item u-1/3@md u-1/1@sm">
+                <blockquote data-cards="hidden" class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Great talks. Great people. Learned a lot and ate a lot. Can&#39;t wait for the next one! <a href="https://twitter.com/GolangUKconf">@GolangUKconf</a>  <a href="https://twitter.com/hashtag/golang?src=hash">#golang</a> <a href="https://twitter.com/hashtag/gouk16?src=hash">#gouk16</a> </p>&mdash; Leon Guianu (@leon_guianu) <a href="https://twitter.com/leon_guianu/status/766700091772170244">August 19, 2016</a></blockquote>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <p class="text-center"><a class="link" href="https://twitter.com/search?q=phpuk16" target="_blank">View more searching #phpuk16 on Twitter</a></p>
+    </div>
+</div>
+
+<div class="row -history">
+    <div class="wrapper">
+        <h3>Video Archive</h3>
+        <p>The Golang UK Conference 2016 was another great success! With almost 450 attendees across 2 days, it has been our biggest event yet. A huge thanks to all our delegates for attending and leaving feedback, thanks to all our speakers for delivering non-stop fantastic talks, and thanks to all our sponsors who made the event possible.</p>
+        <p><a href="/videos" class="link">Watch the videos</a></p>
+        {% include videos_featured.html %}
+    </div>
+</div>
