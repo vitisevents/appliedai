@@ -634,7 +634,7 @@ h3 + p + p {
     max-width: 50%; } }
 
 .link, .sponsor-list.-profiles .sponsor__link {
-  color: #203D83; }
+  color: #8A251E; }
   .link:before, .sponsor-list.-profiles .sponsor__link:before {
     padding-right: 4px;
     content: "\025B8"; }
@@ -1269,7 +1269,7 @@ input + button {
   height: 81px;
   left: 0;
   right: 0;
-  background-color: #269cce;
+  background-color: #203D83;
   z-index: 20;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4); }
   .page-head.-inset {

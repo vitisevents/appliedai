@@ -1,31 +1,7 @@
 ---
-layout: "default"
-title: Videos | Golang UK Conference
+layout: videos
+title: Golang Tutorial Videos
+metatitle: Golang Tutorial Videos
+weight: 9
 ---
-<div class="row">
-  <div class="container">
-    <div class="col span12">
-      <h1>Golang UK Conference 2016 Videos</h1>
-      <ul class="videos">
-        {% for day in site.data.2016.speakers %}
-        {% for slot in day.slots %}
-        {% for speaker in slot.tracks %}
-        {% if speaker.track.photo %}
-        <li class="video">
-          {% if speaker.track.video %}
-          <iframe src="https://www.youtube.com/embed/{{speaker.track.video}}?list={{site.data.2016.playlist}}" frameborder="0" allowfullscreen class="video-embed"></iframe>
-          {% endif %}
-          <h3 class="title">{{speaker.track.title}}</h3>
-          {% if speaker.track.speaker %}
-          <span class="speaker"><a href="/speakers/#{{speaker.track.slug}}">{{speaker.track.speaker}}</a></span>
-          {% endif %}
-          <p class="description">{{speaker.track.description}}</p>
-        </li>
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+{% include videos.html year="2016" %}
