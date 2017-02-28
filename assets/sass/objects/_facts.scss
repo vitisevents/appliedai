@@ -1,11 +1,12 @@
-$fact-size:         150px;
-$fact-size-large:   250px;
+$fact-size:         120px;
+$fact-size-large:   200px;
 
 .fact{
     position:relative;
-	list-style:none;
+    margin:-20px 0;
+    list-style:none;
     overflow:hidden;
-	@include font-family(primary);
+    @include font-family(primary);
 
     @include respond(large){
         margin-left:0 !important;
@@ -59,15 +60,15 @@ $fact-size-large:   250px;
         }
     }
 
-	&__item{
-		position:relative;
+    &__item{
+        position:relative;
         height:$fact-size;
         width:$fact-size;
-		color:$color-white;
-		text-align:center;
-		overflow:visible;
+        color:$color-white;
+        text-align:center;
+        overflow:visible;
         margin:0 auto;
-        background-color:$color-brand-secondary;
+        background-color:$color-brand-primary;
         @include border-radius(50%);
         z-index:10;
 
@@ -75,7 +76,7 @@ $fact-size-large:   250px;
             height:$fact-size-large;
             width:$fact-size-large;
         }
-	}
+    }
 
     &__text{
         @include vertical-align-center;
@@ -88,7 +89,7 @@ $fact-size-large:   250px;
             @include font-weight(light);
 
             @include respond(medium){
-                font-size:5rem;
+                font-size:4rem;
             }
 
             sup{

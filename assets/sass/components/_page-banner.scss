@@ -1,6 +1,6 @@
 .banner{
 	position:relative;
-	min-height:650px;
+	min-height:580px;
 	padding:60px 20px;
 	text-align:center;
 	background-image:url(/assets/images/banners/home3.png);
@@ -16,7 +16,7 @@
 		display:inline-block;
 		margin:0 0 10px 0;
 		max-width:220px;
-		height:242px;
+		height:180px;
 
 		@include respond(mobile-only){
 			height:130px;

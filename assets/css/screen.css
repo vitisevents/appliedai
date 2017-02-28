@@ -1202,6 +1202,7 @@ input + button {
 
 .fact {
   position: relative;
+  margin: -20px 0;
   list-style: none;
   overflow: hidden;
   font-family: "Open Sans", sans-serif; }
@@ -1280,13 +1281,13 @@ input + button {
           display: none; } }
   .fact__item {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     color: #FFFFFF;
     text-align: center;
     overflow: visible;
     margin: 0 auto;
-    background-color: #DEB732;
+    background-color: #5E1E41;
     -webkit-border-radius: 50%;
     -khtml-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1296,12 +1297,12 @@ input + button {
     z-index: 10; }
     @media (min-width: 720px) {
       .fact__item {
-        height: 250px;
-        width: 250px; } }
+        height: 200px;
+        width: 200px; } }
     @media (min-width: medium) {
       .fact__item {
-        height: 250px;
-        width: 250px; } }
+        height: 200px;
+        width: 200px; } }
   .fact__text {
     position: absolute;
     top: 50%;
@@ -1320,10 +1321,10 @@ input + button {
     font-weight: 300; }
     @media (min-width: 720px) {
       .fact__figure {
-        font-size: 5rem; } }
+        font-size: 4rem; } }
     @media (min-width: medium) {
       .fact__figure {
-        font-size: 5rem; } }
+        font-size: 4rem; } }
     .fact__figure sup {
       font-size: .5em; }
   .fact__label {
@@ -1494,7 +1495,7 @@ input + button {
 
 .banner {
   position: relative;
-  min-height: 650px;
+  min-height: 580px;
   padding: 60px 20px;
   text-align: center;
   background-image: url(/assets/images/banners/home3.png);
@@ -1511,7 +1512,7 @@ input + button {
     display: inline-block;
     margin: 0 0 10px 0;
     max-width: 220px;
-    height: 242px; }
+    height: 180px; }
     @media (min-width: 0) and (max-width: 720px) {
       .banner__logo {
         height: 130px; } }
