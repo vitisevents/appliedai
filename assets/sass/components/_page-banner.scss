@@ -1,6 +1,6 @@
 .banner{
 	position:relative;
-	min-height:580px;
+	min-height:550px;
 	padding:60px 20px;
 	text-align:center;
 	background-image:url(/assets/images/banners/home3.png);
@@ -9,7 +9,8 @@
 	background-position:center center;
 
 	@include respond(mobile-only){
-		padding-top:60px;
+		padding-top:40px;
+		padding-bottom:40px;
 	}
 
 	&__logo{

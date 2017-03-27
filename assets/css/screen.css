@@ -1495,7 +1495,7 @@ input + button {
 
 .banner {
   position: relative;
-  min-height: 580px;
+  min-height: 550px;
   padding: 60px 20px;
   text-align: center;
   background-image: url(/assets/images/banners/home3.png);
@@ -1504,10 +1504,12 @@ input + button {
   background-position: center center; }
   @media (min-width: 0) and (max-width: 720px) {
     .banner {
-      padding-top: 60px; } }
+      padding-top: 40px;
+      padding-bottom: 40px; } }
   @media (min-width: mobile-only) {
     .banner {
-      padding-top: 60px; } }
+      padding-top: 40px;
+      padding-bottom: 40px; } }
   .banner__logo {
     display: inline-block;
     margin: 0 0 10px 0;
