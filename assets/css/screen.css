@@ -1504,10 +1504,10 @@ input + button {
   background-position: center center; }
   @media (min-width: 0) and (max-width: 720px) {
     .banner {
-      padding-top: 120px; } }
+      padding-top: 60px; } }
   @media (min-width: mobile-only) {
     .banner {
-      padding-top: 120px; } }
+      padding-top: 60px; } }
   .banner__logo {
     display: inline-block;
     margin: 0 0 10px 0;
