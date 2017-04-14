@@ -10,3 +10,5 @@ else if (window.attachEvent)
 window.attachEvent("onload", downloadJSAtOnload);
 else window.onload = downloadJSAtOnload;
 </script>
+<script src="/assets/js/script.js" async></script>
+<script src="//vjs.zencdn.net/5.8/video.min.js" async></script>
