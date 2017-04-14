@@ -35,7 +35,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll
   jekyll-redirect-from
 
+RUBY VERSION
+   ruby 2.0.0p648
+
 BUNDLED WITH
-   1.10.6
+   1.13.5
