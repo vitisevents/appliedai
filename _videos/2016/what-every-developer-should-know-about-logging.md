@@ -2,6 +2,6 @@
 title: "What every developer should know about logging"
 speaker: Slawosz Slawinski
 video-id: F528FnxTo8E
-length: "0:00:00"
+length: "0:26:14"
 ---
 Go is one of the most popular languages to write applications structured into (micro)services, which gives developers lot of freedom, fun and possibilities to explore new solutions. Such applications are harder to debug on production than normal, monolithic applications, due to many services involved during single operation (eg. http request). Proper logging is a good way to overcome this problem. <br><br>First, I will answer why we need logs - to understand what application is doing on production and how is used. This information are crucial for debugging and continuous improvements.<br><br>Then, I will cover popular golang logs libraries: standard library log package and <a href="https://github.com/golang/glog">glog</a>. After such introduction I will cover implementations of more advanced logging implemented in open source microservices library <a href="https://github.com/go-kit/kit">go-kit</a>.<br><br>I want to cover also more topics: log sampling in high traffic deployments, log tricks like switching log level in production systems, log infrastructure elements such as log forwarders, log readers and log storage. I also will cover security risks when logs are not properly anonymized.<br><br>I am convinced that this presentation will help developers to write logs that makes theirs job more enjoyable and less stressful.

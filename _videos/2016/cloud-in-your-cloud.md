@@ -2,7 +2,7 @@
 title: Cloud in your Cloud
 speaker: Matthew Campbell
 video-id: NwWVhRAiW7k
-length: "0:00:00"
+length: "0:28:15"
 ---
 How is the cloud built? We will go into detail how we write microservices that run the cloud at scale. With tens of the thousands of customers, and 10+ datacenters. We will talk about how we write, monitor and deploy the microservices that run the cloud you use. 
 <br><br>Digital ocean is one of the largest cloud providers on the planet with 10 different datacenters and tens of the thousands of customers. We will talk about how we use microservices to power our cloud.
