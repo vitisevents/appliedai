@@ -1,5 +1,6 @@
 ---
 title: "Building an enterprise service in Go"
+metatitle: "Enterprise services in Go"
 speaker: Marcus Olsson
 video-id: twcDf_Y2gXY
 length: "0:25:32"

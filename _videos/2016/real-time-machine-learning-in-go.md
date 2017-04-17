@@ -1,5 +1,6 @@
 ---
 title: "Real-time machine learning in Go for smart energy applications"
+metatitle: "Real-time machine learning in Go"
 speaker: Michael Bironneau
 video-id: taiUNm1I3QY
 length: "0:28:29"

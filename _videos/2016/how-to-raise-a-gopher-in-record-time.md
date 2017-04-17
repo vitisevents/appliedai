@@ -1,5 +1,6 @@
 ---
 title: "How to Raise a Gopher in Record Time"
+metatitle: "How to Raise a Gopher in Record Time"
 speaker: Tiffany Jernigan
 video-id: 85-ii6Dgi1s
 length: "0:21:22"

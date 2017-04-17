@@ -1,5 +1,6 @@
 ---
 title: A Beginners Guide to Context
+metatitle: A Beginners Guide to Context
 speaker: Paul Crawford
 video-id: r4Mlm6qEWRs
 length: "0:25:26"

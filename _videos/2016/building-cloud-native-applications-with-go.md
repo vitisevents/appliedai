@@ -1,5 +1,6 @@
 ---
 title: "Building Cloud Native applications with Go"
+metatitle: "Cloud Native applications with Go"
 speaker: Mandy Waite
 video-id: fuHGzQcOeDI
 length: "0:30:06"

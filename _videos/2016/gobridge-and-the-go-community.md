@@ -1,5 +1,6 @@
 ---
 title: "GoBridge and the Go Community: Initiatives and Opportunities"
+metatitle: "GoBridge and the Go Community"
 speaker: Carlisia Campos
 video-id: ImF_jDpjFNw
 length: "0:31:32"

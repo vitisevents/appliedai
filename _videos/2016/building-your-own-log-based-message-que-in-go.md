@@ -1,5 +1,6 @@
 ---
 title: "Building your own log-based message queue in Go"
+metatitle: "Log-based message queue in Go"
 speaker: Víctor Ruiz
 video-id: ysjcEN548yc
 length: "0:24:14"

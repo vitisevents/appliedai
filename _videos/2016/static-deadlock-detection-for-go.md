@@ -1,5 +1,6 @@
 ---
 title: "Static Deadlock Detection for Go"
+metatitle: "Static Deadlock Detection for Go"
 speaker: Nicholas Ng
 video-id: NOQdkbp-950
 length: "0:23:55"

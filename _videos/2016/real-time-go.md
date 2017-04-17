@@ -1,5 +1,6 @@
 ---
 title: "Real-Time Go"
+metatitle: "Real-Time Go"
 speaker: Andreas Krennmair
 video-id: nRCXS6PUr5c
 length: "0:45:38"

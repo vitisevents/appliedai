@@ -1,5 +1,6 @@
 ---
-title: Building Mobile SDKs for iOS and Android - Ain’t nobody got time for that!
+title: "Building Mobile SDKs for iOS and Android - Ain’t nobody got time for that!"
+metatitle: Building Mobile SDKs for iOS and Android
 speaker: Nic Jackson
 video-id: LpWEDFT3iLU
 length: "0:24:23"

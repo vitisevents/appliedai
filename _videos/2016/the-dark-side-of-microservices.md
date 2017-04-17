@@ -1,5 +1,6 @@
 ---
 title: "The dark side of microservices"
+metatitle: "The dark side of microservices"
 speaker: Jelmer Snoeck
 video-id: KMyQCokzLwA
 length: "0:26:42"

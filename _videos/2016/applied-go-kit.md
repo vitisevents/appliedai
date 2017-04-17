@@ -1,5 +1,6 @@
 ---
 title: Applied Go kit
+metatitle: Applied Go kit
 speaker: Peter Bourgon
 video-id: JXEjAwNWays
 length: "0:31:17"

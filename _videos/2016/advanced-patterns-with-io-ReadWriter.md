@@ -1,5 +1,6 @@
 ---
 title: "Advanced Patterns with io.ReadWriter"
+metatitle: "Advanced Patterns with io.ReadWriter"
 speaker: Paul Bellamy
 video-id: kTAsciVuZLQ
 length: "0:18:51"

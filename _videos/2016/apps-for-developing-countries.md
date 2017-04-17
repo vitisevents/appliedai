@@ -1,5 +1,6 @@
 ---
 title: Developing Apps for Developing Countries with go-mobile
+metatitle: Developing Apps for Developing Countries with go-mobile
 speaker: Natalie Pistunovich
 video-id: JzZwQg0FCrY
 length: "0:30:16"

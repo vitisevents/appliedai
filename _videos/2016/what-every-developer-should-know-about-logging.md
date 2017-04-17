@@ -1,5 +1,6 @@
 ---
 title: "What every developer should know about logging"
+metatitle: "What every developer should know about logging"
 speaker: Slawosz Slawinski
 video-id: F528FnxTo8E
 length: "0:26:14"

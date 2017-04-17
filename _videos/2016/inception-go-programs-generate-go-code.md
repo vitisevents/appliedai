@@ -1,5 +1,6 @@
 ---
 title: "Inception, Go programs that generate Go code" 
+metatitle: "Inception, Go programs that generate Go code" 
 speaker: Ernesto Jimenez
 video-id: Zl50bk6VRQE
 length: "0:26:56"

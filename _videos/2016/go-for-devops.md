@@ -1,5 +1,6 @@
 ---
 title: Go from Dev to Prod
+metatitle: Go from Dev to Prod
 speaker: Florin Pățan
 video-id: I-8PfC6dZe4
 length: "0:30:56"

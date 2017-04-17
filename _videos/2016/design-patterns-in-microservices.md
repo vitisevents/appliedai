@@ -1,5 +1,6 @@
 ---
 title: "Design patterns in Microservices architectures and Gilmour"
+metatitle: "Design patterns in Microservices architectures"
 speaker: Piyush Verma
 video-id: rDQTBpIWa7M
 length: "0:29:10"

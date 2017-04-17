@@ -1,5 +1,6 @@
 ---
 title: "An Actor Model in Go"
+metatitle: "An Actor Model in Go"
 speaker: Bryan Boreham
 video-id: yCbon_9yGVs
 length: "0:31:38"

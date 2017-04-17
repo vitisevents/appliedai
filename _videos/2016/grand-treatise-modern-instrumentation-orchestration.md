@@ -1,5 +1,6 @@
 ---
 title: "Grand Treatise of Modern Instrumentation and Orchestration"
+metatitle: "Grand Treatise of Modern Instrumentation and Orchestration"
 speaker: Björn Rabenstein
 video-id: HkEZ1LJ7kzQ
 length: "0:26:57"

@@ -1,5 +1,6 @@
 ---
 title: When Idioms Become Bottlenecks
+metatitle: When Idioms Become Bottlenecks
 speaker: Travis Bischel
 video-id: q7s30kFHBdw
 length: "0:23:35"

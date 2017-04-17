@@ -1,5 +1,6 @@
 ---
 title: Idiomatic Go Tricks
+metatitle: Idiomatic Go Tricks
 speaker: Mat Ryer
 video-id: yeetIgNeIkc
 length: "0:27:57"

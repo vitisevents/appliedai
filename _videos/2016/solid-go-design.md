@@ -1,5 +1,6 @@
 ---
 title: SOLID Go Design
+metatitle: SOLID Go Design
 speaker: Dave Cheney
 video-id: zzAdEt3xZ1M
 length: "0:27:30"

@@ -1,5 +1,6 @@
 ---
 title: "Simplifying building and managing microservices with Micro"
+metatitle: "Simplifying building and managing microservices with Micro"
 speaker: Asim Aslam
 video-id: xspaDovwk34
 length: "0:27:08"

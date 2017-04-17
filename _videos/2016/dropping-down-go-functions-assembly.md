@@ -1,5 +1,6 @@
 ---
 title: "Dropping down: Go functions in assembly"
+metatitle: "Go functions in assembly"
 speaker: Michael Munday
 video-id: 9jpnFmJr2PE
 length: "0:28:18"

@@ -1,5 +1,6 @@
 ---
 title: "Seven ways to profile Go applications"
+metatitle: "Seven ways to profile Go applications"
 speaker: Dave Cheney
 video-id: 2h_NFBFrciI
 length: "0:30:04"

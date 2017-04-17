@@ -1,5 +1,6 @@
 ---
 title: Advanced testing concepts for Go 1.7
+metatitle: Advanced testing concepts for Go 1.7
 speaker: Marcel van Lohuizen
 video-id: Iu4nqoCzlRE
 length: "0:24:37"

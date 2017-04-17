@@ -1,5 +1,6 @@
 ---
 title: "A Go IDE - Because Semantics Matter"
+metatitle: "A Go IDE - Because Semantics Matter"
 speaker: Alexander Zolotov
 video-id: oWwcdz3WNKQ
 length: "0:27:01"

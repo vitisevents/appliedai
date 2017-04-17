@@ -1,5 +1,6 @@
 ---
 title: "Implementing Software Machines in Go (and C)"
+metatitle: "Implementing Software Machines in Go"
 speaker: Eleanor McHugh
 video-id: b3ji5tdZUfY
 length: "0:43:57"

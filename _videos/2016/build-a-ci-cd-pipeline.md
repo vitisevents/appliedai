@@ -1,5 +1,6 @@
 ---
 title: "Let’s build a CI/CD pipeline"
+metatitle: "Continuous integration pipeline in Go"
 speaker: Jean de Klerk
 video-id: UAsTNFLGBGI
 length: "0:22:17"

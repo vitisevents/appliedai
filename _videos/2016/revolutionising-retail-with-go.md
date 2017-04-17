@@ -1,5 +1,6 @@
 ---
 title: Revolutionising Retail with Go
+metatitle: Revolutionising Retail with Go
 speaker: Charlie Smith
 video-id: 2Wn2G-f6fK4
 length: "0:22:02"

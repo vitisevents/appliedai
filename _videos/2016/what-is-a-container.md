@@ -1,5 +1,6 @@
 ---
 title: "What is a container, really? Let's write one in Go from scratch"
+metatitle: "What is a container, really? Let's write one in Go from scratch"
 speaker: Liz Rice
 video-id: HPuvDm8IC-4
 length: "0:23:00"

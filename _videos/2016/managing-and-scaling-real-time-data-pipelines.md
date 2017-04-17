@@ -1,5 +1,6 @@
 ---
 title: "Managing and Scaling Real-Time Data Pipelines using Go"
+metatitle: "Managing and Scaling Real-Time Data Pipelines using Go"
 speaker: Jennie Lees
 video-id: 2s5l9ErNL3s
 length: "0:28:13"
