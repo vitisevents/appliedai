@@ -1,0 +1,37 @@
+- type: Platinum Sponsor
+  sponsors:
+    - name: "GlobalSign"
+      slug: globalsign
+      url: http://www.globalsign.com
+      about:
+        "GlobalSign is the leading provider of trusted identity and security solutions enabling businesses, large enterprises, cloud service providers and IoT innovators around the world to secure online communications, manage millions of verified digital identities and automate authentication and encryption. Its high-scale Public Key Infrastructure (PKI) and identity solutions support the billions of services, devices, people and things comprising the Internet of Everything (IoE). The company has offices in the Americas, Europe and Asia."
+- type: Gold Sponsors
+  sponsors:
+    - name: "Sainsbury’s"
+      slug: sainsburys 
+      url: http://www.sainsburys.work/dandt
+      about: |
+        Change the world at Sainsbury’s. Write the next generation of beautiful code to solve the most complex of puzzles and problems. Create innovations that inspire and excite. Be influenced by the best, but set your sights even higher. At the core of our 140-year history is the drive to give our millions of customers the standard of service they deserve. And, as more and more of them turn to technology – for everyday shopping, information about our stores and products and for lifestyle ideas – we’ve been inspired to invest heavily in Digital and Technology. We’ve re-organised it, re-invigorated it, to meet evolving customer and colleague needs. We’re dedicated to delivering the very best digital experience across every format. Developing teams that will put us clicks ahead of the competition. Ours is one of the fastest-moving sectors around. So we’re looking for the most savvy development professionals out there. Who can spot opportunities and trends before they happen, identify areas for improvement and see every problem as an opportunity to do something amazing. So if you want to go further, faster, take a look at our current vacancies and don’t just imagine the impact you could make. Tell us.
+- type: Silver Sponsors
+  sponsors:
+    - name: "Bytemark"
+      slug: bytemark
+      url: https://www.bytemark.co.uk/r/golang
+      imageType: png
+      about: "Bytemark build internet hosting tools that developers love to use.
+
+          They are immensely are proud of their technical expertise and the clear manifesto that guides them, having achieved £3m in customer subscriptions through honest, thoroughly-researched solutions and well-automated hosting for developers.
+
+          Linux and the Free software ecosystem are at the core of Bytemark, so they give back with at least a 50% discount for anyone publishing Free software using their network.
+
+          They are thrilled to be able to support organisations and projects such as Debian, mySociety, OpenStreetMap and LibreOffice."
+    - name: "Vistas"
+      slug: vistas
+      url: http://www.vistasrecruitment.com
+      imageType: png
+      about:
+        "Founded in 2015 by Martin Gallagher, Vistas Recruitment is a specialist recruitment boutique focusing almost entirely on Go-related roles across the UK and Europe. Having sponsored GolangUK 2016, we are delighted to support the conference again this year.
+
+        We pride ourselves on providing a highly personal, friendly and flexible service. We can work onsite, taking care of all recruitment needs or in a more traditional agency mode on specific requirements.
+
+        Partnering with start-ups and established companies, we have a client portfolio of some of the most exciting names in technology, and are committed to helping Gophers find their perfect fit."

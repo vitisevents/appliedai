@@ -18,3 +18,25 @@ group: "navigation"
 		<p><a href="mailto:contact@phpconference.co.uk" class="link">Contact us about sponsoring the conference</a></p>
 	</div>
 </div>
+
+<div class="row">
+	<div class="wrapper">
+	{% for sponsorType in site.data.2017.sponsors %}
+	<h3>{{sponsorType.type}}</h3>
+ 		<ul class="sponsor-list -profiles sponsors-{{sponsor.type}}">
+ 			{% for sponsor in sponsorType.sponsors %}
+ 			<li class="sponsor-list__sponsor sponsor-{{sponsor.name}} {{sponsor.slug}}" id="{{sponsor.slug}}">
+				<a target="_blank" href="{{sponsor.url}}" class="sponsor__url">
+	 				<img src="/assets/images/2017/sponsors/{{sponsor.slug}}.{% if sponsor.imageType %}{{sponsor.imageType}}{% else %}svg{% endif %}" alt="{{sponsor.name}}" class="sponsor__logo" />
+	 			</a>
+	 			<div class="profile">
+	 				<h4 class="sponsor__name">{{sponsor.name}}</h4>
+ 					<p class="description">{{sponsor.about}}</p>
+ 					<a class="sponsor__link" href="{{sponsor.url}}" target="_blank">Visit website &raquo;</a>
+ 				</div>
+ 			</li>
+ 			{% endfor %}
+ 		</ul>
+ 	{% endfor %}
+ 	</div>
+</div>
