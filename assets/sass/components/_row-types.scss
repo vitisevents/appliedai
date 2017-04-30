@@ -51,8 +51,10 @@
 
 		img{
 			display:block;
+			min-width:100px;
+			height:auto;
 			max-width:150px;
-			max-height:70px;
+			max-height:60px;
 		}
 	}
 }

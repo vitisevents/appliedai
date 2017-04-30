@@ -2,12 +2,14 @@
 <div class="row -center sponsor-bar">
     <div class="wrapper">
         <ul class="sponsor-list">
-            {% for sponsor in site.data.2017.sponsors %}
+            {% for sponsorType in site.data.2017.sponsors %}
+            {% for sponsor in sponsorType.sponsors %}
             <li class="sponsor-list__sponsor">
                 <a href="{{ sponsor.url }}" class="sponsor__link">
                     <img src="/assets/images/2017/sponsors/{{ sponsor.slug }}.png" alt="{{ sponsor.name }}">
                 </a>
             </li>
+            {% endfor %}
             {% endfor %}
         </ul>
         <h5>Want to sponsor the Golang UK Conference? <a href="/sponsors">Click here.</a></h5>
