@@ -19,6 +19,7 @@
 		 .sponsor__logo{
 			float:left;
 			max-width:198px;
+			max-height:90px;
 			height:auto;
 
 			@include respond(mobile-only){
