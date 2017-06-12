@@ -491,9 +491,9 @@
               speaker: Nicholas Ng
               handle: nicholascwng
               company: Imperial College London
-              photo: https://secure.gravatar.com/avatar/9637895e310caf25237e89155157b2a7?s=500
+              photo: /archive/2017/images/speakers/nicholasng.jpg
               bio:  |
-
+                Nicholas is a programming language and concurrency researcher at Imperial College London. His research involves applying types to model and verify concurrent programs. His recent work in static deadlock detection of Go has led to a series of Go-specific concurrency research.
               level: Intermediate
               description: |
                 Concurrent programming is difficult. This talk is about applying programming languages & concurrency research, specifically behavioural types as an abstraction, to verify concurrent Go programs. The talk covers what behavioural types are and how they can be used to reason in Go's concurrency model.
