@@ -5,18 +5,66 @@ metatitle: Schedule
 weight: 3
 group: navigation
 ---
+<link rel="stylesheet" href="/archive/2017/css/schedule.css">
 <div class="page-title schedule">
     <div class="wrapper">
       <h1>Schedule</h1>
       <h2>Our talks and speakers</h2>
     </div>
 </div>
-<div class="row">
-    <div class="wrapper">
-      <p>The Golang UK Conference schedule will be announced later in 2017.</p>
+<div class="wrapper">
+    <div class="row">
+      <div class="container">
+        <div class="col span12">
+            {% for day in site.data.2017.speakers %}
+            <h2 class="centre">{{day.name}}</h2>
+            <ul class="schedule">
+              {% for slot in day.slots %}
+              <li class="slot {{slot.slottype}}">
+                <span class="time">{{slot.time}}</span>
+                <div class="tracks-wrapper">
+                  <ul class="tracks tracks-wednesday">
+                    {% for track in slot.tracks %}
+                    <li class="track" id="{{track.track.id}}">
+                      <span class="speaker-block">
+                          <span class="name">{{track.track.name}}</span>
+                          <span class="title">{{track.track.title}}</span>
+                          <span class="subtitle">{{track.track.subtitle}}</span>
+                      </span>
+                      {% if track.track.level %}
+                      <span class="level">Level: {{track.track.level}}</span>
+                      {% endif %}
+                      {% if track.track.speaker %}
+                      <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
+                      {% endif %}
+                      <p class="description">{{track.track.description}}</p>
+                      {% if track.track.menulink %}
+                          <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+                      {% endif %}
+                      {% if track.track.video %}
+                          <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list={{site.data.2017.playlist}}">Video &raquo;</a></span>
+                      {% endif %}
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endfor %}
+        </div>
+      </div>
     </div>
 </div>
-
-<!-- Timetable JS Files -->
-<script src="/assets/js/jquery.magnific-popup.js"></script>
-<script src="/assets/js/timetable.js"></script>
+<script>
+$(function(){
+    $(".schedule .slot").show();
+    $(".schedule .slot").click(function(){
+        $(this).toggleClass("active");
+//        $(this).siblings(".slot").removeClass("active");
+        $('html, body').animate({
+          scrollTop: $(this).offset().top-80
+        }, 900);
+    });
+});
+</script>
