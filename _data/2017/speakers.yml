@@ -262,7 +262,7 @@
               slug: jacklindamood
               speaker: Jack Lindamood
               company: Twitch.tv
-              photo: https://secure.gravatar.com/avatar/899248bcf5b5ffe957758ad482c82128?s=500
+              photo: /archive/2017/images/speakers/jacklindamood.jpg
               bio:  |
                 Jack is a software engineer with over 7 years experience building and running large scale distributed services.  Starting at Facebook and then SignalFx, Jack now works on Twitch’s Go codebase and feeds framework.  He has presented his work previously at Gophercon, GoSF, and other meetups in the past.
               level: Intermediate
