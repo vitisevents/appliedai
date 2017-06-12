@@ -30,7 +30,7 @@
                 The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
 - schedule-thursday:
   name: Thursday 17th August 2017
-  slots: 
+  slots:
     - time: "08.00"
       slottype: special
       tracks:
@@ -75,9 +75,9 @@
              speaker: Mat Ryer
              handle: matryer
              company: GrayMeta, Inc.
-             photo: 
+             photo:
              bio:  |
-               
+
              level: Intermediate
              description: |
                Whether for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused. Explore best practices, goals, and idioms that help make beautiful packages.
@@ -146,7 +146,7 @@
              company: trivago
              photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/11567/profile03small.jpg
              bio:  |
-               
+
              level: Intermediate
              description: |
                We all know that go comes with great concurrency tools like go routines and channels. But is this really everything? This session starts with an overview of common concurrency patterns and ends with best practices on lockless programming that won't let your head explode.
@@ -156,7 +156,7 @@
               slug: paulbellamy
               speaker: Paul Bellamy
               handle: pyrhho
-              company: 
+              company:
               photo: https://secure.gravatar.com/avatar/eac6f57e46837c7b0d0bacac4288d0b9?s=500
               bio:  |
                 Paul Bellamy is a Freelance Software Engineer, who's been loving Go for the last 3 years. Having bounced between development and operations, his previous experience includes Internet of Things messaging protocols, time-series data analysis, and open-source tooling for connecting, observing, and controlling Kubernetes.
@@ -216,7 +216,7 @@
              company: Tapjoy
              photo: https://secure.gravatar.com/avatar/01c8a37075452b7a5a8733fa0dd9a24e?s=500
              bio:  |
-               
+
              level: Intermediate
              description: |
                Embedding. It sure is weird, isn't it? it's unlike traditional inheritance, and it can be uncomfortable at first. But it does have a lot of positives to it that might not be obvious at first. In this talk, we'll go over highlights and pitfalls of embedding, and some interesting ways to use it.
@@ -295,7 +295,7 @@
                 The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>
 - schedule-friday:
   name: Friday 18th August 2017
-  slots: 
+  slots:
     - time: "08.00"
       slottype: special
       tracks:
@@ -336,25 +336,25 @@
         - track:
              name: GlobalSign Track
              title: "Go routines optimization: spinning, balancing or avoiding"
-             slug: guidopatanella 
+             slug: guidopatanella
              speaker: Guido Patanella
              company: Workday Inc
-             photo: 
+             photo:
              bio:  |
-               
+
              level: Intermediate
              description: |
-               Goroutines can become the star or the bottleneck of your application. Learn how to select the best approach for reaching efficient concurrency by analyzing bottlenecks related to go-routines, comparing resource utilization, locks, queuing and sequential processing. 
+               Goroutines can become the star or the bottleneck of your application. Learn how to select the best approach for reaching efficient concurrency by analyzing bottlenecks related to go-routines, comparing resource utilization, locks, queuing and sequential processing.
         - track:
               name: Side Track
               title: "Buffalo: Rapid Web Development in Go"
               slug: markbates
               speaker: Mark Bates
               handle: markbates
-              company: Markbates.com
+              company: Gopher Guides
               photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/1/markbates_headshot.jpg
               bio:  |
-                Mark Bates is a full stack web developer with over 18 years of experience building high quality scalable applications for companies such as Apple, USA Today, Klarna, and Palm. He has written three books, “Distributed Programming with Ruby”, “Programming in CoffeeScript”, and “Conquering the Command Line”. Mark has spoken at conferences around the world, has led user groups such as Boston Ruby and Boston Golang, and has helped to organize conferences such as GothamGo and GopherCon. Mark is the co-founder of <a href="http://www.papercall.io/speakers/markbates">PaperCall.io</a>, a platform for connecting technical events with high quality content and speakers. Mark is also a partner at <a href="https://www.gopheracademy.com>Gopher Academy</a>, the industry leader for Go training and conferences. In his spare time Mark leads development of the Go web framework <a href="http://gobuffalo.io">Buffalo</a>.
+                Mark Bates is a full stack web developer with over 18 years of experience building high quality scalable applications for companies such as Apple, USA Today, Klarna, and Palm. He has written three books, “Distributed Programming with Ruby”, “Programming in CoffeeScript”, and “Conquering the Command Line”. Mark has spoken at conferences around the world, has led user groups such as Boston Ruby and Boston Golang, and has helped to organize conferences such as GothamGo and GopherCon. Mark is the co-founder of <a href="http://www.papercall.io/speakers/markbates">PaperCall.io</a>, a platform for connecting technical events with high quality content and speakers. Mark is also a partner at <a href="https://www.gopherguides.com>Gopher Guides</a>, the industry leader for Go training and conferences. In his spare time Mark leads development of the Go web framework <a href="http://gobuffalo.io">Buffalo</a>.
               level: All
               description: |
                 Put the fun back in writing Go web applications using the <a href="http://gobuffalo.io">Buffalo</a> framework. A Ruby on Rails inspired, idiomatic, web framework written in Go. Fun, Fast, and easy!
@@ -374,7 +374,7 @@
              slug: takuyaueda
              speaker: Takuya Ueda
              handle: tenntenn
-             company: Souzoh, Inc. 
+             company: Souzoh, Inc.
              photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/6719/14962637_10206902935443067_8305984818586098017_n.jpg
              bio:  |
                Takuya Ueda is a Go engineer for Souzoh, Inc. He is one of organizer of Go Conference in Japan. He works for the growth of the Go community in Japan. He also loves the Go Gopher and drawing Gopher illustrations.
@@ -459,7 +459,7 @@
               company: Monzo
               photo: https://secure.gravatar.com/avatar/1204ca4ccda29cf5cc3eb25755e075c2?s=500
               bio:  |
-                I'm a backend software engineer at Monzo. I've been in the Ruby / Rails world for about 7 years. Since moving to the UK in 2014 I've worked at Freeagent, helping to make "a monolith" scale, and at Makers Academy, teaching the new generation of developers how to write maintainable code. Design patterns and best practices were always one of my main interests. I'm also enthusiastic about overcomplicated text editors from the 70s. 
+                I'm a backend software engineer at Monzo. I've been in the Ruby / Rails world for about 7 years. Since moving to the UK in 2014 I've worked at Freeagent, helping to make "a monolith" scale, and at Makers Academy, teaching the new generation of developers how to write maintainable code. Design patterns and best practices were always one of my main interests. I'm also enthusiastic about overcomplicated text editors from the 70s.
               level: All
               description: |
                 An overview of the differences between the two languages from a seasoned Rubyist and a complete Go newbie perspective. What to expect from your everyday coding when you switch to Go.
@@ -493,7 +493,7 @@
               company: Imperial College London
               photo: https://secure.gravatar.com/avatar/9637895e310caf25237e89155157b2a7?s=500
               bio:  |
-                
+
               level: Intermediate
               description: |
                 Concurrent programming is difficult. This talk is about applying programming languages & concurrency research, specifically behavioural types as an abstraction, to verify concurrent Go programs. The talk covers what behavioural types are and how they can be used to reason in Go's concurrency model.
@@ -510,30 +510,30 @@
         - track:
              name: GlobalSign Track
              title: TBA
-             slug: 
+             slug:
              speaker: TBA
-             handle: 
-             company: 
-             photo: 
+             handle:
+             company:
+             photo:
              bio:  |
-               
-             level: 
+
+             level:
              description: |
-               
+
         - track:
               name: Side Track
               title: TBA
-              slug: 
+              slug:
               speaker: TBA
-              handle: 
-              company: 
-              photo: 
+              handle:
+              company:
+              photo:
               bio:  |
-                
-              id: 
-              level: 
+
+              id:
+              level:
               description: |
-                
+
     - time: "17.00"
       slottype: break change
       tracks:
