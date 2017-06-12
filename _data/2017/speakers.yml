@@ -69,7 +69,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: Writing Beautiful Packages in Go
              slug: matryer
              speaker: Mat Ryer
@@ -105,7 +105,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: "করো: Translating Go to Other (Human) Languages, and Back Again"
              slug: adityamukerjee
              speaker: Aditya Mukerjee
@@ -138,7 +138,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: Concurrency Patterns in Go
              slug: arneclaus
              speaker: Arne Claus
@@ -174,7 +174,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: Betting on Go
              slug: nicholasjackson
              speaker: Nicholas Jackson
@@ -208,7 +208,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: Embedding, or how I learned to stop complaining and use the strengths of the language
              slug: seankelly
              speaker: Sean Kelly
@@ -244,7 +244,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: "Fighting latency: the CPU profiler is not your ally"
              slug: filippovalsorda
              speaker: Filippo Valsorda
@@ -334,7 +334,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: "Go routines optimization: spinning, balancing or avoiding"
              slug: guidopatanella 
              speaker: Guido Patanella
@@ -369,7 +369,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: Static Analysis in Go
              slug: takuyaueda
              speaker: Takuya Ueda
@@ -402,7 +402,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: Production-ready Go
              slug: iankent
              speaker: Ian Kent
@@ -438,7 +438,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: "How to build an SDK in Go: Lessons from creating the Go SDK for Dropbox’s API"
              slug: diwakergupta
              speaker: Diwaker Gupta
@@ -472,7 +472,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: "It doesn't have to be REST: Websockets in Go"
              slug: konradreiche
              speaker: Konrad Reiche
@@ -508,7 +508,7 @@
       slottype: talks
       tracks:
         - track:
-             name: GloablSign Track
+             name: GlobalSign Track
              title: TBA
              slug: 
              speaker: TBA
