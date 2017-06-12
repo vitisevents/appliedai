@@ -339,9 +339,9 @@
              slug: guidopatanella
              speaker: Guido Patanella
              company: Workday Inc
-             photo:
+             photo: /archive/2017/images/speakers/guidopatanella.jpg
              bio:  |
-
+               Guido is a Cloud Technologist specialized in massively scalable platforms for large engineering organizations, having worked in architect roles at Enterprise software vendors and providers for over 20 years. Before transitioning into adopting Go for his latest projects, Guido has extensively worked with C/C++, Java and Erlang.
              level: Intermediate
              description: |
                Goroutines can become the star or the bottleneck of your application. Learn how to select the best approach for reaching efficient concurrency by analyzing bottlenecks related to go-routines, comparing resource utilization, locks, queuing and sequential processing.
