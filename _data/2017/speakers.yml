@@ -486,17 +486,17 @@
                HTTP REST is seen as irreplaceable technology when designing APIs yet many applications require real-time interactivity. There are different WebSocket and WebSocket emulation implementations in the Go ecosystem. This talk will give an overview of the current state of the art of WebSockets in Go.
         - track:
               name: Side Track
-              title: TBA 
-              slug: 
-              speaker: TBA
-              handle: 
-              company: 
-              photo: 
+              title: Understanding concurrency with behavioural types
+              slug: nicholasng
+              speaker: Nicholas Ng
+              handle: nicholascwng
+              company: Imperial College London
+              photo: https://secure.gravatar.com/avatar/9637895e310caf25237e89155157b2a7?s=500
               bio:  |
                 
-              level: 
+              level: Intermediate
               description: |
-                
+                Concurrent programming is difficult. This talk is about applying programming languages & concurrency research, specifically behavioural types as an abstraction, to verify concurrent Go programs. The talk covers what behavioural types are and how they can be used to reason in Go's concurrency model.
     - time: "15.45"
       slottype: break
       tracks:
