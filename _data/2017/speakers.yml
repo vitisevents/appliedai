@@ -88,7 +88,7 @@
               speaker: Will Sewell and Jim Fisher
               handle: willsewell_
               company: Pusher
-              photo: https://secure.gravatar.com/avatar/0d0e293e29d0950a79ad605d55bc98e8?s=500
+              photo: /archive/2017/images/speakers/willsewellandjimfisher.jpg
               bio:  |
                 Will and Jim are software engineers at Pusher. We help keep the realtime messaging system ticking along smoothly. Our work ranges from high performance distributed systems, to prototyping and early stage product development. After using a number of languages in the past, we have frequently been turning to Go for our most recent projects.
               level: Intermediate
