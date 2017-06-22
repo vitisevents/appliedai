@@ -12,11 +12,11 @@
       url: https://monzo.com/careers
       about:
         "We’re building the best bank in the world - a bank you'd be proud to use - and that means having the best technology. 
- 
+        <br><br>
         Exciting problems you could be working on: building the first bank without a single point of failure; writing code that moves money; hiding the boring parts of money management to help our customers; staying ahead of criminals trying to steal data and money; automating everything so the rest of the company can work smarter.
-         
+        <br><br>
         Our stack is Go microservices using Cassandra, Kafka and Linkerd, run in Kubernetes on AWS.
-         
+        <br><br>
         Internally, we encourage an open, collaborative, inclusive working environment. We run hackathons, where people build things on our third party API, and we contribute to open source software. Our product roadmap is public, and we continually engage with our wonderful community. We’re hiring engineers and engineering managers - join us!"
 - type: Gold Sponsors
   sponsors:
@@ -28,9 +28,9 @@
     - name: "JetBrains"
       slug: jetbrains 
       url: https://www.jetbrains.com/go/
-      about: |
+      about: 
         "JetBrains has a passion for making developers more productive: we design intelligent development tools to simplify your challenging tasks and automate the routine ones. We offer top-notch IDEs and team productivity tools, and our latest offering is Gogland, a brand new Go IDE based on IntelliJ Platform.
- 
+        <br><br>
         Gogland extends IntelliJ Platform with the coding assistance and tool integrations specific for the Go language. Together, Gogland's powerful static code analysis and ergonomic design make development not only productive but also an enjoyable experience."
 - type: Silver Sponsors
   sponsors:
@@ -39,11 +39,11 @@
       url: https://www.bytemark.co.uk/r/golang
       imageType: png
       about: "Bytemark build internet hosting tools that developers love to use.
-
+          <br><br>
           They are immensely are proud of their technical expertise and the clear manifesto that guides them, having achieved £3m in customer subscriptions through honest, thoroughly-researched solutions and well-automated hosting for developers.
-
+          <br><br>
           Linux and the Free software ecosystem are at the core of Bytemark, so they give back with at least a 50% discount for anyone publishing Free software using their network.
-
+          <br><br>
           They are thrilled to be able to support organisations and projects such as Debian, mySociety, OpenStreetMap and LibreOffice."
     - name: "Vistas"
       slug: vistas
@@ -51,7 +51,7 @@
       imageType: png
       about:
         "Founded in 2015 by Martin Gallagher, Vistas Recruitment is a specialist recruitment boutique focusing almost entirely on Go-related roles across the UK and Europe. Having sponsored GolangUK 2016, we are delighted to support the conference again this year.
-
+        <br><br>
         We pride ourselves on providing a highly personal, friendly and flexible service. We can work onsite, taking care of all recruitment needs or in a more traditional agency mode on specific requirements.
-
+        <br><br>
         Partnering with start-ups and established companies, we have a client portfolio of some of the most exciting names in technology, and are committed to helping Gophers find their perfect fit. To get in touch with Martin for more details – email: martin@vistasrecruitment.com or Gophers Slack @martin_gallagher or Twitter @MartinGallagher2010"
