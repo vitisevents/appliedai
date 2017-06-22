@@ -82,7 +82,7 @@
              description: |
                Whether for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused. Explore best practices, goals, and idioms that help make beautiful packages.
         - track:
-              name: Side Track
+              name: Monzo Track
               title: Golang's Realtime GC in Theory and Practice
               slug: willsewell
               speaker: Will Sewell and Jim Fisher
@@ -118,7 +118,7 @@
              description: |
                Like most programming languages, Go uses English keywords. But Go's unique approach to byte and string handling makes it the ideal candidate for a universal programming language that can be localized to allow English-speaking and non-English speaking developers to collaborate on the same projects.
         - track:
-              name: Side Track
+              name: Monzo Track
               title: "Bare Metal Gophers: Can you write an OS Kernel in Go?"
               slug: achilleasanagnostopoulos
               speaker: Achilleas Anagnostopoulos
@@ -151,7 +151,7 @@
              description: |
                We all know that go comes with great concurrency tools like go routines and channels. But is this really everything? This session starts with an overview of common concurrency patterns and ends with best practices on lockless programming that won't let your head explode.
         - track:
-              name: Side Track
+              name: Monzo Track
               title: Building Go with Bazel
               slug: paulbellamy
               speaker: Paul Bellamy
@@ -187,7 +187,7 @@
              description: |
                This talk discusses HashiCorp's journey with Go from its infancy to the mature, production-ready language it has become today. We will discuss the decision-making process which ultimately landed on Go, the benefits we’ve gotten out of the standard library, the limitations we’ve hit along the way.
         - track:
-              name: Side Track
+              name: Monzo Track
               title: Building a RESTful API using go-swagger
               slug: mylesmcdonnell
               speaker: Myles McDonnell
@@ -221,7 +221,7 @@
              description: |
                Embedding. It sure is weird, isn't it? it's unlike traditional inheritance, and it can be uncomfortable at first. But it does have a lot of positives to it that might not be obvious at first. In this talk, we'll go over highlights and pitfalls of embedding, and some interesting ways to use it.
         - track:
-              name: Side Track
+              name: Monzo Track
               title: Creating interactive frontend apps with GopherJS and React
               slug: pauljolly
               speaker: Paul Jolly
@@ -257,7 +257,7 @@
              description: |
                "When we talk about a 'fast' service we often don't mean one that can process 500MB/s per core, but one that can respond in <5ms. However, many causes of latency are invisible to pprof: network operations, disk reads, locks, channels, scheduling. Let's see how to use the new tracer to profile them."
         - track:
-              name: Side Track
+              name: Monzo Track
               title: How to correctly use package context
               slug: jacklindamood
               speaker: Jack Lindamood
@@ -346,7 +346,7 @@
              description: |
                Goroutines can become the star or the bottleneck of your application. Learn how to select the best approach for reaching efficient concurrency by analyzing bottlenecks related to go-routines, comparing resource utilization, locks, queuing and sequential processing.
         - track:
-              name: Side Track
+              name: Monzo Track
               title: "Buffalo: Rapid Web Development in Go"
               slug: markbates
               speaker: Mark Bates
@@ -382,7 +382,7 @@
              description: |
                Tools like `go package` provide static analysis. This session shows step by step how to use it. This session makes you that you can start to use static analysis for creating tools which are useful for your daily development, such as a linter and a refactoring tool which can be customized for your project.
         - track:
-              name: Side Track
+              name: Monzo Track
               title: Command Line Scripting with Templates
               slug: markryan
               speaker: Mark Ryan
@@ -415,7 +415,7 @@
              description: |
                When you’re new to Go, it’s easy to build and deploy production systems quickly - and learn the hard way what ‘production ready’ means. This is a rundown of the things you really need to care about.
         - track:
-              name: Side Track
+              name: Monzo Track
               title: Deep Learning with Go
               slug: chrisbenson
               speaker: Chris Benson
@@ -451,7 +451,7 @@
              description: |
                "Dropbox offers a well documented API with SDKs in 7 different languages including Python and Java, but not Go (which is used heavily within Dropbox). In this talk, I'll share my experiences developing a Go SDK for Dropbox: lessons and best practices for building SDKs in Go."
         - track:
-              name: Side Track
+              name: Monzo Track
               title: Ruby to Go - What to expect when you switch
               slug: irinabednova
               speaker: Irina Bednova
@@ -485,7 +485,7 @@
              description: |
                HTTP REST is seen as irreplaceable technology when designing APIs yet many applications require real-time interactivity. There are different WebSocket and WebSocket emulation implementations in the Go ecosystem. This talk will give an overview of the current state of the art of WebSockets in Go.
         - track:
-              name: Side Track
+              name: Monzo Track
               title: Understanding concurrency with behavioural types
               slug: nicholasng
               speaker: Nicholas Ng
@@ -514,26 +514,25 @@
              speaker: TBA
              handle:
              company:
-             photo:
+             photo: 
              bio:  |
-
              level:
              description: |
 
         - track:
-              name: Side Track
-              title: TBA
-              slug:
-              speaker: TBA
-              handle:
-              company:
-              photo:
+              name: Monzo Track
+              title: Going on the Road Less Bumpy
+              slug: vladgalu
+              speaker: Vlad Galu
+              handle: globalsign
+              company: GlobalSign
+              photo: /archive/2017/images/speakers/vladgalu.jpg
               bio:  |
-
+                "Vlad is a seasoned technologist rooted in secure and scalable network, systems and software engineering, with a track record of nearly 17 years in delivering carrier grade content delivery, internet security and satellite communications systems. Since joining GlobalSign in 2014 he has set up the next generation platforms division based in London and led engineering operations across Europe, US and Asia."
               id:
-              level:
+              level: All
               description: |
-
+                "In this presentation Vlad Galu, our VP of Engineering, describes the experience of basing a greenfield project on Go, the build-up and the evolution of the team and our next generation PKI platforms along with the wider ecosystem."
     - time: "17.00"
       slottype: break change
       tracks:
