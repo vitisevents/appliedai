@@ -146,7 +146,7 @@
              company: trivago
              photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/11567/profile03small.jpg
              bio:  |
-
+                I’m a former graphics engine programmer now working as a site reliability engineer at trivago. After having worked on C/C++ based projects for over 15 years I switched to Go as my language of choice a few years ago. I’m also the creator of <a href="https://github.com/trivago/gollum">Gollum</a>, a vital part of trivago’s logging pipeline.
              level: Intermediate
              description: |
                We all know that go comes with great concurrency tools like go routines and channels. But is this really everything? This session starts with an overview of common concurrency patterns and ends with best practices on lockless programming that won't let your head explode.
