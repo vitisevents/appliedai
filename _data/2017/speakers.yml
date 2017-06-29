@@ -52,14 +52,13 @@
       tracks:
         - track:
               name: Keynote
-              title: TBA
-              slug:
-              speaker: TBA
-              handle:
-              company:
-              photo:
-              bio:
-              id:
+              title: State of the Gopher Nation
+              slug: stevefrancia
+              speaker: Steve Francia
+              handle: spf13
+              company: Google
+              photo: /archive/2017/images/speakers/stevefrancia.jpg
+              bio: Steve Francia has the unique distinction of having held leadership roles in five of the largest open source projects. He is a member of the Go team at Google where he is responsible for Go and it's users. He also currently serves as a Director of the Drupal Association. He previously held executive roles at Docker and MongoDB where he led engineering, product and open source. He is the creator of Hugo, Cobra, Viper, spf13-vim and many additional open source projects. He is a published author, speaker, developer, and father of 4. Outside of technology Steve likes skateboarding, punk rock, and dystopian films.
     - time: "09.45"
       slottype: break change
       tracks:
