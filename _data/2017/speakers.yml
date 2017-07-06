@@ -74,9 +74,9 @@
              speaker: Mat Ryer
              handle: matryer
              company: GrayMeta, Inc.
-             photo:
+             photo: /archive/2017/images/speakers/matryer.jpg
              bio:  |
-
+               Programming since age 6 (Mat would type BASIC code out from computer magazines with his father to make little programs and games), Mat has always had a keen obsession with programming. When Go came along, he loved the philosophy and the elegance of the language, and has been using it since before v1. In 2015 his first book Go Programming Blueprints was published. Today he works for GrayMeta, employing his Go expertise in this exciting LA-based big meta-data company. He spoke at Gophercon in 2014 in Denver, Colorado and the UK’s Go conference in August 2015 and 2016 as well as infoShare in Poland and ProgsCon in London. He founded Testify and Silk testing packages.
              level: Intermediate
              description: |
                Whether for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused. Explore best practices, goals, and idioms that help make beautiful packages.
@@ -316,14 +316,18 @@
       tracks:
         - track:
               name: Keynote
-              title: TBA
-              slug:
-              speaker: TBA
-              handle:
-              company:
-              photo:
-              bio:
-              id:
+              title: How we built and launched <a href="http://gopherize.me">Gopherize.me</a> in under five hours
+              speakers:
+                -
+                  speaker: Mat Ryer
+                  slug: matryer
+                -
+                  speaker: Ashley McNamara
+                  slug: ashleymcnamara
+                  handle: ashleymcnamara
+                  company: Microsoft
+                  photo: /archive/2017/images/speakers/ashleymcnamara.jpg
+                  bio: Ashley McNamara is a Principal Technologist at Microsoft, where she acts as a bridge between third-party developers and Microsoft, driving platform adoption through the developer community and driving change into products based on real-world customer/developer feedback. Ashley was a 2014 Hackbright engineering fellow. In her spare time, she’s a mentor at WeWork, General Assembly, AngelHack, and CapitalFactory and is on the board of multiple engineering groups including Redis Austin, Big Data Analytics Club, and Austin All Girl Hack Night. Ashley is passionate about helping more underrepresented individuals join and feel comfortable in tech and is often a resource for new developers trying to find their way.
     - time: "09.45"
       slottype: break change
       tracks:

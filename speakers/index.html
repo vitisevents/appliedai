@@ -18,15 +18,12 @@ group: "navigation"
                     {% for day in site.data.2017.speakers %}
                     {% for slot in day.slots %}
                     {% for speaker in slot.tracks %}
-                    {% if speaker.track.photo %}
-                    <li id="{{speaker.track.slug}}" class="speaker">
-                        <img class="speaker-photo" src="{{speaker.track.photo}}">
-                        <h4 class="speaker-name">{{speaker.track.speaker}}</h4> <h6 class="speaker-company">{{speaker.track.company}}</h4>
-                        {% if speaker.track.handle %}<a class="speaker-handle" href="https://twitter.com/{{speaker.track.handle}}">@{{speaker.track.handle}}</a>{% endif %}
-                        <div class="speaker-bio">
-                          {{speaker.track.bio}}
-                        </div>
-                    </li>
+                    {% if speaker.track.speakers %}
+                        {% for sp in speaker.track.speakers %}
+                            {% include speaker.html speaker=sp %}
+                        {% endfor %}
+                    {% else %}
+                        {% include speaker.html speaker=speaker.track %}
                     {% endif %}
                     {% endfor %}
                     {% endfor %}

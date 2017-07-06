@@ -39,6 +39,13 @@ group: navigation
                       {% endif %}
                       {% if track.track.speaker %}
                       <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
+                      {% else if track.track.speakers %}
+                      <span class="speaker">
+                      {% for speaker in track.track.speakers %}
+                          <a href="/speakers/#{{speaker.slug}}">{{speaker.speaker}}</a>
+                          {% if speaker != track.track.speakers.last %}&amp; {% endif %}
+                      {% endfor %}
+                      </span>
                       {% endif %}
                       <p class="description">{{track.track.description}}</p>
                       {% if track.track.menulink %}
