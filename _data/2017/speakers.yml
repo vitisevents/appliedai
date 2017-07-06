@@ -317,6 +317,7 @@
         - track:
               name: Keynote
               title: How we built and launched <a href="http://gopherize.me">Gopherize.me</a> in under five hours
+              id: gopherize.me
               speakers:
                 -
                   speaker: Mat Ryer
