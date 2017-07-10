@@ -391,7 +391,7 @@
               slug: markryan
               speaker: Mark Ryan
               company: Intel
-              photo: https://secure.gravatar.com/avatar/43cee2792ef4036be34f2c01acbeb747?s=500
+              photo: /archive/2017/images/speakers/markryan.jpg
               bio:  |
                 Mark Ryan is a software engineer who works for Intel's Open Source Technology Centre.  He has over 18 years of industry experience working for a number of companies including Nokia, Symbian, HP and Intel.  He has a PhD in Computer Science and has been using Go since 2013.
               level: All
