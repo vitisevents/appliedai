@@ -424,7 +424,7 @@
               slug: chrisbenson
               speaker: Chris Benson
               handle: chrisbenson
-              company: Deep Analytics
+              company: Accenture
               photo: https://secure.gravatar.com/avatar/c8c8c5a0f4403ab778c5bce9511a81f1?s=500
               bio:  |
                 Chris Benson has been a software engineer for two decades, and a Gopher since 2014.  Chris was first introduced to ‘deep learning’ in the 1990s.  His passion for creating innovative custom deep learning models in Go and Google TensorFlow's Go client led him to create the company Deep Analytics.  Chris is an Amazon Web Services Certified Solutions Architect, and he earned the Machine Learning Certificate from Stanford University through Coursera.  He is currently writing a book entitled 'Deep Learning with Go', and is the founder of the Atlanta Deep Learning Meetup in cooperation with the Advanced Technology Development Center at Georgia Tech.
