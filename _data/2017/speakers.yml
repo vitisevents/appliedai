@@ -212,10 +212,10 @@
              slug: seankelly
              speaker: Sean Kelly
              handle: StabbyCutyou
-             company: Tapjoy
+             company: Komand Security
              photo: https://secure.gravatar.com/avatar/01c8a37075452b7a5a8733fa0dd9a24e?s=500
              bio:  |
-
+               Sean Kelly (affectionately known as Stabby) is a Principal Software Engineer for Komand Security. A simple man with a dog for an avatar, he enjoys learning new things, helping / mentoring others, and posting photos of his dog on the internet. When he's not giving talks about his many failures, he enjoys spending time at home with his wife, and coming up with new projects to work on that he will never actually finish.
              level: Intermediate
              description: |
                Embedding. It sure is weird, isn't it? it's unlike traditional inheritance, and it can be uncomfortable at first. But it does have a lot of positives to it that might not be obvious at first. In this talk, we'll go over highlights and pitfalls of embedding, and some interesting ways to use it.
