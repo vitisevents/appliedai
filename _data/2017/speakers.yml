@@ -513,16 +513,17 @@
       tracks:
         - track:
              name: GlobalSign Track
-             title: TBA
-             slug:
-             speaker: TBA
-             handle:
-             company:
-             photo: 
+             title: The Beginner's Guide to Linux Syscalls
+             slug: lizrice
+             speaker: Liz Rice
+             handle: lizrice
+             company: Aqua Security
+             photo: /archive/2017/images/speakers/lizrice.jpg
              bio:  |
-             level:
+               Liz Rice is the Technology Evangelist with container security specialists <a href="http://aquasec.com">Aqua Security</a>. Prior to that she co-founded <a href="http://microscaling.com">Microscaling Systems</a> and was one of the developers of image inspection tool <a href="http://microbadger.com">MicroBadger</a>. She has a wealth of software development, team, and product management experience from working on network protocols and distributed systems, and in digital technology sectors such as VOD, music, and VoIP. When not building startups, giving talks or writing code, Liz loves riding bikes in places with better weather than her native London.
+             level: Intermediate
              description: |
-
+               Don’t think you’ve ever made a syscall? Trust me, you have! In this talk we’ll explore what syscalls are, how they work and what you can do with them, with a good measure of live-coding demos to keep things real.
         - track:
               name: Monzo Track
               title: Going on the Road Less Bumpy
@@ -536,7 +537,7 @@
               id:
               level: All
               description: |
-                "In this presentation Vlad Galu, our VP of Engineering, describes the experience of basing a greenfield project on Go, the build-up and the evolution of the team and our next generation PKI platforms along with the wider ecosystem."
+                "In this presentation Vlad Galu, VP of Engineering at GlobalSign, describes the experience of basing a greenfield project on Go, the build-up and the evolution of the team and GlobalSign's next generation PKI platforms along with the wider ecosystem."
     - time: "17.00"
       slottype: break change
       tracks:
