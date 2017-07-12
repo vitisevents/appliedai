@@ -55,3 +55,8 @@
         We pride ourselves on providing a highly personal, friendly and flexible service. We can work onsite, taking care of all recruitment needs or in a more traditional agency mode on specific requirements.
         <br><br>
         Partnering with start-ups and established companies, we have a client portfolio of some of the most exciting names in technology, and are committed to helping Gophers find their perfect fit. To get in touch with Martin for more details – email: martin@vistasrecruitment.com or Gophers Slack @martin_gallagher or Twitter @MartinGallagher2010"
+    - name: "Karhoo"
+      slug: karhoo
+      url: https://karhoo.com
+      imageType: png
+      about:
