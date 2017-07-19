@@ -113,6 +113,10 @@ $footer-font-size : ($base-font-size*0.9);
         color:$color-grey;
         line-height:2.6em;
     }
+
+    iframe{
+        vertical-align:middle;
+    }
 }
 
 .footer-menu{

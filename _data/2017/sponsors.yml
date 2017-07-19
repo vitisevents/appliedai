@@ -60,3 +60,14 @@
       url: https://karhoo.com
       imageType: png
       about:
+    - name: "Social Point"
+      slug: socialpoint
+      url: http://www.socialpoint.es/
+      about:
+        "Social Point is a world reference in mobile, action, social and strategy gaming, with mega-hits like Dragon City, Monster Legends, the new World Chef and Dragon Land, and an active fan base of more than 50 million players.
+        <br><br>
+        We know that key to our success are the brilliant minds and the talent of our team players. Our international team is formed by awesome people who are passionate about social games, creativity and pushing the bar.
+        <br><br>
+        We offer a fun, lively and dynamic workplace, headquartered in beautiful Barcelona, where creativity, agility and innovation are encouraged, prized and rewarded.
+        <br><br>
+        We write backend services and soft real-time technologies using Go. Those services receives high user traffic everyday and must developed with the highest quality this competitive industry requires. Our infrastructure runs on AWS, receiving traffic all around the world."
