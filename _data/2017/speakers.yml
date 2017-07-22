@@ -448,7 +448,7 @@
              speaker: Diwaker Gupta
              handle: diwakergupta
              company: Dropbox
-             photo: https://secure.gravatar.com/avatar/9b86e07a1e978fd71bddc8263e5a1385?s=500
+             photo: /archive/2017/images/speakers/diwakergupta.jpg
              bio:  |
                My <a href="http://cseweb.ucsd.edu/~dgupta/#research">Ph.D.</a> focused on virtualization; at <a href="http://www.asterdata.com/">Aster Data</a>, I worked on big data and distributed databases before it was cool; and at <a href="http://maginatics.com/">Maginatics</a>, I built a user & IT friendly, cloud-backed enterprise distributed filesystem. These days, I manage some amazing and talented teams at Dropbox where we tackle some of the hardest challenges in building high-performance, low-latency, strongly-consistent metadata storage systems.
              level: All
