@@ -18,6 +18,13 @@
         Our stack is Go microservices using Cassandra, Kafka and Linkerd, run in Kubernetes on AWS.
         <br><br>
         Internally, we encourage an open, collaborative, inclusive working environment. We run hackathons, where people build things on our third party API, and we contribute to open source software. Our product roadmap is public, and we continually engage with our wonderful community. We’re hiring engineers and engineering managers - join us!"
+- type: Delegate Lounge Sponsor
+  sponsors:
+    - name: "Google"
+      slug: google
+      url: https://golang.org
+      about:
+        "Google’s mission is to organize the world’s information and make it universally accessible and useful. The Go programming language is designed to make it easier for software engineers around the world to create the next generation of applications to further that mission. Google believes firmly in the power of open source communities and is committed to building a vibrant ecosystem around Go."
 - type: Gold Sponsors
   sponsors:
     - name: "Sainsbury’s"
