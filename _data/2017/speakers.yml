@@ -414,7 +414,7 @@
              speaker: Ian Kent
              handle: iankent
              company: Office for National Statistics
-             photo: https://secure.gravatar.com/avatar/ec65c1d67c7ec403f80dd101c79a9be1?s=500
+             photo: /archive/2017/images/speakers/iankent.jpg
              bio:  |
                I’m the Technical Lead for Digital Publishing at Office for National Statistics. I’ve been working with Go since 2013, after ditching Perl, and introduced it to two Civil Service departments - Companies House and ONS. I build websites, APIs and ‘backend’ stuff - but I’m terrible at anything visual except animated gradients. I’m also a below-average photographer and have a notable panda obsession.
              level: All
