@@ -283,7 +283,7 @@
               handle: audreylim77
               company: E La Carte
               photo: /archive/2017/images/speakers/audreylim.jpg
-              bio: Audrey is a lawyer turned programmer. She taught herself programming outside of work with Go as her first backend language, falling in love with Go ever since. She is a software engineer at E La Carte, and is based in he San Francisco Bay Area. She loves snowboarding, photography, and table tennis.
+              bio: Audrey is a lawyer turned programmer. She taught herself programming outside of work with Go as her first backend language, falling in love with Go ever since. She is a software engineer at E La Carte, and is based in the San Francisco Bay Area. She loves snowboarding, photography, and table tennis.
               level: All
               description: |
                 Want to contribute to Go but don't know how? Neither did I when I hacked a solution for the Go Presenter Tool. Learn about my motivations, how I approached the problem with a beginner's mind, figured out Gerrit, how it's like having my code reviewed by the Go team, and how I finally got it merged.
