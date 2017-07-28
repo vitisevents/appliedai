@@ -194,10 +194,10 @@
               company: Keyshift Software
               photo: https://secure.gravatar.com/avatar/dd847c3fb80bf7e44835845e3dc1542a?s=500
               bio:  |
-                Myles is software engineer and development team lead with nearly 20 years commercial experience building systems in the finance and gaming industries.
+                Myles is software engineer and development team lead with nearly 20 years commercial experience building systems in finance, gaming and retail.
               level: All
               description: |
-                Learn how to define a RESTful API by writing a <a href="http://swagger.io">Swagger</a> specification and using <a href="http://bit.ly/go-swag">go-swagger</a> to generate a go server skeleton and client package.  This talk focuses on developer productivity from inception to production and is based on real world experience.
+                Learn how to define a RESTful API by writing a <a href="http://swagger.io">Swagger</a> specification and using <a href="http://bit.ly/go-swag">go-swagger</a> to generate a go server skeleton and client package.  This talk focuses on developer productivity from inception to production, detailing the journey from the first line of code through to the production of a fully tested Docker image ready for deployment.
     - time: "14.45"
       slottype: break change
       tracks:
