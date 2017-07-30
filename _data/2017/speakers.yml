@@ -483,13 +483,13 @@
              slug: konradreiche
              speaker: Konrad Reiche
              handle: konradreiche
-             company: tape.tv
+             company: Silicon Valley Stealth Startup
              photo: https://secure.gravatar.com/avatar/661bb4dee881617e676c4d954ce97a70?s=500
              bio:  |
-               Konrad is a backend developer at tape.tv working on a video livestreaming platform in Go, mainly implementing microservices with Go Kit. Before that he worked two years in London for an audio streaming company. His first Go application was jukebox powered through Slack on a Raspberry Pi.
+               Konrad is a software engineer at a top-tier venture capital financed Silicon Valley stealth startup. Before that he worked in Berlin at tape.tv as a Go developer on a video livestreaming platform implementing microservices with Go Kit. He also lived and worked for two years in London as a full-stack developer for Mixlr, a broadcast live audio company. His first Go application was jukebox powered through Slack on a Raspberry Pi.
              level: All
              description: |
-               HTTP REST is seen as irreplaceable technology when designing APIs yet many applications require real-time interactivity. There are different WebSocket and WebSocket emulation implementations in the Go ecosystem. This talk will give an overview of the current state of the art of WebSockets in Go.
+               The speed of Go should make us reconsider well estabilshed paradigms. When developing APIs it is practically impossible not to mention REST yet many applications would benefit from real-time interactivity. There are different WebSocket and WebSocket emulation implementations in the Go ecosystem. This talk will give you headspace to consider WebSockets as an alternative communication protocol for your application by giving an overview of the current state of the art of WebSockets in Go.
         - track:
               name: Monzo Track
               title: Understanding concurrency with behavioural types
