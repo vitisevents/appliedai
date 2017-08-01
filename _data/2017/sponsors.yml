@@ -78,3 +78,10 @@
         We offer a fun, lively and dynamic workplace, headquartered in beautiful Barcelona, where creativity, agility and innovation are encouraged, prized and rewarded.
         <br><br>
         We write backend services and soft real-time technologies using Go. Those services receives high user traffic everyday and must developed with the highest quality this competitive industry requires. Our infrastructure runs on AWS, receiving traffic all around the world."
+    - name: "solarisBank AG"
+      slug: solarisbank
+      url: https://www.solarisbank.de
+      about:
+        "solarisBank is a tech platform with a full banking license, allowing companies to build their own financial products. We’re creating a financial ecosystem from scratch and empower our partners to bring banking and financial solutions to the next age. We are 100% digital - our branch is an API that’s built by us.
+        <br><br>
+        Most of the solarisBank tech team has never worked in a bank before. We got our experience in startups and other tech companies. Now we are bringing our expertise from the tech world to financial services to develop the most modern banking system ever built. We started with Ruby in 2016 - today we’re also working with Golang and Elixir. Our infrastructure is based on cloud tools like Docker. Being curious to learn new things is one of our core values. If all of this sounds interesting to you - then make sure to get in touch with us :-)"
