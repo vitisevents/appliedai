@@ -39,6 +39,12 @@
         "JetBrains has a passion for making developers more productive: we design intelligent development tools to simplify your challenging tasks and automate the routine ones. We offer top-notch IDEs and team productivity tools, and our latest offering is Gogland, a brand new Go IDE based on IntelliJ Platform.
         <br><br>
         Gogland extends IntelliJ Platform with the coding assistance and tool integrations specific for the Go language. Together, Gogland's powerful static code analysis and ergonomic design make development not only productive but also an enjoyable experience."
+    - name: "Glint"
+      slug: glintpay 
+      url: https://glintpay.com
+      about: 
+        "At a time of extraordinary monetary policy and when trust in currencies, banks and existing payment systems has been eroded, Glint helps us move to a more stable global economy. A new global currency, account and app, Glint is a timely innovation with immediate and reliable application. A game changer, it brings you money that is reliable and independent and gives you more control in the way you store, spend, exchange and transfer money. Launching in Q4 2017.<br>
+        The Glint platform underpins everything we do, it is an evolving micro services architecture written in Golang. Our focus is on flexibility to integrate with third party apps and solutions, high performance, low latency event processing and scalability of architecture to support a rapidly expanding global client base."
 - type: Silver Sponsors
   sponsors:
     - name: "Bytemark"
