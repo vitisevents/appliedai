@@ -1,0 +1,9 @@
+img.tiki {
+  float: left;
+  width: 30%;
+  margin: 1%
+}
+
+.clearfix {
+  clear: both;
+}
