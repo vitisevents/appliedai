@@ -426,10 +426,9 @@
               slug: chrisbenson
               speaker: Chris Benson
               handle: chrisbenson
-              company: Accenture
               photo: https://secure.gravatar.com/avatar/c8c8c5a0f4403ab778c5bce9511a81f1?s=500
               bio:  |
-                Chris Benson has been a software engineer for two decades, and a Gopher since 2014.  Chris was first introduced to ‘deep learning’ in the 1990s.  His passion for creating innovative custom deep learning models in Go and Google TensorFlow's Go client led him to create the company Deep Analytics.  Chris is an Amazon Web Services Certified Solutions Architect, and he earned the Machine Learning Certificate from Stanford University through Coursera.  He is currently writing a book entitled 'Deep Learning with Go', and is the founder of the Atlanta Deep Learning Meetup in cooperation with the Advanced Technology Development Center at Georgia Tech.
+                Chris Benson has been a software engineer for two decades, a Gopher since 2014, and was originally introduced to ‘deep learning’ in the 1990s. His passion for deep learning became the catalyst for a career pivot into artificial intelligence strategy and machine learning architecture in 2017.  Chris now specializes in deep learning, about which he often evangelizes, presents, and instructs.  Chris is an Amazon Web Services Certified Solutions Architect, and he earned the Machine Learning Certificate on Coursera from Stanford University. He is the founder and Organizer of the Atlanta Deep Learning Meetup.
               level: All
               description: |
                 You’ve heard about self-driving cars, self-organizing drone swarms, conversational interfaces, and emotion recognition. That’s all ‘deep learning’ - a powerful AI taking the world by storm! In my talk, I’ll show you how to build ‘deep learning’ models with Go to solve complex real-world challenges.
