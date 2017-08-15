@@ -6,11 +6,11 @@
       tracks:
         - track:
             name: Workshop - Advanced
-            speaker: William Kennedy
-            title: "Ultimate Go"
+            speaker: Mark Bates
+            title: "Advanced Go"
             id: workshopi
             description: |
-              Ultimate Go is a class for any intermediate-level developer who has some experience with other programming languages and wants to learn Go. This class provides an intensive, comprehensive and idiomatic view of the language. We focus on both the specification and implementation of the language, including topics ranging from language syntax, Go’s type system, concurrency, channels, testing and more. We believe this class is perfect for anyone who wants a jump start in learning Go or who wants a more thorough understanding of the language and its internals. <a href="/workshop-day">More details</a> or <a href="/tickets">Buy tickets</a>
+              Advanced Go is a class for any intermediate-level developer who has some experience with other programming languages and wants to learn Go. This class provides an intensive, comprehensive and idiomatic view of the language. We focus on both the specification and implementation of the language, including topics ranging from language syntax, Go’s type system, concurrency, channels, testing and more. We believe this class is perfect for anyone who wants a jump start in learning Go or who wants a more thorough understanding of the language and its internals. <a href="/workshop-day">More details</a> or <a href="/tickets">Buy tickets</a>
     - time: "09.00"
       slottype: special
       tracks:
