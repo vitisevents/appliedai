@@ -80,4 +80,15 @@
 			}
 		}
 	}
+
+	h5{
+		@include font-family(primary);
+		@include font-weight(bold);
+	}
+}
+
+//Burrows
+&.-burrows{
+	background:url(../images/backgrounds/bg-tunnels.png);
+	background-size:cover;
 }

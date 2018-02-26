@@ -3,7 +3,7 @@
 	min-height:550px;
 	padding:60px 20px;
 	text-align:center;
-	background-image:url(/assets/images/banners/home3.png);
+	background-image:url(/assets/images/banners/bg-london.jpg);
 	background-size:cover;
 	background-color:rgb(40,55,105);
 	background-position:center center;
@@ -16,11 +16,11 @@
 	&__logo{
 		display:inline-block;
 		margin:0 0 10px 0;
-		max-width:220px;
-		height:180px;
+		width:780px;
+		max-width:90%;
 
 		@include respond(mobile-only){
-			height:130px;
+			max-width:80%;
 		}
 	}
 
@@ -30,20 +30,19 @@
 
 	&__title,
 	&__sub-title{
-		@include font-family(secondary);
+		@include font-family(primary);
+		@include font-weight(bold);
 		text-transform:uppercase;
-		color:$color-white;
+		color:darken($color-brand-quarternary,20%);
 	}
 
 	&__title{
-		@include font-weight(bold);
 		@include font-size(47px);
 
 		@include respond(mobile-only){
 			@include font-size(40px);
 			line-height:1.1em;
 		}
-
 	}
 
 	&__sub-title{
@@ -61,7 +60,7 @@
 	&__location{
 		margin:10px 0;
 		@include font-size($base-font-size*1.1);
-		color:$color-white;
+		color:darken($color-brand-quarternary,20%);
 
 		.icon{
 			margin:0 5px 0 0;
