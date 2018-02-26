@@ -12,6 +12,7 @@
     "gulp-shell": "^0.5.2",
     "gulp-util": "*",
     "gulp-watch": "^4.1.1",
+    "jpegtran": "^1.0.5",
     "webpack": "^1.15.0"
   },
   "engineStrict": true,
