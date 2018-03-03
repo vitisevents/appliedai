@@ -49,7 +49,6 @@ var sassBuild = function () {
     .on('error', reportError)
     // .pipe(cleanCSS())
     .pipe(gulp.dest('assets/css'))
-    .pipe(browserSync.reload( { stream:true } ))
 };
 
 // Compile sass
@@ -93,8 +92,10 @@ var reportError = function (error) {
 gulp.task('watch', function() {
   // Watch .scss files
   gulp.watch('assets/sass/**/*.scss', ['sass']);
+  // Watch .css files
+  gulp.watch('assets/css/**/*.css', ['jekyll-rebuild']);
   // Watch image files
-  gulp.watch(['assets/images/**/*.png', 'assets/images/**/*.jpg', 'assets/images/**/*.gif', 'assets/images/**/*.jpeg'], ['images']);
+  gulp.watch(['assets/images/**/*.png', 'assets/images/**/*.jpg', 'assets/images/**/*.gif', 'assets/images/**/*.jpeg'], ['images'], ['jekyll-rebuild']);
   // Watch .html files and posts
   gulp.watch(['index.html', '*/*.html', '*.md', '_posts/*'], ['jekyll-rebuild']);
 });
