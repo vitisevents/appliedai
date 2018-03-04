@@ -33,12 +33,12 @@ $header-height:         81px;
         margin:0 20px 0 0;
 
         &:hover{
-            color:$color-brand-secondary;
+            color:$color-brand-tertiary;
         }
 
         &:hover svg,
         &:hover svg path{
-            fill:$color-brand-secondary;
+            fill:$color-brand-tertiary;
         }
     }
 
@@ -81,8 +81,8 @@ $header-height:         81px;
 
 .page-head__logo{
     display:inline-block;
-    margin:20px 0 0 0;
-    height:42px;
+    margin:14px 0 0 0;
+    height:48px;
 
     img{
         display:block;

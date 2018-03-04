@@ -23,9 +23,10 @@ input[type="submit"],
     cursor:pointer; /* [5] */
     border-radius:$base-font-size*3;
     padding:($base-font-size * 1.1) ($base-font-size * 3.5);
-    @include font-size($base-font-size*1.2);
+    @include font-size($base-font-size*1.4);
     @include font-family(secondary);
     @include transition(all $base-transition ease);
+    line-height:1em;
 
     @include hocus{
         color:$color-white;

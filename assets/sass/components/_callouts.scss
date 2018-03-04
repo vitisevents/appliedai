@@ -31,6 +31,10 @@ $callout-padding : ($base-spacing-unit*2);
 		background:$color-green;
 	}
 
+	&.-shift-down{
+		margin-top:60px;
+	}
+
 	@include respond(mobile-only){
 		padding-bottom:$callout-padding+($base-font-size*5);
 

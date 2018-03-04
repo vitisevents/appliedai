@@ -15,11 +15,19 @@ group: navigation
       <h2>Our talks and speakers</h2>
     </div>
 </div>
-<div class="wrapper">
+<div class="wrapper relative">
     <div class="row">
       <div class="container">
         <div class="col span12">
-            {% for day in site.data.2017.speakers %}
+
+            <p>The conference begins on Wednesday with an optional workshop day. We will have two options to choose from, to be announced soon.</p>
+
+            <p>Thursday and Friday are the main conference days where you will be able to view a morning keynote followed by six talk slots throughout the day. During each talk slot you'll have the choice between two different tracks. The day will then close with a further keynote and on Thursday our <a href="/socials">mid-conference social</a>.</p>
+
+            <p>The full schedule will be announced in the first half of April, shortly after our <a href="/speakers">Call for Papers</a> closes.</p>
+
+
+            {% for day in site.data.2018.speakers %}
             <h2 class="centre">{{day.name}}</h2>
             <ul class="schedule">
               {% for slot in day.slots %}
@@ -66,6 +74,7 @@ group: navigation
       </div>
     </div>
 </div>
+<img src="/assets/images/gophers/gopher-bagpipes-left.svg" class="gopher -small -right">
 <script>
 $(function(){
     $(".schedule .slot").show();

@@ -19,4 +19,16 @@
   &.-medium{
     max-width:160px;
   }
+
+  &.-above-right{
+    max-height:80px;
+    width:auto;
+    top:-67px;
+    right:30px;
+  }
+
+  &.-hanging-right{
+    top:-7px;
+    right:30px;
+  }
 }

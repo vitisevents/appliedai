@@ -6,9 +6,10 @@ $color-grey-light:						#F4F4F4;
 $color-grey-medium:						#4E4E4E;
 $color-grey-dark:                       #1f1f1f;
 $color-brand-primary:                   #EDC951;
-$color-brand-secondary:                 #CC333F;
-$color-brand-tertiary:                  #EB6841; // blue
-$color-brand-quarternary:               #00A0B0; // red
+$color-brand-secondary:                 #CC333F; // Red
+$color-brand-tertiary:                  #EB6841; // Orange
+$color-brand-quarternary:               #00A0B0; // Green-blue
+$color-brand-dark:                      darken($color-brand-quarternary, 20%);
 
 // red = 8A251E
 // 1189bc = unknown
@@ -25,7 +26,7 @@ $color-ui:								$color-page-text;
 $color-ui-primary:						$color-brand-secondary;
 $color-ui-secondary:					$color-brand-primary;
 
-$color-btn:                             $color-black;
+$color-btn:                             #ec041a;
 $color-btn-primary:                  	$color-ui-primary;
 $color-btn-secondary:                   $color-ui-secondary;
 
