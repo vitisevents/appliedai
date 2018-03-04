@@ -1,5 +1,6 @@
 .row{
 	padding:75px 0;
+	position:relative;
 
 	@include respond(mobile-only){
 		padding:40px 0;		

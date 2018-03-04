@@ -2,7 +2,9 @@ $header-bar-height:     32px;
 $header-height:         81px;
 
 .header-bar{
+    position:relative;
     display:none;
+    z-index:21;
 
     @include respond(medium){
         display:block;
@@ -11,7 +13,7 @@ $header-height:         81px;
     height:$header-bar-height;
     padding:7px 0 5px 0;
     font-size:($base-font-size * 0.9);
-    background:$color-grey-dark;
+    background:darken($color-brand-quarternary, 5%);
 
     &.-inset{
         position:absolute;
@@ -31,12 +33,12 @@ $header-height:         81px;
         margin:0 20px 0 0;
 
         &:hover{
-            color:$color-brand-secondary;
+            color:$color-brand-tertiary;
         }
 
         &:hover svg,
         &:hover svg path{
-            fill:$color-brand-secondary;
+            fill:$color-brand-tertiary;
         }
     }
 
@@ -52,7 +54,7 @@ $header-height:         81px;
     right:0;
     background-color:$color-brand-quarternary;
     z-index:20;
-    box-shadow:0 1px 5px rgba(0,0,0,0.4);
+    box-shadow:0 1px 4px rgba(0,0,0,0.5);
 
     &.-inset{
         top:0;
@@ -79,8 +81,8 @@ $header-height:         81px;
 
 .page-head__logo{
     display:inline-block;
-    margin:20px 0 0 0;
-    height:42px;
+    margin:14px 0 0 0;
+    height:48px;
 
     img{
         display:block;

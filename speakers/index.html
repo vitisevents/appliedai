@@ -1,13 +1,14 @@
 ---
 layout: "default"
-title: Speakers
-metatitle: Speakers | Golang UK Conference
+title: Call for Papers
+metatitle: Call for Papers | Golang UK Conference
 weight: 2
 group: "navigation"
 ---
 <div class="page-title speakers">
     <div class="wrapper">
-      <h1>Speakers</h1>
+        <h1>Call for Papers</h1>
+        <h2>Apply to speaks at Gophercon UK</h2>
     </div>
 </div>
 <div class="wrapper">
@@ -15,7 +16,7 @@ group: "navigation"
         <div class="container">
             <div class="col span12">
                 <ul class="speakers">
-                    {% for day in site.data.2017.speakers %}
+                    {% for day in site.data.2018.speakers %}
                     {% for slot in day.slots %}
                     {% for speaker in slot.tracks %}
                     {% if speaker.track.speakers %}

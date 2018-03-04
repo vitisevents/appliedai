@@ -3,7 +3,7 @@
 	min-height:550px;
 	padding:60px 20px;
 	text-align:center;
-	background-image:url(/assets/images/banners/home3.png);
+	background-image:url(/assets/images/banners/bg-london.jpg);
 	background-size:cover;
 	background-color:rgb(40,55,105);
 	background-position:center center;
@@ -16,11 +16,11 @@
 	&__logo{
 		display:inline-block;
 		margin:0 0 10px 0;
-		max-width:220px;
-		height:180px;
+		width:780px;
+		max-width:90%;
 
 		@include respond(mobile-only){
-			height:130px;
+			max-width:80%;
 		}
 	}
 
@@ -30,24 +30,24 @@
 
 	&__title,
 	&__sub-title{
-		@include font-family(secondary);
+		@include font-family(primary);
+		@include font-weight(bold);
 		text-transform:uppercase;
-		color:$color-white;
+		color:darken($color-brand-quarternary,20%);
 	}
 
 	&__title{
-		@include font-weight(bold);
 		@include font-size(47px);
 
 		@include respond(mobile-only){
 			@include font-size(40px);
 			line-height:1.1em;
 		}
-
 	}
 
 	&__sub-title{
-		@include font-size(30px);
+		font-weight:800;
+		@include font-size(34px);
 
 		@include respond(mobile-only){
 			@include font-size(24px);
@@ -60,18 +60,29 @@
 
 	&__location{
 		margin:10px 0;
-		@include font-size($base-font-size*1.1);
-		color:$color-white;
+		@include font-size($base-font-size*1.5);
+		line-height:1.3em;
+		color:darken($color-brand-quarternary,20%);
 
 		.icon{
-			margin:0 5px 0 0;
+			margin:0 2px 0 0;
 		}
 	}
 
 	&__notice{
-		margin:30px 0 15px 0;
+		margin:30px 0 25px 0;
 		@include font-size($base-font-size*1.4);
-		color:$color-btn-primary;
+		color:#000;
+		font-weight:700;
 		text-transform:uppercase;
+		text-shadow:0 0 20px #fff, 1px 1px 0px #fff;
+	}
+
+	.intro{
+		margin:20px 0;
+		@include font-size($base-font-size*1.2);
+		line-height:1.3em;
+		color:#000;
+		text-shadow:0 0 20px #fff, 1px 1px 0px #fff;
 	}
 }

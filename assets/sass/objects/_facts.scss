@@ -1,9 +1,10 @@
 $fact-size:         120px;
-$fact-size-large:   200px;
+$fact-size-large:   166px;
 
 .fact{
     position:relative;
-    margin:-20px 0;
+    margin:0;
+    padding:0 40px;
     list-style:none;
     overflow:hidden;
     @include font-family(primary);
@@ -98,7 +99,7 @@ $fact-size-large:   200px;
         }
 
         &__label{
-            opacity:0.5;
+            opacity:0.8;
             @include font-weight(bold);
         }
 }
