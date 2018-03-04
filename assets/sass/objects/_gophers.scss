@@ -17,7 +17,11 @@
   }
 
   &.-medium{
-    max-width:160px;
+    max-width:80px;
+
+    @include respond(medium){
+      max-width:160px;
+    }
   }
 
   &.-above-right{
