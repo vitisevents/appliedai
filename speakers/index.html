@@ -1,36 +1,95 @@
 ---
 layout: "default"
 title: Call for Papers
-metatitle: Call for Papers | Golang UK Conference
+metatitle: Call for Papers | GopherCon UK
 weight: 2
 group: "navigation"
 ---
 <div class="page-title speakers">
     <div class="wrapper">
-        <h1>Call for Papers</h1>
-        <h2>Apply to speaks at Gophercon UK</h2>
+      <h1>Call For Papers</h1>
+      <h2>Opens March 5<sup>th</sup> 2018</h2>
+      <h2>Closes April 1<sup>st</sup> 2018 Midnight GMT</h2>
     </div>
 </div>
-<div class="wrapper">
-    <div class="row">
-        <div class="container">
-            <div class="col span12">
-                <ul class="speakers">
-                    {% for day in site.data.2018.speakers %}
-                    {% for slot in day.slots %}
-                    {% for speaker in slot.tracks %}
-                    {% if speaker.track.speakers %}
-                        {% for sp in speaker.track.speakers %}
-                            {% include speaker.html speaker=sp %}
-                        {% endfor %}
-                    {% else %}
-                        {% include speaker.html speaker=speaker.track %}
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
+<div class="row">
+    <div class="wrapper">
+      <div class="markdown">
+        <h3>About</h3>
+      <p>
+          GopherCon UK is focused on education and discussion of the Go programming language. We aim to attract the best speakers, contributors, and educators from around the world in hopes of providing the community with the best resources on the Go programming language every year.
+          <br><br>We are looking for speakers and instructors to give talks and hands-on classroom sessions. We are seeking talks covering mainstream, advanced, niche or non-technical topics aimed at a multitude of skill levels.
+          <br><br>GopherCon UK seeks to deliver ‘wow’ talks that are fresh and inspiring about cutting edge topics or new perspectives on common problems. The audience will be from all backgrounds varying in skill level from beginner to intermediate to advanced, so talks varying widely in topic and skill levels are required. Most of all we want speakers who have a deep knowledge about the topics they are proposing and can’t wait to share that knowledge with a whole group of of eager listeners. Tell us what you’re most passionate about and why we should be passionate about it as well.
+      </p>
+
+      <h3>Talk Types</h3>
+
+      <p>We are looking for 3 different types of talks for the event:
+
+      <p><strong>Workshops</strong></p>
+
+      <ul>
+        <li>Hand on technical training</li>
+        <li>Classroom style</li>
+        <li>Technical, in depth tutorial content on a specific topic</li>
+        <li>Full day (8 hours, 6 hours actual training time)</li>
+        <li>Not video recorded or distributed online</li>
+        <li>2 workshop sessions will be selected</li>
+      </ul>
+
+      <p><strong>Keynotes</strong></p>
+
+      <ul>
+        <li>Opening session each morning of the conference</li>
+        <li>Motivational, big ideas, inspirational, and community related topics</li>
+        <li>Full conference audience</li>
+        <li>30 minutes length</li>
+        <li>No Q&amp;A</li>
+        <li>4 keynote sessions will be selected</li>
+      </ul>
+
+      <p><strong>Talk Sessions</strong></p>
+
+      <ul>
+        <li>Breakout sessions throughout the conference</li>
+        <li>Technical, educational, research, new technology, case studies</li>
+        <li>Partial conference audience (split across 2 tracks)</li>
+        <li>30 minutes length</li>
+        <li>Q&amp;A at speaker’s discretion (within 30m limit)</li>
+        <li>24 talk sessions will be selected</li>
+      </ul>
+      </p>
+      
+      <h3>Videos</h3>
+
+      <p>Both keynotes and talk sessions are video recorded and distributed for free along with your slides on our <a href="https://www.youtube.com/golangukconference">YouTube channel</a></p>
+
+      <h3>Speakers</h3>
+
+      <p>We believe diversity of speakers and topics makes our event better. We welcome speakers of all programming languages, experience levels and backgrounds. We welcome speakers of any gender, sexual orientation, disability, physical appearance, race, or religion. We welcome new speakers and experienced speakers alike.</p>
+      </div>
+
+        <h3>Selection Process</h3>
+        <p>We receive on average 120 papers for 30 speaking slots. Please select from the following options when submitting your call for papers: training (half day or full day), keynote (30 mins), or session (30 mins). We're going to select 2 workshop trainings, 2 keynotes, 32 sessions), following this 3 step process: </p>
+        <ol>
+            <li>Using an anonymised list of all papers (contains talk title, abstract, and 'why you should choose this talk'), the organisers rate each talk from 1-5 to create a shortlist of around 60 abstracts.</li>
+            <li>Abstracts are then discussed and put in order of must have talks, with the top 40-50 papers being the focus.</li>
+            <li>Submissions are then de-anonymised and final selections are made based on the speaker's location/cost of travel and level of the talk.</li>      
+         </ol>
+
+        <h3>Speaker's Package</h3>        
+        <p>We are very pleased to be able to offer the following benefits package to all our speakers:</p> 
+        <ul>
+           <li>Entry to the conference and all the social events</li>
+           <li>Travel expenses paid in full</li>
+           <li>Three nights accommodation so you can attend the whole conference</li>
+           <li>Invitation to the speaker's dinner</li>
+       </ul>
+       <h3>How to Submit</h3>
+       <p>Interested in giving a talk? Please complete the submission information laid out in a handy form on PaperCall. We'll need to know some bits and bobs about yourself and we'll need a title and abstract of the talk you'd like to give. We're also interested to know why you think we should choose your talk. You can submit as many talk proposals as you like!</p>      
+
+       <p>GopherCon UK has a <a href="/conduct">Code of Conduct</a> to ensure that all attendees are able to enjoy the conference. All attendees, talks, content and slides are required to participate.</p>
+       <a class="button" id="submit-a-paper" href="https://www.papercall.io/gopherconuk18" target="_blank">Submit a Paper</a>
     </div>
 </div>
+<img src="/assets/images/gophers/gopher-bagpipes-left.svg" class="gopher -small -right">
