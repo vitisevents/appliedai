@@ -1,13 +1,13 @@
 {% if page.url != '/sponsors/' %}
 <div class="row -center sponsor-bar">
     <div class="wrapper">
-        <h4>Our 2017 sponsors</h4>
+        <h4>Our sponsors</h4>
         <ul class="sponsor-list">
-            {% for sponsorType in site.data.2017.sponsors %}
+            {% for sponsorType in site.data.2018.sponsors %}
             {% for sponsor in sponsorType.sponsors %}
             <li class="sponsor-list__sponsor">
                 <a href="/sponsors/#{{ sponsor.slug }}" class="sponsor__link">
-                    <img src="/assets/images/2017/sponsors/{{ sponsor.slug }}.png" alt="{{ sponsor.name }}" class="sponsor--{{sponsor.slug}}">
+                    <img src="/assets/images/2018/sponsors/{{ sponsor.slug }}.png" alt="{{ sponsor.name }}" class="sponsor--{{sponsor.slug}}">
                 </a>
             </li>
             {% endfor %}
