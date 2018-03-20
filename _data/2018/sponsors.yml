@@ -5,8 +5,8 @@
       url: https://www.openshift.com
       about:
         "Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise. OpenShift lets you easily and quickly build, develop, and deploy in nearly any infrastructure, public or private. Whether it's on-premise, in a public cloud, or hosted, you have an award-winning platform to get your next big idea to market ahead of your competition."
- - type: Track Sponsor
-   sponsors:
+- type: Track Sponsor
+  sponsors:
      - name: "Glint Pay"
        slug: glintpay
        url: https://glintpay.com
