@@ -1,6 +1,6 @@
 - type: Platinum Sponsor
   sponsors:
-    - name: "RedHat Openshift"
+    - name: "RedHat OpenShift"
       slug: redhatopenshift
       url: https://www.openshift.com
       about:
