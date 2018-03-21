@@ -12,20 +12,18 @@
       imageType: png
       url: https://glintpay.com
       about:
-- type: Gold Sponsor
+- type: Gold Sponsors
   sponsors:
     - name: "Sainsbury's"
       slug: Sainsburys
       url: https://www.
       about:
-- type: Gold Sponsor
-  sponsors:
     - name: "Monzo"
       slug: monzo
       imageType: png
       url: https://monzo.com/careers
       about:
-- type: Silver Sponsor
+- type: Silver Sponsors
   sponsors:
     - name: "Vistas"
       slug: vistas
@@ -37,8 +35,6 @@
         We pride ourselves on providing a highly personal, friendly and flexible service. We can work onsite, taking care of all recruitment needs or in a more traditional agency mode on specific requirements.
         <br><br>
         Partnering with start-ups and established companies, we have a client portfolio of some of the most exciting names in technology, and are committed to helping Gophers find their perfect fit. To get in touch with Martin for more details – email: martin@vistasrecruitment.com or Gophers Slack @martin_gallagher or Twitter @MGallagher2010"
-- type: Silver Sponsor
-  sponsors:
     - name: "Trisoft"
       slug: trisoft
       imageType: png
