@@ -16,6 +16,7 @@
   sponsors:
     - name: "Sainsbury's"
       slug: sainsburys
+      imageType: png
       url: https://www.sainsburys.work
       about:
     - name: "Monzo"
