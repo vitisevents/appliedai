@@ -1,6 +1,8 @@
 permalink: pretty
 exclude: [node_modules]
 keep_files: [assets/css, archive]
+title: GopherCon UK
+description: Introducing GopherCon UK, formerly known as the Golang UK Conference. <br>Join us for three days of great Go content with the best speakers from across the world.
 collections:
   videos:
     output: true
