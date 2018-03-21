@@ -12,3 +12,29 @@
       imageType: png
       url: https://glintpay.com
       about:
+- type: Gold Sponsor
+  sponsors:
+    - name: "Sainsbury's"
+      slug: Sainsburys
+      url: https://www.
+      about:
+- type: Gold Sponsor
+  sponsors:
+    - name: "Monzo"
+      slug: monzo
+      imageType: png
+      url: https://monzo.com/careers
+      about:
+- type: Silver Sponsor
+  sponsors:
+    - name: "Vistas"
+      slug: vistas
+      imageType: png
+      url: https://www.vistasrecruitment.com
+      about:  
+        " Founded in 2015 by Martin Gallagher, Vistas Recruitment is a specialist recruitment boutique focusing almost entirely on Go-related roles across the UK and Europe. Having sponsored GolangUK in 2016 and 2017, we are delighted to support the conference again this year.
+        <br><br>
+        We pride ourselves on providing a highly personal, friendly and flexible service. We can work onsite, taking care of all recruitment needs or in a more traditional agency mode on specific requirements.
+        <br><br>
+        Partnering with start-ups and established companies, we have a client portfolio of some of the most exciting names in technology, and are committed to helping Gophers find their perfect fit. To get in touch with Martin for more details – email: martin@vistasrecruitment.com or Gophers Slack @martin_gallagher or Twitter @MGallagher2010"
+        
