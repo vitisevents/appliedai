@@ -15,8 +15,8 @@
 - type: Gold Sponsors
   sponsors:
     - name: "Sainsbury's"
-      slug: Sainsburys
-      url: https://www.
+      slug: sainsburys
+      url: https://www.sainsburys.work
       about:
     - name: "Monzo"
       slug: monzo
