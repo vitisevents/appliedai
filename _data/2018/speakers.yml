@@ -1,0 +1,30 @@
+- schedule-wednesday:
+  name: Wednesday 1st August 2018
+  slots:
+    - time: "09.00"
+      slottype: special
+      tracks:
+        - track:
+            name: "Workshop - Beginner"
+            speaker: Mark Bates
+            title: "Daily Go: Fundamentals"
+            id: workshopi
+            description: |
+              Go is a modern programming language with a heavy focus on developer productivity, scalability, and speed. Whether you're a recent grad or an industry veteran, there's no better time to learn the core concepts of the Go programming language. This course introduces language fundamentals, such as primitives, language structure, design, and concurrency. If you have little or no experience with Go and want to jumpstart your knowledge, this course is for you. <br><br><a href="/workshop-day">More details</a> or <a href="/tickets">Buy tickets</a>
+    - time: "09.00"
+      slottype: special
+      tracks:
+        - track:
+              name: Workshop - Intermediate
+              speaker: Cory LaNou
+              title: "Gophercon UK: Advanced"
+              id: workshopii
+              description: |
+                Go is a modern programming language with a heavy focus on developer productivity, scalability, and speed. Concepts such as concurrent programming, testing, and performance testing were designed into the language from the beginning. If you want to learn about concurrent programing, or how to performance test and profile your code, this course is for you. <br><br><a href="/workshop-day">More details</a> or <a href="/tickets">Buy tickets</a>
+    # - time: "18.00"
+    #   slottype: break
+    #   tracks:
+    #     - track:
+    #           name: Pre-Conference Social
+    #           description: |
+    #             The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
