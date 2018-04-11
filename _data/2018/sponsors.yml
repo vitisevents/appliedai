@@ -40,6 +40,11 @@
         We run hackathons, where people build things on our third party API, and we contribute to open source software. Our product roadmap is public, and we continually engage with our wonderful community.
         <br><br>
         We're hiring engineers and engineering managers to join our talented team."
+    - name: "solarisBank"
+      slug: solaris
+      imageType: png
+      url: https://www.solarisbank.com
+      about: 
 - type: Silver Sponsors
   sponsors:
     - name: "Vistas"
