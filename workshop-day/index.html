@@ -11,18 +11,68 @@ weight: 3
       <h2>Wednesday, 1st August 2018</h2>
     </div>
 </div>
-<div class="wrapper">
-    <div class="row">
+<div class="row">
+    <div class="wrapper">
       <div class="container">
         <div class="col span12">
-            <a href="https://www.gopherguides.com/"><img src="/images/gopherguides.png" alt="Gopher guides logo" width="200" style="float:left;"></a>
-            <p>GopherCon UK 2018 is proud to work with <a href="https://www.gopherguides.com/">Gopher Guides</a> to bring to you <b>two</b> options for a full day of training on Wednesday, 1st August 2018, a day before the conference.</p>
-            <p>Both course options are a full day (9am-5pm) of hands on immersive training with top professional  trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p>
-            
-            <h1 style="clear: both;">Daily Go: Fundamentals</h1>
-            <img src="/archive/2018/assets/images/markbates.png" width="150" style="float:right;" />
+            <p>GopherCon UK 2018 is proud to work with <a href="https://www.gopherguides.com/">Gopher Guides</a> and <a href="https://www.openshift.com/">Red Hat OpenShift</a> to bring to you <b>three</b> options for a full day of training on Wednesday, 1st August 2018, a day before the conference.</p>
+            <p>All three course options are a full day (9am-5pm) of hands on immersive training with top professional  trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p>
+        </div>
+        <div class="col text-center">
+            <a href="https://www.gopherguides.com/" target="_blank">
+                <img src="/images/gopherguides.png" alt="Gopher guides logo" width="100" style="display:inline-block; margin:0 auto; vertical-align:middle;">
+            </a>
+            &nbsp;&nbsp;
+            <a href="https://www.OpenShift.com/" target="_blank">
+                <img src="/assets/images/2018/sponsors/redhatopenshift.png" alt="OpenShift logo" width="220" style="display:inline-block; margin:0 auto; vertical-align:middle;">
+            </a>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col span12">
+        {% for day in site.data.2018.speakers %}
+        <ul class="workshop-schedule">
+          {% for slot in day.slots %}
+          {% for track in slot.tracks %}
+            <li class="track">
+              <span class="speaker-block">
+                  <span class="name">{{track.track.name}}</span>
+                  <span class="title">{{track.track.title}}</span>
+              </span>
+              {% if track.track.speaker %}
+              <span class="speaker">
+                Course instructor:   
+                <a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a>
+              </span>
+              {% else if track.track.speakers %}
+              <span class="speaker">
+                Course instructors: 
+                {% for speaker in track.track.speakers %}
+                  <a href="/speakers/#{{speaker.slug}}">{{speaker.speaker}}</a>
+                  {% if speaker != track.track.speakers.last %}&amp; {% endif %}
+                {% endfor %}
+              </span>
+              {% endif %}
+              <a href="#{{track.track.id}}" class="link">View full course info</a>
+            </li>
+            {% endfor %}
+            {% endfor %}
+        </ul>
+        {% endfor %}
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row -medium">
+      <div class="wrapper">
+        <div class="col span12">
+            <a name="workshopi"></a>
+            <h3 style="clear: both;">Daily Go: Fundamentals</h3>
             <h4>Instructor: Mark Bates</h4>
             <h4>Founder/Instructor at Gopher Guides</h4>
+            <img src="/archive/2018/assets/images/markbates.png" width="100" style="float:left; margin:0 15px 0 0;" />
             <p>Mark Bates is a full stack web developer with over 17 years of experience building high quality scalable applications for companies such as Apple, USA Today, Klarna, and Palm. He has written three books, 'Distributed Programming with Ruby', 'Programming in CoffeeScript', and 'Conquering the Command Line'. Mark has spoken at conferences around the world, has led user groups such as Boston Ruby and Boston Golang, and has helped to organize conferences such as GothamGo and GopherCon.</p>
             <h4>Prerequisites</h4>
             <p>The material has been designed to be taught in a classroom environment. The code is well commented but missing some of the contextual concepts and ideas that will be covered in class. Students with the following minimal background will get the most out of the class.</p>
@@ -85,11 +135,18 @@ weight: 3
                     <p>This module covers where to get more support on Go, recommends books and videos, and list contact information for your instructor.</p>
                 </li>
             </ul>
-            
-            <img src="/archive/2018/assets/images/corylanou.png" width="150" style="float:right;" /img>
-            <h1>Gophercon UK: Advanced</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="wrapper">
+        <div class="col span12">
+            <a name="workshopii"></a>
+            <h3 >Gophercon UK: Advanced</h3>
             <h4>Instructor: Cory LaNou</h4>
             <h4>Founder/Instructor at Gopher Guides</h4>
+            <img src="/archive/2018/assets/images/corylanou.png" width="100" style="float:left; margin:0 15px 0 0;" /img>
             <p>Cory LaNou a full stack technologist who has specialized in start-ups for the last 20 years. Cory worked on the Core engineering team that contributes to InfluxDB, a highly scalable, distributed time series database written in Go. Cory has worked on several Go projects with a focus on profiling and optimizing applications, using advanced profiling concepts such as flame graphs and tracing profiles. Cory has created and led numerous Go workshops and training courses. He  has several published online articles related to Go.  Cory also helps lead and organizer several community technology meetups and mentors new developers.</p>
              <h4>Prerequisites</h4>
             <ul>
@@ -154,9 +211,21 @@ weight: 3
                     <p>It's easy to decouple packages in Go using interfaces. Because of this, testing can also be much easier. However, you typically want to mock out your interfaces in tests so that unit testing is much easier. This chapter will cover how to write a mock for a service to enable easy and precise testing.</p>
                  </li>
             </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row -medium">
+      <div class="wrapper">
+        <div class="col span12">
+            <a name="workshopiii"></a>
+            <h3>Using and extending the Kubernetes API programmatically</h3>
+            <h4>Instructors: Stefan Schimanski &amp; Michael Hausenblas</h4>
+            <p>Kubernetes is the de-fact industry standard for container orchestration. In this workshop you’ll learn how to program Kubernetes using Go. We will start with the basic concepts (pods, namespace, labels, workloads, nodes, events, etc.) and provide step by step guidance how to implement a variety of tasks against the Kubernetes API with the Go programming languages. The two main Go libraries used in this workshop will be https://github.com/kubernetes/client-go as well as https://github.com/openshift/client-go in addition to the Go standard library. For each participant access to a Kubernetes cluster will be provided, and it is beneficial if you have the latest Go version installed on your laptop in order to follow along. We will provide a GitHub repo with all code samples used in the workshop.</p>
+
             <br>
             <p><a class="button" href="/tickets">Buy Your Ticket</a></p>
         </div>
+      </div>
     </div>
-</div>
 </div>
