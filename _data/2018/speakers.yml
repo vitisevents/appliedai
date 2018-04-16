@@ -40,3 +40,553 @@
     #           name: Pre-Conference Social
     #           description: |
     #             The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
+
+
+- schedule-thursday:
+  name: Thursday 17th August 2017
+  slots:
+    - time: "08.00"
+      slottype: special
+      tracks:
+        - track:
+              name: The Brewery Foyer
+              title: Registration and Refreshments
+              description: Please bring a copy of your ticket either printed or on a mobile device.
+    - time: "09.00"
+      slottype: special
+      tracks:
+        - track:
+              name: Opening address
+              title: Welcome to The Golang UK Conference
+              slug: about
+              description:
+                "The conference team welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the day's events to come."
+    - time: "09.15"
+      slottype: special
+      tracks:
+        - track:
+              name: Keynote
+              title: State of the Gopher Nation
+              slug: stevefrancia
+              speaker: Steve Francia
+              handle: spf13
+              company: Google
+              photo: /archive/2017/images/speakers/stevefrancia.jpg
+              bio: Steve Francia has the unique distinction of having held leadership roles in five of the largest open source projects. He is a member of the Go team at Google where he is responsible for Go and it's users. He also currently serves as a Director of the Drupal Association. He previously held executive roles at Docker and MongoDB where he led engineering, product and open source. He is the creator of Hugo, Cobra, Viper, spf13-vim and many additional open source projects. He is a published author, speaker, developer, and father of 4. Outside of technology Steve likes skateboarding, punk rock, and dystopian films.
+    - time: "09.45"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "10.00"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: Writing Beautiful Packages in Go
+             slug: matryer
+             speaker: Mat Ryer
+             handle: matryer
+             company: GrayMeta, Inc.
+             photo: /archive/2017/images/speakers/matryer.jpg
+             bio:  |
+               Programming since age 6 (Mat would type BASIC code out from computer magazines with his father to make little programs and games), Mat has always had a keen obsession with programming. When Go came along, he loved the philosophy and the elegance of the language, and has been using it since before v1. In 2015 his first book Go Programming Blueprints was published. Today he works for GrayMeta, employing his Go expertise in this exciting LA-based big meta-data company. He spoke at Gophercon in 2014 in Denver, Colorado and the UK’s Go conference in August 2015 and 2016 as well as infoShare in Poland and ProgsCon in London. He founded Testify and Silk testing packages.
+             level: Intermediate
+             description: |
+               Whether for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused. Explore best practices, goals, and idioms that help make beautiful packages.
+        - track:
+              name: Monzo Track
+              title: Golang's Realtime GC in Theory and Practice
+              slug: willsewell
+              speaker: Will Sewell and Jim Fisher
+              handle: willsewell_
+              company: Pusher
+              photo: /archive/2017/images/speakers/willsewellandjimfisher.jpg
+              bio:  |
+                Will and Jim are software engineers at Pusher. We help keep the realtime messaging system ticking along smoothly. Our work ranges from high performance distributed systems, to prototyping and early stage product development. After using a number of languages in the past, we have frequently been turning to Go for our most recent projects.
+              level: Intermediate
+              description: |
+                Go's GC is optimised for low latency applications. In this talk we'll see how it works (the tricolor algorithm), why it works (achieving such short GC pauses), and most importantly, whether it works (benchmarking these GC pauses, and comparing them with other languages).
+    - time: "10.45"
+      slottype: break
+      tracks:
+        - track:
+              name: Refreshment break
+              description: |
+                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "11.15"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: "করো: Translating Go to Other (Human) Languages, and Back Again"
+             slug: adityamukerjee
+             speaker: Aditya Mukerjee
+             handle: chimeracoder
+             company: Stripe
+             photo: https://secure.gravatar.com/avatar/94dcff33cbdf74b5d785369ac54bc1a8?s=500
+             bio:  |
+               Aditya is an engineer at Stripe on the Risk team, based in New York City. He studied statistics at Columbia and computer science at Cornell, and has been writing Go professionally for the past four years. When not defending users against online fraudsters, he spends his free time playing German-style board games and listening to embarrassing music.
+             level: All
+             description: |
+               Like most programming languages, Go uses English keywords. But Go's unique approach to byte and string handling makes it the ideal candidate for a universal programming language that can be localized to allow English-speaking and non-English speaking developers to collaborate on the same projects.
+        - track:
+              name: Monzo Track
+              title: "Bare Metal Gophers: Can you write an OS Kernel in Go?"
+              slug: achilleasanagnostopoulos
+              speaker: Achilleas Anagnostopoulos
+              company: Geckoboard
+              photo: https://secure.gravatar.com/avatar/a3b916042e9f727bb42bcf6957ea85f4?s=500
+              bio:  |
+                Achilleas is a software engineer at <a href="https://www.geckoboard.com">Geckoboard</a>, where Go is an integral part of the data platform that allows customers to build TV dashboards that visualize their most important KPIs. He is also the author of <a href="https://github.com/geckoboard/prism">prism</a>, a tool for collecting and analyzing profiling data from Go applications. When not tinkering with code, he enjoys reading sci-fi books and taking long walks through the city.
+              level: Intermediate
+              description: |
+                Go is a great language for building server applications but can you use it to write an OS kernel? Let's talk about the challenges involved in writing, compiling and linking Go code that runs in Ring-0 and code a simple "Hello World" demo in Go that runs inside QEMU.
+    - time: "12.00"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "12.15"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: Concurrency Patterns in Go
+             slug: arneclaus
+             speaker: Arne Claus
+             handle: arnecls
+             company: trivago
+             photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/11567/profile03small.jpg
+             bio:  |
+                I’m a former graphics engine programmer now working as a site reliability engineer at trivago. After having worked on C/C++ based projects for over 15 years I switched to Go as my language of choice a few years ago. I’m also the creator of <a href="https://github.com/trivago/gollum">Gollum</a>, a vital part of trivago’s logging pipeline.
+             level: Intermediate
+             description: |
+               We all know that go comes with great concurrency tools like go routines and channels. But is this really everything? This session starts with an overview of common concurrency patterns and ends with best practices on lockless programming that won't let your head explode.
+        - track:
+              name: Monzo Track
+              title: Building Go with Bazel
+              slug: paulbellamy
+              speaker: Paul Bellamy
+              handle: pyrhho
+              company:
+              photo: https://secure.gravatar.com/avatar/eac6f57e46837c7b0d0bacac4288d0b9?s=500
+              bio:  |
+                Paul Bellamy is a Freelance Software Engineer, who's been loving Go for the last 3 years. Having bounced between development and operations, his previous experience includes Internet of Things messaging protocols, time-series data analysis, and open-source tooling for connecting, observing, and controlling Kubernetes.
+              level: Intermediate
+              description: |
+                Tired of Makefile hacks? Bazel offers fast, reproducible builds for software of any size. Why is it better than go build? Bazel makes polyglot projects easy, has remote build workers, and shared caching. Get started building Go projects, learn key concepts, and get ready to turbocharge your build.
+    - time: "13.00"
+      slottype: break
+      tracks:
+        - track:
+              name: Lunch
+              description: |
+                A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "14.00"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: Betting on Go
+             slug: nicholasjackson
+             speaker: Nicholas Jackson
+             handle: sheriffjackson
+             company: Hashicorp
+             photo: https://secure.gravatar.com/avatar/05d3d38fb637ed5240b637f57394d587?s=500
+             bio:  |
+               Nic Jackson is a developer advocate and polyglot programmer working for Hashicorp with over 20 years experience in software development and leading software development teams. He is the author of Building Microservices in Go and in his spare time Nic coaches and mentors at codebar.io, GoBridge, Women who Go and CoderDojo.
+             level: All
+             description: |
+               This talk discusses HashiCorp's journey with Go from its infancy to the mature, production-ready language it has become today. We will discuss the decision-making process which ultimately landed on Go, the benefits we’ve gotten out of the standard library, the limitations we’ve hit along the way.
+        - track:
+              name: Monzo Track
+              title: Building a RESTful API using go-swagger
+              slug: mylesmcdonnell
+              speaker: Myles McDonnell
+              handle: MylesMcDonnell
+              company: Keyshift Software
+              photo: https://secure.gravatar.com/avatar/dd847c3fb80bf7e44835845e3dc1542a?s=500
+              bio:  |
+                Myles is software engineer and development team lead with nearly 20 years commercial experience building systems in finance, gaming and retail.
+              level: All
+              description: |
+                Learn how to define a RESTful API by writing a <a href="http://swagger.io">Swagger</a> specification and using <a href="http://bit.ly/go-swag">go-swagger</a> to generate a go server skeleton and client package.  This talk focuses on developer productivity from inception to production, detailing the journey from the first line of code through to the production of a fully tested Docker image ready for deployment.
+    - time: "14.45"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "15.00"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: Embedding, or how I learned to stop complaining and use the strengths of the language
+             slug: seankelly
+             speaker: Sean Kelly
+             handle: StabbyCutyou
+             company: Komand Security
+             photo: /archive/2017/images/speakers/seankelly.jpg
+             bio:  |
+               Sean Kelly (affectionately known as Stabby) is a Principal Software Engineer for Komand Security. A simple man with a dog for an avatar, he enjoys learning new things, helping / mentoring others, and posting photos of his dog on the internet. When he's not giving talks about his many failures, he enjoys spending time at home with his wife, and coming up with new projects to work on that he will never actually finish.
+             level: Intermediate
+             description: |
+               Embedding. It sure is weird, isn't it? it's unlike traditional inheritance, and it can be uncomfortable at first. But it does have a lot of positives to it that might not be obvious at first. In this talk, we'll go over highlights and pitfalls of embedding, and some interesting ways to use it.
+        - track:
+              name: Monzo Track
+              title: Creating interactive frontend apps with GopherJS and React
+              slug: pauljolly
+              speaker: Paul Jolly
+              handle: _myitcv
+              company: modelogiq
+              photo: https://secure.gravatar.com/avatar/02b2187479e99aecbd68797880ed8198?s=500
+              bio:  |
+                Paul is co-founder of modelogiq, an early-stage Frankfurt-based startup looking to change the way that companies build financial models. He spent 6.5 years working in the technology division of an investment bank, before taking a break, studying in London and San Francisco, then returning to the London startup scene. He is an alumnus of GoCardless where he worked before leaving to start modelogiq. Outside of work Paul enjoys running, cycling and the great outdoors.
+              level: Intermediate
+              description: |
+                Fed up of Javascript? Do you pine for Go’s simplicity and fantastic tooling? Learn how to painlessly create interactive UIs in your favourite language… and never write a line of Javascript again!
+    - time: "15.45"
+      slottype: break
+      tracks:
+        - track:
+              name: Refreshment break
+              description: |
+                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "16.15"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: "Fighting latency: the CPU profiler is not your ally"
+             slug: filippovalsorda
+             speaker: Filippo Valsorda
+             handle: FiloSottile
+             company: Cloudflare
+             photo: https://secure.gravatar.com/avatar/044b59a59f2bfb736b3142db2cd025ca?s=500
+             bio:  |
+               <a href="https://blog.filippo.io/hi/">Filippo Valsorda</a> works on cryptography and systems engineering at Cloudflare. He’s been the main developer of the pure-Go Cloudflare DNS server, and wrote its DNSSEC implementation. He the deployed the crypto/tls and net/http based TLS 1.3 reverse proxy for the Cloudflare edge, and started to <a href="https://go-review.googlesource.com/c/33164/">upstream</a> it. He's now working on Certificate Transparency. He often writes about Go on the <a href="https://blog.cloudflare.com/author/filippo/">company</a> and <a href="https://blog.filippo.io/>personal blog</a>, talks about security and programming, and builds Go tools like <a href="https://github.com/FiloSottile/gvt">gvt</a>, <a href="https://github.com/cloudflare/hellogopher">hellogopher</a>, the <a href="https://filippo.io/Heartbleed">Heartbleed test</a> and the <a href="https://github.com/FiloSottile/whosthere">whoami SSH server</a>.
+             level: Intermediate
+             description: |
+               "When we talk about a 'fast' service we often don't mean one that can process 500MB/s per core, but one that can respond in <5ms. However, many causes of latency are invisible to pprof: network operations, disk reads, locks, channels, scheduling. Let's see how to use the new tracer to profile them."
+        - track:
+              name: Monzo Track
+              title: How to correctly use package context
+              slug: jacklindamood
+              speaker: Jack Lindamood
+              company: Twitch.tv
+              photo: /archive/2017/images/speakers/jacklindamood.jpg
+              bio:  |
+                Jack is a software engineer with over 7 years experience building and running large scale distributed services.  Starting at Facebook and then SignalFx, Jack now works on Twitch’s Go codebase and feeds framework.  He has presented his work previously at Gophercon, GoSF, and other meetups in the past.
+              level: Intermediate
+              description: |
+                Go 1.7 introduced package context to the standard library.  Using context is a very powerful way to orchestrate goroutine cancelation and debugging information during a request.  This talk lays the foundation of best practice around how to use this package.
+    - time: "17.00"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "17.15"
+      slottype: special
+      tracks:
+        - track:
+              name: Keynote
+              title: Making My First Go Contribution
+              slug: audreylim
+              speaker: Audrey Lim
+              handle: audreylim77
+              company: E La Carte
+              photo: /archive/2017/images/speakers/audreylim.jpg
+              bio: Audrey is a lawyer turned programmer. She taught herself programming outside of work with Go as her first backend language, falling in love with Go ever since. She is a software engineer at E La Carte, and is based in the San Francisco Bay Area. She loves snowboarding, photography, and table tennis.
+              level: All
+              description: |
+                Want to contribute to Go but don't know how? Neither did I when I hacked a solution for the Go Presenter Tool. Learn about my motivations, how I approached the problem with a beginner's mind, figured out Gerrit, how it's like having my code reviewed by the Go team, and how I finally got it merged.
+    - time: "18.00"
+      slottype: break
+      tracks:
+        - track:
+              name: Main Conference Social
+              description: |
+                The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>
+- schedule-friday:
+  name: Friday 18th August 2017
+  slots:
+    - time: "08.00"
+      slottype: special
+      tracks:
+        - track:
+              name: The Brewery Foyer
+              title: Registration and Refreshments
+              description: Please bring a copy of your ticket either printed or on a mobile device.
+    - time: "09.00"
+      slottype: special
+      tracks:
+        - track:
+              name: Opening address
+              title: Welcome to The Golang UK Conference
+              slug: about
+              description:
+                "The conference team welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the day's events to come."
+    - time: "09.15"
+      slottype: special
+      tracks:
+        - track:
+              name: Keynote
+              title: How we built and launched <a href="http://gopherize.me">Gopherize.me</a> in under five hours
+              id: gopherize.me
+              speakers:
+                -
+                  speaker: Mat Ryer
+                  slug: matryer
+                -
+                  speaker: Ashley McNamara
+                  slug: ashleymcnamara
+                  handle: ashleymcnamara
+                  company: Microsoft
+                  photo: /archive/2017/images/speakers/ashleymcnamara.jpg
+                  bio: Ashley McNamara is a Principal Technologist at Microsoft, where she acts as a bridge between third-party developers and Microsoft, driving platform adoption through the developer community and driving change into products based on real-world customer/developer feedback. Ashley was a 2014 Hackbright engineering fellow. In her spare time, she’s a mentor at WeWork, General Assembly, AngelHack, and CapitalFactory and is on the board of multiple engineering groups including Redis Austin, Big Data Analytics Club, and Austin All Girl Hack Night. Ashley is passionate about helping more underrepresented individuals join and feel comfortable in tech and is often a resource for new developers trying to find their way.
+    - time: "09.45"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "10.00"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: "Go routines optimization: spinning, balancing or avoiding"
+             slug: guidopatanella
+             speaker: Guido Patanella
+             company: Workday Inc
+             photo: /archive/2017/images/speakers/guidopatanella.jpg
+             bio:  |
+               Guido is a Cloud Technologist specialized in massively scalable platforms for large engineering organizations, having worked in architect roles at Enterprise software vendors and providers for over 20 years. Before transitioning into adopting Go for his latest projects, Guido has extensively worked with C/C++, Java and Erlang.
+             level: Intermediate
+             description: |
+               Goroutines can become the star or the bottleneck of your application. Learn how to select the best approach for reaching efficient concurrency by analyzing bottlenecks related to go-routines, comparing resource utilization, locks, queuing and sequential processing.
+        - track:
+              name: Monzo Track
+              title: "Buffalo: Rapid Web Development in Go"
+              slug: markbates
+              speaker: Mark Bates
+              handle: markbates
+              company: Gopher Guides
+              photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/1/markbates_headshot.jpg
+              bio:  |
+                Mark Bates is a full stack web developer with over 18 years of experience building high quality scalable applications for companies such as Apple, USA Today, Klarna, and Palm. He has written three books, “Distributed Programming with Ruby”, “Programming in CoffeeScript”, and “Conquering the Command Line”. Mark has spoken at conferences around the world, has led user groups such as Boston Ruby and Boston Golang, and has helped to organize conferences such as GothamGo and GopherCon. Mark is the co-founder of <a href="http://www.papercall.io/speakers/markbates">PaperCall.io</a>, a platform for connecting technical events with high quality content and speakers. Mark is also a partner at <a href="https://www.gopherguides.com">Gopher Guides</a>, the industry leader for Go training and conferences. In his spare time Mark leads development of the Go web framework <a href="http://gobuffalo.io">Buffalo</a>.
+              level: All
+              description: |
+                Put the fun back in writing Go web applications using the <a href="http://gobuffalo.io">Buffalo</a> framework. A Ruby on Rails inspired, idiomatic, web framework written in Go. Fun, Fast, and easy!
+    - time: "10.45"
+      slottype: break
+      tracks:
+        - track:
+              name: Refreshment break
+              description: |
+                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "11.15"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: Static Analysis in Go
+             slug: takuyaueda
+             speaker: Takuya Ueda
+             handle: tenntenn
+             company: Souzoh, Inc.
+             photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/6719/14962637_10206902935443067_8305984818586098017_n.jpg
+             bio:  |
+               Takuya Ueda is a Go engineer for Souzoh, Inc. He is one of organizer of Go Conference in Japan. He works for the growth of the Go community in Japan. He also loves the Go Gopher and drawing Gopher illustrations.
+             level: All
+             description: |
+               Tools like `go package` provide static analysis. This session shows step by step how to use it. This session makes you that you can start to use static analysis for creating tools which are useful for your daily development, such as a linter and a refactoring tool which can be customized for your project.
+        - track:
+              name: Monzo Track
+              title: Command Line Scripting with Templates
+              slug: markryan
+              speaker: Mark Ryan
+              company: Intel
+              photo: /archive/2017/images/speakers/markryan.jpg
+              bio:  |
+                Mark Ryan is a software engineer who works for Intel's Open Source Technology Centre.  He has over 18 years of industry experience working for a number of companies including Nokia, Symbian, HP and Intel.  He has a PhD in Computer Science and has been using Go since 2013.
+              level: All
+              description: |
+                Go's template language is often used to enable scripting in command line tools. In practice, however, it can be difficult to take advantage of these scripting capabilities. This talk will explore why this is, propose some best practices and describe a new package designed to make scripting easier.
+    - time: "12.00"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "12.15"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: Production-ready Go
+             slug: iankent
+             speaker: Ian Kent
+             handle: iankent
+             company: Office for National Statistics
+             photo: /archive/2017/images/speakers/iankent.jpg
+             bio:  |
+               I’m the Technical Lead for Digital Publishing at Office for National Statistics. I’ve been working with Go since 2013, after ditching Perl, and introduced it to two Civil Service departments - Companies House and ONS. I build websites, APIs and ‘backend’ stuff - but I’m terrible at anything visual except animated gradients. I’m also a below-average photographer and have a notable panda obsession.
+             level: All
+             description: |
+               When you’re new to Go, it’s easy to build and deploy production systems quickly - and learn the hard way what ‘production ready’ means. This is a rundown of the things you really need to care about.
+        - track:
+              name: Monzo Track
+              title: Deep Learning with Go
+              slug: chrisbenson
+              speaker: Chris Benson
+              handle: chrisbenson
+              photo: https://secure.gravatar.com/avatar/c8c8c5a0f4403ab778c5bce9511a81f1?s=500
+              bio:  |
+                Chris Benson has been a software engineer for two decades, a Gopher since 2014, and was originally introduced to ‘deep learning’ in the 1990s. His passion for deep learning became the catalyst for a career pivot into artificial intelligence strategy and machine learning architecture in 2017.  Chris now specializes in deep learning, about which he often evangelizes, presents, and instructs.  Chris is an Amazon Web Services Certified Solutions Architect, and he earned the Machine Learning Certificate on Coursera from Stanford University. He is the founder and Organizer of the Atlanta Deep Learning Meetup.
+              level: All
+              description: |
+                You’ve heard about self-driving cars, self-organizing drone swarms, conversational interfaces, and emotion recognition. That’s all ‘deep learning’ - a powerful AI taking the world by storm! In my talk, I’ll show you how to build ‘deep learning’ models with Go to solve complex real-world challenges.
+    - time: "13.00"
+      slottype: break
+      tracks:
+        - track:
+              name: Lunch
+              description: |
+                A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "14.00"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: "How to build an SDK in Go: Lessons from creating the Go SDK for Dropbox’s API"
+             slug: diwakergupta
+             speaker: Diwaker Gupta
+             handle: diwakergupta
+             company: Dropbox
+             photo: /archive/2017/images/speakers/diwakergupta.jpg
+             bio:  |
+               My <a href="http://cseweb.ucsd.edu/~dgupta/#research">Ph.D.</a> focused on virtualization; at <a href="http://www.asterdata.com/">Aster Data</a>, I worked on big data and distributed databases before it was cool; and at <a href="http://maginatics.com/">Maginatics</a>, I built a user & IT friendly, cloud-backed enterprise distributed filesystem. These days, I manage some amazing and talented teams at Dropbox where we tackle some of the hardest challenges in building high-performance, low-latency, strongly-consistent metadata storage systems.
+             level: All
+             description: |
+               "Dropbox offers a well documented API with SDKs in 7 different languages including Python and Java, but not Go (which is used heavily within Dropbox). In this talk, I'll share my experiences developing a Go SDK for Dropbox: lessons and best practices for building SDKs in Go."
+        - track:
+              name: Monzo Track
+              title: Ruby to Go - What to expect when you switch
+              slug: irinabednova
+              speaker: Irina Bednova
+              handle: jafrog
+              company: Monzo
+              photo: https://secure.gravatar.com/avatar/1204ca4ccda29cf5cc3eb25755e075c2?s=500
+              bio:  |
+                I'm a backend software engineer at Monzo. I've been in the Ruby / Rails world for about 7 years. Since moving to the UK in 2014 I've worked at Freeagent, helping to make "a monolith" scale, and at Makers Academy, teaching the new generation of developers how to write maintainable code. Design patterns and best practices were always one of my main interests. I'm also enthusiastic about overcomplicated text editors from the 70s.
+              level: All
+              description: |
+                An overview of the differences between the two languages from a seasoned Rubyist and a complete Go newbie perspective. What to expect from your everyday coding when you switch to Go.
+    - time: "14.45"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "15.00"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: "It doesn't have to be REST: Websockets in Go"
+             slug: konradreiche
+             speaker: Konrad Reiche
+             handle: konradreiche
+             company: Silicon Valley Stealth Startup
+             photo: https://secure.gravatar.com/avatar/661bb4dee881617e676c4d954ce97a70?s=500
+             bio:  |
+               Konrad is a software engineer at a top-tier venture capital financed Silicon Valley stealth startup. Before that he worked in Berlin at tape.tv as a Go developer on a video livestreaming platform implementing microservices with Go Kit. He also lived and worked for two years in London as a full-stack developer for Mixlr, a broadcast live audio company. His first Go application was jukebox powered through Slack on a Raspberry Pi.
+             level: All
+             description: |
+               The speed of Go should make us reconsider well estabilshed paradigms. When developing APIs it is practically impossible not to mention REST yet many applications would benefit from real-time interactivity. There are different WebSocket and WebSocket emulation implementations in the Go ecosystem. This talk will give you headspace to consider WebSockets as an alternative communication protocol for your application by giving an overview of the current state of the art of WebSockets in Go.
+        - track:
+              name: Monzo Track
+              title: Understanding concurrency with behavioural types
+              slug: nicholasng
+              speaker: Nicholas Ng
+              handle: nicholascwng
+              company: Imperial College London
+              photo: /archive/2017/images/speakers/nicholasng.jpg
+              bio:  |
+                Nicholas is a programming language and concurrency researcher at Imperial College London. His research involves applying types to model and verify concurrent programs. His recent work in static deadlock detection of Go has led to a series of Go-specific concurrency research.
+              level: Intermediate
+              description: |
+                Concurrent programming is difficult. This talk is about applying programming languages & concurrency research, specifically behavioural types as an abstraction, to verify concurrent Go programs. The talk covers what behavioural types are and how they can be used to reason in Go's concurrency model.
+    - time: "15.45"
+      slottype: break
+      tracks:
+        - track:
+              name: Refreshment break
+              description: |
+                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "16.15"
+      slottype: talks
+      tracks:
+        - track:
+             name: GlobalSign Track
+             title: The Beginner's Guide to Linux Syscalls
+             slug: lizrice
+             speaker: Liz Rice
+             handle: lizrice
+             company: Aqua Security
+             photo: /archive/2017/images/speakers/lizrice.jpg
+             bio:  |
+               Liz Rice is the Technology Evangelist with container security specialists <a href="http://aquasec.com">Aqua Security</a>. Prior to that she co-founded <a href="http://microscaling.com">Microscaling Systems</a> and was one of the developers of image inspection tool <a href="http://microbadger.com">MicroBadger</a>. She has a wealth of software development, team, and product management experience from working on network protocols and distributed systems, and in digital technology sectors such as VOD, music, and VoIP. When not building startups, giving talks or writing code, Liz loves riding bikes in places with better weather than her native London.
+             level: Intermediate
+             description: |
+               Don’t think you’ve ever made a syscall? Trust me, you have! In this talk we’ll explore what syscalls are, how they work and what you can do with them, with a good measure of live-coding demos to keep things real.
+        - track:
+              name: Monzo Track
+              title: Going on the Road Less Bumpy
+              slug: vladgalu
+              speaker: Vlad Galu
+              handle: globalsign
+              company: GlobalSign
+              photo: /archive/2017/images/speakers/vladgalu.jpg
+              bio:  |
+                Vlad is a seasoned technologist rooted in secure and scalable network, systems and software engineering, with a track record of nearly 17 years in delivering carrier grade content delivery, internet security and satellite communications systems. Since joining GlobalSign in 2014 he has set up the next generation platforms division based in London and led engineering operations across Europe, US and Asia.
+              id:
+              level: All
+              description: |
+                "In this presentation Vlad Galu, VP of Engineering at GlobalSign, describes the experience of basing a greenfield project on Go, the build-up and the evolution of the team and GlobalSign's next generation PKI platforms along with the wider ecosystem."
+    - time: "17.00"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "17.15"
+      slottype: special
+      tracks:
+        - track:
+              name: Keynote
+              title: Bringing Go to the Enterprise
+              slug: brianketelsen
+              speaker: Brian Ketelsen
+              handle: bketelsen
+              company: Microsoft
+              photo: /archive/2017/images/speakers/brianketelsen.jpg
+              bio: Brian Ketelsen is a Developer Advocate for Linux, Containers, and Go at Microsoft Azure.  He co-organizes Gophercon, co-hosts the GoTime.FM podcast, and co-wrote "Go In Action" for Manning Press.
+              level: All
+              description: |
+                In this talk I'll share my unique experiences as a trainer and author bringing Go to enterprise companies. We'll talk about what works well, what needs improvement, and what we can do as a community to foster Go adoption in more companies. In 2016 I quit my job and set out to train the world on how to use Go and Kubernetes. Over the course of the last 18 months I've learned a lot of things about Go, and I want to share them with you in this talk.
+- schedule-saturday:
+  name: Saturday 19th August 2017
+  slots:
+    - time: "09.00"
+      slottype: special
+      tracks:
+        - track:
+              name: Extracurricular
+              title: Bletchley Park
+              description: Mat Ryer has organised a group trip to Bletchley Park. <a href="/extras">More info &raquo;</a>
+    - time: "09.00"
+      slottype: special
+      tracks:
+        - track:
+              name: Extracurricular
+              title: WWG Ultimate Go Workshop
+              description: Women Who Go London have organised a free Ultimate Go workshop with Bill Kennedy from Ardan Labs. <a href="/extras">More info &raquo;</a>
