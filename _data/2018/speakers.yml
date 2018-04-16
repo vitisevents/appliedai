@@ -2,7 +2,7 @@
   name: Wednesday 1st August 2018
   slots:
     - time: "09.00"
-      slottype: special
+      slottype: workshop
       tracks:
         - track:
             name: "Workshop - Beginner"
@@ -11,9 +11,6 @@
             id: workshopi
             description: |
               Go is a modern programming language with a heavy focus on developer productivity, scalability, and speed. Whether you're a recent grad or an industry veteran, there's no better time to learn the core concepts of the Go programming language. This course introduces language fundamentals, such as primitives, language structure, design, and concurrency. If you have little or no experience with Go and want to jumpstart your knowledge, this course is for you. <br><br><a href="/workshop-day">More details</a> or <a href="/tickets">Buy tickets</a>
-    - time: "09.00"
-      slottype: special
-      tracks:
         - track:
               name: Workshop - Intermediate
               speaker: Cory LaNou
@@ -21,9 +18,6 @@
               id: workshopii
               description: |
                 Go is a modern programming language with a heavy focus on developer productivity, scalability, and speed. Concepts such as concurrent programming, testing, and performance testing were designed into the language from the beginning. If you want to learn about concurrent programing, or how to performance test and profile your code, this course is for you. <br><br><a href="/workshop-day">More details</a> or <a href="/tickets">Buy tickets</a>
-    - time: "09.00"
-      slottype: special
-      tracks:
         - track:
               name: Workshop - Kubernetes
               speakers:
@@ -33,15 +27,6 @@
               id: workshopiii
               description: |
                 Kubernetes is the de-fact industry standard for container orchestration. In this workshop you’ll learn how to program Kubernetes using Go. We will start with the basic concepts (pods, namespace, labels, workloads, nodes, events, etc.) and provide step by step guidance how to implement a variety of tasks against the Kubernetes API with the Go programming languages. The two main Go libraries used in this workshop will be https://github.com/kubernetes/client-go as well as https://github.com/openshift/client-go in addition to the Go standard library. For each participant access to a Kubernetes cluster will be provided, and it is beneficial if you have the latest Go version installed on your laptop in order to follow along. We will provide a GitHub repo with all code samples used in the workshop.
-    # - time: "18.00"
-    #   slottype: break
-    #   tracks:
-    #     - track:
-    #           name: Pre-Conference Social
-    #           description: |
-    #             The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
-
-
 - schedule-thursday:
   name: Thursday 17th August 2017
   slots:
@@ -107,11 +92,25 @@
               level: Intermediate
               description: |
                 Go's GC is optimised for low latency applications. In this talk we'll see how it works (the tricolor algorithm), why it works (achieving such short GC pauses), and most importantly, whether it works (benchmarking these GC pauses, and comparing them with other languages).
+        - track:
+             name: Third Track
+             title: Writing Beautiful Packages in Go
+             slug: matryer
+             speaker: Mat Ryer
+             handle: matryer
+             company: GrayMeta, Inc.
+             photo: /archive/2017/images/speakers/matryer.jpg
+             bio:  |
+               Programming since age 6 (Mat would type BASIC code out from computer magazines with his father to make little programs and games), Mat has always had a keen obsession with programming. When Go came along, he loved the philosophy and the elegance of the language, and has been using it since before v1. In 2015 his first book Go Programming Blueprints was published. Today he works for GrayMeta, employing his Go expertise in this exciting LA-based big meta-data company. He spoke at Gophercon in 2014 in Denver, Colorado and the UK’s Go conference in August 2015 and 2016 as well as infoShare in Poland and ProgsCon in London. He founded Testify and Silk testing packages.
+             level: Intermediate
+             description: |
+               Whether for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused. Explore best practices, goals, and idioms that help make beautiful packages.
     - time: "10.45"
       slottype: break
       tracks:
         - track:
               name: Refreshment break
+              title: Refreshment break
               description: |
                 Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "11.15"
@@ -142,6 +141,19 @@
               level: Intermediate
               description: |
                 Go is a great language for building server applications but can you use it to write an OS kernel? Let's talk about the challenges involved in writing, compiling and linking Go code that runs in Ring-0 and code a simple "Hello World" demo in Go that runs inside QEMU.
+        - track:
+             name: Third Track
+             title: Writing Beautiful Packages in Go
+             slug: matryer
+             speaker: Mat Ryer
+             handle: matryer
+             company: GrayMeta, Inc.
+             photo: /archive/2017/images/speakers/matryer.jpg
+             bio:  |
+               Programming since age 6 (Mat would type BASIC code out from computer magazines with his father to make little programs and games), Mat has always had a keen obsession with programming. When Go came along, he loved the philosophy and the elegance of the language, and has been using it since before v1. In 2015 his first book Go Programming Blueprints was published. Today he works for GrayMeta, employing his Go expertise in this exciting LA-based big meta-data company. He spoke at Gophercon in 2014 in Denver, Colorado and the UK’s Go conference in August 2015 and 2016 as well as infoShare in Poland and ProgsCon in London. He founded Testify and Silk testing packages.
+             level: Intermediate
+             description: |
+               Whether for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused. Explore best practices, goals, and idioms that help make beautiful packages.
     - time: "12.00"
       slottype: break change
       tracks:
@@ -176,6 +188,19 @@
               level: Intermediate
               description: |
                 Tired of Makefile hacks? Bazel offers fast, reproducible builds for software of any size. Why is it better than go build? Bazel makes polyglot projects easy, has remote build workers, and shared caching. Get started building Go projects, learn key concepts, and get ready to turbocharge your build.
+        - track:
+             name: Third Track
+             title: Writing Beautiful Packages in Go
+             slug: matryer
+             speaker: Mat Ryer
+             handle: matryer
+             company: GrayMeta, Inc.
+             photo: /archive/2017/images/speakers/matryer.jpg
+             bio:  |
+               Programming since age 6 (Mat would type BASIC code out from computer magazines with his father to make little programs and games), Mat has always had a keen obsession with programming. When Go came along, he loved the philosophy and the elegance of the language, and has been using it since before v1. In 2015 his first book Go Programming Blueprints was published. Today he works for GrayMeta, employing his Go expertise in this exciting LA-based big meta-data company. He spoke at Gophercon in 2014 in Denver, Colorado and the UK’s Go conference in August 2015 and 2016 as well as infoShare in Poland and ProgsCon in London. He founded Testify and Silk testing packages.
+             level: Intermediate
+             description: |
+               Whether for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused. Explore best practices, goals, and idioms that help make beautiful packages.
     - time: "13.00"
       slottype: break
       tracks:
@@ -212,6 +237,19 @@
               level: All
               description: |
                 Learn how to define a RESTful API by writing a <a href="http://swagger.io">Swagger</a> specification and using <a href="http://bit.ly/go-swag">go-swagger</a> to generate a go server skeleton and client package.  This talk focuses on developer productivity from inception to production, detailing the journey from the first line of code through to the production of a fully tested Docker image ready for deployment.
+        - track:
+             name: Third Track
+             title: Writing Beautiful Packages in Go
+             slug: matryer
+             speaker: Mat Ryer
+             handle: matryer
+             company: GrayMeta, Inc.
+             photo: /archive/2017/images/speakers/matryer.jpg
+             bio:  |
+               Programming since age 6 (Mat would type BASIC code out from computer magazines with his father to make little programs and games), Mat has always had a keen obsession with programming. When Go came along, he loved the philosophy and the elegance of the language, and has been using it since before v1. In 2015 his first book Go Programming Blueprints was published. Today he works for GrayMeta, employing his Go expertise in this exciting LA-based big meta-data company. He spoke at Gophercon in 2014 in Denver, Colorado and the UK’s Go conference in August 2015 and 2016 as well as infoShare in Poland and ProgsCon in London. He founded Testify and Silk testing packages.
+             level: Intermediate
+             description: |
+               Whether for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused. Explore best practices, goals, and idioms that help make beautiful packages.
     - time: "14.45"
       slottype: break change
       tracks:
@@ -246,6 +284,19 @@
               level: Intermediate
               description: |
                 Fed up of Javascript? Do you pine for Go’s simplicity and fantastic tooling? Learn how to painlessly create interactive UIs in your favourite language… and never write a line of Javascript again!
+        - track:
+             name: Third Track
+             title: Writing Beautiful Packages in Go
+             slug: matryer
+             speaker: Mat Ryer
+             handle: matryer
+             company: GrayMeta, Inc.
+             photo: /archive/2017/images/speakers/matryer.jpg
+             bio:  |
+               Programming since age 6 (Mat would type BASIC code out from computer magazines with his father to make little programs and games), Mat has always had a keen obsession with programming. When Go came along, he loved the philosophy and the elegance of the language, and has been using it since before v1. In 2015 his first book Go Programming Blueprints was published. Today he works for GrayMeta, employing his Go expertise in this exciting LA-based big meta-data company. He spoke at Gophercon in 2014 in Denver, Colorado and the UK’s Go conference in August 2015 and 2016 as well as infoShare in Poland and ProgsCon in London. He founded Testify and Silk testing packages.
+             level: Intermediate
+             description: |
+               Whether for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused. Explore best practices, goals, and idioms that help make beautiful packages.
     - time: "15.45"
       slottype: break
       tracks:
@@ -281,6 +332,19 @@
               level: Intermediate
               description: |
                 Go 1.7 introduced package context to the standard library.  Using context is a very powerful way to orchestrate goroutine cancelation and debugging information during a request.  This talk lays the foundation of best practice around how to use this package.
+        - track:
+             name: Third Track
+             title: Writing Beautiful Packages in Go
+             slug: matryer
+             speaker: Mat Ryer
+             handle: matryer
+             company: GrayMeta, Inc.
+             photo: /archive/2017/images/speakers/matryer.jpg
+             bio:  |
+               Programming since age 6 (Mat would type BASIC code out from computer magazines with his father to make little programs and games), Mat has always had a keen obsession with programming. When Go came along, he loved the philosophy and the elegance of the language, and has been using it since before v1. In 2015 his first book Go Programming Blueprints was published. Today he works for GrayMeta, employing his Go expertise in this exciting LA-based big meta-data company. He spoke at Gophercon in 2014 in Denver, Colorado and the UK’s Go conference in August 2015 and 2016 as well as infoShare in Poland and ProgsCon in London. He founded Testify and Silk testing packages.
+             level: Intermediate
+             description: |
+               Whether for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused. Explore best practices, goals, and idioms that help make beautiful packages.
     - time: "17.00"
       slottype: break change
       tracks:
