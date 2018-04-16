@@ -17,13 +17,34 @@
     - name: "Sainsbury's"
       slug: sainsburys
       imageType: png
-      url: https://www.sainsburys.work
-      about:
+      url: http://www.sainsburys.work/dandt
+      about: 
+        "Sainsbury’s is a genuinely exciting place for Software Engineers and technically talented people to bring their skills. We’re growing and investing in our technology division – helping us stay relevant in a challenging retail market.
+        <br><br> 
+        We have over 1,200 stores and nearly 200,000 colleagues. We’ve grown Sainsbury’s Online into a £1 billion service. Food is just a part of that though; the wider Sainsbury’s group includes Tu Clothing, Argos and financial offerings."
     - name: "Monzo"
       slug: monzo
       imageType: png
       url: https://monzo.com/careers
-      about:
+      about: 
+        "We’re building the best bank account in the world.
+        <br><br>
+        We believe there should be an alternative to the banking of the past: we're focused on solving problems, rather than selling financial products. We want to make the world a better place and change people's lives through Monzo.
+        <br><br>
+        We are obsessed with making our customers lives easier by giving them a simple realtime view of their finances, easy sending and spending, and complete control from their smartphone. And when they aren't around, our customers will feel safe in the knowledge that we'll be monitoring things in case anything needs their attention.
+        <br><br>
+        We're creating a bank with and for our customers, a bank that you'd be proud to be a part of.
+        <br><br>
+        Internally: we encourage an open, collaborative, inclusive working environment. Get involved in any aspect of the business you're interested in, join open-door meetings, and all emails in the company are visible in an open archive.
+        <br><br>
+        We run hackathons, where people build things on our third party API, and we contribute to open source software. Our product roadmap is public, and we continually engage with our wonderful community.
+        <br><br>
+        We're hiring engineers and engineering managers to join our talented team."
+    - name: "solarisBank"
+      slug: solaris
+      imageType: png
+      url: https://www.solarisbank.com
+      about: 
 - type: Silver Sponsors
   sponsors:
     - name: "Vistas"

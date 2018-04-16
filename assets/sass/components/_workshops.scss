@@ -1,0 +1,36 @@
+.workshop-schedule{
+	overflow:auto;
+	list-style:none;
+	margin:40px 0 0 0;
+	padding:0;
+	color:#000;
+
+	li{
+		float:left;
+		width:33%;
+		padding:30px;
+		background:lighten($color-brand-secondary, 40%);
+
+		&:not(:first-child){
+			border-left:2px solid #fff;
+		}
+	}
+
+	span{
+		display:block;
+	}
+
+	.name{
+		font-size:0.9em;
+		font-weight:600;
+	}
+
+	.title{
+		font-size:1.25em;
+		min-height:65px;
+	}
+
+	.speaker{
+		min-height:43px;
+	}
+}
