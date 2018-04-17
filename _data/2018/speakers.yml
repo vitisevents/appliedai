@@ -21,10 +21,15 @@
               id: workshopii
               description: |
                 Go is a modern programming language with a heavy focus on developer productivity, scalability, and speed. Concepts such as concurrent programming, testing, and performance testing were designed into the language from the beginning. If you want to learn about concurrent programing, or how to performance test and profile your code, this course is for you. <br><br><a href="/workshop-day">More details</a> or <a href="/tickets">Buy tickets</a>
-    # - time: "18.00"
-    #   slottype: break
-    #   tracks:
-    #     - track:
-    #           name: Pre-Conference Social
-    #           description: |
-    #             The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
+    - time: "09.00"
+      slottype: special
+      tracks:
+        - track:
+              name: Workshop - Kubernetes
+              speakers:
+                - speaker: Stefan Schimanski
+                - speaker: Michael Hausenblas
+              title: "Using and extending the Kubernetes API programmatically"
+              id: workshopiii
+              description: |
+                Kubernetes is the de-facto industry standard for container orchestration. In this workshop you’ll learn how to program Kubernetes using Go. We will start with the basic concepts (pods, namespace, labels, workloads, nodes, events, etc.) and provide step by step guidance how to implement a variety of tasks against the Kubernetes API with the Go programming language. The two main Go libraries used in this workshop will be https://github.com/kubernetes/client-go as well as https://github.com/openshift/client-go in addition to the Go standard library. For each participant, access to a Kubernetes cluster will be provided, and it is beneficial if you have the latest Go version installed on your laptop in order to follow along. We will provide a GitHub repo with all code samples used in the workshop. <br><br><a href="/workshop-day">More details</a> or <a href="/tickets">Buy tickets</a>
