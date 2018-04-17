@@ -5,13 +5,22 @@
       url: https://www.openshift.com
       about:
         "Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise. OpenShift lets you easily and quickly build, develop, and deploy in nearly any infrastructure, public or private. Whether it's on-premise, in a public cloud, or hosted, you have an award-winning platform to get your next big idea to market ahead of your competition."
-- type: Track Sponsor
+- type: Track Sponsors
   sponsors:
     - name: "Glint Pay"
       slug: glintpay
       imageType: png
       url: https://glintpay.com
       about:
+        "Glint is a financial technology services company providing its clients with the ability to store, exchange, send and spend physical gold and multi-currencies instantly at the most competitive rates available.
+        <br><br>
+        Glint is both integrated with the electronic banking clearing and card payments systems.
+        <br><br>
+        Glint is authorised and regulated by the Financial Conduct Authority, as an e-Money Institution, using integrated automatic KYC and AML. Glint has brought regulation and oversight to the physical gold market by using best practice e-money compliance.
+        <br><br>
+        Use the Glint App and Glint Mastercard ® to access multiple currencies including physical gold anywhere, instantly; in large or small amounts. Exchange and spend at the real interbank rates plus just a simple low commission fee; no hidden margins. You can easily keep track of spending, all through one card and one powerfully simple app.
+        <br><br>
+        For the first time, Glint is making physical gold instantly available as money, for everyday spending; whether that’s shopping, paying bills or withdrawing cash at ATMs worldwide. You can do it anytime, anywhere."
 - type: Gold Sponsors
   sponsors:
     - name: "Sainsbury's"
