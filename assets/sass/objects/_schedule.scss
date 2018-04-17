@@ -1,7 +1,7 @@
 .schedule-container{
 	display:table;
 	list-style:none;
-	margin:10px 0;
+	margin:10px 0 40px 0;
 	width:100%;
 
 	ul{
@@ -14,6 +14,11 @@
 		width:100%;
 		margin:0;
 		overflow:auto;
+		background:#F0F0F0;
+
+		@include respond(medium){
+			background:#fff;
+		}
 
 		&:nth-child(2n){
 			background:#F0F0F0;
@@ -28,27 +33,46 @@
 	.track-title,
 	.time,
 	.track{
-		display:table-cell;
+		display:block;
+		width:100%;
+		margin:0;
 		padding:15px;
 		border-color:#fff;
 		border-style:solid;
 		border-width:2px 1px;
+
+		@include respond(medium){
+			display:table-cell;
+		}
 	}
 
 	.spacer,
 	.time{
-		width:10%;
+
+		@include respond(medium){
+			width:10%;
+		}
+	}
+
+	.spacer{
+		background:#fff;
 	}
 
 	.track-title,
 	.track-title:nth-child(2n){
-		width:30%;
 		background:#DDD;
+
+		@include respond(medium){
+			width:30%;
+		}
 	}
 
 	.track{
-		width:30%;
 		background:#00A27C;
+
+		@include respond(medium){
+			width:30%;
+		}
 
 		> *{
 			color:#fff;
@@ -62,8 +86,11 @@
 	.special,
 	.break{
 		.track{
-			width:90%;
 			text-align:center;
+
+			@include respond(medium){
+				width:90%;
+			}
 		}
 	}
 
@@ -93,7 +120,10 @@
 			margin-bottom:6px;
 			font-size:1.1em;
 			line-height:1.3em;
-			min-height:50px;
+
+			@include respond(medium){
+				min-height:50px;
+			}
 		}
 
 		.speaker{
@@ -107,5 +137,21 @@
 
 	.special .track-slot-meta .title{
 		min-height:10px;
+	}
+
+	.track-name{
+		opacity:0.8;
+
+		@include respond(medium){
+			display:none;
+		}
+	}
+
+	.title-row{
+		display:none;
+
+		@include respond(medium){
+			display:table;
+		}
 	}
 }
