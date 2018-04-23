@@ -145,6 +145,13 @@
             level: All
             description: |
                 Channels - they sure are fun. You can do a lot with channels, but by default, only in a one-to-one manner. In this talk, I'll show you how to enable one to many broadcast semantics in a thread-safe way, that can even gracefully handle shutdowns, failures, and panics.
+    - time: "12.00"
+      slottype: break
+      tracks:
+        - track:
+              name: Lunch
+              description: |
+                A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "13.00"
       slottype: talks
       tracks:
@@ -177,7 +184,12 @@
         - track:
             name: Vaults
             title: Special Event - TBA
-    - time: "13.00"
+    - time: "13.45"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "14.00"
       slottype: talks
       tracks:
         - track:
@@ -209,6 +221,13 @@
         - track:
             name: Vaults
             title: Special Event - TBA
+    - time: "14.45"
+      slottype: break
+      tracks:
+        - track:
+              name: Refreshment break
+              description: |
+                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "15.15"
       slottype: talks
       tracks:
@@ -241,6 +260,11 @@
         - track:
             name: Vaults
             title: Special Event - TBA
+    - time: "16.00"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
     - time: "16:15"
       slottype: talks
       tracks:
@@ -271,6 +295,35 @@
         - track:
             name: Vaults
             title: Special Event - TBA
+    - time: "17.00"
+      slottype: break
+      tracks:
+        - track:
+            name: Mid Conference Social
+            description: |
+                The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>
+- schedule-friday:
+  name: Friday 3rd August 2018
+  slots:
+    - time: "08.00"
+      slottype: special
+      tracks:
+        - track:
+            name: The Brewery Foyer
+            title: Registration and Refreshments
+            description: Please bring a copy of your ticket either printed or on a mobile device.
+    - time: "09.00"
+      slottype: keynote
+      tracks:
+        - track:
+            name: Keynote
+            title: TBD
+    - time: "09.45"
+      slottype: break change
+      tracks:
+        - track:
+            title: Refreshment break
+            description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "10.15"
       slottype: talks
       tracks:
@@ -313,6 +366,11 @@
             level: Intermediate
             description: |
                 Armed with Go’s composition-based philosophy, we present how it can be (ab)used to significantly extend the functionality of the `net` and `net/http` packages. On the way we'll present libraries we built using this philosophy as well as take a dip in the deep sea of HTTP1/HTTP2 handling in Go.
+    - time: "11.00"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
     - time: "11:15"
       slottype: talks
       tracks:
@@ -355,7 +413,14 @@
             level: All
             description: |
                 ONS needed to take obtuse datasets and publish them in a searchable way - so citizens can start to make sense of statistics the affect them. Using Go we've rebuilt how data gets prepared, a pipeline for custom queries and extended our go-ns library - learning more about the practical sides of Go.
-    - time: "15.00"
+    - time: "12.00"
+      slottype: break
+      tracks:
+        - track:
+              name: Lunch
+              description: |
+                A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "13.00"
       slottype: talks
       tracks:
         - track:
@@ -397,6 +462,11 @@
             level: All
             description: |
                 Telling the true story of moving from a very fragmented architecture to a monolith built entirely in Go. This tale conveys many foundational building blocks of Go in a way that is accessible and informative. Based on real experience it will help any team looking at their architectural choices.
+    - time: "13.45"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
     - time: "14.00"
       slottype: talks
       tracks:
@@ -428,7 +498,7 @@
                 Bleve, an open-source full-text search library for Go, has moved beyond the general-purpose key/value store and now implements its own custom binary index format named Scorch. Learn about the data-structures and Go libraries we've chosen to build this solution.
         - track:
             name: Vaults
-            title: "Broadcasting Channels: Writing a timeout-aware abstraction to enable asynchronous fanout in Go"
+            title: "Go Test: Under the hood"
             slug: seankelley
             speaker: Sean Kelley
             handle: StabbyCutyou
@@ -438,8 +508,13 @@
               Sean Kelly (affectionately known as Stabby) is a Principal Software Engineer for Komand Security. A simple man with a dog for an avatar, he enjoys learning new things, helping / mentoring others, and posting photos of his dog on the internet. When he's not giving talks about his many failures, he enjoys spending time at home with his wife, and coming up with new projects to work on that he will never actually finish.
             level: All
             description: |
-              Channels - they sure are fun. You can do a lot with channels, but by default, only in a one-to-one manner. In this talk, I'll show you how to enable one to many broadcast semantics in a thread-safe way, that can even gracefully handle shutdowns, failures, and panics.
-    - time: "13.00"
+              This talk will cover a brief introduction to go test, before diving into the more interesting parts of using the tool and the library itself. Covering topics like enabling testing of un-exported objects in separate testing packages, interesting or unconventional flags, and the newly added caching mechanisms, the talk will aim to raise folks understanding and capabilities with go test beyond just the basics, to help gophers become better testers by simply introducing them to more of the test tool and library itself.
+    - time: "14.45"
+      slottype: break change
+      tracks:
+        - track:
+              title: Afternoon refreshments
+    - time: "15.15"
       slottype: talks
       tracks:
         - track:
@@ -481,3 +556,20 @@
             level: Intermediate
             description: |
                 Complex systems call for better controllability over various design parameters (data and control widths, on-/off- chip memory, topology etc.). Unlike software based simulations, rapid FPGA-accelerated prototyping (using GoPro) will allow faster simulation and exploration of large scale systems.
+    - time: "16.00"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "16.15"
+      slottype: special
+      tracks:
+        - track:
+              title: TBA
+    - time: "17.00"
+      slottype: break
+      tracks:
+        - track:
+            name: Post Conference Social
+            description: |
+                The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>
