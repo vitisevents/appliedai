@@ -6,10 +6,6 @@ weight: 3
 group: "navigation"
 image: banners/schedule.png
 ---
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="/archive/2016/js/scripts.js"></script>
-<script src="/archive/2016/js/smoothslides-2.2.1.min.js"></script>
-<link rel="stylesheet" href="/archive/2017/css/schedule.css">
 <div class="page-title schedule">
     <div class="wrapper">
         <h1>Schedule</h1>
@@ -26,19 +22,19 @@ image: banners/schedule.png
                 {% for day in site.data.2018.speakers %}
                 <h2 class="text-center">{{day.name}}</h2>
                 <ul class="schedule-container">
+                    {% for slot in day.slots %}
+                    {% if slot.tracks.size == 3 %}
                     <li class="slot title-row">
                         <ul class="tracks-wrapper">
                             <li class="spacer"></li>
-                            {% for slot in day.slots limit:1 offset:4 %}
                             {% for track in slot.tracks %}
                             <li class="slot track-title">
-                                <span class="name">{{track.track.name}}</span>
+                                <span class="name">{{track.track.location}}</span>
                             </li>
-                            {% endfor %}
                             {% endfor %}
                         </ul>
                     </li>
-                    {% for slot in day.slots %}
+                    {% endif %}
                     <li class="slot {{slot.slottype}}">
                         <ul class="tracks-wrapper">
                             <li class="time">{{slot.time}}</li>

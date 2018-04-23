@@ -41,27 +41,29 @@
       slottype: special
       tracks:
         - track:
-            name: The Brewery Foyer
+            location: Brewery Foyer & King George
             title: Registration and Refreshments
             description: Please bring a copy of your ticket either printed or on a mobile device.
     - time: "09.00"
-      slottype: keynote
+      slottype: special
       tracks:
         - track:
-            name: Keynote
-            title: TBD
+            location: Porter Tun
+            title: Opening Keynote
+            description: TBA
     - time: "09.45"
       slottype: break change
       tracks:
         - track:
+            location: King George
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "10.15"
       slottype: talks
       tracks:
         - track:
-            name: Porter Tun
-            title: "Three Billy GOats Gruff—a developer's tale from VMs to serverless"
+            location: Porter Tun
+            title: "Three Billy GOats Gruff - a developer's tale from VMs to serverless"
             slug: michaelhausenblas
             speaker: Michael Hausenblas
             handle: mhausenblas
@@ -73,7 +75,7 @@
             description: |
                 As developers we’re dealing with an increasing pressure to deliver features ever faster. This talk will walk you through a number of development and delivery models for Go. We’ll be starting with the traditional binary-running-on-a-VM setup, then move on to container-based development and further on to the serverless/Function-as-a-service model using AWS Lambda and Apache OpenWhisk on Kubernetes. We’ll be using the same codebase, effectively starting with a monolith, breaking in down into (containerized) microservices and further on breaking it down to a dozen functions. For each of the development and deployment models we’ll discuss pros and cons and trying to determine their respective sweet-spot. This is a hands-on, minimum-slides session.
         - track:
-            name: Queen Charlotte
+            location: Queen Charlotte
             title: Experimental Refactoring with Go
             slug: jelmersnoeck
             speaker: Jelmer Snoeck
@@ -86,7 +88,7 @@
             description: |
                 Refactoring is essential to the software lifecycle. Can we make it safe enough to be a part of every company's CD workflow? In this talk attendees will learn how to: utilise multi-step deploys; tame feature flags; run multiple code paths concurrently in production without influencing users.
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: GoLand Tips & Tricks
             slug: florinpatan
             speaker: Florin Pățan
@@ -107,7 +109,7 @@
       slottype: talks
       tracks:
         - track:
-            name: Porter Tun
+            location: Porter Tun
             title: The best feature of Go
             slug: danielapetruzalek
             speaker: Daniela Petruzalek
@@ -120,7 +122,7 @@
             description: |
                 The Go community is definitely the best feature of the language, but how may we engage with it and become more than just a bystander on the crowd? How do we contribute to the Go language OSS? Too much for you? What about a community built library? Contributing with code is too scary? What about building samples and documenting? Maybe you are a local leader and you can start a meetup, or join an active one… Do you like to write? Record videos? Literally the options are endless, so I want to explore some of those while sharing my personal experiences with the hopes of inspiring other people to engage with the community as well.
         - track:
-            name: Queen Charlotte
+            location: Queen Charlotte
             title: Secrets about using Machine Learning and Go
             slug: davidhernandez
             speaker: David Hernandez
@@ -133,7 +135,7 @@
             description: |
                 After a year doing Machine Learning at Machine Box and with Go being my favorite language, I'd like to share my experiences. Covering best practices for training models and serving them in production, as well as little tips and tools that we use with Go to make your life a little bit easier.
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: "Broadcasting Channels: Writing a timeout-aware abstraction to enable asynchronous fanout in Go"
             slug: seankelley
             speaker: Sean Kelley
@@ -146,17 +148,18 @@
             description: |
                 Channels - they sure are fun. You can do a lot with channels, but by default, only in a one-to-one manner. In this talk, I'll show you how to enable one to many broadcast semantics in a thread-safe way, that can even gracefully handle shutdowns, failures, and panics.
     - time: "12.00"
-      slottype: break
+      slottype: special
       tracks:
         - track:
-              name: Lunch
+              location: King George
+              title: Lunch
               description: |
-                A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+                A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "13.00"
       slottype: talks
       tracks:
         - track:
-            name: Porter Tun
+            location: Porter Tun
             title: Going GraphQL
             slug: christopherbiscardi
             speaker: Christopher Biscardi
@@ -169,20 +172,18 @@
             description: |
                 REST is the current leader in client-server interactions. Our services have better tooling like grpc and better formats like protocol buffers and avro. Being well typed, GraphQL can bring these together to become the next step in client/server interaction.
         - track:
-            name: Queen Charlotte
-            title: Boosting Your Software Using the SSA and Callgraph Packages
-            slug: marcelvanlohuizen
-            speaker: Marcel van Lohuizen
-            handle: mpvl_
-            company: Google
-            photo: https://secure.gravatar.com/avatar/0dfbe0390de1e44a77d6db3753f390b2?s=500
-            bio:  |
-                "Marcel van Lohuizen works on the Go team at Google. Before working on the Go team, he worked on search and Borg (Google’s large-scale cluster manager), among other things."
-            level: All
-            description: |
-                This talk demonstrates the power of the ssa (Single Static Assignment) and callgraph packages by showing how to use them to determine which strings in a piece of Go code require translation and which not, relieving programmers from the burden of maintaining manual lists.
+            location: Queen Charlotte
+            title: TBA
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level:
+            description: 
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: Special Event - TBA
     - time: "13.45"
       slottype: break change
@@ -193,7 +194,7 @@
       slottype: talks
       tracks:
         - track:
-            name: Porter Tun
+            location: Porter Tun
             title: Orchestration of microservices
             slug: berndrucker
             speaker: Bernd Rücker
@@ -206,7 +207,7 @@
             description: |
                 Microservices, DDD, distributed systems, serverless. All trends decompose to the max, which moves the complexity to the collaboration of these pieces. I want to tell some war stories around that in this talk and give people some guidance.
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: Black Box Monitoring in Go
             slug: grantgriffiths
             speaker: Grant Griffiths
@@ -219,20 +220,21 @@
             description: |
                 You've set up your favorite monitoring agent on all of your services and you have incredible visibility into the internals of your infrastructure. All seems good in the world, but can your end user actually use your service? In this talk we'll write a simple app that simulates end user activity.
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: Special Event - TBA
     - time: "14.45"
       slottype: break
       tracks:
         - track:
-              name: Refreshment break
+              location: King George
+              title: Refreshment break
               description: |
                 Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "15.15"
       slottype: talks
       tracks:
         - track:
-            name: Porter Tun
+            location: Porter Tun
             title: Blockchain Apps in Go
             slug: matthewcampbell
             speaker: Matthew Campbell
@@ -245,7 +247,7 @@
             description: |
                 Ever wonder how blockchains work? Why is it that many popular blockchains are using Go? In this talk we will explore how blockchains work at a protocol level, what Go libraries you can use to interact with them. By the end of the talk you will be able to build your first Blockchain App.
         - track:
-            name: Queen Charlotte
+            location: Queen Charlotte
             title: Building future proof systems with interfaces
             slug: asimaslam
             speaker: Asim Aslam
@@ -258,7 +260,7 @@
             description: |
                 How do we build applications which evolve with technology? Too often we become dependent on specific infrastructure, requiring large scale rewrites to replace them later. This talk will demonstrate how to use the power of Go interfaces to avoid this problem and build future proof systems.
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: Special Event - TBA
     - time: "16.00"
       slottype: break change
@@ -269,7 +271,7 @@
       slottype: talks
       tracks:
         - track:
-            name: Porter Tun
+            location: Porter Tun
             title: Debuggers From Scratch
             slug: lizrice
             speaker: Liz Rice
@@ -282,7 +284,7 @@
             description: |
                 At some stage in your programming life you may well have used a debugger, but did you wonder how it was able to step into and control your executable? In this talk we'll see how debuggers work by building one from scratch in a few lines of Go.
         - track:
-            name: Queen Charlotte
+            location: Queen Charlotte
             title: Using model driven code generation with Go
             slug: 
             speaker: Mark Hermeling
@@ -293,13 +295,14 @@
             level: All
             description:
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: Special Event - TBA
     - time: "17.00"
       slottype: break
       tracks:
         - track:
-            name: Mid Conference Social
+            location: The Brewery Courtyard
+            title: Mid Conference Social
             description: |
                 The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>
 - schedule-friday:
@@ -309,26 +312,28 @@
       slottype: special
       tracks:
         - track:
-            name: The Brewery Foyer
+            location: The Brewery Foyer & King George
             title: Registration and Refreshments
             description: Please bring a copy of your ticket either printed or on a mobile device.
     - time: "09.00"
-      slottype: keynote
+      slottype: special
       tracks:
         - track:
-            name: Keynote
-            title: TBD
+            location: Porter Tun
+            title: Opening Keynote
+            description: TBA
     - time: "09.45"
       slottype: break change
       tracks:
         - track:
+            location: The Brewery Foyer & King George
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "10.15"
       slottype: talks
       tracks:
         - track:
-            name: Porter Tun
+            location: Porter Tun
             title: From source code to Kubernetes, a Continuous Deployment tale.
             slug: alexandregonzález
             speaker: Alexandre González
@@ -341,7 +346,7 @@
             description: |
                 This talk will cover the basics of creating good Docker images for your Go projects using multi-stage builds. Once we have that image ready we will need to run it somewhere, I think that a Kubernetes cluster could be a nice place to start. Of course, we don’t want to repeat those steps by hand everytime we want to do a new deployment so we will probably need to learn how to use a CI/CD tool to automate all the steps. And finally, the icing on the cake would be make this automagically run everytime we push code to our repository.
         - track:
-            name: Queen Charlotte
+            location: Queen Charlotte
             title: Using Go for Healthcare
             slug: carmenruizvicente
             speaker: Carmen Ruiz Vicente
@@ -354,7 +359,7 @@
             description: |
                 DeepMind is a British artificial intelligence research company, dedicated to using that research to help address the toughest social challenges. In this talk, we’ll cover our working in healthcare, and how we use Go to power Streams, our mobile application used by NHS clinicians.
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: "Abusing Go's net package for fun and profit"
             slug: michalwitkowski
             speaker: Michal Witkowski
@@ -375,7 +380,7 @@
       slottype: talks
       tracks:
         - track:
-            name: Porter Tun
+            location: Porter Tun
             title: Observability-Driven Development in Golang
             slug: charitymajors
             speaker: Charity Majors
@@ -388,7 +393,7 @@
             description: |
                 TDD is great, but it's just the start -- if you plan to write real robust services at scale, you need ODD, or Observability-Driven Development. Let's talk about how to ship code to production and then understand what you have *actually* shipped, as opposed to what you *think* you have shipped.
         - track:
-            name: Queen Charlotte
+            location: Queen Charlotte
             title: "Goroutines: the dark side of the runtime"
             slug: robertoclapis
             speaker: Roberto Clapis
@@ -401,7 +406,7 @@
             description: |
                 Have you ever wondered what really lies behind the "go" statement? Did you ever stop and think about differences between goroutines and standard operative system threads? Is there something you should know to avoid bugs or weird, unintended behaviours?
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: "go-ns - Go's role in publishing data at the Office for National Statistics"
             slug: eleanordeal
             speaker: Eleanor Deal
@@ -414,17 +419,18 @@
             description: |
                 ONS needed to take obtuse datasets and publish them in a searchable way - so citizens can start to make sense of statistics the affect them. Using Go we've rebuilt how data gets prepared, a pipeline for custom queries and extended our go-ns library - learning more about the practical sides of Go.
     - time: "12.00"
-      slottype: break
+      slottype: special
       tracks:
         - track:
-              name: Lunch
+              location: King George
+              title: Lunch
               description: |
                 A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "13.00"
       slottype: talks
       tracks:
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: Go as a scripting language in Linux
             slug: ignatkorchagin
             speaker: Ignat Korchagin
@@ -437,7 +443,7 @@
             description: |
                 Do you like Go so much and use it in every software project? Do you think Go is a truly universal language? How about taking it to the next level and trying Go as a scripting language for your favourite Linux distribution?
         - track:
-            name: Queen Charlotte
+            location: Queen Charlotte
             title: "Understanding Go's Memory Allocator"
             slug: andrecarvalho
             speaker: André Carvalho
@@ -450,7 +456,7 @@
             description: |
                 Ever wondered how does Go manage memory allocation? In this talk we are going to explore Go’s memory allocator and understand how its algorithm interacts with the operating system to manage memory!
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: "When to choose a monolith: reducing fragmentation in system architectures"
             slug: nathandavies
             speaker: Nathan Davies
@@ -471,7 +477,7 @@
       slottype: talks
       tracks:
         - track:
-            name: Porter Tun
+            location: Porter Tun
             title: Building Resilient Data Pipelines in Go
             slug: grantgriffiths
             speaker: Grant Griffiths
@@ -484,7 +490,7 @@
             description: |
                 The modern world runs on Data. In this talk we will cover how Gophers of any level can easily build Data Pipelines in Go with Kafka and Cassandra. At the end, we will look at how GE has written a Data Pipeline in Go that can handle over 800,000 writes per second of industrial time series data.
         - track:
-            name: Queen Charlotte
+            location: Queen Charlotte
             title: Scorch! a New Index for Bleve
             slug: martyschoch
             speaker: Marty Schoch
@@ -497,7 +503,7 @@
             description: |
                 Bleve, an open-source full-text search library for Go, has moved beyond the general-purpose key/value store and now implements its own custom binary index format named Scorch. Learn about the data-structures and Go libraries we've chosen to build this solution.
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: "Go Test: Under the hood"
             slug: seankelley
             speaker: Sean Kelley
@@ -513,12 +519,14 @@
       slottype: break change
       tracks:
         - track:
-              title: Afternoon refreshments
+              location: The Brewery Foyer & King George
+              title: Refreshment break
+              description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "15.15"
       slottype: talks
       tracks:
         - track:
-            name: Porter Tun
+            location: Porter Tun
             title: How do you structure your Go apps?
             slug: katzien
             speaker: Kat Zien
@@ -531,7 +539,7 @@
             description: |
               "How should I structure my Go app?" is one of the most common questions asked by new and experienced developers alike. It certainly was one of my first questions, and is something I keep coming back to. Let's discuss a few patterns and trends used in the industry these days.
         - track:
-            name: Queen Charlotte
+            location: Queen Charlotte
             title: Deep learning, ready? Go!
             slug: dianacarolinaortegamunoz
             speaker: Diana Carolina Ortega Muñoz
@@ -544,7 +552,7 @@
             description: |
               Imagine that you need to develop an Optical Character Recognition system using neural networks. Why is not Go your first choice for this kind of project? In this talk I’m going to show you a traditional solution using tensorflow and python, and also, how we can achieve a similar result using Go.
         - track:
-            name: Vaults
+            location: Smeaton Vaults
             title: "GoPro: More Concurrent than Parallel!"
             slug: mahdijelodari
             speaker: Mahdi Jelodari
@@ -565,7 +573,8 @@
       slottype: special
       tracks:
         - track:
-              title: TBA
+              title: Closing Keynote
+              description: TBA
     - time: "17.00"
       slottype: break
       tracks:
