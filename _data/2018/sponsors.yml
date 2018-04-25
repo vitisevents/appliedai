@@ -21,6 +21,24 @@
         Use the Glint App and Glint Mastercard ® to access multiple currencies including physical gold anywhere, instantly; in large or small amounts. Exchange and spend at the real interbank rates plus just a simple low commission fee; no hidden margins. You can easily keep track of spending, all through one card and one powerfully simple app.
         <br><br>
         For the first time, Glint is making physical gold instantly available as money, for everyday spending; whether that’s shopping, paying bills or withdrawing cash at ATMs worldwide. You can do it anytime, anywhere."
+- type: Delegate Coffee Lounge Sponsor
+  sponsors:
+    - name: "Utility Warehouse"
+      slug: utilitywarehouse
+      imageType: png
+      url: https://www.utilitywarehouse.co.uk
+      about: 
+        "We're a supplier of home services (Energy, Telephony, Insurance & Broadband) with around 2% of the UK market, a unique business model and a huge potential to grow.
+        <br><br>
+        As an established, 20-year-old British company our challenges are to rebuild whilst continuing to innovate and compete, in order to develop a platform to enable the future growth of the business. We have secured the relevant investment to rebuild in house.
+        <br><br>
+        We truly are unique in our proposition and allow our customers to consolidate payments into a single monthly bill by packaging products and services supplied through a network of wholesale partners. Utility Warehouse is the only genuine multi-utility operator in the market providing products and services to households and businesses nationwide.
+        <br><br>
+        At the beginning of 2016 we started a fundamental transformation here at Utility Warehouse - driven by the Board, there’s a strong desire to become a modern, agile, UX and tech-led business.
+        <br><br>
+        Our product and technology teams are a mix of new joiners and company veterans - a lot of the usual practices and processes still need establishing so it's definitely a good time to join and influence how things shape up in the future. Our current stack includes Go, React, GraphQL, Kafka, Docker, Kubernetes, AWS and MongoDB.
+        <br><br>
+        There's plenty of exciting things to happen here over the next 3-5 years; we have the plan and the budget to make it a good ride."
 - type: Gold Sponsors
   sponsors:
     - name: "Sainsbury's"
