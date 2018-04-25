@@ -71,7 +71,8 @@
       slug: solaris
       imageType: png
       url: https://www.solarisbank.com
-      about: 
+      about:
+        "solarisBank is the first banking platform with a full banking license which enables companies to offer their own financial products. Through APIs, partners gain access to solarisBank’s modular services including payments and e-money, lending, digital banking as well as services provided by integrated third party providers. Through this, solarisBank creates a highly developed technological banking ecosystem for fintechs, established digital companies, as well as banks and corporates." 
 - type: Silver Sponsors
   sponsors:
     - name: "Vistas"
