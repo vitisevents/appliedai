@@ -5,7 +5,7 @@
       slottype: special
       tracks:
         - track:
-            name: "Workshop - Beginner"
+            name: "Workshop - Beginner/intermediate"
             speaker: Mark Bates
             title: "Daily Go: Fundamentals"
             id: workshopi
@@ -15,7 +15,7 @@
       slottype: special
       tracks:
         - track:
-              name: Workshop - Intermediate
+              name: Workshop - Advanced
               speaker: Cory LaNou
               title: "Gophercon UK: Advanced"
               id: workshopii
