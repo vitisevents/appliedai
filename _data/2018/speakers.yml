@@ -76,30 +76,30 @@
                 As developers we’re dealing with an increasing pressure to deliver features ever faster. This talk will walk you through a number of development and delivery models for Go. We’ll be starting with the traditional binary-running-on-a-VM setup, then move on to container-based development and further on to the serverless/Function-as-a-service model using AWS Lambda and Apache OpenWhisk on Kubernetes. We’ll be using the same codebase, effectively starting with a monolith, breaking in down into (containerized) microservices and further on breaking it down to a dozen functions. For each of the development and deployment models we’ll discuss pros and cons and trying to determine their respective sweet-spot. This is a hands-on, minimum-slides session.
         - track:
             location: Queen Charlotte
-            title: Experimental Refactoring with Go
-            slug: jelmersnoeck
-            speaker: Jelmer Snoeck
-            handle: jelmersnoeck
-            company: Manifold
-            photo: https://secure.gravatar.com/avatar/3f4444967dfc7a5a2a71d24175d94c3c?s=500
+            title: Debuggers From Scratch
+            slug: lizrice
+            speaker: Liz Rice
+            handle: lizrice
+            company: Aqua Security
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/8148/liz-2400-2000.jpg
             bio:  |
-                Jelmer Snoeck is a Product Engineer for at Manifold. In the past, he's helped scale startups where he's mostly been working as an SRE. Jelmer is mainly a backend developer with a focus on reliability and performance. More recently, he's been focussing on extending Kubernetes. Whenever he can, Jelmer tries to help others learn and experiment with new software.
-            level: All
+                Liz Rice is the Technology Evangelist with container security specialists [Aqua Security](http://aquasec.com). Prior to that she co-founded [Microscaling Systems](http://microscaling.com) and was one of the developers of image inspection tool [MicroBadger](http://microbadger.com). She has a wealth of software development, team, and product management experience from working on network protocols and distributed systems, and in digital technology sectors such as VOD, music, and VoIP. When not building startups, giving talks or writing code, Liz loves riding bikes in places with better weather than her native London.
+            level: Intermediate
             description: |
-                Refactoring is essential to the software lifecycle. Can we make it safe enough to be a part of every company's CD workflow? In this talk attendees will learn how to: utilise multi-step deploys; tame feature flags; run multiple code paths concurrently in production without influencing users.
+                At some stage in your programming life you may well have used a debugger, but did you wonder how it was able to step into and control your executable? In this talk we'll see how debuggers work by building one from scratch in a few lines of Go.
         - track:
             location: Smeaton Vaults
-            title: GoLand Tips & Tricks
-            slug: florinpatan
-            speaker: Florin Pățan
-            handle: dlsniper
-            company: JetBrains
-            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/3670/Florin_Original.jpg
+            title: Blockchain Apps in Go
+            slug: matthewcampbell
+            speaker: Matthew Campbell
+            handle: kanwisher
+            company: DigitalOcean
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/1632/headshot_oreilly_cropped.jpg
             bio:  |
-                Florin has been a gopher for a few years now and has used go to do various things from simple toy apps to writing a startup based on it. He is the former co-organizer of Go London User Group, GDG Berlin Golang and AWS Berlin User Group. He helps gophers on Slack and is a Developer Advocate for GoLand IDE.
+                "Matthew is the CEO of Loom Network, (TechStars Winter '18) a Blockchain company. Most famously known for CryptoZombies. He builds tools for developers around the blockchain in Go. He has worked for large Technical firms like Digital Ocean, Bloomberg, Thomson Retuers. He's been a software developer for the last 15 years.
             level: All
             description: |
-                This talk focuses on the productivity that GoLand can bring to a Go developer. We'll explore the ways the IDE adapts to your workflow, how it can help you detect and fix issues, integrate with other languages, all while keeping the same experience regardless of the platform you are working on.
+                Ever wonder how blockchains work? Why is it that many popular blockchains are using Go? In this talk we will explore how blockchains work at a protocol level, what Go libraries you can use to interact with them. By the end of the talk you will be able to build your first Blockchain App.
     - time: "11.00"
       slottype: break change
       tracks:
@@ -110,17 +110,17 @@
       tracks:
         - track:
             location: Porter Tun
-            title: The best feature of Go
-            slug: danielapetruzalek
-            speaker: Daniela Petruzalek
-            handle: danicat83
-            company: Globo.com
-            photo: 
+            title: Going GraphQL
+            slug: christopherbiscardi
+            speaker: Christopher Biscardi
+            handle: chrisbiscardi
+            company: Honeycomb.io
+            photo: https://secure.gravatar.com/avatar/5f7798f819ff4add0e78e599ae83b01f?s=500
             bio:  |
-                Daniela Petruzalek is a Senior Software Developer at Globo.com, currently working with Big Data and recommendation systems. She is a transgender woman and diversity advocate, fighting for the inclusion of women and LGBTs in IT. She is also the leader of the Google Developers Group of Porto Alegre (Brazil) and the Women Who Go chapter in the same city.
+                Chris currently works at Honeycomb, enabling engineers to leverage Observability in their applications. He previously built the UI team at Docker and the Design Systems team at Dropbox and has been working with Golang since being introduced to it at Docker.
             level: Intermediate
             description: |
-                The Go community is definitely the best feature of the language, but how may we engage with it and become more than just a bystander on the crowd? How do we contribute to the Go language OSS? Too much for you? What about a community built library? Contributing with code is too scary? What about building samples and documenting? Maybe you are a local leader and you can start a meetup, or join an active one… Do you like to write? Record videos? Literally the options are endless, so I want to explore some of those while sharing my personal experiences with the hopes of inspiring other people to engage with the community as well.
+                REST is the current leader in client-server interactions. Our services have better tooling like grpc and better formats like protocol buffers and avro. Being well typed, GraphQL can bring these together to become the next step in client/server interaction.
         - track:
             location: Queen Charlotte
             title: Secrets about using Machine Learning and Go
@@ -160,28 +160,30 @@
       tracks:
         - track:
             location: Porter Tun
-            title: Going GraphQL
-            slug: christopherbiscardi
-            speaker: Christopher Biscardi
-            handle: chrisbiscardi
-            company: Honeycomb.io
-            photo: https://secure.gravatar.com/avatar/5f7798f819ff4add0e78e599ae83b01f?s=500
+            title: Building future proof systems with interfaces
+            slug: asimaslam
+            speaker: Asim Aslam
+            handle: chuhnk
+            company: Micro
+            photo: https://secure.gravatar.com/avatar/e92cbcec738176ba1dc51805ba5be8d1?s=500
             bio:  |
-                Chris currently works at Honeycomb, enabling engineers to leverage Observability in their applications. He previously built the UI team at Docker and the Design Systems team at Dropbox and has been working with Golang since being introduced to it at Docker.
+                Asim is a technologist with over a decade of experience in building distributed systems. His primary focus today is working on the open source project Micro, a toolkit for simplifying cloud-native development.
             level: Intermediate
             description: |
-                REST is the current leader in client-server interactions. Our services have better tooling like grpc and better formats like protocol buffers and avro. Being well typed, GraphQL can bring these together to become the next step in client/server interaction.
+                How do we build applications which evolve with technology? Too often we become dependent on specific infrastructure, requiring large scale rewrites to replace them later. This talk will demonstrate how to use the power of Go interfaces to avoid this problem and build future proof systems.
         - track:
             location: Queen Charlotte
-            title: TBA
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level:
-            description: 
+            title: "go-ns - Go's role in publishing data at the Office for National Statistics"
+            slug: eleanordeal
+            speaker: Eleanor Deal
+            handle: unoxymoronic
+            company: Methods
+            photo: https://secure.gravatar.com/avatar/61eccacafa0360478f69110292c438cf?s=500
+            bio:  |
+                Founder of the Cardiff Go meetup, and now Consulting as a Tech Lead at ONS, Eleanor represents Methods within the Welsh digital world. Eleanor manages teams working towards digital transformation in public services (and occasionally still gets to write some code!). In her spare time, Eleanor loves to take pictures of architecture around the world, and definitely not just her two cats.
+            level: All
+            description: |
+                ONS needed to take obtuse datasets and publish them in a searchable way - so citizens can start to make sense of statistics the affect them. Using Go we've rebuilt how data gets prepared, a pipeline for custom queries and extended our go-ns library - learning more about the practical sides of Go.
         - track:
             location: Smeaton Vaults
             title: Special Event - TBA
@@ -207,18 +209,18 @@
             description: |
                 Microservices, DDD, distributed systems, serverless. All trends decompose to the max, which moves the complexity to the collaboration of these pieces. I want to tell some war stories around that in this talk and give people some guidance.
         - track:
-            location: Smeaton Vaults
-            title: Black Box Monitoring in Go
-            slug: grantgriffiths
-            speaker: Grant Griffiths
-            handle: griffithsgrant
-            company: GE Digital
-            photo: https://secure.gravatar.com/avatar/f982183e1db9eed435f2097d10281f7c?s=500
+            location: Queen Charlotte
+            title: "GoPro: More Concurrent than Parallel!"
+            slug: mahdijelodari
+            speaker: Mahdi Jelodari
+            handle: MJcomp86
+            company: Reconfigure.io Ltd
+            photo: https://secure.gravatar.com/avatar/29d1ea18599fe520e7c97db2d4ac20cc?s=500
             bio:  |
-                "Grant is a Gopher of 3 years working as a Senior Software Engineer at GE Digital. He's very passionate about Go and runs the Go User Group at GE. They have bi-weekly talks with anywhere from 50-200 Gophers depends on the topic, with internal and external speakers such as Daniel Whitenack, Wally Quevedo, Joe Beda, and soon Francesc Campoy. At GE Digital, he works in the Predix Cloud Engineering org, where he builds Data Services in Go that store and process Industrial IoT data with Kafka, Cassandra, EMR/Spark, and much more. In addition to writing backend services, he also work on Site Reliability Engineering for his team, improving the monitoring/alerting, reliability, and performance for all data services. Specifically, he's built tooling that can simulate end users for black box testing. He studied Computer Science and Mathematics at Syracuse University and like climbing rock, ice, and snow in my free time."
-            level: Beginner
+              Mahdi received his Ph.D. degree in CS on high-level synthesis from the University of Manchester, UK, in Feb 2016. He's co-founded Reconfigure.io Ltd where he together with a team of talented CS folks aims to accelerate concurrent programs, such as Go, using FPGAs in the data centre context. He has been active in the subject of high level synthesis (transforming software specs to hardware circuits) for almost 6 years now and is a DATE 2015 award winner.
+            level: Intermediate
             description: |
-                You've set up your favorite monitoring agent on all of your services and you have incredible visibility into the internals of your infrastructure. All seems good in the world, but can your end user actually use your service? In this talk we'll write a simple app that simulates end user activity.
+                Complex systems call for better controllability over various design parameters (data and control widths, on-/off- chip memory, topology etc.). Unlike software based simulations, rapid FPGA-accelerated prototyping (using GoPro) will allow faster simulation and exploration of large scale systems.
         - track:
             location: Smeaton Vaults
             title: Special Event - TBA
@@ -235,30 +237,28 @@
       tracks:
         - track:
             location: Porter Tun
-            title: Blockchain Apps in Go
-            slug: matthewcampbell
-            speaker: Matthew Campbell
-            handle: kanwisher
-            company: DigitalOcean
-            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/1632/headshot_oreilly_cropped.jpg
+            title: Black Box Monitoring in Go
+            slug: grantgriffiths
+            speaker: Grant Griffiths
+            handle: griffithsgrant
+            company: GE Digital
+            photo: https://secure.gravatar.com/avatar/f982183e1db9eed435f2097d10281f7c?s=500
             bio:  |
-                "Matthew is the CEO of Loom Network, (TechStars Winter '18) a Blockchain company. Most famously known for CryptoZombies. He builds tools for developers around the blockchain in Go. He has worked for large Technical firms like Digital Ocean, Bloomberg, Thomson Retuers. He's been a software developer for the last 15 years.
-            level: All
+                "Grant is a Gopher of 3 years working as a Senior Software Engineer at GE Digital. He's very passionate about Go and runs the Go User Group at GE. They have bi-weekly talks with anywhere from 50-200 Gophers depends on the topic, with internal and external speakers such as Daniel Whitenack, Wally Quevedo, Joe Beda, and soon Francesc Campoy. At GE Digital, he works in the Predix Cloud Engineering org, where he builds Data Services in Go that store and process Industrial IoT data with Kafka, Cassandra, EMR/Spark, and much more. In addition to writing backend services, he also work on Site Reliability Engineering for his team, improving the monitoring/alerting, reliability, and performance for all data services. Specifically, he's built tooling that can simulate end users for black box testing. He studied Computer Science and Mathematics at Syracuse University and like climbing rock, ice, and snow in my free time."
+            level: Beginner
             description: |
-                Ever wonder how blockchains work? Why is it that many popular blockchains are using Go? In this talk we will explore how blockchains work at a protocol level, what Go libraries you can use to interact with them. By the end of the talk you will be able to build your first Blockchain App.
+                You've set up your favorite monitoring agent on all of your services and you have incredible visibility into the internals of your infrastructure. All seems good in the world, but can your end user actually use your service? In this talk we'll write a simple app that simulates end user activity.
         - track:
             location: Queen Charlotte
-            title: Building future proof systems with interfaces
-            slug: asimaslam
-            speaker: Asim Aslam
-            handle: chuhnk
-            company: Micro
-            photo: https://secure.gravatar.com/avatar/e92cbcec738176ba1dc51805ba5be8d1?s=500
-            bio:  |
-                Asim is a technologist with over a decade of experience in building distributed systems. His primary focus today is working on the open source project Micro, a toolkit for simplifying cloud-native development.
-            level: Intermediate
-            description: |
-                How do we build applications which evolve with technology? Too often we become dependent on specific infrastructure, requiring large scale rewrites to replace them later. This talk will demonstrate how to use the power of Go interfaces to avoid this problem and build future proof systems.
+            title: Using model driven code generation with Go
+            slug: 
+            speaker: Mark Hermeling
+            handle: 
+            company: 
+            photo: 
+            bio:
+            level: All
+            description:
         - track:
             location: Smeaton Vaults
             title: Special Event - TBA
@@ -272,28 +272,29 @@
       tracks:
         - track:
             location: Porter Tun
-            title: Debuggers From Scratch
-            slug: lizrice
-            speaker: Liz Rice
-            handle: lizrice
-            company: Aqua Security
-            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/8148/liz-2400-2000.jpg
+            title: Documenting Go Code with Beatiful Tests
+            slug: pawelslomka
+            speaker: Pawel Slomka
+            handle: pawel_slomka
+            photo: https://secure.gravatar.com/avatar/fde1a91eed44ebccb2a1104942e7aa00?s=500
             bio:  |
-                Liz Rice is the Technology Evangelist with container security specialists [Aqua Security](http://aquasec.com). Prior to that she co-founded [Microscaling Systems](http://microscaling.com) and was one of the developers of image inspection tool [MicroBadger](http://microbadger.com). She has a wealth of software development, team, and product management experience from working on network protocols and distributed systems, and in digital technology sectors such as VOD, music, and VoIP. When not building startups, giving talks or writing code, Liz loves riding bikes in places with better weather than her native London.
-            level: Intermediate
+                Paweł is more than a software developer. He's an NBA fanatic (he needs to know everything that is going on, which eats a lot of his time, unfortunately) and an amateur basketball player himself. He's also a two-time (so far) Marathon runner, but is definitely going to do that again.
+            level: All
             description: |
-                At some stage in your programming life you may well have used a debugger, but did you wonder how it was able to step into and control your executable? In this talk we'll see how debuggers work by building one from scratch in a few lines of Go.
+                Whether you believe in TDD or not, you must agree that it's unwise to build production code with no tests. They verify your application, but also act as a perfect documentation for the development team. I would like to show a couple of tips and tricks of how you can write pretty and effective tests.
         - track:
             location: Queen Charlotte
-            title: Using model driven code generation with Go
-            slug: 
-            speaker: Mark Hermeling
-            handle: 
-            company: 
-            photo: 
-            bio:
+            title: Using Go for Healthcare
+            slug: carmenruizvicente
+            speaker: Carmen Ruiz Vicente
+            handle: carmrui
+            company: DeepMind
+            photo: https://secure.gravatar.com/avatar/938e70249c3b1769125ab8893428b07e?s=500
+            bio:  |
+                "Carmen Ruiz Vicente is a technical lead on DeepMind Health’s backend engineering team, responsible for the development of our simulation infrastructure. Before DeepMind, she worked within privacy engineering at Google, having gained a PhD in the area from Aalborg University (Denmark), and Google's Beacon Platform that integrates beacon technology with first and third party apps. Carmen enjoys well designed interfaces, and recreational drumming."
             level: All
-            description:
+            description: |
+                DeepMind is a British artificial intelligence research company, dedicated to using that research to help address the toughest social challenges. In this talk, we’ll cover our working in healthcare, and how we use Go to power Streams, our mobile application used by NHS clinicians.
         - track:
             location: Smeaton Vaults
             title: Special Event - TBA
@@ -347,17 +348,17 @@
                 This talk will cover the basics of creating good Docker images for your Go projects using multi-stage builds. Once we have that image ready we will need to run it somewhere, I think that a Kubernetes cluster could be a nice place to start. Of course, we don’t want to repeat those steps by hand everytime we want to do a new deployment so we will probably need to learn how to use a CI/CD tool to automate all the steps. And finally, the icing on the cake would be make this automagically run everytime we push code to our repository.
         - track:
             location: Queen Charlotte
-            title: Using Go for Healthcare
-            slug: carmenruizvicente
-            speaker: Carmen Ruiz Vicente
-            handle: carmrui
-            company: DeepMind
-            photo: https://secure.gravatar.com/avatar/938e70249c3b1769125ab8893428b07e?s=500
+            title: Experimental Refactoring with Go
+            slug: jelmersnoeck
+            speaker: Jelmer Snoeck
+            handle: jelmersnoeck
+            company: Manifold
+            photo: https://secure.gravatar.com/avatar/3f4444967dfc7a5a2a71d24175d94c3c?s=500
             bio:  |
-                "Carmen Ruiz Vicente is a technical lead on DeepMind Health’s backend engineering team, responsible for the development of our simulation infrastructure. Before DeepMind, she worked within privacy engineering at Google, having gained a PhD in the area from Aalborg University (Denmark), and Google's Beacon Platform that integrates beacon technology with first and third party apps. Carmen enjoys well designed interfaces, and recreational drumming."
+                Jelmer Snoeck is a Product Engineer for at Manifold. In the past, he's helped scale startups where he's mostly been working as an SRE. Jelmer is mainly a backend developer with a focus on reliability and performance. More recently, he's been focussing on extending Kubernetes. Whenever he can, Jelmer tries to help others learn and experiment with new software.
             level: All
             description: |
-                DeepMind is a British artificial intelligence research company, dedicated to using that research to help address the toughest social challenges. In this talk, we’ll cover our working in healthcare, and how we use Go to power Streams, our mobile application used by NHS clinicians.
+                Refactoring is essential to the software lifecycle. Can we make it safe enough to be a part of every company's CD workflow? In this talk attendees will learn how to: utilise multi-step deploys; tame feature flags; run multiple code paths concurrently in production without influencing users.
         - track:
             location: Smeaton Vaults
             title: "Abusing Go's net package for fun and profit"
@@ -407,17 +408,17 @@
                 Have you ever wondered what really lies behind the "go" statement? Did you ever stop and think about differences between goroutines and standard operative system threads? Is there something you should know to avoid bugs or weird, unintended behaviours?
         - track:
             location: Smeaton Vaults
-            title: "go-ns - Go's role in publishing data at the Office for National Statistics"
-            slug: eleanordeal
-            speaker: Eleanor Deal
-            handle: unoxymoronic
-            company: Methods
-            photo: https://secure.gravatar.com/avatar/61eccacafa0360478f69110292c438cf?s=500
+            title: GoLand Tips & Tricks
+            slug: florinpatan
+            speaker: Florin Pățan
+            handle: dlsniper
+            company: JetBrains
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/3670/Florin_Original.jpg
             bio:  |
-                Founder of the Cardiff Go meetup, and now Consulting as a Tech Lead at ONS, Eleanor represents Methods within the Welsh digital world. Eleanor manages teams working towards digital transformation in public services (and occasionally still gets to write some code!). In her spare time, Eleanor loves to take pictures of architecture around the world, and definitely not just her two cats.
+                Florin has been a gopher for a few years now and has used go to do various things from simple toy apps to writing a startup based on it. He is the former co-organizer of Go London User Group, GDG Berlin Golang and AWS Berlin User Group. He helps gophers on Slack and is a Developer Advocate for GoLand IDE.
             level: All
             description: |
-                ONS needed to take obtuse datasets and publish them in a searchable way - so citizens can start to make sense of statistics the affect them. Using Go we've rebuilt how data gets prepared, a pipeline for custom queries and extended our go-ns library - learning more about the practical sides of Go.
+                This talk focuses on the productivity that GoLand can bring to a Go developer. We'll explore the ways the IDE adapts to your workflow, how it can help you detect and fix issues, integrate with other languages, all while keeping the same experience regardless of the platform you are working on.
     - time: "12.00"
       slottype: special
       tracks:
@@ -504,17 +505,17 @@
                 Bleve, an open-source full-text search library for Go, has moved beyond the general-purpose key/value store and now implements its own custom binary index format named Scorch. Learn about the data-structures and Go libraries we've chosen to build this solution.
         - track:
             location: Smeaton Vaults
-            title: "Go Test: Under the hood"
-            slug: seankelley
-            speaker: Sean Kelley
-            handle: StabbyCutyou
-            company: Rapid7
-            photo: /archive/2017/images/speakers/seankelly.jpg
+            title: The best feature of Go
+            slug: danielapetruzalek
+            speaker: Daniela Petruzalek
+            handle: danicat83
+            company: Globo.com
+            photo: 
             bio:  |
-              Sean Kelly (affectionately known as Stabby) is a Principal Software Engineer for Komand Security. A simple man with a dog for an avatar, he enjoys learning new things, helping / mentoring others, and posting photos of his dog on the internet. When he's not giving talks about his many failures, he enjoys spending time at home with his wife, and coming up with new projects to work on that he will never actually finish.
-            level: All
+                Daniela Petruzalek is a Senior Software Developer at Globo.com, currently working with Big Data and recommendation systems. She is a transgender woman and diversity advocate, fighting for the inclusion of women and LGBTs in IT. She is also the leader of the Google Developers Group of Porto Alegre (Brazil) and the Women Who Go chapter in the same city.
+            level: Intermediate
             description: |
-              This talk will cover a brief introduction to go test, before diving into the more interesting parts of using the tool and the library itself. Covering topics like enabling testing of un-exported objects in separate testing packages, interesting or unconventional flags, and the newly added caching mechanisms, the talk will aim to raise folks understanding and capabilities with go test beyond just the basics, to help gophers become better testers by simply introducing them to more of the test tool and library itself.
+                The Go community is definitely the best feature of the language, but how may we engage with it and become more than just a bystander on the crowd? How do we contribute to the Go language OSS? Too much for you? What about a community built library? Contributing with code is too scary? What about building samples and documenting? Maybe you are a local leader and you can start a meetup, or join an active one… Do you like to write? Record videos? Literally the options are endless, so I want to explore some of those while sharing my personal experiences with the hopes of inspiring other people to engage with the community as well.
     - time: "14.45"
       slottype: break change
       tracks:
@@ -553,17 +554,17 @@
               Imagine that you need to develop an Optical Character Recognition system using neural networks. Why is not Go your first choice for this kind of project? In this talk I’m going to show you a traditional solution using tensorflow and python, and also, how we can achieve a similar result using Go.
         - track:
             location: Smeaton Vaults
-            title: "GoPro: More Concurrent than Parallel!"
-            slug: mahdijelodari
-            speaker: Mahdi Jelodari
-            handle: MJcomp86
-            company: Reconfigure.io Ltd
-            photo: https://secure.gravatar.com/avatar/29d1ea18599fe520e7c97db2d4ac20cc?s=500
+            title: "Go Test: Under the hood"
+            slug: seankelley
+            speaker: Sean Kelley
+            handle: StabbyCutyou
+            company: Rapid7
+            photo: /archive/2017/images/speakers/seankelly.jpg
             bio:  |
-              Mahdi received his Ph.D. degree in CS on high-level synthesis from the University of Manchester, UK, in Feb 2016. He's co-founded Reconfigure.io Ltd where he together with a team of talented CS folks aims to accelerate concurrent programs, such as Go, using FPGAs in the data centre context. He has been active in the subject of high level synthesis (transforming software specs to hardware circuits) for almost 6 years now and is a DATE 2015 award winner.
-            level: Intermediate
+              Sean Kelly (affectionately known as Stabby) is a Principal Software Engineer for Komand Security. A simple man with a dog for an avatar, he enjoys learning new things, helping / mentoring others, and posting photos of his dog on the internet. When he's not giving talks about his many failures, he enjoys spending time at home with his wife, and coming up with new projects to work on that he will never actually finish.
+            level: All
             description: |
-                Complex systems call for better controllability over various design parameters (data and control widths, on-/off- chip memory, topology etc.). Unlike software based simulations, rapid FPGA-accelerated prototyping (using GoPro) will allow faster simulation and exploration of large scale systems.
+              This talk will cover a brief introduction to go test, before diving into the more interesting parts of using the tool and the library itself. Covering topics like enabling testing of un-exported objects in separate testing packages, interesting or unconventional flags, and the newly added caching mechanisms, the talk will aim to raise folks understanding and capabilities with go test beyond just the basics, to help gophers become better testers by simply introducing them to more of the test tool and library itself.
     - time: "16.00"
       slottype: break change
       tracks:
