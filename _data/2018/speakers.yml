@@ -87,7 +87,7 @@
             company: Aqua Security
             photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/8148/liz-2400-2000.jpg
             bio:  |
-                Liz Rice is the Technology Evangelist with container security specialists [Aqua Security](http://aquasec.com). Prior to that she co-founded [Microscaling Systems](http://microscaling.com) and was one of the developers of image inspection tool [MicroBadger](http://microbadger.com). She has a wealth of software development, team, and product management experience from working on network protocols and distributed systems, and in digital technology sectors such as VOD, music, and VoIP. When not building startups, giving talks or writing code, Liz loves riding bikes in places with better weather than her native London.
+                Liz Rice is the Technology Evangelist with container security specialists <a href="http://aquasec.com">Aqua Security</a>. Prior to that she co-founded <a href="http://microscaling.com">Microscaling Systems</a> and was one of the developers of image inspection tool <a href="http://microbadger.com">MicroBadger</a>. She has a wealth of software development, team, and product management experience from working on network protocols and distributed systems, and in digital technology sectors such as VOD, music, and VoIP. When not building startups, giving talks or writing code, Liz loves riding bikes in places with better weather than her native London.
             level: Intermediate
             description: |
                 At some stage in your programming life you may well have used a debugger, but did you wonder how it was able to step into and control your executable? In this talk we'll see how debuggers work by building one from scratch in a few lines of Go.
@@ -100,7 +100,7 @@
             company: DigitalOcean
             photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/1632/headshot_oreilly_cropped.jpg
             bio:  |
-                "Matthew is the CEO of Loom Network, (TechStars Winter '18) a Blockchain company. Most famously known for CryptoZombies. He builds tools for developers around the blockchain in Go. He has worked for large Technical firms like Digital Ocean, Bloomberg, Thomson Retuers. He's been a software developer for the last 15 years.
+                Matthew is the CEO of Loom Network, (TechStars Winter '18) a Blockchain company. Most famously known for CryptoZombies. He builds tools for developers around the blockchain in Go. He has worked for large Technical firms like Digital Ocean, Bloomberg, Thomson Retuers. He's been a software developer for the last 15 years.
             level: All
             description: |
                 Ever wonder how blockchains work? Why is it that many popular blockchains are using Go? In this talk we will explore how blockchains work at a protocol level, what Go libraries you can use to interact with them. By the end of the talk you will be able to build your first Blockchain App.
@@ -248,7 +248,7 @@
             company: GE Digital
             photo: https://secure.gravatar.com/avatar/f982183e1db9eed435f2097d10281f7c?s=500
             bio:  |
-                "Grant is a Gopher of 3 years working as a Senior Software Engineer at GE Digital. He's very passionate about Go and runs the Go User Group at GE. They have bi-weekly talks with anywhere from 50-200 Gophers depends on the topic, with internal and external speakers such as Daniel Whitenack, Wally Quevedo, Joe Beda, and soon Francesc Campoy. At GE Digital, he works in the Predix Cloud Engineering org, where he builds Data Services in Go that store and process Industrial IoT data with Kafka, Cassandra, EMR/Spark, and much more. In addition to writing backend services, he also work on Site Reliability Engineering for his team, improving the monitoring/alerting, reliability, and performance for all data services. Specifically, he's built tooling that can simulate end users for black box testing. He studied Computer Science and Mathematics at Syracuse University and like climbing rock, ice, and snow in my free time."
+                Grant is a Gopher of 3 years working as a Senior Software Engineer at GE Digital. He's very passionate about Go and runs the Go User Group at GE. They have bi-weekly talks with anywhere from 50-200 Gophers depends on the topic, with internal and external speakers such as Daniel Whitenack, Wally Quevedo, Joe Beda, and soon Francesc Campoy. At GE Digital, he works in the Predix Cloud Engineering org, where he builds Data Services in Go that store and process Industrial IoT data with Kafka, Cassandra, EMR/Spark, and much more. In addition to writing backend services, he also work on Site Reliability Engineering for his team, improving the monitoring/alerting, reliability, and performance for all data services. Specifically, he's built tooling that can simulate end users for black box testing. He studied Computer Science and Mathematics at Syracuse University and like climbing rock, ice, and snow in my free time.
             level: Beginner
             description: |
                 You've set up your favorite monitoring agent on all of your services and you have incredible visibility into the internals of your infrastructure. All seems good in the world, but can your end user actually use your service? In this talk we'll write a simple app that simulates end user activity.
@@ -295,7 +295,7 @@
             company: DeepMind
             photo: https://secure.gravatar.com/avatar/938e70249c3b1769125ab8893428b07e?s=500
             bio:  |
-                "Carmen Ruiz Vicente is a technical lead on DeepMind Health’s backend engineering team, responsible for the development of our simulation infrastructure. Before DeepMind, she worked within privacy engineering at Google, having gained a PhD in the area from Aalborg University (Denmark), and Google's Beacon Platform that integrates beacon technology with first and third party apps. Carmen enjoys well designed interfaces, and recreational drumming."
+                Carmen Ruiz Vicente is a technical lead on DeepMind Health’s backend engineering team, responsible for the development of our simulation infrastructure. Before DeepMind, she worked within privacy engineering at Google, having gained a PhD in the area from Aalborg University (Denmark), and Google's Beacon Platform that integrates beacon technology with first and third party apps. Carmen enjoys well designed interfaces, and recreational drumming.
             level: All
             description: |
                 DeepMind is a British artificial intelligence research company, dedicated to using that research to help address the toughest social challenges. In this talk, we’ll cover our working in healthcare, and how we use Go to power Streams, our mobile application used by NHS clinicians.
@@ -408,7 +408,7 @@
             company: Secure Network
             photo: https://secure.gravatar.com/avatar/51a79d752c98d83196a9bdb4db9b1c01?s=500
             bio:  |
-                "Roberto is a Security Engineer, working as a penetration tester for Secure Network, Italy's leading security assessment company. He received a B.Sc. degree in Computer Engineering from Politecnico di Milano university in Italy. In his spare time Roberto contributes to open source projects, with a strong interest in developing automated tools to optimize the process of penetration testing and code analysis. Roberto has been writing go since 2015 and he is Secure Network lead developer for internal tools and external services."
+                Roberto is a Security Engineer, working as a penetration tester for Secure Network, Italy's leading security assessment company. He received a B.Sc. degree in Computer Engineering from Politecnico di Milano university in Italy. In his spare time Roberto contributes to open source projects, with a strong interest in developing automated tools to optimize the process of penetration testing and code analysis. Roberto has been writing go since 2015 and he is Secure Network lead developer for internal tools and external services.
             level: Advanced
             description: |
                 Have you ever wondered what really lies behind the "go" statement? Did you ever stop and think about differences between goroutines and standard operative system threads? Is there something you should know to avoid bugs or weird, unintended behaviours?
@@ -492,7 +492,7 @@
             company: GE Digital
             photo: https://secure.gravatar.com/avatar/f982183e1db9eed435f2097d10281f7c?s=500
             bio:  |
-                "Grant is a Gopher of 3 years working as a Senior Software Engineer at GE Digital. He's very passionate about Go and runs the Go User Group at GE. They have bi-weekly talks with anywhere from 50-200 Gophers depends on the topic, with internal and external speakers such as Daniel Whitenack, Wally Quevedo, Joe Beda, and soon Francesc Campoy. At GE Digital, he works in the Predix Cloud Engineering org, where he builds Data Services in Go that store and process Industrial IoT data with Kafka, Cassandra, EMR/Spark, and much more. In addition to writing backend services, he also work on Site Reliability Engineering for his team, improving the monitoring/alerting, reliability, and performance for all data services. Specifically, he's built tooling that can simulate end users for black box testing. He studied Computer Science and Mathematics at Syracuse University and like climbing rock, ice, and snow in my free time."
+                Grant is a Gopher of 3 years working as a Senior Software Engineer at GE Digital. He's very passionate about Go and runs the Go User Group at GE. They have bi-weekly talks with anywhere from 50-200 Gophers depends on the topic, with internal and external speakers such as Daniel Whitenack, Wally Quevedo, Joe Beda, and soon Francesc Campoy. At GE Digital, he works in the Predix Cloud Engineering org, where he builds Data Services in Go that store and process Industrial IoT data with Kafka, Cassandra, EMR/Spark, and much more. In addition to writing backend services, he also work on Site Reliability Engineering for his team, improving the monitoring/alerting, reliability, and performance for all data services. Specifically, he's built tooling that can simulate end users for black box testing. He studied Computer Science and Mathematics at Syracuse University and like climbing rock, ice, and snow in my free time.
             level: Beginner
             description: |
                 The modern world runs on Data. In this talk we will cover how Gophers of any level can easily build Data Pipelines in Go with Kafka and Cassandra. At the end, we will look at how GE has written a Data Pipeline in Go that can handle over 800,000 writes per second of industrial time series data.
@@ -541,7 +541,7 @@
             company: Brightpearl
             photo: https://secure.gravatar.com/avatar/cd6bec94805761550b875485b2bca16b?s=500
             bio:  |
-              Writing Go and PHP at [Brightpearl](https://www.brightpearl.com/). Working remotely from Bristol, UK or anywhere with wifi. Her main interests include automating #allthethings, sorting out legacy code and making things simpler and faster. She's co-organising and giving talks at [Golang Bristol++](https://www.meetup.com/golang-bristol/) and [PHPSW](https://www.meetup.com/php-sw/). Kat loves travelling, cycling and keeping active, appreciates good coffee and is a big Lego fan.
+              Writing Go and PHP at <a href="https://www.brightpearl.com/">Brightpearl</a>. Working remotely from Bristol, UK or anywhere with wifi. Her main interests include automating \#allthethings, sorting out legacy code and making things simpler and faster. She's co-organising and giving talks at <a href="https://www.meetup.com/golang-bristol/">Golang Bristol++</a> and <a href="https://www.meetup.com/php-sw/">PHPSW</a>. Kat loves travelling, cycling and keeping active, appreciates good coffee and is a big Lego fan.
             level: 
             description: |
               "How should I structure my Go app?" is one of the most common questions asked by new and experienced developers alike. It certainly was one of my first questions, and is something I keep coming back to. Let's discuss a few patterns and trends used in the industry these days.
