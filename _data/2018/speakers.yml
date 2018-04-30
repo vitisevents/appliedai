@@ -408,7 +408,7 @@
             company: Secure Network
             photo: https://secure.gravatar.com/avatar/51a79d752c98d83196a9bdb4db9b1c01?s=500
             bio:  |
-                Roberto is a Security Engineer, working as a penetration tester for Secure Network, Italy's leading security assessment company. He received a B.Sc. degree in Computer Engineering from Politecnico di Milano university in Italy. In his spare time Roberto contributes to open source projects, with a strong interest in developing automated tools to optimize the process of penetration testing and code analysis. Roberto has been writing go since 2015 and he is Secure Network lead developer for internal tools and external services.
+                Roberto became a Security Engineer at Google after spending two years working as a penetration tester and code reviewer for Secure Network, Italy's leading security assessment company. He received a B.Sc. degree in Computer Engineering from Politecnico di Milano university in Italy. In his spare time Roberto contributes to open source projects, with a strong interest in developing automated tools to optimize the process of security testing and code analysis. Roberto has been writing go since 2015 for both structured, complex projects and scripts.
             level: Advanced
             description: |
                 Have you ever wondered what really lies behind the "go" statement? Did you ever stop and think about differences between goroutines and standard operative system threads? Is there something you should know to avoid bugs or weird, unintended behaviours?
