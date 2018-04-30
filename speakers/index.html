@@ -7,6 +7,36 @@ image: banners/speakers.png
 ---
 <div class="page-title speakers">
     <div class="wrapper">
+        <h1>Call for Papers</h1>
+        <h2>Apply to speak at GopherCon UK</h2>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="row">
+        <div class="container">
+            <div class="col span12">
+                <ul class="speakers">
+                    {% for day in site.data.2018.speakers %}
+                    {% for slot in day.slots %}
+                    {% for speaker in slot.tracks %}
+                    {% if speaker.track.speakers %}
+                        {% for sp in speaker.track.speakers %}
+                            {% include speaker.html speaker=sp %}
+                        {% endfor %}
+                    {% else %}
+                        {% include speaker.html speaker=speaker.track %}
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+<div class="page-title speakers">
+    <div class="wrapper">
       <h1>Call For Papers</h1>
       <h2>Opens March 5<sup>th</sup> 2018</h2>
       <h2>Closes April 1<sup>st</sup> 2018 Midnight GMT</h2>
@@ -92,4 +122,5 @@ image: banners/speakers.png
        <a class="button" id="submit-a-paper" href="https://www.papercall.io/gopherconuk18" target="_blank">Submit a Paper</a>
     </div>
 </div>
+-->
 <img src="/assets/images/gophers/gopher-bagpipes-left.svg" class="gopher -small -right">
