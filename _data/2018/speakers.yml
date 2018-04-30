@@ -1,5 +1,7 @@
 - schedule-wednesday:
   name: Wednesday 1st August 2018
+  description: |
+      <p>GopherCon UK is proud to work with <a href="https://www.gopherguides.com/">Gopher Guides</a> and <a href="https://www.openshift.com/">Red Hat OpenShift</a> to bring to you <b>three</b> options for a full day of training on Wednesday, 1st August 2018, a day before the conference.</p><p>All three course options are a full day (9am-5pm) of hands on immersive training with top professional  trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p>
   slots:
     - time: "09.00"
       slottype: workshop
@@ -31,11 +33,13 @@
       slottype: break
       tracks:
         - track:
-            name: Pre-Conference Social
+            title: Pre-Conference Social
             description: |
                 The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
 - schedule-thursday:
   name: Thursday 2nd August 2018
+  description: |
+      <p>Thursday kicks off the main conference, where you will be able to attend a morning keynote followed by six talk slots throughout the day. During each talk slot you'll have the choice between three different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day will then close with our <a href="/socials">mid-conference social</a>.</p>
   slots:
     - time: "08.00"
       slottype: special
@@ -274,7 +278,7 @@
             location: Porter Tun
             title: Documenting Go Code with Beatiful Tests
             slug: pawelslomka
-            speaker: Pawel Slomka
+            speaker: Paweł Słomka
             handle: pawel_slomka
             photo: https://secure.gravatar.com/avatar/fde1a91eed44ebccb2a1104942e7aa00?s=500
             bio:  |
@@ -308,6 +312,8 @@
                 The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>
 - schedule-friday:
   name: Friday 3rd August 2018
+  description: |
+      <p>Friday continues with the second day of the main conference. Again, you will be able to attend a morning keynote followed by six talk slots throughout the day. During each talk slot you'll have the choice between three different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close on Friday with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href="/socials">post-conference social</a>.</p>
   slots:
     - time: "08.00"
       slottype: special
@@ -431,7 +437,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Smeaton Vaults
+            location: Porter Tun
             title: Go as a scripting language in Linux
             slug: ignatkorchagin
             speaker: Ignat Korchagin
@@ -580,6 +586,6 @@
       slottype: break
       tracks:
         - track:
-            name: Post Conference Social
+            title: Post Conference Social
             description: |
                 The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>
