@@ -280,9 +280,9 @@
             slug: pawelslomka
             speaker: Paweł Słomka
             handle: pawel_slomka
-            photo: https://secure.gravatar.com/avatar/fde1a91eed44ebccb2a1104942e7aa00?s=500
+            photo: https://static.mycodesmells.com/images/me-surprised.png
             bio:  |
-                Paweł is more than a software developer. He's an NBA fanatic (he needs to know everything that is going on, which eats a lot of his time, unfortunately) and an amateur basketball player himself. He's also a two-time (so far) Marathon runner, but is definitely going to do that again.
+                Paweł is more than a software developer. He's an NBA fanatic (he needs to know everything that is going on, which eats a lot of his time, unfortunately). He's also a two-time (so far) Marathon runner, but is definitely going to do that again.
             level: All
             description: |
                 Whether you believe in TDD or not, you must agree that it's unwise to build production code with no tests. They verify your application, but also act as a perfect documentation for the development team. I would like to show a couple of tips and tricks of how you can write pretty and effective tests.
