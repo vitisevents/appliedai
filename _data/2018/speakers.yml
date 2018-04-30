@@ -52,7 +52,7 @@
       slottype: special
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: Opening Keynote
             description: TBA
     - time: "09.45"
@@ -66,7 +66,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: "Three Billy GOats Gruff - a developer's tale from VMs to serverless"
             slug: michaelhausenblas
             speaker: Michael Hausenblas
@@ -79,7 +79,7 @@
             description: |
                 As developers we’re dealing with an increasing pressure to deliver features ever faster. This talk will walk you through a number of development and delivery models for Go. We’ll be starting with the traditional binary-running-on-a-VM setup, then move on to container-based development and further on to the serverless/Function-as-a-service model using AWS Lambda and Apache OpenWhisk on Kubernetes. We’ll be using the same codebase, effectively starting with a monolith, breaking in down into (containerized) microservices and further on breaking it down to a dozen functions. For each of the development and deployment models we’ll discuss pros and cons and trying to determine their respective sweet-spot. This is a hands-on, minimum-slides session.
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: Debuggers From Scratch
             slug: lizrice
             speaker: Liz Rice
@@ -113,7 +113,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: Going GraphQL
             slug: christopherbiscardi
             speaker: Christopher Biscardi
@@ -126,7 +126,7 @@
             description: |
                 REST is the current leader in client-server interactions. Our services have better tooling like grpc and better formats like protocol buffers and avro. Being well typed, GraphQL can bring these together to become the next step in client/server interaction.
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: Secrets about using Machine Learning and Go
             slug: davidhernandez
             speaker: David Hernandez
@@ -163,7 +163,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: Building future proof systems with interfaces
             slug: asimaslam
             speaker: Asim Aslam
@@ -176,7 +176,7 @@
             description: |
                 How do we build applications which evolve with technology? Too often we become dependent on specific infrastructure, requiring large scale rewrites to replace them later. This talk will demonstrate how to use the power of Go interfaces to avoid this problem and build future proof systems.
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: "go-ns - Go's role in publishing data at the Office for National Statistics"
             slug: eleanordeal
             speaker: Eleanor Deal
@@ -200,7 +200,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: Orchestration of microservices
             slug: berndrucker
             speaker: Bernd Rücker
@@ -213,7 +213,7 @@
             description: |
                 Microservices, DDD, distributed systems, serverless. All trends decompose to the max, which moves the complexity to the collaboration of these pieces. I want to tell some war stories around that in this talk and give people some guidance.
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: "GoPro: More Concurrent than Parallel!"
             slug: mahdijelodari
             speaker: Mahdi Jelodari
@@ -240,7 +240,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: Black Box Monitoring in Go
             slug: grantgriffiths
             speaker: Grant Griffiths
@@ -253,7 +253,7 @@
             description: |
                 You've set up your favorite monitoring agent on all of your services and you have incredible visibility into the internals of your infrastructure. All seems good in the world, but can your end user actually use your service? In this talk we'll write a simple app that simulates end user activity.
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: Using model driven code generation with Go
             slug: 
             speaker: Mark Hermeling
@@ -275,7 +275,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: Documenting Go Code with Beatiful Tests
             slug: pawelslomka
             speaker: Paweł Słomka
@@ -287,7 +287,7 @@
             description: |
                 Whether you believe in TDD or not, you must agree that it's unwise to build production code with no tests. They verify your application, but also act as a perfect documentation for the development team. I would like to show a couple of tips and tricks of how you can write pretty and effective tests.
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: Using Go for Healthcare
             slug: carmenruizvicente
             speaker: Carmen Ruiz Vicente
@@ -326,7 +326,7 @@
       slottype: special
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: Opening Keynote
             description: TBA
     - time: "09.45"
@@ -340,7 +340,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: From source code to Kubernetes, a Continuous Deployment tale.
             slug: alexandregonzález
             speaker: Alexandre González
@@ -353,7 +353,7 @@
             description: |
                 This talk will cover the basics of creating good Docker images for your Go projects using multi-stage builds. Once we have that image ready we will need to run it somewhere, I think that a Kubernetes cluster could be a nice place to start. Of course, we don’t want to repeat those steps by hand everytime we want to do a new deployment so we will probably need to learn how to use a CI/CD tool to automate all the steps. And finally, the icing on the cake would be make this automagically run everytime we push code to our repository.
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: Experimental Refactoring with Go
             slug: jelmersnoeck
             speaker: Jelmer Snoeck
@@ -387,7 +387,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: Observability-Driven Development in Golang
             slug: charitymajors
             speaker: Charity Majors
@@ -400,7 +400,7 @@
             description: |
                 TDD is great, but it's just the start -- if you plan to write real robust services at scale, you need ODD, or Observability-Driven Development. Let's talk about how to ship code to production and then understand what you have *actually* shipped, as opposed to what you *think* you have shipped.
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: "Goroutines: the dark side of the runtime"
             slug: robertoclapis
             speaker: Roberto Clapis
@@ -437,7 +437,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: Go as a scripting language in Linux
             slug: ignatkorchagin
             speaker: Ignat Korchagin
@@ -450,7 +450,7 @@
             description: |
                 Do you like Go so much and use it in every software project? Do you think Go is a truly universal language? How about taking it to the next level and trying Go as a scripting language for your favourite Linux distribution?
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: "Understanding Go's Memory Allocator"
             slug: andrecarvalho
             speaker: André Carvalho
@@ -484,7 +484,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: Building Resilient Data Pipelines in Go
             slug: grantgriffiths
             speaker: Grant Griffiths
@@ -497,7 +497,7 @@
             description: |
                 The modern world runs on Data. In this talk we will cover how Gophers of any level can easily build Data Pipelines in Go with Kafka and Cassandra. At the end, we will look at how GE has written a Data Pipeline in Go that can handle over 800,000 writes per second of industrial time series data.
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: Scorch! a New Index for Bleve
             slug: martyschoch
             speaker: Marty Schoch
@@ -533,7 +533,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Red Hat OpenShift Track
             title: How do you structure your Go apps?
             slug: katzien
             speaker: Kat Zien
@@ -546,7 +546,7 @@
             description: |
               "How should I structure my Go app?" is one of the most common questions asked by new and experienced developers alike. It certainly was one of my first questions, and is something I keep coming back to. Let's discuss a few patterns and trends used in the industry these days.
         - track:
-            location: Queen Charlotte
+            location: Glint Pay Track
             title: Deep learning, ready? Go!
             slug: dianacarolinaortegamunoz
             speaker: Diana Carolina Ortega Muñoz
