@@ -31,9 +31,9 @@ weight: 3
 
       <div class="container">
         <div class="col span12">
-        {% for day in site.data.2018.speakers %}
+        {% for day in site.data.2018.speakers limit: 1 %}
         <ul class="workshop-schedule">
-          {% for slot in day.slots %}
+          {% for slot in day.slots limit: 1 %}
           {% for track in slot.tracks %}
             <li class="track">
               <span class="speaker-block">
