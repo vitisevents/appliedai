@@ -488,6 +488,7 @@
             title: Building Resilient Data Pipelines in Go
             slug: grantgriffiths
             speaker: Grant Griffiths
+            hide: true
             handle: griffithsgrant
             company: GE Digital
             photo: https://secure.gravatar.com/avatar/f982183e1db9eed435f2097d10281f7c?s=500
