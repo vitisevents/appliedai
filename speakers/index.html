@@ -21,10 +21,14 @@ image: banners/speakers.png
                     {% for speaker in slot.tracks %}
                     {% if speaker.track.speakers %}
                         {% for sp in speaker.track.speakers %}
-                            {% include speaker.html speaker=sp %}
+                            {% if !sp.hide %}
+                                {% include speaker.html speaker=sp %}
+                            {% endif %}
                         {% endfor %}
                     {% else %}
-                        {% include speaker.html speaker=speaker.track %}
+                        {% if !sp.hide %}
+                            {% include speaker.html speaker=speaker.track %}
+                        {% endif %}
                     {% endif %}
                     {% endfor %}
                     {% endfor %}
