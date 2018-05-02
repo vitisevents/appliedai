@@ -6,7 +6,7 @@ var sass = require('gulp-sass');
 var notify = require('gulp-notify');
 var cleanCSS = require('gulp-clean-css');
 
-// var imageop = require('gulp-image-optimization');
+var imageop = require('gulp-image-optimization');
 
 var browserSync = require('browser-sync');
 
@@ -54,14 +54,14 @@ var sassBuild = function () {
 // Compile sass
 gulp.task('sass', sassBuild);
 
-// // Image optimization
-// gulp.task('images', function(cb) {
-//     gulp.src('assets/images/**/*.+(png|jpg|gif|jpeg)').pipe(imageop({
-//         optimizationLevel: 5,
-//         progressive: true,
-//         interlaced: true
-//     })).pipe(gulp.dest('assets/images')).on('end', cb).on('error', cb);
-// });
+// Image optimization
+gulp.task('images', function(cb) {
+    gulp.src('assets/images/**/*.+(png|jpg|gif|jpeg)').pipe(imageop({
+        optimizationLevel: 5,
+        progressive: true,
+        interlaced: true
+    })).pipe(gulp.dest('assets/images')).on('end', cb).on('error', cb);
+});
 
 // Error report sass
 var reportError = function (error) {
