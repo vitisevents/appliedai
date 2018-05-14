@@ -72,7 +72,7 @@
             speaker: Michael Hausenblas
             handle: mhausenblas
             company: Red Hat
-            photo: 
+            photo: /assets/images/2018/speakers/mhausenblas.jpg
             bio:  |
                 Michael is a Developer Advocate for Go, Kubernetes, and OpenShift at Red Hat where he helps appops to build and operate distributed services. His background is in large-scale data processing and container orchestration and he's experienced in advocacy and standardization at W3C and IETF. Before Red Hat, Michael worked at Mesosphere, MapR and in two research institutions in Ireland and Austria. He contributes to open source software (mainly using Go), speaks at conferences and user groups, blogs, and hangs out on Twitter too much.
             level: Intermediate
@@ -342,11 +342,11 @@
         - track:
             location: Red Hat OpenShift Track
             title: From source code to Kubernetes, a Continuous Deployment tale.
-            slug: alexandregonzález
+            slug: alexandregonzalez
             speaker: Alexandre González
             handle: agonzalezro
             company: BBVA
-            photo: 
+            photo: https://secure.gravatar.com/avatar/310259b0c379cdcf38604bf08556bee7?s=500
             bio:  |
                 Currently working at BBVA in the PaaS team, and remotely from Milán, Alexandre spends his free time playing around with Go & everything that smells as a container. He is now living in Italy but he didn’t manage to learn Italian yet, so if you are Italian please go and say “ciao”. He also loves organising events and he has a good track with that co-organising (past) GolangUK 2015, the Golang London User Group & Monthly PyGrunn in the Netherlands. He is currently organising #madScalability in Madrid which is focused on scalability issues from personal to technical views.
             level: Intermediate
@@ -388,17 +388,17 @@
       tracks:
         - track:
             location: Red Hat OpenShift Track
-            title: Observability-Driven Development in Golang
-            slug: charitymajors
-            speaker: Charity Majors
-            handle: mipsytipsy
-            company: Honeycomb.io
-            photo: https://secure.gravatar.com/avatar/ac734fc32781678475b577944bb5a9ae?s=500
+            title: TBA
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
             bio:  |
-                Charity is CEO, co-founder, and engineer at Honeycomb, a startup that blends the speed of time series with the raw power of rich events for interactive, iterative debugging of complex systems. She has worked at companies like Facebook, Parse, and Linden Lab, as a systems engineer and engineering manager, but always seems to end up responsible for the databases. Loves free speech, free software and a nice peaty single malt.
-            level: Intermediate
+                
+            level: 
             description: |
-                TDD is great, but it's just the start -- if you plan to write real robust services at scale, you need ODD, or Observability-Driven Development. Let's talk about how to ship code to production and then understand what you have *actually* shipped, as opposed to what you *think* you have shipped.
+                
         - track:
             location: Glint Pay Track
             title: "Goroutines: the dark side of the runtime"
@@ -540,7 +540,7 @@
             speaker: Kat Zien
             handle: kasiazien
             company: Brightpearl
-            photo: https://secure.gravatar.com/avatar/cd6bec94805761550b875485b2bca16b?s=500
+            photo: /assets/images/2018/speakers/katzien.jpg
             bio:  |
               Writing Go and PHP at <a href="https://www.brightpearl.com/">Brightpearl</a>. Working remotely from Bristol, UK or anywhere with wifi. Her main interests include automating \#allthethings, sorting out legacy code and making things simpler and faster. She's co-organising and giving talks at <a href="https://www.meetup.com/golang-bristol/">Golang Bristol++</a> and <a href="https://www.meetup.com/php-sw/">PHPSW</a>. Kat loves travelling, cycling and keeping active, appreciates good coffee and is a big Lego fan.
             level: 
