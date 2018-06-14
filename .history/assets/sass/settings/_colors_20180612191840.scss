@@ -1,0 +1,64 @@
+$color-white:                           #FFFFFF;
+$color-black:                           #000000;
+$color-grey:                            #CCCCCC;
+$color-grey-lighter:					#F8F8F8;
+$color-grey-light:						#F4F4F4;
+$color-grey-medium:						#4E4E4E;
+$color-grey-dark:                       #1f1f1f;
+$color-brand-primary:                   #EDC951;
+$color-brand-secondary:                 #CC333F; // Red
+$color-brand-tertiary:                  #EB6841; // Orange
+$color-brand-quarternary:               #00A0B0; // Green-blue
+$color-brand-dark:                      darken($color-brand-quarternary, 20%);
+
+// red = 8A251E
+// 1189bc = unknown
+
+$color-red:                             #D83825;
+$color-green:                           #0DA05A;
+
+// Reassign literal variables to meaningful ones.
+$color-page-text:                       #6F6F6F;
+$color-page-heading:					#373737;
+$color-page-background:                 $color-white;
+
+$color-ui:								$color-page-text;
+$color-ui-primary:						$color-brand-secondary;
+$color-ui-secondary:					$color-brand-primary;
+
+$color-btn:                             #ec041a;
+$color-btn-primary:                  	$color-ui-primary;
+$color-btn-secondary:                   $color-ui-secondary;
+
+$color-thead-bg:                        $color-brand-primary;
+$color-thead-border:                    $color-white;
+$color-input-focus:                     $color-brand-primary;
+
+$color-toplinks-backgound:				$color-black;
+
+$color-header-border:                   $color-grey;
+
+$color-nav:                             $color-grey-dark;
+$color-nav-background-active:           $color-brand-secondary;
+$color-nav-active:                      $color-brand-secondary;
+$color-nav-sub:                         $color-grey-dark;
+$color-nav-sub-background:              $color-brand-secondary;
+
+$color-footer-background:               $color-grey-dark;
+$color-subfooter-background:            $color-black;
+
+$color-icon:							$color-white;
+
+$color-error:                           $color-red;
+$color-success:                         $color-green;
+
+
+// A list of all of the colours used on the styleguide page
+$colors: 
+(brand-primary, $color-brand-primary),
+(brand-secondary, $color-brand-secondary),
+(grey, $color-grey),
+(grey-dark, $color-grey-dark),
+(red, $color-red),
+(green, $color-green)
+;

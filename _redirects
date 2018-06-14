@@ -1,3 +1,0 @@
-# Redirect domain aliases to primary domain
-https://www.golanguk.com/* https://www.gophercon.co.uk/:splat 301!
-https://gophercon.co.uk/* https://www.gophercon.co.uk/:splat 301!

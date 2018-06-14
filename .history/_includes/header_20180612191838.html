@@ -1,0 +1,39 @@
+<!--
+<div class="header-bar {% if page.slug == 'home' %}-inset{% endif %}">
+	<div class="wrapper">
+		<span class="pull-right">
+			1st*, 2nd &amp; 3rd August 2018
+		</span>
+		<a href="mailto:info@gophercon.co.uk">
+			<i class="icon -small">
+				{% include {{ icon.class | prepend: 'icons/mail' | append: '.svg' }} %}
+			</i>
+			info@gophercon.co.uk
+		</a>
+		<a href="https://twitter.com/gopherconuk" target="_blank">
+			<i class="icon -small">
+				{% include {{ icon.class | prepend: 'icons/twitter' | append: '.svg' }} %}
+			</i>@gopherconuk
+		</a>
+	</div>
+</div>
+-->
+<header class="page-head {% if page.slug == 'home' %}-inset{% endif %}">
+	<div class="wrapper">
+		<div class="page-head__inner">
+			<a href="/" class="page-head__logo">
+				<img src="/assets/images/gophercon-uk.svg" alt="GopherCon UK">
+			</a>
+			<ul class="main-menu">
+				{% assign pages_list = site.pages %}
+				{% assign group = 'navigation' %}
+				{% include pages_list %}
+			</ul>
+			<button type="button" class="main-menu__toggle">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+		</div>
+	</div>
+</header>

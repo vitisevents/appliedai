@@ -1,0 +1,27 @@
+.banner{
+    background-image:url(../images/banners/homepage.jpeg);
+    background-size:cover;
+    background-color: $color-brand-tertiary;
+
+    &__title{
+        position:relative;
+        @include font-size(100px);
+        @include font-family(secondary);
+        margin:30px 0;
+        z-index: 1;
+        text-shadow: .03em .03em 0 rgba($color-black, 0.5);
+    }
+
+    &__title,
+    &__sub-title,
+    &__location,
+    &__notice,
+    .intro{
+        color:$color-white;
+    }
+}
+
+@keyframes shad-anim {
+    0% {background-position: 0 0}
+    0% {background-position: 100% -100%}
+    }

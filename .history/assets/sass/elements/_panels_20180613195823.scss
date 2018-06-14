@@ -1,0 +1,28 @@
+$list: workshops schedule venue tickets sponsors socials;
+
+.panel{
+    @include border-radius($base-radius);
+    overflow:hidden;
+    z-index:1;
+
+    @each $panel-item in $list {
+        &.#{$panel-item}{
+            background-image:url(../images/banners/#{$panel-item}.png);
+        }
+    }
+
+    &:after{
+        position:absolute;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        height:100%;
+        width:100%;
+        display:block;
+        content:'';
+        z-index:-1;
+        opacity:0.8;
+        background-color:$color-brand-secondary;
+    }
+}

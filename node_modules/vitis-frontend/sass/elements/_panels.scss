@@ -1,0 +1,32 @@
+.panel{
+	position:relative;
+	margin-top:$base-spacing-unit;
+	height:220px;
+	background-size:cover;
+	background-position:center;
+
+	@include respond(mobile-only){
+		margin-top:0;
+		height:100px;
+	}
+
+	a{
+		display:block;
+		width:100%;
+		height:100%;
+	}
+
+	&:hover &__title{
+		font-size:$base-font-size*1.6;
+	}
+
+	&__title{
+		@include font-family(secondary);
+		@include vertical-align-center;
+		text-transform:uppercase;
+		text-align:center;
+		font-size:$base-font-size*1.4;
+		color:$color-white;
+		transition:ease-in-out all 0.2s;
+	}
+}

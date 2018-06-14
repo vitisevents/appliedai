@@ -1,0 +1,58 @@
+// Font sizing
+$base-font-size:     				14px !default;
+$base-line-height:   				20px !default;
+
+// Base units
+$base-radius:        				3px !default;
+$base-transition:   				0.333333333s !default;
+$base-spacing-unit:  				20px !default;
+$base-sidebar-width: 				200px !default;
+$base-sidebar-spacing: 				90px !default;
+
+// Header
+$header-padding:	 				20px !default;
+
+// Button
+$btn-radius:						$base-font-size*3 !default;
+
+// Logo (To be changed once there is a new logo)
+$logo-height:		 				44px !default;
+
+// Menu
+$main-menu-toggle-width:    		25px;
+$main-menu-toggle-bar-height:   	3px;
+$main-menu-toggle-bar-spacing:		5px;
+$main-menu-toggle-bar-radius:   	0;
+$main-menu-toggle-bar-time:   		0.25s;
+$main-menu-toggle-bar-open-postion:	8px;
+
+
+// Use maths to get the size of logo and menu toggle
+$main-menu-toggle-height:(
+	($main-menu-toggle-bar-height * 3) + ($main-menu-toggle-bar-spacing * 4)
+	);
+
+$main-menu-toggle-postion:(
+	($logo-height + ($header-padding * 2)) / 2 - ($main-menu-toggle-height / 2)
+	);
+
+// Fact
+$fact-size:         120px;
+$fact-size-large:   166px;
+
+// Responsive swidths
+$width-large: 		1080px !default;
+$width-medium:  	720px !default;
+$width-mobile:  	719px !default;
+
+// Wrapper settings
+$site-width:         1170px;
+$site-width-medium:  1024px;
+$site-width-small:   720px;
+
+// Fonts
+$font-primary: 		'Open Sans' !default;
+$font-secondary: 	Bungee !default;
+$font-tertiary: 	Bonbon !default;
+
+$banner-list: about speakers schedule sponsors socials venue diversity tickets speakers videos;

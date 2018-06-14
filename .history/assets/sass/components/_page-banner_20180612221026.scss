@@ -1,0 +1,3 @@
+.banner{
+    @include background-horizontal($color-brand-secondary, $color-brand-quarternary);
+}

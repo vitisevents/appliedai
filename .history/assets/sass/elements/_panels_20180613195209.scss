@@ -1,0 +1,10 @@
+$list: workshops schedule venue tickets sponsors socials;
+
+.panel{
+
+    @each $panel-item in $list {
+        &.#{$panel-item}{
+            background-image:url(../images/banners/#{$panel-item}.png);
+        }
+    } 
+}

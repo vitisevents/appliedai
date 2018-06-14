@@ -1,0 +1,77 @@
+// Main colours
+$color-white:                           #FFFFFF;
+$color-black:                           #000000;
+$color-grey:                            #CCCCCC;
+$color-grey-lighter:					#F8F8F8;
+$color-grey-light:						#F4F4F4;
+$color-grey-medium:						#4E4E4E;
+$color-grey-dark:                       #1f1f1f;
+
+// Brand colours
+$color-brand-primary:                   #EDC951 !default;
+$color-brand-secondary:                 #CC333F !default;
+$color-brand-tertiary:                  #EB6841 !default;
+$color-brand-quarternary:               #00A0B0 !default; 
+$color-brand-dark:                      darken($color-brand-quarternary, 20%) !default;
+
+$color-red:                             #D83825;
+$color-green:                           #0DA05A;
+
+// Reassign literal variables to meaningful ones.
+$color-page-text:                       #6F6F6F !default;
+$color-page-heading:					#373737 !default;
+$color-page-background:                 $color-white;
+
+// UI
+$color-ui:								$color-page-text;
+$color-ui-primary:						$color-brand-secondary !default;
+$color-ui-secondary:					$color-brand-primary !default;
+
+// Buttons
+$color-btn:                             #ec041a !default;
+$color-btn-primary:                  	$color-ui-primary !default;
+$color-btn-secondary:                   $color-ui-secondary !default;
+
+// Tables
+$color-thead-bg:                        $color-brand-primary;
+$color-thead-border:                    $color-white;
+$color-input-focus:                     $color-brand-primary;
+
+// Toplinks
+$color-toplinks-backgound:				$color-black;
+
+// Header
+$color-header-border:                   $color-grey;
+$color-header-background:               $color-brand-secondary !default;
+
+// Nav
+$color-nav:                             $color-grey-dark !default;
+$color-nav-background-active:           $color-brand-secondary !default;
+$color-nav-active:                      $color-brand-secondary !default;
+$color-nav-sub:                         $color-grey-dark !default;
+$color-nav-sub-background:              $color-brand-secondary !default;
+
+// Fact
+$color-fact-primary:                    $color-brand-secondary !default;
+
+// Footer
+$color-footer-background:               $color-grey-dark !default;
+$color-subfooter-background:            $color-black !default;
+
+// Icon
+$color-icon:							$color-white !default;
+
+// Form
+$color-error:                           $color-red;
+$color-success:                         $color-green;
+
+
+// A list of all of the colours used on the styleguide page
+$colors: 
+(brand-primary, $color-brand-primary),
+(brand-secondary, $color-brand-secondary),
+(grey, $color-grey),
+(grey-dark, $color-grey-dark),
+(red, $color-red),
+(green, $color-green)
+;

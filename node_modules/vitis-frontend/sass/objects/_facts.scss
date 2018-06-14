@@ -1,0 +1,102 @@
+.fact{
+    position:relative;
+    margin:0;
+    padding:0 40px;
+    list-style:none;
+    overflow:hidden;
+    @include font-family(primary);
+
+    @include respond(large){
+        margin-left:0 !important;
+    }
+
+    .grid__item{
+        position:relative;
+        overflow:visible;
+        padding-bottom:$base-spacing-unit;
+
+        &:nth-of-type(3),
+        &:nth-of-type(4){
+            padding-bottom:0;
+            margin-bottom:0;
+        }
+
+        @include respond(large){
+            padding-left:0 !important;
+            padding-bottom:0;
+
+            &:before,
+            &:after{
+                display:block;
+                position:absolute;
+                content:"";
+                z-index:9;
+            }
+
+            &:before{
+                top:50%;
+                left:75%;
+                right:0;
+                width:50%;
+                border-bottom:1px solid $color-fact-primary;
+            }
+
+            &:after{
+                top:50%;
+                right:0;
+                width:10px;
+                height:10px;
+                margin:-5px -5px 0;
+                @include border-radius(50%);
+                background:$color-fact-primary;
+            }
+
+            &:last-of-type:before,
+            &:last-of-type:after{
+                display:none;
+            }
+        }
+    }
+
+    &__item{
+        position:relative;
+        height:$fact-size;
+        width:$fact-size;
+        color:$color-white;
+        text-align:center;
+        overflow:visible;
+        margin:0 auto;
+        //background-color:$color-brand-primary;
+        @include border-radius(50%);
+        z-index:10;
+
+        @include respond(medium){
+            height:$fact-size-large;
+            width:$fact-size-large;
+        }
+    }
+
+    &__text{
+        @include vertical-align-center;
+        padding:25px;
+    }
+
+        &__figure{
+            display:block;
+            font-size:3rem;
+            @include font-weight(light);
+
+            @include respond(medium){
+                font-size:4rem;
+            }
+
+            sup{
+                font-size:.5em;
+            }
+        }
+
+        &__label{
+            opacity:0.8;
+            @include font-weight(bold);
+        }
+}

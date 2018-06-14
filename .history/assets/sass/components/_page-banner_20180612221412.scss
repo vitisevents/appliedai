@@ -1,0 +1,7 @@
+.banner{
+    background-color: $color-brand-tertiary;
+
+    &__title,
+	&__sub-title{
+        color:$color-white;
+}

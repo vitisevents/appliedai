@@ -1,0 +1,82 @@
+.banner{
+	position:relative;
+	min-height:550px;
+	padding:60px 20px;
+	text-align:center;
+
+	@include respond(mobile-only){
+		padding-top:40px;
+		padding-bottom:40px;
+	}
+
+	&__logo{
+		display:inline-block;
+		margin:0 0 10px 0;
+		width:780px;
+		max-width:90%;
+
+		@include respond(mobile-only){
+			max-width:80%;
+		}
+	}
+
+	span{
+		display:block;
+	}
+
+	&__title,
+	&__sub-title{
+		@include font-family(primary);
+		@include font-weight(bold);
+		text-transform:uppercase;
+		color:darken($color-brand-quarternary,20%);
+	}
+
+	&__title{
+		@include font-size(47px);
+
+		@include respond(mobile-only){
+			@include font-size(40px);
+			line-height:1.1em;
+		}
+	}
+
+	&__sub-title{
+		font-weight:800;
+		@include font-size(34px);
+
+		@include respond(mobile-only){
+			@include font-size(24px);
+		}
+	}
+
+	sup{
+		font-size:.4em;
+	}
+
+	&__location{
+		margin:10px 0;
+		@include font-size($base-font-size*1.5);
+		line-height:1.3em;
+		color:darken($color-brand-quarternary,20%);
+
+		.icon{
+			margin:0 2px 0 0;
+		}
+	}
+
+	&__notice{
+		margin:30px 0 25px 0;
+		@include font-size($base-font-size*1.4);
+		color:#000;
+		font-weight:700;
+		text-transform:uppercase;
+	}
+
+	.intro{
+		margin:20px 0;
+		@include font-size($base-font-size*1.2);
+		line-height:1.3em;
+		color:#000;
+	}
+}

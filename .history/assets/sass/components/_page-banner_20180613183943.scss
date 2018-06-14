@@ -1,0 +1,17 @@
+.banner{
+    background-color: $color-brand-tertiary;
+
+    &__title{
+        @include font-size(100px);
+        @include font-family(secondary);
+        margin:30px 0;
+    }
+
+    &__title,
+    &__sub-title,
+    &__location,
+    &__notice,
+    .intro{
+        color:$color-white;
+    }
+}
