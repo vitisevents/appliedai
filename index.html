@@ -1,53 +1,14 @@
 ---
-layout: "default"
+layout: "homepage"
 metatitle: Home
 class: home
+slug: home
 weight: 1
 ---
 
-{% include banner_home.html %}
-<div class="row -dark -collapse -nodes">
-    <div class="wrapper">
-        <ul class="fact grid">
-            <li class="grid__item u-1/2 u-1/4@md">
-                <div class="fact__item">
-                    <div class="fact__text">
-                        <span class="fact__figure">3<sup>*</sup></span>
-                        <span class="fact__label">days of learning</span>
-                    </div>
-                </div>
-            </li>
-            <li class="grid__item u-1/2 u-1/4@md">
-                <div class="fact__item">
-                    <div class="fact__text">
-                        <span class="fact__figure">3</span>
-                        <span class="fact__label">simultaneous tracks</span>
-                    </div>
-                </div>
-            </li>
-            <li class="grid__item u-1/2 u-1/4@md">
-                <div class="fact__item">
-                    <div class="fact__text">
-                        <span class="fact__figure">4<sup>th</sup></span>
-                        <span class="fact__label">annual conference</span>
-                    </div>
-                </div>
-            </li>
-            <li class="grid__item u-1/2 u-1/4@md">
-                <div class="fact__item">
-                    <div class="fact__text">
-                        <span class="fact__figure">32</span>
-                        <span class="fact__label">hand-picked speakers</span>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
-
 <div class="row -about">
     <div class="wrapper">
-        <h3>About the conference</h3>
+        <h2>About the conference</h2>
         <p>We are pleased to announce the 4th annual GopherCon UK conference. Three days of amazing talks, plentiful networking opportunities and great socials. GopherCon UK offers the most up-to-date Go programming information and training.</p>
     </div>
     <div class="wrapper">
@@ -95,6 +56,37 @@ weight: 1
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<!-- <div class="row -primary text-center">
+    <div class="wrapper">
+        <h3>Who's speaking</h3>
+        <ul class="speakers -home">
+            {% for day in site.data.2018.speakers %}
+                {% for slot in day.slots %}
+                    {% for speaker in slot.tracks limit:6 %}
+                        {% if speaker.track.speakers %}
+                            {% for sp in speaker.track.speakers limit:6 %}
+                                {% include speaker-home.html speaker=sp %}
+                            {% endfor %}
+                        {% else %}
+                            {% include speaker-home.html speaker=speaker.track %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            {% endfor %}
+        </ul>
+        <a class="button" href="/speakers">View all</a>
+    </div>
+</div> -->
+
+<div class="row -primary text-center">
+    <div class="wrapper">
+        <h1>Call For Papers</h1>
+        <p>Opens March 5<sup>th</sup> 2018<br />
+        Closes April 1<sup>st</sup> 2018 Midnight GMT</p>
+        <a class="button" href="speakers/">Find out more</a>
     </div>
 </div>
 

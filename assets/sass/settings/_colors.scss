@@ -1,11 +1,25 @@
 // Brand colours
-$color-brand-primary:                   #db2b39;
-$color-brand-secondary:                 #532B5B;
-$color-brand-tertiary:                  #2c2c54;
-$color-brand-quarternary:               #1E28CE;
+$color-brand-primary:                   #2b77db;
+$color-brand-secondary:                 #1b4d8f;
+$color-brand-tertiary:                  #0e2542;
+$color-brand-quarternary:               #ffffff;
+
+$color-page-text:                         $color-brand-secondary;
+$color-page-link:                         $color-brand-secondary;
+$color-page-heading:                      $color-page-text;
 
 // Header
-$color-header-background:                 $color-brand-tertiary;
+$color-header-background:                 $color-brand-primary;
 
 // Fact
-$color-fact-primary:                       $color-brand-primary;
+$color-fact-primary:                      $color-brand-primary;
+
+// Footer
+$color-footer-background:                  $color-brand-tertiary;
+$color-footer-line:                        $color-brand-tertiary;
+$color-footer-line-secondary:              $color-footer-line;
+$color-footer-link-line:                   $color-footer-line;
+$color-subfooter-background:               $color-brand-tertiary;
+
+// Callout
+$color-callout-background:                $color-brand-primary;

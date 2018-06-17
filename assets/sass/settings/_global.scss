@@ -3,11 +3,22 @@ $base-font-size:     				14px;
 $base-line-height:   				20px;
 
 $base-radius:                       5px;
+$base-spacing-unit:  				30px;
 
 $btn-radius:                        $base-radius;
 
+$banner-padding:                    100px;
+
 // To be changed once there is a new logo
-$logo-height:		 				44px;
+$logo-height:		 				48px;
+
+// Fonts
+$font-size-h1:                      ($base-font-size * 3.2);
+$font-size-h2:                      ($base-font-size * 2.5);
+$font-size-h3:                      ($base-font-size * 2.0);
+$font-size-h4:                      ($base-font-size * 1.5);
+$font-size-h5:                      ($base-font-size * 1.2);
+$font-size-h6:                      $base-font-size;
 
 $font-primary: 		                'Open Sans';
 $font-secondary: 	                'Gugi';

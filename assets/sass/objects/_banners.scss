@@ -1,0 +1,13 @@
+.page-title{
+    text-align:center;
+
+    h1,
+    h2{
+        line-height:1em;
+    }
+
+    h2{
+        @include font-size(25px);
+        @include font-family(primary);
+    }
+}

@@ -1,20 +1,50 @@
 .banner{
-    background-image:url(../images/banners/home.png);
-    background-size:cover;
+    padding:$banner-padding $base-spacing-unit;
+    background-image:url(../images/banners/home.jpeg);
+    background-repeat:no-repeat;
     background-attachment:fixed;
-    background-color: $color-brand-tertiary;
+    background-color:$color-brand-primary;
+
+    .home &{
+        padding-top:$banner-padding + $header-height;
+
+        &:after{
+            position:absolute;
+            top:0;
+            right:0;
+            bottom:0;
+            left:0;
+            height:100%;
+            width:100%;
+            display:block;
+            content:'';
+            opacity:0.8;
+            background-color:$color-brand-primary;
+            z-index:1;
+        }
+    }
 
     &__content{
-        padding: 100px 0;
+        @include vertical-align-center;
+        margin-top:$header-height;
+        z-index:2;
     }
 
     &__title{
         position:relative;
         @include font-size(100px);
+        line-height:1;
         @include font-family(secondary);
-        margin:50px 0;
+        margin:0 0 20px 0;
         z-index: 1;
         text-shadow: .05em .05em 0 rgba($color-black, 0.5);
+    }
+
+    &__sub-title{
+        @include font-size(20px);
+        line-height: 1.3em;
+        @include font-weight(normal);
+        margin: 0 0 30px 0;
     }
 
     &__title,
@@ -24,9 +54,9 @@
     .intro{
         color:$color-white;
     }
-}
 
-@keyframes shad-anim {
-    0% {background-position: 0 0}
-    0% {background-position: 100% -100%}
+    .button{
+        color:$color-page-text;
+        background-color:$color-white;
     }
+}

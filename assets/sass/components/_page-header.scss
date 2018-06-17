@@ -1,0 +1,10 @@
+.page-head{
+    @include background-horizontal($color-brand-secondary, $color-brand-tertiary);
+
+    &__inner{
+
+        .-inset &{
+            border-bottom:none;
+        }
+    }
+}

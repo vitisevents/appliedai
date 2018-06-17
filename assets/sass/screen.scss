@@ -19,6 +19,7 @@
 @import "./node_modules/vitis-frontend/sass/generic/ui";
 @import "./node_modules/vitis-frontend/sass/generic/shared";
 @import "./node_modules/vitis-frontend/sass/generic/gradients";
+@import "generic/shared";
 
 @import "./node_modules/vitis-frontend/sass/elements/page";
 @import "./node_modules/vitis-frontend/sass/elements/headings";
@@ -26,8 +27,10 @@
 @import "./node_modules/vitis-frontend/sass/elements/tables";
 @import "./node_modules/vitis-frontend/sass/elements/icons";
 @import "./node_modules/vitis-frontend/sass/elements/panels";
+@import "elements/headings";
 @import "elements/panels";
 
+@import "./node_modules/vitis-frontend/sass/objects/affix";
 @import "./node_modules/vitis-frontend/sass/objects/wrappers";
 @import "./node_modules/vitis-frontend/sass/objects/forms";
 @import "./node_modules/vitis-frontend/sass/objects/grid";
@@ -37,8 +40,9 @@
 @import "./node_modules/vitis-frontend/sass/objects/schedule";
 @import "./node_modules/vitis-frontend/sass/objects/speakers";
 @import "./node_modules/vitis-frontend/sass/objects/sponsors";
-@import "./node_modules/vitis-frontend/sass/objects/facts";
 @import "objects/layout";
+@import "objects/banners";
+@import "objects/speakers";
 
 @import "./node_modules/vitis-frontend/sass/components/page-header";
 @import "./node_modules/vitis-frontend/sass/components/page-banner";
@@ -50,7 +54,10 @@
 @import "./node_modules/vitis-frontend/sass/components/styleguide";
 @import "./node_modules/vitis-frontend/sass/components/mobile-nav";
 @import "./node_modules/vitis-frontend/sass/components/workshops";
+@import "components/page-header";
 @import "components/page-banner";
+@import "components/main-menu";
+@import "components/row-types";
 
 @import "./node_modules/vitis-frontend/sass/vendor/videojs/video-js";
 @import "./node_modules/vitis-frontend/sass/vendor/videojs/blue";

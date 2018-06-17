@@ -1,8 +1,41 @@
+html,
+body,
+.page-container,
+.banner{
+    height:100%;
+}
+
 .row{
 
     &.-nodes{
         background-image:url(../images/backgrounds/bg-nodes.png);
         background-position:center center;
         background-size:cover;
+    }
+    
+    &.-primary{
+		background-color:$color-brand-primary;
+
+		h1,h2,h3,h4,h5,h6{
+			color:$color-white;
+		}
+
+		p{
+			color:rgba($color-white,0.9);
+			font-size:$base-font-size;
+		}
+    }
+    
+    &.-secondary{
+		background-color:$color-brand-secondary;
+
+		h1,h2,h3,h4,h5,h6{
+			color:$color-white;
+		}
+
+		p{
+			color:rgba($color-white,0.9);
+			font-size:$base-font-size;
+		}
 	}
 }
