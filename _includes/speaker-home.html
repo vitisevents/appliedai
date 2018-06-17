@@ -1,0 +1,11 @@
+{% if include.speaker.hide != true %}
+    {% if include.speaker.photo %}
+    <li id="{{include.speaker.slug}}" class="speaker">
+        <div class="speaker-photo">
+            <img src="{{include.speaker.photo}}">
+        </div>
+        <h4 class="speaker-name">{{include.speaker.speaker}}</h4>
+        <h6 class="speaker-company">{{include.speaker.company}}</h4>
+    </li>
+    {% endif %}
+{% endif %}
