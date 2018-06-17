@@ -89,6 +89,8 @@ gulp.task('watch', function() {
   gulp.watch('assets/sass/**/*.scss', ['sass']);
   // Watch .scss files on node modules
   gulp.watch('node_modules/vitis-frontend/sass/**/*.scss', ['sass']);
+  // Watch .js files
+  gulp.watch('assets/js/**/*.js', ['jekyll-rebuild']);
   // Watch .css files
   gulp.watch('assets/css/**/*.css', ['jekyll-rebuild']);
   // Watch image files
