@@ -1,0 +1,49 @@
+.speakers{
+    list-style:none;
+    margin-left:-$base-spacing-unit;
+    width:100%;
+    text-align:center;
+    @include clearfix;
+}
+
+.speaker{
+    display:inline-block;
+    padding-left:$base-spacing-unit;
+    width:(100% / 3);
+    clear:none;
+    margin-left:-4px;
+    margin-bottom:40px;
+    vertical-align:top;
+
+    &-photo,
+    &-name,
+    &-company{
+        display:block;
+    }
+
+    &-name{
+        color:$color-white;
+    }
+	
+	&-photo{
+        position:relative;
+        height:200px;
+        width:200px;
+        @include border-radius(50%);
+        margin:0 auto 10px auto;
+        float:none;
+        overflow:hidden;
+        max-width:initial;
+
+        img{
+            position:absolute;
+            top:0;
+            right:0;
+            bottom:0;
+            left:0;
+            height:100%;
+            width:100%;
+            object-fit:cover;
+        }
+    }
+}
