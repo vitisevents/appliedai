@@ -9,9 +9,6 @@ module.exports = {
     externals: {
         "jquery": "jQuery",
         'google': 'google'
-    },
-    plugins: [
-        new webpack.optimize.UglifyJsPlugin({minimize: true})
-    ]
+    }
 };
 
