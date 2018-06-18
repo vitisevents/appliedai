@@ -1,5 +1,5 @@
 .banner{
-    padding:$banner-padding $base-spacing-unit;
+    padding:$banner-padding 0;
     background-image:url(../images/banners/home2.png);
     background-repeat:no-repeat;
     // background-attachment:fixed;
@@ -27,18 +27,23 @@
 
     &__content{
         @include vertical-align-center;
+        padding:0 $base-spacing-unit;
         margin-top:$header-height;
         z-index:2;
     }
 
     &__title{
         position:relative;
-        @include font-size(90px);
+        @include font-size(40px);
         line-height:1;
         @include font-family(secondary);
         margin:0 0 20px 0;
         z-index: 1;
         text-shadow: .05em .05em 0 rgba($color-black, 0.5);
+
+        @include respond(medium){
+            @include font-size(90px);
+        }
     }
 
     &__sub-title{
