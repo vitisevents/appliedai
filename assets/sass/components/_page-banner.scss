@@ -1,27 +1,28 @@
 .banner{
     padding:$banner-padding $base-spacing-unit;
-    background-image:url(../images/banners/home.jpeg);
+    background-image:url(../images/banners/home2.png);
     background-repeat:no-repeat;
-    background-attachment:fixed;
+    // background-attachment:fixed;
+    background-position:center center;
     background-color:$color-brand-primary;
 
     .home &{
         padding-top:$banner-padding + $header-height;
 
-        &:after{
-            position:absolute;
-            top:0;
-            right:0;
-            bottom:0;
-            left:0;
-            height:100%;
-            width:100%;
-            display:block;
-            content:'';
-            opacity:0.8;
-            background-color:$color-brand-primary;
-            z-index:1;
-        }
+        // &:after{
+        //     position:absolute;
+        //     top:0;
+        //     right:0;
+        //     bottom:0;
+        //     left:0;
+        //     height:100%;
+        //     width:100%;
+        //     display:block;
+        //     content:'';
+        //     opacity:0.8;
+        //     background-color:$color-brand-primary;
+        //     z-index:1;
+        // }
     }
 
     &__content{
@@ -32,7 +33,7 @@
 
     &__title{
         position:relative;
-        @include font-size(100px);
+        @include font-size(90px);
         line-height:1;
         @include font-family(secondary);
         margin:0 0 20px 0;
