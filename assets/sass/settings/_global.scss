@@ -2,12 +2,18 @@
 $base-font-size:     				14px;
 $base-line-height:   				20px;
 
+// Base units
 $base-radius:                       5px;
 $base-spacing-unit:  				30px;
 
-$btn-radius:                        $base-radius;
-
+// Banner
 $banner-padding:                    100px;
+
+// Callout
+$callout-padding: 					($base-spacing-unit + 10);
+
+// Button
+$btn-radius:                        $base-radius;
 
 // To be changed once there is a new logo
 $logo-height:		 				48px;
