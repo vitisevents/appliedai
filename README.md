@@ -1,7 +1,7 @@
-machineconf.co.uk
+appliedai.co.uk
 ==================
 
-Machine Conf Conference Website
+Applied AI Conference Website
 
 ## Installation
 
@@ -11,7 +11,7 @@ Your computer needs:
 
 Clone the project
 ```bash
-git clone https://github.com/vitisevents/machineconf
+git clone https://github.com/vitisevents/appliedai
 ```
 From the root of the project run:
 ```bash
@@ -37,7 +37,7 @@ cd vitis-frontend
 npm link
 ```
 ```bash
-cd ../machineconf
+cd ../appliedai
 ```
 ```bash
 npm link vitis-frontend
