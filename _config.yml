@@ -1,7 +1,7 @@
 permalink: pretty
 exclude: [node_modules]
 keep_files: [assets/css, archive]
-name: Machine Conf
+name: Applied AI Conference
 description: Introducing GopherCon UK, formerly known as the Golang UK Conference. Join us for three days of great Go content with the best speakers from across the world.
 collections:
   videos:
