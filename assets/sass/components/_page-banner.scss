@@ -38,20 +38,28 @@
         @include font-size(40px);
         line-height:1;
         @include font-family(secondary);
-        margin:0 0 20px 0;
+        margin:0 0 12px 0;
         z-index: 1;
         text-shadow: .05em .05em 0 rgba($color-black, 0.5);
 
         @include respond(medium){
-            @include font-size(90px);
+            @include font-size(52px);
         }
     }
 
-    &__sub-title{
-        @include font-size(20px);
+    &__subtitle{
+        @include font-size(18px);
         line-height: 1.3em;
         @include font-weight(normal);
-        margin: 0 0 30px 0;
+        @include font-family(primary);
+        margin: 0 0 18px 0;
+    }
+
+    &__date{
+        @include font-weight(medium);
+        margin:0 0 26px 0;
+        line-height:1.5;
+        color:$color-white;
     }
 
     &__title,
