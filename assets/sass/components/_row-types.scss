@@ -4,6 +4,8 @@
     border-top:none;
 
     .sponsor-list img{
-        filter:brightness(0) invert(1);
+        mix-blend-mode: screen;
+        // @include css3-prefix(filter, brightness(0) invert(1));
+        @include css3-prefix(filter, grayscale(100%) invert(1));
     }
 }
