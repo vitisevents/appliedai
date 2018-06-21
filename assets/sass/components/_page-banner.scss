@@ -4,7 +4,12 @@
     background-image:url(../images/banners/home2.png);
     background-repeat:no-repeat;
     background-position:center center;
+    background-size:auto 108%;
     background-color:$color-brand-primary;
+
+    @include respond(medium) {
+        background-size:auto;
+    }
 
     .home &{
         padding-top:$banner-padding + $header-height;
