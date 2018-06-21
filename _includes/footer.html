@@ -7,7 +7,7 @@
             {% for sponsor in sponsorType.sponsors %}
             <li class="sponsor-list__sponsor">
                 <a href="/sponsors/#{{ sponsor.slug }}" class="sponsor__link">
-                    <img src="/assets/images/2018/sponsors/{{ sponsor.slug }}.png" alt="{{ sponsor.name }}" class="sponsor--{{sponsor.slug}}">
+                    <img src="/assets/images/2018/sponsors/{{ sponsor.slug }}.{{ sponsor.imageType }}" alt="{{ sponsor.name }}" class="sponsor--{{sponsor.slug}}">
                 </a>
             </li>
             {% endfor %}
