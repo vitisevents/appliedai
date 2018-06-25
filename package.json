@@ -17,7 +17,7 @@
     "npm": ">=2.7.0"
   },
   "dependencies": {
-    "vitis-frontend": "git@github.com:vitisevents/vitis-frontend.git",
+    "vitis-frontend": "git+https://github.com:vitisevents/vitis-frontend.git",
     "ansi-colors": "^2.0.1",
     "beeper": "^1.1.1",
     "copia-respond-tools": "^0.1.0",
