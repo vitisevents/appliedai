@@ -1,6 +1,7 @@
 permalink: pretty
 exclude: [node_modules]
 keep_files: [assets/css, archive]
+url: https://www.appliedai.co.uk
 name: Applied AI Conference
 description: Introducing Applied AI, the machine learning and artificial intelligence conference for developers
 collections:
