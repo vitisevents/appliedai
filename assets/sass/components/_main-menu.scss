@@ -16,6 +16,7 @@
 
             @include respond(large){
                 background:none;
+                border-bottom-color:currentColor;
 			}
         }
     }
