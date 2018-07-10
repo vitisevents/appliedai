@@ -2,13 +2,21 @@
 .mobile-nav .main-menu{
 
     &__link{
-        padding-bottom:2px;
-        border-bottom:2px solid transparent;
+
+        @include respond(medium){
+            padding-bottom:2px;
+            border-bottom:2px solid transparent;
+        }
 
         &:hover,
 		&.-is-active{
+            color:$color-white;
             text-decoration:none;
-            border-bottom-color:currentColor;
+            background:$color-brand-secondary;
+
+            @include respond(large){
+                background:none;
+			}
         }
     }
 }
