@@ -2,10 +2,11 @@
 layout: "default"
 title: Speakers
 metatitle: Speakers | Applied AI
-weight: 2
 image: banners/speakers.png
+weight: 3
+group: "navigation"
 ---
-<!-- <div class="page-title -speakers">
+<div class="page-title -speakers">
     <div class="wrapper">
         <h1>Speakers</h1>
         <h2>All about  Applied AI speakers</h2>
@@ -16,7 +17,7 @@ image: banners/speakers.png
         <div class="container">
             <div class="col span12">
                 <ul class="speakers">
-                    {% for day in site.data.2018.speakers %}
+                    {% for day in site.data.2019.speakers %}
                     {% for slot in day.slots %}
                     {% for speaker in slot.tracks %}
                     {% if speaker.track.speakers %}
@@ -33,4 +34,4 @@ image: banners/speakers.png
             </div>
         </div>
     </div>
-</div> -->
+</div>

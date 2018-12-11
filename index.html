@@ -9,21 +9,21 @@ weight: 1
 <div class="row -about">
     <div class="wrapper">
         <h2>About the conference</h2>
-        <p>We are pleased to announce the first annual Applied AI conference. A workshop day and then a conference day packed with amazing talks, plentiful networking opportunities and a great social event. Applied AI offers the most up-to-date machine learning and artifical intelligence information and training, tailored specifically to the needs of developers.</p>
+        <p>We are pleased to announce the first annual Applied AI conference. A 1 day conference packed with amazing talks, plentiful networking opportunities and a great social event. Applied AI offers the most up-to-date artificial intelligence and machine learning information and training, tailored specifically to the needs of developers.</p>
     </div>
     <div class="wrapper">
         <div class="grid">
             <div class="grid__item u-1/3@md u-1/2@sm">
-                <div class="panel workshops">
-                    <a href="/workshop-day/">
-                        <span class="panel__title">Workshops</span>
+                <div class="panel schedule">
+                    <a href="/schedule">
+                        <span class="panel__title">Schedule</span>
                     </a>
                 </div>
             </div>
             <div class="grid__item u-1/3@md u-1/2@sm">
                 <div class="panel schedule">
-                    <a href="/schedule/cfp">
-                        <span class="panel__title">Call for Papers</span>
+                    <a href="/speakers">
+                        <span class="panel__title">Speakers</span>
                     </a>
                 </div>
             </div>
@@ -58,55 +58,3 @@ weight: 1
         </div>
     </div>
 </div>
-
-<!-- <div class="row -primary text-center">
-    <div class="wrapper">
-        <h3>Who's speaking</h3>
-        <ul class="speakers -home">
-            {% for day in site.data.2018.speakers %}
-                {% for slot in day.slots %}
-                    {% for speaker in slot.tracks limit:6 %}
-                        {% if speaker.track.speakers %}
-                            {% for sp in speaker.track.speakers limit:6 %}
-                                {% include speaker-home.html speaker=sp %}
-                            {% endfor %}
-                        {% else %}
-                            {% include speaker-home.html speaker=speaker.track %}
-                        {% endif %}
-                    {% endfor %}
-                {% endfor %}
-            {% endfor %}
-        </ul>
-        <a class="button" href="/speakers">View all</a>
-    </div>
-</div> -->
-    <!--
-<div class="row -primary text-center">
-    <div class="wrapper">
-        <h1>Call for Papers</h1>
-        <p>Closes Nov 14<sup>th</sup> 2018 Midnight BST</p>
-        <a class="button" href="/schedule/cfp">Find out more</a>
-    </div>
-</div>
-
-<div class="row -collapse">
-    <div class="wrapper">
-        {% include callout_tickets.html %}
-    </div>
-</div>
-<div class="row -about">
-    <div class="wrapper">
-        <div class="grid">
-            <div class="grid__item u-1/2@md u-1/2@sm">
-                <h3>Workshops</h3>
-                <p>The Applied AI team is pleased to offer three compelling workshops lead by veteran trainers. Topics include: Daily Go: Fundamentals, Applied AI: Advanced, &amp; Using and extending the Kubernetes API programmatically.</p>
-                <p><a class="link" href="/workshop-day/">Check out the workshops</a></p>
-            </div>
-            <div class="grid__item u-1/2@md u-1/2@sm">
-                <h3>Schedule Announced</h3>
-                <p>Applied AI is pleased to annouce this year's schedule! Now with <strong>three</strong> tracks to choose from! With plenty of memorable workshops and talks, there's sure to be something for everyone.</p>
-                <p><a href="/schedule" class="link">Come see what's in store for you in 2018!</a></p>
-            </div>
-        </div>
-    </div>
-    -->
