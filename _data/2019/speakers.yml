@@ -1,0 +1,212 @@
+- schedule-thursday:
+  name: Thursday 28th February 2019
+  description: |
+      <p>Thursday kicks off the conference, with our <a href="/socials">pre-conference social pubcon</a>.</p>
+  slots:
+    - time: "18.00"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            title: Pre-Conference Social
+            location: Finch's Pub on Finsbury Square
+            description: |
+                The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
+- schedule-friday:
+  name: Friday 1st March 2019
+  description: |
+      <p>On Friday the conference begins with a full day of networking, great talks and food. You will be able to attend a morning keynote followed by eight talk slots throughout the day. During each talk slot you'll have the choice between two different tracks - the main track of 30 minute breakout sessions or the side track of 2 hour tutorial sessions. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href="/socials">post-conference social</a>.</p>
+  slots:
+    - time: "08.00"
+      slottype: break
+      tracks:
+        - track:
+            location: The Brewery Foyer & King George
+            title: Registration and Working Breakfast
+            description: Please bring a copy of your ticket either printed or on a mobile device.
+            colspan: 2
+    - time: "10.00"
+      slottype: keynote
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Opening Keynote
+            speaker: TBA
+            description: TBA
+            colspan: 2
+    - time: "10.30"
+      slottype: break
+      tracks:
+        - track:
+            location: All Rooms
+            title: Room Change
+            colspan: 2
+    - time: "10.45"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+        - track:
+            location: Queen Charlotte
+            title: Tutorial
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+            rowspan: 7
+    - time: "11:20"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description:
+    - time: "11:55"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+    - time: "12:30"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+    - time: "13.00"
+      slottype: break
+      tracks:
+        - track:
+              location: King George
+              title: Lunch
+              description: |
+                A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+              colspan: 2
+    - time: "14.00"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+        - track:
+            location: Queen Charlotte
+            title: Tutorial
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+            rowspan: 7
+    - time: "14:35"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description:
+    - time: "15:10"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+    - time: "15:45"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+    - time: "16.15"
+      slottype: break
+      tracks:
+        - track:
+              title: Room change
+              location: All Rooms
+              colspan: 2
+    - time: "16.30"
+      slottype: keynote
+      tracks:
+        - track:
+              title: Closing Keynote
+              location: Porter Tun
+              description: TBA
+              colspan: 2
+    - time: "17.00"
+      slottype: break
+      tracks:
+        - track:
+            title: Post Conference Social
+            location: The Grubstreet Author
+            colspan: 2
+            description: |
+                The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>

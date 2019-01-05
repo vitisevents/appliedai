@@ -1,0 +1,184 @@
+.wrapper {
+	min-width: 95%;
+}
+
+h2 {
+	padding: 1em;
+}
+
+.schedule-wrapper{
+	table-layout: fixed;
+	width: 100%;
+	margin: 10px;
+	padding: 0;
+	overflow: auto;
+	background: $color-grey-light;
+	color: $color-brand-tertiary;
+
+	.time{
+		margin:0;
+		padding:15px;
+		border-color: $color-brand-quarternary;
+		border-style:solid;
+		border-width:2px 1px;
+
+		@include respond(large){
+			display: table-cell;
+			width: 5em;
+		}
+
+		@include respond(medium){
+			display: table-cell;
+			width: 5em;
+		}
+
+		@include respond(mobile-only){
+			display: inline-block;
+			width: 100%;
+		}
+	}
+
+	.track{
+		margin:0;
+		padding:15px;
+		border-color: #ffffff;
+		border-style:solid;
+		border-width:2px 1px;
+		background:$color-brand-primary;
+
+		vertical-align: top;
+
+		> *{
+			color:$color-brand-quarternary;
+		}
+
+		a{
+			color:$color-brand-quarternary;
+			text-decoration:underline;
+		}
+
+		@include respond(large){
+			display: table-cell;
+			width: 24.5%;
+		}
+
+		@include respond(medium){
+			display: table-cell;
+			width: 24.5%;
+		}
+
+		@include respond(mobile-only){
+			display: inline-block;
+			width: 100%;
+		}
+
+		.track-slot-meta{
+			margin-bottom: 1em;
+
+			> *{
+				font-size: 1em;
+			}
+
+			.title{
+				min-height: 11em;
+
+				.main-title {
+					font-size: 1.8em;
+					display: block;
+				}
+
+				.subtitle {
+					font-size: 1.2em;
+				}
+			}
+
+			.speaker{
+				margin-bottom: initial;
+				width: 100%;
+			}
+		}
+
+		.full-description{
+			display: none;
+		}
+
+		.location{
+			display: none;
+
+			@include respond(mobile-only){
+				display: inline-block;
+				width: 100%;
+				border: 0px;
+			}
+		}
+	}
+
+	.workshop{
+		.track-slot-meta{
+			.title{
+				min-height: 5em;
+			}
+		}
+	}
+
+	.talks{
+		.more, .less{
+			cursor: pointer;
+		}
+	}
+
+	.tutorial{
+		cursor: help;
+		text-decoration: underline;
+		text-decoration-style: dashed;
+	}
+
+	.keynote{
+		text-align:center;
+		background:$color-brand-secondary;
+
+		.track-slot-meta{
+			.title{
+				min-height: 5em;
+			}
+		}
+	}
+
+	.break{
+		background:$color-grey-light;
+
+		> *{
+			color:$color-page-text;
+		}
+
+		a{
+			color:$color-page-text;
+			text-decoration:underline;
+		}
+
+		.track-slot-meta{
+			.title{
+				min-height: 1em;
+			}
+		}
+	}
+	
+	.location{
+		border-color:#ffffff;
+		border-style:solid;
+		border-width:2px 1px;
+		opacity: .8;
+		
+		@include respond(large){
+			display: table-cell;
+		}
+
+		@include respond(medium){
+			display: table-cell;
+		}
+
+		@include respond(mobile-only){
+			display: none;
+		}
+	}
+}
