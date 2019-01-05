@@ -4,10 +4,13 @@
     "browserify": "^16.2.2",
     "connect-history-api-fallback": "^1.5.0",
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
     "gulp-exec": "^3.0.1",
     "gulp-notify": "^3.2.0",
     "gulp-sass": "^4.0.1",
     "gulp-shell": "^0.6.5",
+    "gulp-util": "*",
+    "gulp-watch": "^4.1.1",
     "webpack": "^4.18.0",
     "webpack-cli": "^3.0.8"
   },
@@ -17,7 +20,6 @@
     "npm": ">=2.7.0"
   },
   "dependencies": {
-    "vitis-frontend": "git+https://github.com:vitisevents/vitis-frontend.git",
     "ansi-colors": "^2.0.1",
     "beeper": "^1.1.1",
     "copia-respond-tools": "^0.1.0",
@@ -25,6 +27,8 @@
     "inuit-normalize": "^4.1.1",
     "inuit-reset": "^0.1.1",
     "material-prism-theme": "^0.1.0",
-    "videojs-youtube": "^2.4.1"
+    "npm": "^6.5.0",
+    "videojs-youtube": "^2.4.1",
+    "vitis-frontend": "git+https://github.com:vitisevents/vitis-frontend.git"
   }
 }
