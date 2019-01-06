@@ -31,8 +31,16 @@
         - track:
             location: Porter Tun
             title: Opening Keynote
-            speaker: TBA
-            description: TBA
+            slug: chrisbenson
+            speaker: Chris Benson
+            handle: chrisbenson 
+            company: Lockheed Martin 
+            photo: /assets/images/2019/speakers/chrisbenson.png
+            bio: "Chris Benson is Chief AI Strategist at Lockheed Martin RMS APA Innovations. He came to Lockheed Martin from Honeywell SPS, where he was Chief Scientist for Artificial Intelligence & Machine Learning. Chris built and operationalized Honeywell’s first dedicated AI team from the ground up. Before that he was on the AI Team at Accenture. As a strategist and thought leader, Chris is among the world’s most in-demand professional keynote speakers on artificial intelligence, machine learning, emerging technologies, and visionary futurism. His inspirational keynotes are known for their passion, energy, and clarity. He is a seasoned storyteller who delights in captivating his audiences with inspiring narratives and insightful analysis at conferences, broadcasts, interviews, forums, and corporate events around the world. Chris is an innovative hands-on solutions architect for artificial intelligence and machine learning - and the emerging technologies they intersect - robotics, IoT, augmented reality, blockchain, mobile, edge, and cloud.
+He is Co-Host of the Practical AI podcast, which reaches thousands of AI enthusiasts each week, and is also the Founder & Organizer of the Atlanta Deep Learning Meetup - one of the largest AI communities in the world. You can find out more about Chris Benson at his website: https://chrisbenson.com"
+            level: All
+            description: |
+              AI is impacting every industry on the planet, and will drive digital transformation for years to come. Success requires an AI strategy that accommodates many factors. This talk will help you understand how AI-enabled digital transformation will change business, industry, and the global economy.
             colspan: 2
     - time: "10.30"
       slottype: break
