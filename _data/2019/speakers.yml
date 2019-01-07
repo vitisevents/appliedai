@@ -30,7 +30,8 @@
       tracks:
         - track:
             location: Porter Tun
-            title: Opening Keynote
+            name: Opening Keynote
+            title: Digital Transformation in the Artificial Intelligence Revolution 
             slug: chrisbenson
             speaker: Chris Benson
             handle: chrisbenson 
