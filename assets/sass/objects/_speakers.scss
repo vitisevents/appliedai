@@ -2,14 +2,14 @@
     list-style:none;
     margin-left:-$base-spacing-unit;
     width:100%;
-    text-align:center;
-    @include clearfix;
+//    text-align:center;
+//    @include clearfix;
 }
 
 .speaker{
-    display:inline-block;
+//    display:inline-block;
     padding-left:$base-spacing-unit;
-    width:(100% / 3);
+//    width:(100% / 2);
     clear:none;
     margin-left:-4px;
     margin-bottom:40px;
@@ -18,20 +18,27 @@
     &-photo,
     &-name,
     &-company{
-        display:block;
+//        display:block;
     }
 
     &-name{
-        color:$color-white;
+        color:$color-brand-secondary;
     }
-	
+
+	&-bio{
+		text-align: left;
+		width: 100%;
+	}
+
 	&-photo{
         position:relative;
         height:200px;
         width:200px;
         @include border-radius(50%);
-        margin:0 auto 10px auto;
-        float:none;
+//        margin:0 auto 10px auto;
+		margin: 10px;
+		vertical-align: center;
+        float:left;
         overflow:hidden;
         max-width:initial;
 
