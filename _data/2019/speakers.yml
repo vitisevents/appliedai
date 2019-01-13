@@ -55,69 +55,89 @@
       tracks:
         - track:
             location: Porter Tun
-            title: Talk
-            slug: 
-            speaker: 
-            handle: 
-            company: 
+            name: Talk
+            title: The History of AI
+            subtitle: What can we learn from the past?
+            slug: håkansilfvernagel
+            speaker: Håkan Silfvernagel
+            handle: agrevlis
+            company: Miles 
             photo: 
-            bio:  
-            level: 
-            description: 
+            bio: I have 19 years’ experience of software development in various positions such as developer, tester, architect, project manager, scrum master, practice manager and team lead. I currently work as a consultant at <a href="https://www.miles.in">Miles</a>. Before becoming a consultant I have previously worked as a researcher within the field of human computer interaction in the process industry with a focus on process automation and robotics. I have a broad educational background with a master's degree in Electrical Engineer, a master's degree in Behavioral Science and I am currently finishing a master's degree in Emotion Psychology. During my psychology studies I came across the field of affective computing which combines psychology with computer science. Taking into account the focus on artificial intelligence and machine learning of today I believe it is important to take the human factor into account and try to make our systems adapt to the way we function as humans.
+            level: All
+            description: Nowadays AI is all the hype, but what many might not know is that AI is an established discipline originating from a paper from Alan Turing in the 1950s. In this talk I will present the history of AI and review the historical milestones from the originating paper up til now.
         - track:
             location: Queen Charlotte
-            title: Tutorial
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio:  
-            level: 
-            description: 
+            name: Tutorial
+            title: Getting to Grips with Databricks
+            slug: gianlucacampanella
+            speaker: Gianluca Campanella 
+            handle: gianluca
+            company: Microsoft
+            photo: https://secure.gravatar.com/avatar/18cb10f135906d61e4feb96fa2018b4a?s=500
+            bio: Gianluca Campanella is a Data Scientist at Microsoft, and runs his own consulting and training company Estimand. He has trained hundreds of students and professionals in coding and data science, and has spoken at many industry conferences and events. Gianluca’s background is in Mathematics and Computer Science. He holds a PhD in Biostatistics from Imperial College London, an MSc in Applied Mathematics from Universidade NOVA de Lisboa, and a BSc in Computer Science from the Free University of Bozen-Bolzano.
+            level: Intermediate
+            description: |
+                <p>Databricks is an analytics platform based on Apache Spark, optimised to run on the Microsoft Azure cloud. This tutorial presents a complete Data Science workflow based on Databricks, from data ingestion to deployment through exploratory analysis and modelling.</p>
+                <p>In particular, the tutorial covers the following topics</p>
+                <ul>
+                    <li>Deploying a new Databricks cluster on the Azure cloud</li>
+                    <li>Loading data from different sources, particularly large CSV files</li>
+                    <li>Querying using Spark SQL</li>
+                    <li>Predictive modelling using Python</li>
+                </ul>
+                <p>Other topics introduced during the course of the tutorial include</p>
+                <ul>
+                    <li>Accessing data stored on Azure Blob Storage directly</li>
+                    <li>Managing and sharing notebooks</li>
+                    <li>Building ETL pipelines from notebooks using jobs.</li>
+                </ul>
             rowspan: 7
     - time: "11:20"
       slottype: talks
       tracks:
         - track:
             location: Porter Tun
-            title: Talk
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio:  
-            level: 
-            description:
+            name: Talk
+            title: Improving Search using Machine Learning
+            slug: davidhernandez
+            speaker: David Hernández
+            handle: dahernan
+            company: Veritone
+            photo: https://secure.gravatar.com/avatar/9614379bee3bf92b678a22391a350878?s=500
+            bio: David Hernandez has been using Go since 2013, he was organizer of the first GolangUK conference, and can often be found speaking at the Go London Users Group, and internationally. He worked in companies like BBC for the 2012 London Olympics, scaling continuous integration at Atlassian (Sydney), and helping the UK Goverment at the GDS. He is a founder and developer at Machine Box where he develop all the Machine Learning models, and is in charge of all R&D.
+            level: All
+            description: 
     - time: "11:55"
       slottype: talks
       tracks:
         - track:
             location: Porter Tun
-            title: Talk
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
+            name: Talk
+            title: Testing For Bias
+            slug: adamleonsmith
+            speaker: Adam Leon Smith
+            handle: adamleonsmith
+            company: Piccadilly labs
+            photo: https://pbs.twimg.com/profile_images/535742481539665920/-sBVTmL9_400x400.jpeg
             bio:  
-            level: 
-            description: 
+            level: Beginner
+            description: AI and machine learning introduce complex algorithms which affect our daily life. Despite all the benefits of machine learning it can be biased, and there are risks that are introduced which can manifest themselves as bias towards customers or users, for example in the form of racism, sexism and other forms of discrimination. These areas are starting to be regulated, and some organisations are calling for these technologies to be banned in some high risk areas. Ultimately and practically it will be up to technologists to verify whether algorithms are operating legally and fairly. This issue is explored in detail by Adam who discusses approaches for the ethical testing of algorithms.
     - time: "12:30"
       slottype: talks
       tracks:
         - track:
             location: Porter Tun
-            title: Talk
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio:  
-            level: 
-            description: 
+            name: Talk
+            title: What AI & ML Engineers can Learn from the Devops Movement
+            slug: thiagodefaria
+            speaker: Thiago de Faria
+            handle: thiagoavadore
+            company: LINKIT
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/14301/thiago_bew_original.jpg
+            bio: "Thiago started in Pure Mathematics, jumped to predicting things and realized it was utterly dependent on understanding the inner bits of software development and data pipelines. Thus, his primary concern changed: how to bridge the gap between ML and production? :-) DataOps FTW! He is an active part of the community (devopsdays Amsterdam, ITNEXT, amsterdam.ai & Codemotion), a knowledge-sharer, a proud father and a Big DataOps & AI Lead. Thiago is pathologically curious and a continuous learner. He knows that high-performing data teams must decrease time-to-market and build production-ready applications, always!"
+            level: Intermediate
+            description: "AI is such a buzzword, with its futuristic implementations and sophisticated machine learning algorithms (Hello, Deep learning!). We are using ML when we need external data to reach a working product because it would be impossible to solve it with the regular for/if/loops. What are the next steps? Moreover, what about Test, Release, and Deployment? We always value data and call our organizations “data-driven”, but now the impact is even bigger. If you are using an ML component, misused/dirty/problematic data will affect not your internal reports as before… but your application deployment and quality of service. Let’s discuss some AI implementations stories (its advantages/problems) finding common mistakes and future challenges for such a hyped theme to end the session with a live demo (if the gods allow it!)!"
     - time: "13.00"
       slottype: break
       tracks:
@@ -132,24 +152,33 @@
       tracks:
         - track:
             location: Porter Tun
-            title: Talk
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio:  
-            level: 
-            description: 
+            name: Talk
+            title: Building Smarter Apps with Machine Learning
+            subtitle: From Magic to Reality
+            slug: laurentpicard
+            speaker: Laurent Picard
+            handle: PicardParis 
+            company: Google
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/16050/laurent_picard.jpg
+            bio: "Laurent is a developer passionate about software, hardware, science and anything shaping the future. He works for Google where he ecstatically explores cloud technologies. In a previous life, he pioneered the ebook industry, co-created the 1st European ebook reader, and co-founded Bookeen. He now enjoys sharing his passion in international conferences. You can find him on twitter at @PicardParis."
+            level: All 
+            description: What about making your app smarter without any knowledge in AI? With pre-trained models and a few lines of code, Machine Learning APIs can analyze your data. Moreover, AutoML techniques can now help in getting even more specific insights tailored to your needs. In this session, you’ll see how to transform or extract information from text, image, audio & video with the latest ML APIs, how to train an AutoML custom model, and you’ll be an active player of a live demo. Don’t put your smartphone in airplane mode!
         - track:
             location: Queen Charlotte
-            title: Tutorial
-            slug: 
-            speaker: 
-            handle: 
-            company: 
+            name: Tutorial
+            title: Tensorflow and Go
+            speakers: 
+                - speaker: Natalie Pistunovich
+                  slug: nataliepistunovich
+                  photo: /assets/images/2019/speakers/natalie-pistunovich.jpg
+                  company: Fraugster
+                  handle: nataliepis
+                - speaker: David Hernández
+                  slug: davidhernandez
+            handle: nataliepis
+            company: Fraugster
             photo: 
-            bio:  
+            bio: 
             level: 
             description: 
             rowspan: 7
@@ -159,14 +188,15 @@
         - track:
             location: Porter Tun
             title: Talk
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio:  
-            level: 
-            description:
+            # title: Harnessing the Neural Network to Predict Menstrual Cycles
+            # slug: wasrahman
+            # speaker: Was Rahman
+            # handle: SkaiLabs
+            # company:
+            # photo:
+            # bio: Back in 1987 I graduated from the University of Oxford with a degree in Physics, it was only natural therefore that I moved onto investment banking! I then embarked on a journey that saw me directing and shaping some of the leading companies in the tech world. These included setting up the Polish telecoms practice for Accenture, serving on the EMEA Executive Council for Infosys, and leading Wipro’s global Public Sector business. I also held senior roles at digital agencies, including Scient and Razorfish, and in 2007 the UK Government appointed me as advisor on global technology industries. My passion is not only in bringing about technological change for the sake of it, but in transgressing existing boundaries and adding genuine, sustainable value.
+            # level:
+            # description: We worked on developing a smart tracker that accurately predicts women’s menstrual cycles, ovulation and fertile days. Using an abundance of data that was previously not being harnessed, we pursued the challenge of developing an application that didn’t just give women an “average likelihood” but actually forecasted the specific days of their cycles. The Neural Network we built took advantage of new and old data inputs, to give each person a prediction unique to them, and used unsupervised learning to continuously adapt its forecasts. With this we observed tremendous results, both from a technical and human perspective, and we encountered a number of surprises along the way that made the final result all the more better.
     - time: "15:10"
       slottype: talks
       tracks:

@@ -56,18 +56,18 @@ group: "navigation"
                         </div>
                         {% if track.track.description %}
                         {% if slot.slottype == "talks" %}
-                        <p class="short-description">
-                            {{track.track.description | truncate: 150}}
+                        <div class="short-description">
+                            {{track.track.description | strip_html | truncate: 150}}
                             <a class="more">See More</a>
-                        </p>
-                        <p class="full-description">
+                        </div>
+                        <div class="full-description">
                             {{track.track.description}}
                             <a class="less">See Less</a>
-                        </p>
+                        </div>
                         {% else %}
-                        <p class="description">
+                        <div class="description">
                             {{track.track.description}}
-                        </p>
+                        </div>
                         {% endif %}
                         {% endif %}
                         {% if track.track.menulink %}

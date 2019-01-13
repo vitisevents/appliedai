@@ -80,21 +80,25 @@ h2 {
 			}
 
 			.title{
-				min-height: 11em;
+				min-height: 7em;
+				display: block;
 
 				.main-title {
 					font-size: 1.8em;
-					display: block;
+                    display: block;
 				}
 
 				.subtitle {
 					font-size: 1.2em;
+                    display: block;
 				}
 			}
 
 			.speaker{
+                display: block;
 				margin-bottom: initial;
 				width: 100%;
+                margin: 0px;
 			}
 		}
 
