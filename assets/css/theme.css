@@ -21787,6 +21787,20 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     opacity: .2;
 }
 
+.sponsor-logos
+{
+    display: block; 
+
+    text-align: center;
+}
+
+.img-left
+{
+    float: left;
+
+    margin-right: 12px;
+}
+
 .wrapper
 {
     min-width: 95%;

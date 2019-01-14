@@ -1,22 +1,29 @@
-{% if page.url != '/sponsors/' %}
-<div class="row -center -primary sponsor-bar">
-    <div class="wrapper">
-        <h4>Our sponsors</h4>
-        <ul class="sponsor-list">
-            {% for sponsorType in site.data.2018.sponsors %}
-            {% for sponsor in sponsorType.sponsors %}
-            <li class="sponsor-list__sponsor">
-                <a href="/sponsors/#{{ sponsor.slug }}" class="sponsor__link">
-                    <img src="/assets/images/2018/sponsors/{{ sponsor.slug }}.{{ sponsor.imageType }}" alt="{{ sponsor.name }}" class="sponsor--{{sponsor.slug}}">
-                </a>
-            </li>
-            {% endfor %}
-            {% endfor %}
-        </ul>
-        <h5>Want to sponsor {{ site.name }}? <a href="/sponsors">Click here.</a></h5>
+<section class="slice slice-lg pt-3 pb-3">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                {% if page.url != '/sponsors/' %}
+                <div class="blurable--hover">
+                    <a href="/sponsors">
+                        <div class="row blurable-item align-items-center sponsor-logos">
+                            {% for sponsorType in site.data.2019.sponsors %}
+                            {% for sponsor in sponsorType.sponsors %}
+                            <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0" style="display:inline-block;">
+                                <div class="px-2 py-2">
+                                    <img src="/assets/images/2018/sponsors/{{ sponsor.slug }}.{{ sponsor.imageType }}" alt="{{ sponsor.name }}" class="sponsor--{{sponsor.slug}} img-fluid img-grayscale">
+                                </div>
+                            </div>
+                            {% endfor %}
+                            {% endfor %}
+                        </div>
+                        <span class="blurable-hidden btn btn-sm btn-info btn-circle">View our sponsors</span>
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
     </div>
-</div>
-{% endif %}
+</section>
 
 <section class="slice slice-lg delimiter-top">
     <div class="container">
