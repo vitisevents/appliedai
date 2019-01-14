@@ -114,15 +114,15 @@
         - track:
             location: Porter Tun
             name: Talk
-            title: Testing For Bias
-            slug: adamleonsmith
-            speaker: Adam Leon Smith
-            handle: adamleonsmith
-            company: Piccadilly labs
-            photo: https://pbs.twimg.com/profile_images/535742481539665920/-sBVTmL9_400x400.jpeg
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
             bio:  
-            level: Beginner
-            description: AI and machine learning introduce complex algorithms which affect our daily life. Despite all the benefits of machine learning it can be biased, and there are risks that are introduced which can manifest themselves as bias towards customers or users, for example in the form of racism, sexism and other forms of discrimination. These areas are starting to be regulated, and some organisations are calling for these technologies to be banned in some high risk areas. Ultimately and practically it will be up to technologists to verify whether algorithms are operating legally and fairly. This issue is explored in detail by Adam who discusses approaches for the ethical testing of algorithms.
+            level: 
+            description: 
     - time: "12:30"
       slottype: talks
       tracks:
