@@ -1,14 +1,26 @@
-// Copy and paste the variables that you want to modify from _variables.scss and remove the !default flad. 
-// The default ones will be overridden. Below we added the most wanted variables that a user needs to change.
-// Uncomment the variables starting with "$" that you want to edit.
+// Brand colours
+$color-brand-primary:                   #2b77db;
+$color-brand-secondary:                 #1b4d8f;
+$color-brand-tertiary:                  #0e2542;
+$color-brand-quarternary:               #ffffff;
+$color-grey-light:                      #F4F4F4;
 
+$color-page-text:                       #000000;
+$color-page-link:                       $color-brand-secondary;
+$color-page-heading:                    $color-brand-secondary;
 
-// Colors
+// Header
+$color-header-background:               $color-brand-primary;
 
-// $primary: #f00;
-// $secondary: #234242;
+// Fact
+$color-fact-primary:                    $color-brand-primary;
 
-// Typography
+// Footer
+$color-footer-background:               $color-brand-tertiary;
+$color-footer-line:                     $color-brand-tertiary;
+$color-footer-line-secondary:           $color-footer-line;
+$color-footer-link-line:                $color-footer-line;
+$color-subfooter-background:            $color-brand-tertiary;
 
-// $font-family-base: 'Nunito', sans-serif !default;
-// $font-family-alt: 'Nunito', sans-serif !default;
+// Callout
+$color-callout-background:              $color-brand-primary;

@@ -1,0 +1,251 @@
+- schedule-thursday:
+  name: Thursday 28th February 2019
+  description: |
+      <p>Thursday kicks off the conference, with our <a href="/socials">pre-conference social pubcon</a>.</p>
+  slots:
+    - time: "18.00"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            title: Pre-Conference Social
+            location: Finch's Pub on Finsbury Square
+            description: |
+                The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
+- schedule-friday:
+  name: Friday 1st March 2019
+  description: |
+      <p>On Friday the conference begins with a full day of networking, great talks and food. You will be able to attend a morning keynote followed by eight talk slots throughout the day. During each talk slot you'll have the choice between two different tracks - the main track of 30 minute breakout sessions or the side track of 2 hour tutorial sessions. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href="/socials">post-conference social</a>.</p>
+  slots:
+    - time: "08.00"
+      slottype: break
+      tracks:
+        - track:
+            location: The Brewery Foyer & King George
+            title: Registration and Working Breakfast
+            description: Please bring a copy of your ticket either printed or on a mobile device.
+            colspan: 2
+    - time: "10.00"
+      slottype: keynote
+      tracks:
+        - track:
+            location: Porter Tun
+            name: Opening Keynote
+            title: Digital Transformation in the Artificial Intelligence Revolution 
+            slug: chrisbenson
+            speaker: Chris Benson
+            handle: chrisbenson 
+            company: Lockheed Martin 
+            photo: /assets/images/2019/speakers/chrisbenson.png
+            bio: |
+              Chris Benson is Chief AI Strategist at Lockheed Martin RMS APA Innovations. He came to Lockheed Martin from Honeywell SPS, where he was Chief Scientist for Artificial Intelligence & Machine Learning. Chris built and operationalized Honeywell’s first dedicated AI team from the ground up. Before that he was on the AI Team at Accenture. As a strategist and thought leader, Chris is among the world’s most in-demand professional keynote speakers on artificial intelligence, machine learning, emerging technologies, and visionary futurism. His inspirational keynotes are known for their passion, energy, and clarity. He is a seasoned storyteller who delights in captivating his audiences with inspiring narratives and insightful analysis at conferences, broadcasts, interviews, forums, and corporate events around the world. Chris is an innovative hands-on solutions architect for artificial intelligence and machine learning - and the emerging technologies they intersect - robotics, IoT, augmented reality, blockchain, mobile, edge, and cloud. He is Co-Host of the Practical AI podcast, which reaches thousands of AI enthusiasts each week, and is also the Founder & Organizer of the Atlanta Deep Learning Meetup - one of the largest AI communities in the world. You can find out more about Chris Benson at his website&#58; <a href="https://chrisbenson.com">https://chrisbenson.com</a>
+            level: All
+            description: |
+              AI is impacting every industry on the planet, and will drive digital transformation for years to come. Success requires an AI strategy that accommodates many factors. This talk will help you understand how AI-enabled digital transformation will change business, industry, and the global economy.
+            colspan: 2
+    - time: "10.30"
+      slottype: break
+      tracks:
+        - track:
+            location: All Rooms
+            title: Room Change
+            colspan: 2
+    - time: "10.45"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            name: Talk
+            title: The History of AI
+            subtitle: What can we learn from the past?
+            slug: håkansilfvernagel
+            speaker: Håkan Silfvernagel
+            handle: agrevlis
+            company: Miles 
+            photo: 
+            bio: I have 19 years’ experience of software development in various positions such as developer, tester, architect, project manager, scrum master, practice manager and team lead. I currently work as a consultant at <a href="https://www.miles.in">Miles</a>. Before becoming a consultant I have previously worked as a researcher within the field of human computer interaction in the process industry with a focus on process automation and robotics. I have a broad educational background with a master's degree in Electrical Engineer, a master's degree in Behavioral Science and I am currently finishing a master's degree in Emotion Psychology. During my psychology studies I came across the field of affective computing which combines psychology with computer science. Taking into account the focus on artificial intelligence and machine learning of today I believe it is important to take the human factor into account and try to make our systems adapt to the way we function as humans.
+            level: All
+            description: Nowadays AI is all the hype, but what many might not know is that AI is an established discipline originating from a paper from Alan Turing in the 1950s. In this talk I will present the history of AI and review the historical milestones from the originating paper up til now.
+        - track:
+            location: Queen Charlotte
+            name: Tutorial
+            title: Getting to Grips with Databricks
+            slug: gianlucacampanella
+            speaker: Gianluca Campanella 
+            handle: gianluca
+            company: Microsoft
+            photo: https://secure.gravatar.com/avatar/18cb10f135906d61e4feb96fa2018b4a?s=500
+            bio: Gianluca Campanella is a Data Scientist at Microsoft, and runs his own consulting and training company Estimand. He has trained hundreds of students and professionals in coding and data science, and has spoken at many industry conferences and events. Gianluca’s background is in Mathematics and Computer Science. He holds a PhD in Biostatistics from Imperial College London, an MSc in Applied Mathematics from Universidade NOVA de Lisboa, and a BSc in Computer Science from the Free University of Bozen-Bolzano.
+            level: Intermediate
+            description: |
+                <p>Databricks is an analytics platform based on Apache Spark, optimised to run on the Microsoft Azure cloud. This tutorial presents a complete Data Science workflow based on Databricks, from data ingestion to deployment through exploratory analysis and modelling.</p>
+                <p>In particular, the tutorial covers the following topics</p>
+                <ul>
+                    <li>Deploying a new Databricks cluster on the Azure cloud</li>
+                    <li>Loading data from different sources, particularly large CSV files</li>
+                    <li>Querying using Spark SQL</li>
+                    <li>Predictive modelling using Python</li>
+                </ul>
+                <p>Other topics introduced during the course of the tutorial include</p>
+                <ul>
+                    <li>Accessing data stored on Azure Blob Storage directly</li>
+                    <li>Managing and sharing notebooks</li>
+                    <li>Building ETL pipelines from notebooks using jobs.</li>
+                </ul>
+            rowspan: 7
+    - time: "11:20"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            name: Talk
+            title: Improving Search using Machine Learning
+            slug: davidhernandez
+            speaker: David Hernández
+            handle: dahernan
+            company: Veritone
+            photo: https://secure.gravatar.com/avatar/9614379bee3bf92b678a22391a350878?s=500
+            bio: David Hernandez has been using Go since 2013, he was organizer of the first GolangUK conference, and can often be found speaking at the Go London Users Group, and internationally. He worked in companies like BBC for the 2012 London Olympics, scaling continuous integration at Atlassian (Sydney), and helping the UK Goverment at the GDS. He is a founder and developer at Machine Box where he develop all the Machine Learning models, and is in charge of all R&D.
+            level: All
+            description: 
+    - time: "11:55"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            name: Talk
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+    - time: "12:30"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            name: Talk
+            title: What AI & ML Engineers can Learn from the Devops Movement
+            slug: thiagodefaria
+            speaker: Thiago de Faria
+            handle: thiagoavadore
+            company: LINKIT
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/14301/thiago_bew_original.jpg
+            bio: "Thiago started in Pure Mathematics, jumped to predicting things and realized it was utterly dependent on understanding the inner bits of software development and data pipelines. Thus, his primary concern changed: how to bridge the gap between ML and production? :-) DataOps FTW! He is an active part of the community (devopsdays Amsterdam, ITNEXT, amsterdam.ai & Codemotion), a knowledge-sharer, a proud father and a Big DataOps & AI Lead. Thiago is pathologically curious and a continuous learner. He knows that high-performing data teams must decrease time-to-market and build production-ready applications, always!"
+            level: Intermediate
+            description: "AI is such a buzzword, with its futuristic implementations and sophisticated machine learning algorithms (Hello, Deep learning!). We are using ML when we need external data to reach a working product because it would be impossible to solve it with the regular for/if/loops. What are the next steps? Moreover, what about Test, Release, and Deployment? We always value data and call our organizations “data-driven”, but now the impact is even bigger. If you are using an ML component, misused/dirty/problematic data will affect not your internal reports as before… but your application deployment and quality of service. Let’s discuss some AI implementations stories (its advantages/problems) finding common mistakes and future challenges for such a hyped theme to end the session with a live demo (if the gods allow it!)!"
+    - time: "13.00"
+      slottype: break
+      tracks:
+        - track:
+              location: King George
+              title: Lunch
+              description: |
+                A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+              colspan: 2
+    - time: "14.00"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            name: Talk
+            title: Building Smarter Apps with Machine Learning
+            subtitle: From Magic to Reality
+            slug: laurentpicard
+            speaker: Laurent Picard
+            handle: PicardParis 
+            company: Google
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/16050/laurent_picard.jpg
+            bio: "Laurent is a developer passionate about software, hardware, science and anything shaping the future. He works for Google where he ecstatically explores cloud technologies. In a previous life, he pioneered the ebook industry, co-created the 1st European ebook reader, and co-founded Bookeen. He now enjoys sharing his passion in international conferences. You can find him on twitter at @PicardParis."
+            level: All 
+            description: What about making your app smarter without any knowledge in AI? With pre-trained models and a few lines of code, Machine Learning APIs can analyze your data. Moreover, AutoML techniques can now help in getting even more specific insights tailored to your needs. In this session, you’ll see how to transform or extract information from text, image, audio & video with the latest ML APIs, how to train an AutoML custom model, and you’ll be an active player of a live demo. Don’t put your smartphone in airplane mode!
+        - track:
+            location: Queen Charlotte
+            name: Tutorial
+            title: Tensorflow and Go
+            speakers: 
+                - speaker: Natalie Pistunovich
+                  slug: nataliepistunovich
+                  photo: /assets/images/2019/speakers/natalie-pistunovich.jpg
+                  company: Fraugster
+                  handle: nataliepis
+                - speaker: David Hernández
+                  slug: davidhernandez
+            handle: nataliepis
+            company: Fraugster
+            photo: 
+            bio: 
+            level: 
+            description: 
+            rowspan: 7
+    - time: "14:35"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            # title: Harnessing the Neural Network to Predict Menstrual Cycles
+            # slug: wasrahman
+            # speaker: Was Rahman
+            # handle: SkaiLabs
+            # company:
+            # photo:
+            # bio: Back in 1987 I graduated from the University of Oxford with a degree in Physics, it was only natural therefore that I moved onto investment banking! I then embarked on a journey that saw me directing and shaping some of the leading companies in the tech world. These included setting up the Polish telecoms practice for Accenture, serving on the EMEA Executive Council for Infosys, and leading Wipro’s global Public Sector business. I also held senior roles at digital agencies, including Scient and Razorfish, and in 2007 the UK Government appointed me as advisor on global technology industries. My passion is not only in bringing about technological change for the sake of it, but in transgressing existing boundaries and adding genuine, sustainable value.
+            # level:
+            # description: We worked on developing a smart tracker that accurately predicts women’s menstrual cycles, ovulation and fertile days. Using an abundance of data that was previously not being harnessed, we pursued the challenge of developing an application that didn’t just give women an “average likelihood” but actually forecasted the specific days of their cycles. The Neural Network we built took advantage of new and old data inputs, to give each person a prediction unique to them, and used unsupervised learning to continuously adapt its forecasts. With this we observed tremendous results, both from a technical and human perspective, and we encountered a number of surprises along the way that made the final result all the more better.
+    - time: "15:10"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+    - time: "15:45"
+      slottype: talks
+      tracks:
+        - track:
+            location: Porter Tun
+            title: Talk
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            level: 
+            description: 
+    - time: "16.15"
+      slottype: break
+      tracks:
+        - track:
+              title: Room change
+              location: All Rooms
+              colspan: 2
+    - time: "16.30"
+      slottype: keynote
+      tracks:
+        - track:
+              title: Closing Keynote
+              location: Porter Tun
+              description: TBA
+              colspan: 2
+    - time: "17.00"
+      slottype: break
+      tracks:
+        - track:
+            title: Post Conference Social
+            location: The Grubstreet Author
+            colspan: 2
+            description: |
+                The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>

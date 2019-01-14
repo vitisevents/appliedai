@@ -1,1 +1,34 @@
-// Add your custom styles below
+.section-inner.bg-photo{
+	background-image:url(../img/backgrounds/developer-conference.jpg);
+	background-size:cover;
+}
+
+.opacity-50{
+	opacity:.5;
+}
+
+.opacity-90{
+	opacity:.9;
+}
+
+.img-hands{
+	max-width:70%;
+}
+
+.footer .text-sm a{
+	color:#fff;
+	text-decoration:underline;
+}
+
+.iubenda-ibadge{
+	margin-top:6px;
+}
+
+.bg-banner-photo{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	opacity:0.2;
+}

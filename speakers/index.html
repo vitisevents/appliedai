@@ -2,35 +2,56 @@
 layout: "default"
 title: Speakers
 metatitle: Speakers | Applied AI
-weight: 2
-image: banners/speakers.png
+image: speakers.png
+weight: 3
+group: "navigation"
 ---
-<!-- <div class="page-title -speakers">
-    <div class="wrapper">
-        <h1>Speakers</h1>
-        <h2>All about  Applied AI speakers</h2>
-    </div>
-</div>
-<div class="wrapper">
-    <div class="row">
-        <div class="container">
-            <div class="col span12">
-                <ul class="speakers">
-                    {% for day in site.data.2018.speakers %}
-                    {% for slot in day.slots %}
-                    {% for speaker in slot.tracks %}
-                    {% if speaker.track.speakers %}
-                        {% for sp in speaker.track.speakers %}
-                            {% include speaker.html speaker=sp %}
-                        {% endfor %}
-                    {% else %}
-                        {% include speaker.html speaker=speaker.track %}
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
-                    {% endfor %}
-                </ul>
+
+<section class="slice slice-lg bg-gradient-primary">
+    <div class="bg-banner-photo" style="background:url(/assets/img/banners/{{page.image}}); background-size:cover;"></div>
+    <div class="container pt-lg">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="display-4 text-white">Speakers</h2>
+                <h5 class="mb-4 text-white">Our great event lineup</h5>
             </div>
         </div>
     </div>
-</div> -->
+    <a href="#sct-next" class="tongue tongue-bottom tongue-white scroll-me">
+        <i class="fas fa-angle-down"></i>
+    </a>
+</section>
+
+<section class="slice slice-lg delimiter-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <h6 class="text-uppercase text-muted ls-2 mb-3">The challenge</h6>
+                <h3 class="lh-150">When you possess great treasures within you and try to tell others of them, seldom are you believed.</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slice slice-lg">
+    <div class="container">
+        <div class="row row-grid">
+            {% for day in site.data.2019.speakers %}
+            {% for slot in day.slots %}
+            {% for speaker in slot.tracks %}
+            {% if speaker.track.speakers %}
+                {% for sp in speaker.track.speakers %}
+                    {% include speaker.html speaker=sp %}
+                {% endfor %}
+            {% else %}
+                {% include speaker.html speaker=speaker.track %}
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<script src="/assets/js/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="/assets/js/jquery-ui.min.css">

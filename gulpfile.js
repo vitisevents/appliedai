@@ -1,13 +1,12 @@
-
 /**
  * Gulp file to automate the various tasks
  */
-
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var csscomb = require('gulp-csscomb');
 var cleanCss = require('gulp-clean-css');
 var cache = require('gulp-cache');
+var exec = require('child_process').exec;
 var cssnano = require('gulp-cssnano');
 var del = require('del');
 var htmlPrettify = require('gulp-html-prettify');
@@ -44,7 +43,7 @@ var paths = {
     src: {
         base: './',
         css:  'assets/css',
-        html: '**/*.html',
+        html: '*.html',
         img:  'assets/img/**/*.+(png|jpg|gif|svg)',
         js:   'assets/js/**/*.js',
         scss: 'assets/scss/**/*.scss'
@@ -72,32 +71,23 @@ gulp.task('minify:css', function() {
   return gulp.src(paths.src.css + '/theme.css')
     .pipe(cleanCss())
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest(paths.dist.base + '/css'))
+    .pipe(gulp.dest(paths.src.css))
 });
 
 // Minify JS
 gulp.task('minify:js', function(cb) {
     return gulp.src(paths.src.base + '/assets/js/theme.js')
-        .pipe(plumber())
-        .pipe(uglify())
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest(paths.dist.base + '/js'))
+    .pipe(plumber())
+    .pipe(uglify())
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest(paths.dist.base + '/js'))
 });
 
-gulp.task('jekyll', () => {
-  const jekyll = child.spawn('bundle exec jekyll', [
-    'build',
-    '--watch',
-    '--incremental',
-    '--drafts'
-  ]);
-  const jekyllLogger = (buffer) => {
-    buffer.toString()
-      .split(/\n/)
-      .forEach((message) => gulpUtil.log('Jekyll: ' + message));
-  };
-  jekyll.stdout.on('data', jekyllLogger);
-  jekyll.stderr.on('data', jekyllLogger);
+// Jekyll build
+gulp.task('jekyll', function (){
+    exec('bundle exec jekyll build --watch --incremental --config _config.dev.yml', function(err, stdout, stderr) {
+        console.log(stdout);
+    });
 });
 
 // Live reload
@@ -110,10 +100,11 @@ gulp.task('browserSync', function() {
 });
 
 // Watch for changes
-gulp.task('watch', ['browserSync', 'scss'], function() {
+gulp.task('watch', ['browserSync', 'scss', 'jekyll'], function() {
     gulp.watch(paths.src.scss, ['scss']);
     gulp.watch(paths.src.js, browserSync.reload);
     gulp.watch(paths.src.html, browserSync.reload);
+    gulp.watch(paths.dist.base, browserSync.reload);
 });
 
 // Clean
@@ -122,22 +113,22 @@ gulp.task('clean:dist', function() {
 });
 
 // Copy CSS
-gulp.task('copy:css', function() {
-    return gulp.src([
-        paths.src.css + '/theme.css'
-    ])
-    .pipe(gulp.dest(paths.dist.base + '/assets/css'))
-});
+//gulp.task('copy:css', function() {
+//    return gulp.src([
+//        paths.src.css + '/theme.css'
+//    ])
+//    .pipe(gulp.dest(paths.dist.base + '/assets/css'))
+//});
 
 // Build
 gulp.task('build', function(callback) {
-    runSequence('clean:dist', 'scss', 'jekyll build', 'copy:css', 'minify:js', 'minify:css',
+    runSequence('clean:dist', 'scss', 'minify:js', 'minify:css',
         callback);
 });
 
 // Default
 gulp.task('default', function(callback) {
-    runSequence(['scss', 'browserSync', 'watch'],
+    runSequence(['scss', 'minify:js', 'minify:css', 'browserSync', 'watch'],
         callback
     )
 });

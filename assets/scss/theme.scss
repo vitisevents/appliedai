@@ -120,5 +120,7 @@ Copyright 2018 Webpixels
 @import "purpose/vendor/swiper";
 
 // User's styles
-
+@import "user/variables";
+@import "user/respond";
 @import "user/styles";
+@import "user/schedule";

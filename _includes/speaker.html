@@ -1,14 +1,55 @@
 {% if include.speaker.hide != true %}
     {% if include.speaker.photo %}
-    <li id="{{include.speaker.slug}}" class="speaker">
-        <div class="speaker-photo">
-            <img class="speaker-photo" src="{{include.speaker.photo}}">
+    <div class="col-lg-3">
+        <div class="card overflow-hidden" data-animate-hover="2" id="{{include.speaker.slug}}">
+            <div class="overflow-hidden">
+                <div class="animate-this">
+                    <a href="#">
+                        <img alt="Image placeholder" class="card-img-top speaker-photo" id="{{include.speaker.slug}}-photo" src="{{include.speaker.photo}}">
+                    </a>
+                </div>
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title mb-0">{{include.speaker.speaker}}</h5>
+                <p class="text-muted mb-0">{{include.speaker.company}}</p>
+                <ul class="nav justify-content-center">
+                    {% if include.speaker.handle %}
+                    <li class="nav-item">
+                        <a class="nav-link speaker-handle" href="https://twitter.com/{{include.speaker.handle}}">
+                            <i class="fab fa-twitter"></i> @{{include.speaker.handle}}
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if include.speaker.github %}
+                    <li class="nav-item">
+                        <a class="nav-link speaker-handle" href="https://github.com/{{include.speaker.github}}">
+                            <i class="fab fa-github"></i> @{{include.speaker.github}}
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if include.speaker.linkedin %}
+                    <li class="nav-item">
+                        <a class="nav-link speaker-handle" href="https://linkedin.com/{{include.speaker.linkedin}}">
+                            <i class="fab fa-linkedin"></i> @{{include.speaker.linkedin}}
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+            <p class="speaker-bio">{{include.speaker.bio}}</p>
         </div>
-        <h4 class="speaker-name">{{include.speaker.speaker}}</h4>
-        <h6 class="speaker-company">{{include.speaker.company}}</h4>
-        {% if include.speaker.handle %}
-            <a class="speaker-handle" href="https://twitter.com/{{include.speaker.handle}}">@{{include.speaker.handle}}</a>
-        {% endif %}
-    </li>
+    </div>
+    <script>
+        $(function() {
+            $("#{{include.speaker.slug}}-bio").dialog({
+                autoOpen: false,
+                modal: true,
+                dialogClass: "speaker-bio-dialog"
+            });
+        });
+        $("#{{include.speaker.slug}}-photo").on( "click", function() {
+            $("#{{include.speaker.slug}}-bio").dialog( "open" );
+        });
+    </script>
     {% endif %}
 {% endif %}

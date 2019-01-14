@@ -21735,3 +21735,370 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
 {
     margin-left: 10px;
 }
+
+.mobile-touch-overflow,
+.mobile-touch-overflow *
+{
+    /* some level of transform keeps elements from blinking out of visibility on iOS */
+    -webkit-transform: rotateY(0);
+}
+
+.section-inner.bg-photo
+{
+    background-image: url(../img/backgrounds/developer-conference.jpg);
+    background-size: cover;
+}
+
+.opacity-50
+{
+    opacity: .5;
+}
+
+.opacity-90
+{
+    opacity: .9;
+}
+
+.img-hands
+{
+    max-width: 70%;
+}
+
+.footer .text-sm a
+{
+    text-decoration: underline; 
+
+    color: #fff;
+}
+
+.iubenda-ibadge
+{
+    margin-top: 6px;
+}
+
+.bg-banner-photo
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    opacity: .2;
+}
+
+.wrapper
+{
+    min-width: 95%;
+}
+
+.schedule-wrapper
+{
+    overflow: auto;
+
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+
+    table-layout: fixed;
+
+    color: #0e2542; 
+    background: #f4f4f4;
+}
+.schedule-wrapper .time
+{
+    margin: 0;
+    padding: 15px;
+
+    border-width: 2px 1px; 
+    border-style: solid;
+    border-color: #fff;
+}
+@media (min-width: 1080px)
+{
+    .schedule-wrapper .time
+    {
+        display: table-cell;
+
+        width: 5em;
+    }
+}
+@media (min-width: large)
+{
+    .schedule-wrapper .time
+    {
+        display: table-cell;
+
+        width: 5em;
+    }
+}
+@media (min-width: 720px)
+{
+    .schedule-wrapper .time
+    {
+        display: table-cell;
+
+        width: 5em;
+    }
+}
+@media (min-width: medium)
+{
+    .schedule-wrapper .time
+    {
+        display: table-cell;
+
+        width: 5em;
+    }
+}
+@media (min-width: 0) and (max-width: 720px)
+{
+    .schedule-wrapper .time
+    {
+        display: inline-block;
+
+        width: 100%;
+    }
+}
+@media (min-width: mobile-only)
+{
+    .schedule-wrapper .time
+    {
+        display: inline-block;
+
+        width: 100%;
+    }
+}
+.schedule-wrapper .track
+{
+    margin: 0;
+    padding: 15px;
+
+    vertical-align: top; 
+
+    border-width: 2px 1px;
+    border-style: solid;
+    border-color: #fff;
+    background: #2b77db;
+}
+.schedule-wrapper .track > *
+{
+    color: #fff;
+}
+.schedule-wrapper .track a
+{
+    text-decoration: underline; 
+
+    color: #fff;
+}
+@media (min-width: 1080px)
+{
+    .schedule-wrapper .track
+    {
+        display: table-cell;
+
+        width: 24.5%;
+    }
+}
+@media (min-width: large)
+{
+    .schedule-wrapper .track
+    {
+        display: table-cell;
+
+        width: 24.5%;
+    }
+}
+@media (min-width: 720px)
+{
+    .schedule-wrapper .track
+    {
+        display: table-cell;
+
+        width: 24.5%;
+    }
+}
+@media (min-width: medium)
+{
+    .schedule-wrapper .track
+    {
+        display: table-cell;
+
+        width: 24.5%;
+    }
+}
+@media (min-width: 0) and (max-width: 720px)
+{
+    .schedule-wrapper .track
+    {
+        display: inline-block;
+
+        width: 100%;
+    }
+}
+@media (min-width: mobile-only)
+{
+    .schedule-wrapper .track
+    {
+        display: inline-block;
+
+        width: 100%;
+    }
+}
+.schedule-wrapper .track .track-slot-meta
+{
+    margin-bottom: 1em;
+}
+.schedule-wrapper .track .track-slot-meta > *
+{
+    font-size: 1em;
+}
+.schedule-wrapper .track .track-slot-meta .title
+{
+    display: block; 
+
+    min-height: 7em;
+}
+.schedule-wrapper .track .track-slot-meta .title .main-title
+{
+    font-size: 1.8em;
+
+    display: block;
+}
+.schedule-wrapper .track .track-slot-meta .title .subtitle
+{
+    font-size: 1.2em;
+
+    display: block;
+}
+.schedule-wrapper .track .track-slot-meta .speaker
+{
+    display: block;
+
+    width: 100%;
+    margin: 0; 
+    margin-bottom: initial;
+}
+.schedule-wrapper .track .full-description
+{
+    display: none;
+}
+.schedule-wrapper .track .location
+{
+    display: none;
+}
+@media (min-width: 0) and (max-width: 720px)
+{
+    .schedule-wrapper .track .location
+    {
+        display: inline-block;
+
+        width: 100%;
+
+        border: 0;
+    }
+}
+@media (min-width: mobile-only)
+{
+    .schedule-wrapper .track .location
+    {
+        display: inline-block;
+
+        width: 100%;
+
+        border: 0;
+    }
+}
+.schedule-wrapper .workshop .track-slot-meta .title
+{
+    min-height: 5em;
+}
+.schedule-wrapper .talks .more,
+.schedule-wrapper .talks .less
+{
+    cursor: pointer;
+}
+.schedule-wrapper .tutorial
+{
+    cursor: help;
+    text-decoration: underline;
+
+    -webkit-text-decoration-style: dashed;
+            text-decoration-style: dashed;
+}
+.schedule-wrapper .keynote
+{
+    text-align: center;
+
+    background: #1b4d8f;
+}
+.schedule-wrapper .keynote .track-slot-meta .title
+{
+    min-height: 5em;
+}
+.schedule-wrapper .break
+{
+    background: #f4f4f4;
+}
+.schedule-wrapper .break > *
+{
+    color: #000;
+}
+.schedule-wrapper .break a
+{
+    text-decoration: underline; 
+
+    color: #000;
+}
+.schedule-wrapper .break .track-slot-meta .title
+{
+    min-height: 1em;
+}
+.schedule-wrapper .location
+{
+    opacity: .8; 
+    border-width: 2px 1px;
+    border-style: solid;
+    border-color: #fff;
+}
+@media (min-width: 1080px)
+{
+    .schedule-wrapper .location
+    {
+        display: table-cell;
+    }
+}
+@media (min-width: large)
+{
+    .schedule-wrapper .location
+    {
+        display: table-cell;
+    }
+}
+@media (min-width: 720px)
+{
+    .schedule-wrapper .location
+    {
+        display: table-cell;
+    }
+}
+@media (min-width: medium)
+{
+    .schedule-wrapper .location
+    {
+        display: table-cell;
+    }
+}
+@media (min-width: 0) and (max-width: 720px)
+{
+    .schedule-wrapper .location
+    {
+        display: none;
+    }
+}
+@media (min-width: mobile-only)
+{
+    .schedule-wrapper .location
+    {
+        display: none;
+    }
+}
