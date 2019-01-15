@@ -35,21 +35,19 @@ group: "navigation"
 
 <section class="slice slice-lg pt-5 pb-5">
     <div class="container">
-        <div class="row row-grid">
-            {% for day in site.data.2019.speakers %}
-            {% for slot in day.slots %}
-            {% for speaker in slot.tracks %}
-            {% if speaker.track.speakers %}
-                {% for sp in speaker.track.speakers %}
-                    {% include speaker.html speaker=sp %}
-                {% endfor %}
-            {% else %}
-                {% include speaker.html speaker=speaker.track %}
-            {% endif %}
+        {% for day in site.data.2019.speakers %}
+        {% for slot in day.slots %}
+        {% for speaker in slot.tracks %}
+        {% if speaker.track.speakers %}
+            {% for sp in speaker.track.speakers %}
+                {% include speaker.html speaker=sp %}
             {% endfor %}
-            {% endfor %}
-            {% endfor %}
-        </div>
+        {% else %}
+            {% include speaker.html speaker=speaker.track %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% endfor %}
     </div>
 </section>
 
