@@ -1,3 +1,11 @@
+<script type="text/javascript" src="//cdn.iubenda.com/cookie_solution/cmp/beta/stub.js"></script> <script type="text/javascript">
+var _iub = _iub || [];
+_iub.csConfiguration = {"lang":"en","siteId":1486071,"enableRemoteConsent":true,"cookiePolicyId":77555329,"enableCMP":true, "banner":{ "slideDown":false } };
+</script><script type="text/javascript">(function (w, d) {
+ var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/cookie_solution/beta/iubenda_cs.js"; tag.parentNode.insertBefore(s, tag); };
+if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; }
+})(window, document);</script>
+
 <script src="{{site.url}}/assets/vendor/in-view/dist/in-view.min.js"></script>
 <script src="{{site.url}}/assets/js/theme.js"></script>
 <script src="//vjs.zencdn.net/5.8/video.min.js" async></script>
