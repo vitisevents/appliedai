@@ -173,7 +173,8 @@
                   photo: /assets/images/2019/speakers/natalie-pistunovich.jpg
                   company: Fraugster
                   handle: nataliepis
-                  bio: "Gopher, public speaker, sailor, space dreamer. @wtm_berlin and @gopherconeu founder, @gdgBerlinGolang organizer. Keeping work boring and the rest an adventure."
+                  photo: /assets/images/2019/speakers/natalie-pistunovich.jpg
+                  bio: Engineering Team Lead, Fraugster Natalie is a learner, a Gopher, a public speaker and a sailor. She is leading the observability efforts at Fraugster, Berlin, and is the organizer of GopherCon Iceland. Prior to that she was a Backend Developer at GrayMeta, Los Angeles, a co-founder at Connta, Nairobi, a Backend Developer at adjust, Berlin, and a Silicon Integration Engineer at Intel, Haifa. She graduated with a B.Sc. in Computer and Software Engineering from the Technion in Israel. In her free time Natalie is co-leading the Berlin chapters of GDG Go and Women Techmakers.
                 - speaker: David Hernández
                   slug: davidhernandez
             handle: nataliepis
