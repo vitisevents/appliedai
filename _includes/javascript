@@ -1,6 +1,3 @@
-<script src="{{site.url}}/assets/vendor/jquery/dist/jquery.min.js"></script>
-<script src="{{site.url}}/assets/js/iframeSizer.min.js"></script>
-<script src="{{site.url}}/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{{site.url}}/assets/vendor/in-view/dist/in-view.min.js"></script>
 <script src="{{site.url}}/assets/js/theme.js"></script>
 <script src="//vjs.zencdn.net/5.8/video.min.js" async></script>
