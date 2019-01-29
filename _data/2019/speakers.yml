@@ -114,15 +114,15 @@
         - track:
             location: Porter Tun
             name: Talk
-            title: 
-            slug: 
-            speaker: 
+            title: Machine Learning At IBM - Building A Platform For Serious Scale
+            slug: chrisparsons
+            speaker: Chris Parsons
             handle: 
-            company: 
-            photo: 
-            bio:  
-            level: 
-            description: 
+            company: IBM
+            photo: /assets/images/2019/speakers/CP_Profile.jpeg
+            bio: Chris Parsons is currently a Machine Learning Engineer with IBM. Chris has contributed to Node-RED and the Watson APIs integration available through the Bluemix platform (available on GitHub). Chris is currently building systems using node.js, and has full stack development experience including building cross platform applications and services deployed to both iOS and Android app stores. 
+            level: All
+            description: In this session we'll discuss the opportunities presented by AI, IBM's history in this space and how that's got us to where we are today. We'll take a look at the challenges faced when building AI at scale and how IBM are collaborating to design infrastructure specifically designed for the job. Finally, we'll explore how you can benefit and get started today. 
     - time: "12:30"
       slottype: talks
       tracks:
@@ -204,15 +204,15 @@
       tracks:
         - track:
             location: Porter Tun
-            title: Talk
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio:  
-            level: 
-            description: 
+            title: Using Azure Databricks to Monitor and Predict Solar energy for 1,000+ Solar Farms in Real Time
+            slug: darshnashah
+            speaker: Darshna Shah
+            handle: Darsh262 
+            company: Elastacloud
+            photo: /assets/images/2019/speakers/Darshna-Shah.png
+            bio: Darshna Shah has a PhD in Neuroscience, specialising in neuronal network dynamics in drug-resistant temporal lobe epilepsy. She has been working in Data Science for the last 3 years and in that time has established herself as an excellent speaker and teacher, having given talks at Tech(K)now Day, the IoT and Data Science Innovators UK Meetup, and The TFL Data Science Group, as well as co-founding and leading monthly sessions for aspiring Data Scientists in the early days of Inspiring Women in Data Science. In her role as Co-lead Data Scientist at Elastacloud, she has gained broad-ranging experience using R and Python to implement and develop a wide-range of machine learning models with data from myriad industries such as finance, aviation, transport, retail, energy, healthcare and charities. Follow her on Twitter @Darsh262.
+            level: All
+            description: Elastacloud are at the forefront of innovation in the solar energy market. We use the scale of Azure with AI to make predictions on energy output from large portfolios of solar farms. This talk lays out the fundamental architecture, technology and approaches that make the platform work beginning with key features of Azure Databricks and how it works seamlessly with Azure Data Lake and Azure Event Hubs. We will cover how Spark ML is used to make real-time decisions.
     - time: "15:45"
       slottype: talks
       tracks:
