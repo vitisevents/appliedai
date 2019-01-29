@@ -62,7 +62,7 @@
             speaker: Håkan Silfvernagel
             handle: agrevlis
             company: Miles 
-            photo: https://pbs.twimg.com/profile_images/1009177368320249856/c5MRhLYi_400x400.jpg
+            photo: 
             bio: I have 19 years’ experience of software development in various positions such as developer, tester, architect, project manager, scrum master, practice manager and team lead. I currently work as a consultant at <a href="https://www.miles.in">Miles</a>. Before becoming a consultant I have previously worked as a researcher within the field of human computer interaction in the process industry with a focus on process automation and robotics. I have a broad educational background with a master's degree in Electrical Engineer, a master's degree in Behavioral Science and I am currently finishing a master's degree in Emotion Psychology. During my psychology studies I came across the field of affective computing which combines psychology with computer science. Taking into account the focus on artificial intelligence and machine learning of today I believe it is important to take the human factor into account and try to make our systems adapt to the way we function as humans.
             level: All
             description: Nowadays AI is all the hype, but what many might not know is that AI is an established discipline originating from a paper from Alan Turing in the 1950s. In this talk I will present the history of AI and review the historical milestones from the originating paper up til now.
@@ -240,7 +240,14 @@
         - track:
               title: Closing Keynote
               location: Porter Tun
-              description: TBA
+              slug: davidspurway
+              speaker: David Spurway
+              handle: D_Spurway
+              company: IBM
+              photo: /assets/images/2019/speakers/DavidSpurway.jpg
+              bio: David Spurway is the primary evangelist and CTO for IBM Power Systems in the UK and Ireland. As a member of the IBM Systems Channel Team and Technical Consultancy Group, David works with customers at all levels to resolve their challenges. David has been working in the IT industry for 23 years, in a range of different roles and positions. He regularly presents at events, discussing all things to do with IBM Power Systems, including AI, Cloud, Modern Data Platform, AIX, IBM i, Linux and more. With the occasional unexpected LEGO element and/or superhero turning up as needed!
+              level: All
+              description: Remember when the IBM Watson cluster beat Ken Jennings and Brad Rutter at Jeopardy? Good, because explaining Jeopardy is hard! What you might not know is that Google were in the audience watching, and came to IBM afterwards with a proposition. From there, the OpenPOWER Foundation was formed, which started as a partnership between IBM, Google, NVIDIA, Mellanox and Tyan and now has over 330 members. Want to know what Google have done since then? Come along and I'll tell you! But, what has this got to do with my daughter, Elizabeth and her love of dogs? Using some of the solution components that have come from the OpenPOWER Foundation, she was able to expand on an existing Machine Learning model and teach an IBM Power System to identify a Dachshund. She is not a Data Scientist (at least not yet), so how did she do that? Come and find out!
               colspan: 2
     - time: "17.00"
       slottype: break
