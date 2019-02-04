@@ -104,8 +104,8 @@
             speaker: David Hernández
             handle: dahernan
             company: Veritone
-            photo: https://secure.gravatar.com/avatar/9614379bee3bf92b678a22391a350878?s=500
-            bio: David Hernandez has been using Go since 2013, he was organizer of the first GolangUK conference, and can often be found speaking at the Go London Users Group, and internationally. He worked in companies like BBC for the 2012 London Olympics, scaling continuous integration at Atlassian (Sydney), and helping the UK Goverment at the GDS. He is a founder and developer at Machine Box where he develop all the Machine Learning models, and is in charge of all R&D.
+            photo: /assets/images/2019/speakers/profilenew.jpeg
+            bio: David Hernandez worked in companies like BBC for the 2012 London Olympics, scaling continuous integration at Atlassian (Sydney), and helping the UK Government at the GDS. He is one of the founders at Machine Box where he has developed state of the art Machine Learning models for face recognition and NLP, and is leading the R&D in the company.
             level: All
             description: 
     - time: "11:55"
