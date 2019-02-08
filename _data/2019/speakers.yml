@@ -107,7 +107,7 @@
             photo: /assets/images/2019/speakers/profilenew.jpeg
             bio: David Hernandez worked in companies like BBC for the 2012 London Olympics, scaling continuous integration at Atlassian (Sydney), and helping the UK Government at the GDS. He is one of the founders at Machine Box where he has developed state of the art Machine Learning models for face recognition and NLP, and is leading the R&D in the company.
             level: All
-            description: 
+            description: Current production search solutions are not taking advantage of the last research on NLP (Natural language processing) and Machine Learning. We are going to explore how you can apply ML and NLP to build a search index, and see how they can be applied to problems like finding the best answer on a FAQ, or discovering similar documents.
     - time: "11:55"
       slottype: talks
       tracks:
@@ -174,31 +174,30 @@
                   company: Fraugster
                   handle: nataliepis
                   photo: /assets/images/2019/speakers/natalie-pistunovich.jpg
-                  bio: Engineering Team Lead, Fraugster Natalie is a learner, a Gopher, a public speaker and a sailor. She is leading the observability efforts at Fraugster, Berlin, and is the organizer of GopherCon Iceland. Prior to that she was a Backend Developer at GrayMeta, Los Angeles, a co-founder at Connta, Nairobi, a Backend Developer at adjust, Berlin, and a Silicon Integration Engineer at Intel, Haifa. She graduated with a B.Sc. in Computer and Software Engineering from the Technion in Israel. In her free time Natalie is co-leading the Berlin chapters of GDG Go and Women Techmakers.
+                  bio: Engineering Team Lead, Fraugster - Natalie is a learner, a Gopher, a public speaker and a sailor. She is leading the observability efforts at Fraugster, Berlin, and is the organizer of GopherCon Iceland. Prior to that she was a Backend Developer at GrayMeta, Los Angeles, a co-founder at Connta, Nairobi, a Backend Developer at adjust, Berlin, and a Silicon Integration Engineer at Intel, Haifa. She graduated with a B.Sc. in Computer and Software Engineering from the Technion in Israel. In her free time Natalie is co-leading the Berlin chapters of GDG Go and Women Techmakers.
                 - speaker: David Hernández
                   slug: davidhernandez
-            handle: nataliepis
-            company: Fraugster
-            photo: 
-            bio: 
-            level: 
-            description: 
+            handle: dahernan
+            company: Veritone
+            photo: /assets/images/2019/speakers/profilenew.jpeg
+            bio: avid Hernandez worked in companies like BBC for the 2012 London Olympics, scaling continuous integration at Atlassian (Sydney), and helping the UK Government at the GDS. He is one of the founders at Machine Box where he has developed state of the art Machine Learning models for face recognition and NLP, and is leading the R&D in the company.
+            level: All
+            description: "TensorFlow is an open-source software library for dataflow programming across a range of tasks, used for machine learning applications such as neural networks. Among the supported APIs, a Go API that allows training and serving the model is available. If you want to understand the basics of how Tensorflow works, and never had the chance to experiment with, and have basic familiarity with Go, this is the perfect workshop for you. In this workshop we will see examples of usage and talk about what can it do: what actions are supported, what’s in plan, how can this be used for your personal and professional projects and discuss using Go rather than the traditional choice for ML - Python. We will then use the Go API to serve a pre-trained TensorFlow. Ideally you will have the latest versions of Go and TensorFlow pre-installed prior to attending the workshop."
             rowspan: 7
     - time: "14:35"
       slottype: talks
       tracks:
         - track:
             location: Porter Tun
-            title: Talk
-            # title: Harnessing the Neural Network to Predict Menstrual Cycles
-            # slug: wasrahman
-            # speaker: Was Rahman
-            # handle: SkaiLabs
-            # company:
-            # photo:
-            # bio: Back in 1987 I graduated from the University of Oxford with a degree in Physics, it was only natural therefore that I moved onto investment banking! I then embarked on a journey that saw me directing and shaping some of the leading companies in the tech world. These included setting up the Polish telecoms practice for Accenture, serving on the EMEA Executive Council for Infosys, and leading Wipro’s global Public Sector business. I also held senior roles at digital agencies, including Scient and Razorfish, and in 2007 the UK Government appointed me as advisor on global technology industries. My passion is not only in bringing about technological change for the sake of it, but in transgressing existing boundaries and adding genuine, sustainable value.
-            # level:
-            # description: We worked on developing a smart tracker that accurately predicts women’s menstrual cycles, ovulation and fertile days. Using an abundance of data that was previously not being harnessed, we pursued the challenge of developing an application that didn’t just give women an “average likelihood” but actually forecasted the specific days of their cycles. The Neural Network we built took advantage of new and old data inputs, to give each person a prediction unique to them, and used unsupervised learning to continuously adapt its forecasts. With this we observed tremendous results, both from a technical and human perspective, and we encountered a number of surprises along the way that made the final result all the more better.
+            title: Bias in Machine Learning
+            slug: bengilburt
+            speaker: Ben Gilburt
+            handle: RealBenGilburt
+            company: Sopra Steria
+            photo: /assets/images/2019/speakers/bengilburt2.jpeg
+            bio: Ben is the founder of AI Ethics London and a writer and speaker on AI Safety and Alignment.  His aim is to take the brilliant research being carried out by the likes of DeepMind, OpenAI and universities around the world and translate it into something accessible to everyone, so people throughout the product development lifecycle will be more able to factor this into their projects, and so that everyday consumers can understand what AI can do for them, take the best possible advantage from it, and use their thoughts to guide the direction of AI in the future.
+            level: All
+            description: Artificial Intelligence, even without significant progress from its state today is generating huge amounts of economic and personal value, but it’s not always shared fairly.  Today, women form around 17% of Silicon Valley tech jobs and only 10% of people working directly with AI.  As a result, we are seeing bias in AI, where systems work better for white men, and at their worst discriminate against groups in society. In this presentation, we will look at examples of bias in AI, the gender bias problem and ways that we might improve.
     - time: "15:10"
       slottype: talks
       tracks:
@@ -218,15 +217,15 @@
       tracks:
         - track:
             location: Porter Tun
-            title: Talk
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio:  
-            level: 
-            description: 
+            title: Javascript and Machine Learning, Because we Can
+            slug: zdenekhynek
+            speaker: Zdenek Hynek
+            handle: zdenekhynek
+            company: Data4Change
+            photo: /assets/images/2019/speakers/Z-01.jpg
+            bio: Zdenek is a full-stack developer focusing on data visualisation and data science. As a head of development at Data4Change, a leading force in the data-for-good movement, he strives to find the humanity in data. He’s been working in the industry for 10 years and believes the best is yet to come. In his free time, Zdenek runs the Visualising Data London meetup.
+            level: All
+            description: With the last year's release of TensorFlow.js, machine learning in Javascript is here to stay. In this session, we’ll have a look into why on Earth is javascript and AI even a thing, what are the benefits of using it over the more traditional competitors, and what the future might look like.
     - time: "16.15"
       slottype: break
       tracks:
