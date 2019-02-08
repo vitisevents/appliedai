@@ -22116,3 +22116,11 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
         display: none;
     }
 }
+
+.sponsor-list
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}

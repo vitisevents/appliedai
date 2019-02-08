@@ -6,3 +6,11 @@
       url: https://www.machinebox.io/
       about: 
         "Machine Box puts state of the art machine learning capabilities into Docker containers so developers can easily incorporate natural language processing, facial detection, object recognition, etc. into their own apps very quickly. The boxes are built for scale, so when your app really takes off just add more boxes horizontally to meet demand."
+- type: Silver Sponsors
+  sponsors:
+    - name: "Manning"
+      slug: manning
+      imageType: png
+      url: https://www.manning.com/
+      about:
+        "Manning is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. The books we publish cover a huge range of topics that the modern developer needs; from languages and frameworks, to best practices for team leaders."
