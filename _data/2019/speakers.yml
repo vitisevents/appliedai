@@ -25,6 +25,23 @@
             title: Registration and Working Breakfast
             description: Please bring a copy of your ticket either printed or on a mobile device.
             colspan: 2
+    - time: 
+      slottype: MC
+      tracks:
+        - track:
+            location: 
+            name: 
+            title: 
+            slug: matryer
+            speaker: Mat Ryer 
+            handle: matryer
+            company: Machine Box
+            photo: /assets/images/2019/speakers/mat.png
+            bio: |
+              Co-founder of Machine Box; Artificial intelligence tech inside Docker containers. Bought by Veritone in 2018. Writer, speaker, gopher.
+            level: All
+            description: |
+            colspan: 2
     - time: "10.00"
       slottype: keynote
       tracks:
@@ -180,7 +197,7 @@
             handle: dahernan
             company: Veritone
             photo: /assets/images/2019/speakers/profilenew.jpeg
-            bio: avid Hernandez worked in companies like BBC for the 2012 London Olympics, scaling continuous integration at Atlassian (Sydney), and helping the UK Government at the GDS. He is one of the founders at Machine Box where he has developed state of the art Machine Learning models for face recognition and NLP, and is leading the R&D in the company.
+            bio: David Hernandez worked in companies like BBC for the 2012 London Olympics, scaling continuous integration at Atlassian (Sydney), and helping the UK Government at the GDS. He is one of the founders at Machine Box where he has developed state of the art Machine Learning models for face recognition and NLP, and is leading the R&D in the company.
             level: All
             description: "TensorFlow is an open-source software library for dataflow programming across a range of tasks, used for machine learning applications such as neural networks. Among the supported APIs, a Go API that allows training and serving the model is available. If you want to understand the basics of how Tensorflow works, and never had the chance to experiment with, and have basic familiarity with Go, this is the perfect workshop for you. In this workshop we will see examples of usage and talk about what can it do: what actions are supported, what’s in plan, how can this be used for your personal and professional projects and discuss using Go rather than the traditional choice for ML - Python. We will then use the Go API to serve a pre-trained TensorFlow. Ideally you will have the latest versions of Go and TensorFlow pre-installed prior to attending the workshop."
             rowspan: 7
