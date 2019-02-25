@@ -46,7 +46,7 @@
       slottype: keynote
       tracks:
         - track:
-            location: Porter Tun
+            location: Queen Charlotte
             name: Opening Keynote
             title: Digital Transformation in the Artificial Intelligence Revolution 
             slug: chrisbenson
@@ -71,7 +71,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Queen Charlotte
             name: Talk
             title: The History of AI
             subtitle: What can we learn from the past?
@@ -84,7 +84,7 @@
             level: All
             description: Nowadays AI is all the hype, but what many might not know is that AI is an established discipline originating from a paper from Alan Turing in the 1950s. In this talk I will present the history of AI and review the historical milestones from the originating paper up til now.
         - track:
-            location: Queen Charlotte
+            location: Lower Sugar Room
             name: Tutorial
             title: Getting to Grips with Databricks
             slug: gianlucacampanella
@@ -114,7 +114,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Queen Charlotte
             name: Talk
             title: Improving Search using Machine Learning
             slug: davidhernandez
@@ -129,7 +129,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Queen Charlotte
             name: Talk
             title: Machine Learning At IBM - Building A Platform For Serious Scale
             slug: chrisparsons
@@ -144,7 +144,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Queen Charlotte
             name: Talk
             title: What AI & ML Engineers can Learn from the Devops Movement
             slug: thiagodefaria
@@ -168,7 +168,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Queen Charlotte
             name: Talk
             title: Building Smarter Apps with Machine Learning
             subtitle: From Magic to Reality
@@ -181,7 +181,7 @@
             level: All 
             description: What about making your app smarter without any knowledge in AI? With pre-trained models and a few lines of code, Machine Learning APIs can analyze your data. Moreover, AutoML techniques can now help in getting even more specific insights tailored to your needs. In this session, you’ll see how to transform or extract information from text, image, audio & video with the latest ML APIs, how to train an AutoML custom model, and you’ll be an active player of a live demo. Don’t put your smartphone in airplane mode!
         - track:
-            location: Queen Charlotte
+            location: Lower Sugar Room
             name: Tutorial
             title: Tensorflow and Go
             speakers: 
@@ -205,7 +205,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Queen Charlotte
             title: Bias in Machine Learning
             slug: bengilburt
             speaker: Ben Gilburt
@@ -219,7 +219,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Queen Charlotte
             title: Using Azure Databricks to Monitor and Predict Solar energy for 1,000+ Solar Farms in Real Time
             slug: darshnashah
             speaker: Darshna Shah
@@ -233,7 +233,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Porter Tun
+            location: Queen Charlotte
             title: Javascript and Machine Learning, Because we Can
             slug: zdenekhynek
             speaker: Zdenek Hynek
@@ -255,7 +255,7 @@
       tracks:
         - track:
               title:  What do Google and my Daughter Use for Machine Learning? POWER9!
-              location: Porter Tun
+              location: Queen Charlotte
               slug: davidspurway
               speaker: David Spurway
               handle: D_Spurway
