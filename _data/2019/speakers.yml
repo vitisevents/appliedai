@@ -26,7 +26,7 @@
             description: Please bring a copy of your ticket either printed or on a mobile device.
             colspan: 2
     - time: 
-      slottype: MC
+      slottype: mc
       tracks:
         - track:
             location: 
