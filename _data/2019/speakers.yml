@@ -79,7 +79,7 @@
             speaker: Håkan Silfvernagel
             handle: agrevlis
             company: Miles 
-            photo: 
+            photo: /assets/images/2019/speakers/hakan.png
             bio: I have 19 years’ experience of software development in various positions such as developer, tester, architect, project manager, scrum master, practice manager and team lead. I currently work as a consultant at <a href="https://www.miles.in">Miles</a>. Before becoming a consultant I have previously worked as a researcher within the field of human computer interaction in the process industry with a focus on process automation and robotics. I have a broad educational background with a master's degree in Electrical Engineer, a master's degree in Behavioral Science and I am currently finishing a master's degree in Emotion Psychology. During my psychology studies I came across the field of affective computing which combines psychology with computer science. Taking into account the focus on artificial intelligence and machine learning of today I believe it is important to take the human factor into account and try to make our systems adapt to the way we function as humans.
             level: All
             description: Nowadays AI is all the hype, but what many might not know is that AI is an established discipline originating from a paper from Alan Turing in the 1950s. In this talk I will present the history of AI and review the historical milestones from the originating paper up til now.
