@@ -85,7 +85,7 @@ gulp.task('minify:js', function(cb) {
 
 // Jekyll build
 gulp.task('jekyll', function (){
-    exec('bundle exec jekyll build --watch --incremental --config _config.dev.yml', function(err, stdout, stderr) {
+    exec('bundle exec jekyll build --watch --config _config.dev.yml', function(err, stdout, stderr) {
         console.log(stdout);
     });
 });
