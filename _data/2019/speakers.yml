@@ -15,14 +15,14 @@
 - schedule-friday:
   name: Friday 1st March 2019
   description: |
-      <p>On Friday the conference begins with a full day of networking, great talks and food. You will be able to attend a morning keynote followed by eight talk slots throughout the day. During each talk slot you'll have the choice between two different tracks - the main track of 30 minute breakout sessions or the side track of 2 hour tutorial sessions. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href="/socials">post-conference social</a>.</p>
+      <p>On Friday the conference begins with a full day of networking, great talks and food. You will be able to attend a morning keynote followed by eight talk slots throughout the day. During each talk slot you'll have the choice between two different tracks - the main track of 30 minute breakout sessions or the side track of 2 hour tutorial sessions. There will be cooked breakfast in the morning, a 3 course lunch, afternoon cake and biscuits, and rolling tea, coffee and soft drinks included. The conference will close with a final featured keynote and then on to the evening <a href="/socials">post-conference social</a>.</p>
   slots:
-    - time: "08.00"
+    - time: "09.00"
       slottype: break
       tracks:
         - track:
             location: The Brewery Foyer & King George
-            title: Registration and Working Breakfast
+            title: Registration and Breakfast
             description: Please bring a copy of your ticket either printed or on a mobile device.
             colspan: 2
     - time: 
