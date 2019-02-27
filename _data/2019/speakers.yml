@@ -247,8 +247,10 @@
       slottype: break
       tracks:
         - track:
-              title: Room change
-              location: All Rooms
+              location: King George
+              title: Refreshment break
+              description: |
+                Light refreshments will be served in the King George where you will also be able to network with fellow delegates.
               colspan: 2
     - time: "16.30"
       slottype: keynote
